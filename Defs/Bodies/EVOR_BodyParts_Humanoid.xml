@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BodyPartDef>
+    <defName>LowerShoulder</defName>
+    <label>lower shoulder</label>
+    <hitPoints>30</hitPoints>
+    <skinCovered>true</skinCovered>
+	<canSuggestAmputation>false</canSuggestAmputation>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>BodyCavity1</defName>
+    <label>left chest cavity</label>
+    <hitPoints>15</hitPoints>
+    <skinCovered>true</skinCovered>
+	<canSuggestAmputation>false</canSuggestAmputation>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>BodyCavity2</defName>
+    <label>right chest cavity</label>
+    <hitPoints>15</hitPoints>
+    <skinCovered>true</skinCovered>
+	<canSuggestAmputation>false</canSuggestAmputation>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>BodyCavity3</defName>
+    <label>left abdominal cavity</label>
+    <hitPoints>15</hitPoints>
+    <skinCovered>true</skinCovered>
+	<canSuggestAmputation>false</canSuggestAmputation>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>BodyCavity4</defName>
+    <label>right abdominal cavity</label>
+    <hitPoints>15</hitPoints>
+    <skinCovered>true</skinCovered>
+	<canSuggestAmputation>false</canSuggestAmputation>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>UpperBack</defName>
+    <label>upper back</label>
+    <hitPoints>20</hitPoints>
+    <skinCovered>true</skinCovered>
+	<canSuggestAmputation>false</canSuggestAmputation>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>LowerBack</defName>
+    <label>lower back</label>
+    <hitPoints>20</hitPoints>
+    <skinCovered>true</skinCovered>
+	<canSuggestAmputation>false</canSuggestAmputation>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>Tail</defName>
+    <label>tail</label>
+    <hitPoints>20</hitPoints>
+    <skinCovered>true</skinCovered>
+	<canSuggestAmputation>false</canSuggestAmputation>
+  </BodyPartDef>
+</Defs>
