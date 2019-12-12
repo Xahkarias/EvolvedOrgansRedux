@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--TODO: update this, right now it is a placeholder -->
+
+  <ThingDef Name="EVOR_OrgBase" ParentName="BodyPartArtificialBase" Abstract="True">
+    <defName>EVORG_OrgBase</defName>
+    <techLevel>Spacer</techLevel>
+    <statBases>
+      <MarketValue>2800</MarketValue>
+      <Mass>0.3</Mass>
+      <WorkToMake>5000</WorkToMake>
+    </statBases>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>15</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>EvolvedWorkbench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Item/Resource/EvoOrgBox</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+    </graphicData>
+    <comps/>
+  </ThingDef>
+
+</Defs>
