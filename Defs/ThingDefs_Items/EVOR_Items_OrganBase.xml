@@ -4,7 +4,7 @@
   <!--TODO: update this, right now it is a placeholder -->
 
   <ThingDef Name="EVOR_OrgBase" ParentName="BodyPartArtificialBase" Abstract="True">
-    <defName>EVORG_OrgBase</defName>
+    <defName>EVOR_OrgBase</defName>
     <techLevel>Spacer</techLevel>
     <statBases>
       <MarketValue>2800</MarketValue>

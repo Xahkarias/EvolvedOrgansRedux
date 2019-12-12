@@ -12,7 +12,6 @@ Defs
     All ThingDefItems
     All ThingDef Items
     All WorktypeDefs
-    All research typedefs
 Textures
     All textures
 Patches
