@@ -6,6 +6,7 @@ CURRENTLY UNDER CONSTRUCTION
 
 BIG TODO:
 
+manifest file
 Defs
     All Hediffs
     All RecipeDefs
@@ -19,21 +20,18 @@ images
 
 
 
-
-
-
-shrink the mechanite slag to be the same size as qee's
-make the organ growing bench be smaller
-    as in the placement area
-
-    NOTE: error in patching with QEE
+NOTE: error in patching with QEE
 
 
 PATCH ORDER
     qee
 
+    rahs
+
     each individual mod
-        remove its own costlist if QEE
-        add its own
+        check if rahs
+            add normal or rahs version
+        remove its own costlist if QEE and then add stuff for QEE
+        
 
     humanoids

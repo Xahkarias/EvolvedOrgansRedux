@@ -41,6 +41,7 @@
     <graphicData>
       <texPath>Things/Item/Health/EVOR_Texture_Mechanite</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
     </graphicData>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
