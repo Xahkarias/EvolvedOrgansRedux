@@ -25,6 +25,7 @@
 				<rotDestroys>true</rotDestroys>
       </li>
     </comps>
+    <tickerType>Rare</tickerType>
     <thingCategories>
       <li>Manufactured</li>
     </thingCategories>
@@ -57,6 +58,7 @@
 				<rotDestroys>true</rotDestroys>
       </li>
     </comps>
+    <tickerType>Rare</tickerType>
     <thingCategories>
       <li>Manufactured</li>
     </thingCategories>

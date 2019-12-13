@@ -7,7 +7,7 @@
 		<jobString>Making nano mechanites.</jobString>
 		<workSpeedStat>ButcheryMechanoidSpeed</workSpeedStat>
 		<effectWorking>ButcherMechanoid</effectWorking>
-		<soundWorking>ButcherMechanoid</soundWorking>
+		<soundWorking>Recipe_ButcherCorpseMechanoid</soundWorking>
 		<workAmount>250</workAmount>
 		<recipeUsers>
 			<li>TableMachining</li>
@@ -31,8 +31,10 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-			<thingDefs>
+			<categories>
 				<li>CorpsesMechanoid</li>
+			</categories>
+			<thingDefs>
 				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -78,9 +80,11 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-			<thingDefs>
+			<categories>
 				<li>MeatRaw</li>
-				<li>MedicineIndustrial</i>
+			</categories>
+			<thingDefs>
+				<li>MedicineIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>

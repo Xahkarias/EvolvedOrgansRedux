@@ -17,18 +17,3 @@ Patches
 images
     preview images for workshop
 
-
-how it would work
-
-	1st tech:
-		turn meat into protein
-			using built in biofuel refinery
-		
-	2nd tech:
-        process mechanoids into slurry
-            machining table
-
-order todo
-    building for production
-    edit organbase file
-    recipe for creating resources
