@@ -20,7 +20,7 @@
       </recipeUsers>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Item/Resource/EvoOrgBox</texPath>
+      <texPath>Things/Item/Resource/EVOR_Texture_OrganBox</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.80</drawSize>
     </graphicData>

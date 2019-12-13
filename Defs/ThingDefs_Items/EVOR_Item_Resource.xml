@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>EVORG_Item_Protein</defName>
+    <label>Humanoid Protein</label>
+    <description>A vial of humanoid protiens ready to be synthesized with mechanites and formed into a specialized appendage or organ.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/EVOR_Texture_Protein</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>10</MarketValue>
+      <Mass>0.01</Mass>
+      <Flammability>.8</Flammability>
+      <DeteriorationRate>5.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>EVOR_Item_Mechanites</defName>
+    <label>Nano Mechanites</label>
+    <description>A vial of nanomachines ready to be used to modify a mass of cells into a large, complex organ.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/EVOR_Texture_Mechanite</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>30</MarketValue>
+      <Mass>0.01</Mass>
+      <Flammability>.8</Flammability>
+      <DeteriorationRate>5.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+
+</Defs>
