@@ -54,12 +54,23 @@
             </value>
         </li>
         
+        <!--Removes the old protein slag, will be using QEE's instead-->
+        <li Class="PatchOperationRemove">
+            <xpath>/Defs/ThingDef[defName="EVOR_Resource_Protein"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+            <xpath>/Defs/RecipeDef[defName="EVOR_Production_Protein"]</xpath>
+        </li>
+
         <!--Then we remove the organ growing bench -->
         <li Class="PatchOperationRemove">
             <xpath>/Defs/ThingDef[defName="EVOR_Building_Cellbench"]</xpath>
         </li>
         <li Class="PatchOperationRemove">
             <xpath>/Defs/WorkGiverDef[defName="EVOR_DoBills_Cellbench"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+            <xpath>/Defs/ThingDef[defName="EVOR_OrgBase"]/recipeMaker/recipeUsers</xpath>
         </li>
 
         <!--NOTE: ALL PATCHES WHICH ADD STUFF HAVE TO DO THIS WHEN CHECKING FOR QEE-->
@@ -69,14 +80,6 @@
         </li>
         <li Class="PatchOperationRemove">
             <xpath>/Defs/ThingDef[defName="EVOR_OrgBase"]/recipeMaker</xpath>
-        </li>
-
-        <!--Removes the old protein slag, will be using QEE's instead-->
-        <li Class="PatchOperationRemove">
-            <xpath>/Defs/ThingDef[defName="EVOR_Resource_Protein"]</xpath>
-        </li>
-        <li Class="PatchOperationRemove">
-            <xpath>/Defs/RecipeDef[defName="EVOR_Production_Protein"]</xpath>
         </li>
 
         <li Class="PatchOperationAdd">
@@ -188,7 +191,6 @@
                 <researchPrerequisite>EVOR_Research_Organs1</researchPrerequisite>
             </RecipeDef>
 
-            
 
 
 

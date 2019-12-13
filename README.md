@@ -26,6 +26,8 @@ shrink the mechanite slag to be the same size as qee's
 make the organ growing bench be smaller
     as in the placement area
 
+    NOTE: error in patching with QEE
+
 
 PATCH ORDER
     qee
