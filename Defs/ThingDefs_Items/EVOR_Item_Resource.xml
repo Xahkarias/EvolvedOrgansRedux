@@ -2,7 +2,7 @@
 <Defs>
 
   <ThingDef ParentName="ResourceBase">
-    <defName>EVOR_Item_Protein</defName>
+    <defName>EVOR_Resource_Protein</defName>
     <label>Protein Slag</label>
     <description>A vial of animal proteins ready to be synthesized with mechanites and formed into a specialized appendage or organ.</description>
     <graphicData>
@@ -35,7 +35,7 @@
   </ThingDef>
 
   <ThingDef ParentName="ResourceBase">
-    <defName>EVOR_Item_Mechanites</defName>
+    <defName>EVOR_Resource_Mechanites</defName>
     <label>Nano Mechanites</label>
     <description>A vial of nanomachines ready to be used to modify a mass of cells into a large, complex organ.</description>
     <graphicData>

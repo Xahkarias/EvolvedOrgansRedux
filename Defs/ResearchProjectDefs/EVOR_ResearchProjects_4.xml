@@ -14,7 +14,7 @@
     <baseCost>2000</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
-      <li>AdvancedFabrication</li>
+      <li>Fabrication</li>
       <li>VitalsMonitor</li>
       <li>Bionics</li>
     </prerequisites>
@@ -203,7 +203,7 @@
     <defName>EVOR_Research_Limbs1</defName>
     <!-- This unlocks moderately normal limbs, for only the 4 normal limbs -->
     <tab>EVOR_EvolvedOrgansResearchTab</tab>
-    <label>Structural Organ Application</label>
+    <label>Biological Framework Application</label>
     <description>To create bones and musculature we must first understand how to propogate the cells and mechanites in load bearing configurations.</description>
     <baseCost>2000</baseCost>
     <techLevel>Spacer</techLevel>

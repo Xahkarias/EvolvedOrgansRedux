@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<WorkGiverDef>
+    <defName>EVOR_DoBills_Cellbench</defName>
+    <label>grow evolved organs</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Smithing</workType>
+    <priorityInType>50</priorityInType>
+    <fixedBillGiverDefs>
+      <li>EVOR_Building_Cellbench</li>
+    </fixedBillGiverDefs>
+    <verb>making things</verb>
+    <gerund>growing evolved organs at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+</Defs>

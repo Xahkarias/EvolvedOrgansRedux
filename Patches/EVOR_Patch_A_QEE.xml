@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <success>Always</success>
+    <mods>
+        <li>Questionable Ethics Enhanced</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+
+        <!--NOTE: ALL PATCHES WHICH ADD STUFF HAVE TO DO THIS WHEN CHECKING FOR QEE-->
+        <!--Removes default costlists for crafting the items-->
+        <li Class="PatchOperationRemove">
+            <xpath>/Defs/ThingDef[contains(defName, "EVOR_Item_")]/costList</xpath>
+        </li>
+
+        <!--Removes the initial research to make protein, this will be covered by QEE-->
+        <li Class="PatchOperationRemove">
+            <xpath>/Defs/ResearchProjectDef[defName="EVOR_Research_Start1"]</xpath>
+        </li>
+
+        <!--Replaces the reference to Start1 in Start2-->
+        <li Class="PatchOperationReplace">
+            <xpath>/Defs/ResearchProjectDef[defName="EVOR_Research_Start2"]/prerequisites</xpath>
+            <value>
+                <prerequisites>
+                    <li>Fabrication</li>
+                    <li>VitalsMonitor</li>
+                    <li>Bionics</li>
+                </prerequisites>
+            </value>
+        </li>
+
+        <!--Removes research Start3, this will again be handled by QEE-->
+        <li Class="PatchOperationRemove">
+            <xpath>/Defs/ResearchProjectDef[defName="EVOR_Research_Start3"]</xpath>
+        </li>
+
+        <!--Replaces references to Start3 with QEE's vat grower-->
+        <li Class="PatchOperationReplace">
+            <xpath>/Defs/ResearchProjectDef[defName="EVOR_Research_Limbs1"]/prerequisites</xpath>
+            <value>
+                <prerequisites>
+                    <li>QE_OrganVat</li>
+                </prerequisites>
+            </value>
+        </li>
+        <li Class="PatchOperationReplace">
+            <xpath>/Defs/ResearchProjectDef[defName="EVOR_Research_Organs1"]/prerequisites</xpath>
+            <value>
+                <prerequisites>
+                    <li>QE_OrganVat</li>
+                </prerequisites>
+            </value>
+        </li>
+        
+        <!--Then we remove the organ growing bench -->
+        <li Class="PatchOperationRemove">
+            <xpath>/Defs/ThingDef[defName="EVOR_Building_Cellbench"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+            <xpath>/Defs/WorkGiverDef[defName="EVOR_DoBills_Cellbench"]</xpath>
+        </li>
+
+        <!--NOTE: ALL PATCHES WHICH ADD STUFF HAVE TO DO THIS WHEN CHECKING FOR QEE-->
+        <!--Removes the researchPrereq for the vanilla organ recipes-->
+        <li Class="PatchOperationRemove">
+            <xpath>/Defs/ThingDef[contains(defName, "EVOR_Item_"]/recipeMaker</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+            <xpath>/Defs/ThingDef[defName="EVOR_OrgBase"]/recipeMaker</xpath>
+        </li>
+
+        <!--Removes the old protein slag, will be using QEE's instead-->
+        <li Class="PatchOperationRemove">
+            <xpath>/Defs/ThingDef[defName="EVOR_Resource_Protein"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+            <xpath>/Defs/RecipeDef[defName="EVOR_Production_Protein"]</xpath>
+        </li>
+
+        <li Class="PatchOperationAdd">
+            <xpath>/Defs</xpath>
+            <value>
+                <RecipeDef Name="EVOR_Grower_RecipeBase" Abstract="True">
+                    <workAmount>300000</workAmount>
+                    <recipeUsers>
+                        <li>QE_Building_OrganVat</li>
+                    </recipeUsers>
+                    <modExtensions>
+                        <li Class="QEthics.RecipeGraphicProperties">
+                            <productGraphic>
+                                <graphicClass>Graphic_Single</graphicClass>
+                                <texPath>Effects/Organs/Shinzy_Organ</texPath>
+                                <shaderType>MoteGlow</shaderType>
+                                <drawRotated>false</drawRotated>
+                            </productGraphic>
+                        </li>
+                    </modExtensions>
+                    <ingredients>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>QE_NutrientSolution</li>
+                                </thingDefs>
+                            </filter>
+                            <count>100</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>QE_ProteinMash</li>
+                                </thingDefs>
+                            </filter>
+                            <count>25</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>EVOR_Resource_Mechanites</li>
+                                </thingDefs>
+                            </filter>
+                            <count>4</count>
+                        </li>
+                    </ingredients>
+                </RecipeDef>
+            </value>
+        </li>
+
+
+
+
+
+
+
+
+
+
+        <!--TODO add all organ to this-->
+        <!--NOTE: ALL PATCHES WHICH ADD STUFF HAVE TO DO THIS WHEN CHECKING FOR QEE-->
+        <!--adding the actual recipes -->
+        <li Class="PatchOperationAdd">
+            <xpath>/Defs</xpath>
+            <value>
+
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Heart</defName>
+                <label>triwoven primary heart</label>
+                <products>
+                    <EVOR_Item_Heart>1</EVOR_Item_Heart>
+                </products>
+                <researchPrerequisite>EVOR_Research_Organs1</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Kidney</defName>
+                <label>triple filter pass kidney</label>
+                <products>
+                    <EVOR_Item_Kidney>1</EVOR_Item_Kidney>
+                </products>
+                <researchPrerequisite>EVOR_Research_Organs1</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Lung</defName>
+                <label>nano-alveoli lung</label>
+                <products>
+                    <EVOR_Item_Lung>1</EVOR_Item_Lung>
+                </products>
+                <researchPrerequisite>EVOR_Research_Organs1</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Stomach</defName>
+                <label>multichamber stomach</label>
+                <products>
+                    <EVOR_Item_Stomach>1</EVOR_Item_Stomach>
+                </products>
+                <researchPrerequisite>EVOR_Research_Organs1</researchPrerequisite>
+            </RecipeDef>
+           
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Liver</defName>
+                <label>quadlobe liver</label>
+                <products>
+                    <EVOR_Item_Kidney>1</EVOR_Item_Kidney>
+                </products>
+                <researchPrerequisite>EVOR_Research_Organs1</researchPrerequisite>
+            </RecipeDef>
+
+            
+
+
+
+
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

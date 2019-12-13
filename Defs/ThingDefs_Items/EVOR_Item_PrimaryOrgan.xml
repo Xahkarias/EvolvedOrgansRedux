@@ -9,8 +9,8 @@
       <researchPrerequisite>EVOR_Research_Organs1</researchPrerequisite>
     </recipeMaker>
     <costList>
-      <EVOR_Item_Protein>20</EVOR_Item_Protein>
-      <EVOR_Item_Mechanites>4</EVOR_Item_Mechanites>
+      <EVOR_Resource_Protein>20</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>4</EVOR_Resource_Mechanites>
     </costList>
   </ThingDef>
 
@@ -22,8 +22,8 @@
       <researchPrerequisite>EVOR_Research_Organs1</researchPrerequisite>
     </recipeMaker>
     <costList>
-      <EVOR_Item_Protein>12</EVOR_Item_Protein>
-      <EVOR_Item_Mechanites>2</EVOR_Item_Mechanites>
+      <EVOR_Resource_Protein>12</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>2</EVOR_Resource_Mechanites>
     </costList>
   </ThingDef>
 
@@ -35,8 +35,8 @@
       <researchPrerequisite>EVOR_Research_Organs1</researchPrerequisite>
     </recipeMaker>
     <costList>
-      <EVOR_Item_Protein>16</EVOR_Item_Protein>
-      <EVOR_Item_Mechanites>3</EVOR_Item_Mechanites>
+      <EVOR_Resource_Protein>16</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>3</EVOR_Resource_Mechanites>
     </costList>
   </ThingDef>
 
@@ -48,8 +48,8 @@
       <researchPrerequisite>EVOR_Research_Organs1</researchPrerequisite>
     </recipeMaker>
     <costList>
-      <EVOR_Item_Protein>16</EVOR_Item_Protein>
-      <EVOR_Item_Mechanites>2</EVOR_Item_Mechanites>
+      <EVOR_Resource_Protein>16</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>2</EVOR_Resource_Mechanites>
     </costList>
   </ThingDef>
 
@@ -61,8 +61,8 @@
       <researchPrerequisite>EVOR_Research_Organs1</researchPrerequisite>
     </recipeMaker>
     <costList>
-      <EVOR_Item_Protein>20</EVOR_Item_Protein>
-      <EVOR_Item_Mechanites>3</EVOR_Item_Mechanites>
+      <EVOR_Resource_Protein>20</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>3</EVOR_Resource_Mechanites>
     </costList>
   </ThingDef>
 

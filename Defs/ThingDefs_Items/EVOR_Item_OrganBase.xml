@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!--TODO: update this, right now it is a placeholder -->
-
   <ThingDef Name="EVOR_OrgBase" ParentName="BodyPartArtificialBase" Abstract="True">
     <defName>EVOR_OrgBase</defName>
     <techLevel>Spacer</techLevel>
