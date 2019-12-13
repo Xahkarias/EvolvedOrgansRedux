@@ -28,10 +28,10 @@
 
   <ResearchProjectDef>
     <defName>EVOR_Research_Start2</defName>
-    <!--Unlocks the way to make evolved cells-->
+    <!--Unlocks the way to make mechanite cells-->
     <tab>EVOR_EvolvedOrgansResearchTab</tab>
     <label>Nano-Scale Cellular Engineering</label>
-    <description>By combining our knowledge of biology and bionics, we can engineer cells that have much more potential than anything created naturally.</description>
+    <description>By combining our knowledge of biology and bionics, we can engineer nanites that can mold raw biological materials into cells of our choosing.</description>
     <baseCost>2000</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
@@ -50,7 +50,7 @@
     <!--Unlocks the crafting benches and stuff-->
     <tab>EVOR_EvolvedOrgansResearchTab</tab>
     <label>Bio-Mechanical Tissue Application</label>
-    <description>Through the selective processes of germinating and stimulating stem cells at the nano-scale with mechanites, it is possible to create simple internal organs.</description>
+    <description>Through the selective processes of germinating and stimulating stem cells at the nano-scale with mechanites, it is possible to create simple biological frameworks.</description>
     <baseCost>2000</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>

@@ -27,3 +27,8 @@ how it would work
 	2nd tech:
         process mechanoids into slurry
             machining table
+
+order todo
+    building for production
+    edit organbase file
+    recipe for creating resources

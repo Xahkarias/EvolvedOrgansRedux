@@ -13,14 +13,15 @@
     </statBases>
     <recipeMaker>
       <skillRequirements>
-        <Crafting>15</Crafting>
+        <Crafting>10</Crafting>
+        <Medicine>10</Medicine>
       </skillRequirements>
       <recipeUsers>
-        <li>EvolvedWorkbench</li>
+        <li>EVOR_Building_Cellbench</li>
       </recipeUsers>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Item/Resource/EVOR_Texture_OrganBox</texPath>
+      <texPath>Things/Item/Health/EVOR_Texture_OrganBox</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.80</drawSize>
     </graphicData>

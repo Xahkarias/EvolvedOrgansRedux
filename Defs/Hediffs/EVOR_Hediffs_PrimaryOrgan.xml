@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!--TODO: Capitalize these hediffs-->
 
   <!-- Primary Heart -->
   <HediffDef ParentName="AddedBodyPartBase">
@@ -24,7 +23,7 @@
     <labelNoun>an triple filter pass kidney</labelNoun>
     <spawnThingOnRemoved>EVOR_Item_Kidney</spawnThingOnRemoved>
     <addedPartProps>
-      <solid>true</solid>
+      <solid>true</solid>     
       <partEfficiency>2.0</partEfficiency>
     </addedPartProps>
     <stages>
