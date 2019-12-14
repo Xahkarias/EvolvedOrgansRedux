@@ -20,7 +20,7 @@
     <defName>EVOR_Heddiff_Kidney</defName>
     <label>triple filter pass kidney</label>
     <defaultLabelColor>(.2,1,.9)</defaultLabelColor>
-    <labelNoun>an triple filter pass kidney</labelNoun>
+    <labelNoun>a triple filter pass kidney</labelNoun>
     <spawnThingOnRemoved>EVOR_Item_Kidney</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>     
@@ -40,7 +40,7 @@
     <defName>EVOR_Heddiff_Lung</defName>
     <label>nano-alveoli lung</label>
     <defaultLabelColor>(.2,1,.9)</defaultLabelColor>
-    <labelNoun>an nano-alveoli lung</labelNoun>
+    <labelNoun>a nano-alveoli lung</labelNoun>
     <spawnThingOnRemoved>EVOR_Item_Lung</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
