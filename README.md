@@ -24,7 +24,7 @@ PATCH ORDER
 
     rahs
     qee
-    
+    elite bionics
 
     each individual mod
         add its own parts
@@ -35,8 +35,6 @@ PATCH ORDER
 
     humanoids
 
-i havent done anything yet with elite bionics whoops
-
 
 to add a new organ
     new hediff
@@ -44,3 +42,4 @@ to add a new organ
     new item
     rahs patch
     qee patch
+    elite bionics patch
