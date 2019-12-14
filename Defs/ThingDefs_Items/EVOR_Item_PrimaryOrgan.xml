@@ -17,7 +17,7 @@
   <ThingDef ParentName="EVOR_OrgBase">
     <defName>EVOR_Item_Kidney</defName>
     <label>triple filter pass kidney</label>
-    <description>By creating an ingenous system in which blood is filtered three times without drop in other performance parameters, the kidney's performance is drastically increased.</description>
+    <description>By creating an ingenious system in which blood is filtered three times without drop in other performance parameters, the kidney's performance is drastically increased.</description>
     <recipeMaker>
       <researchPrerequisite>EVOR_Research_Organs1</researchPrerequisite>
     </recipeMaker>
@@ -43,7 +43,7 @@
   <ThingDef ParentName="EVOR_OrgBase">
     <defName>EVOR_Item_Stomach</defName>
     <label>multichamber stomach</label>
-    <description>By segregating digestion into seperate specialized chambers, the amount of nutrients gathered from food is drastically increased, as well as digestion speed, as seperating the steps increases the speed of digestion.</description>
+    <description>By seperating digestion into seperate specialized chambers, the amount of nutrients gathered from food is drastically increased, as well as digestion speed, as seperating the steps increases the speed of digestion.</description>
     <recipeMaker>
       <researchPrerequisite>EVOR_Research_Organs1</researchPrerequisite>
     </recipeMaker>
