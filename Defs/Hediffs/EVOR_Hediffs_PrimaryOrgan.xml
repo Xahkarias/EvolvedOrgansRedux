@@ -12,6 +12,7 @@
     <addedPartProps>
       <solid>true</solid>
       <partEfficiency>2.2</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
   </HediffDef>
 
@@ -25,6 +26,7 @@
     <addedPartProps>
       <solid>true</solid>     
       <partEfficiency>2.0</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
     <stages>
       <li>
@@ -45,6 +47,7 @@
     <addedPartProps>
       <solid>true</solid>
       <partEfficiency>2.0</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
      <stages>
       <li>
@@ -65,6 +68,7 @@
     <addedPartProps>
       <solid>true</solid>
       <partEfficiency>2.0</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
     <stages>
       <li>
@@ -86,6 +90,7 @@
     <addedPartProps>
       <solid>true</solid>
       <partEfficiency>2.0</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
     <stages>
       <li>

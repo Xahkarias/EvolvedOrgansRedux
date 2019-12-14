@@ -15,6 +15,7 @@ Defs
     All WorktypeDefs
 Patches
     All patches
+    especially all of rahs
 images
     preview images for workshop
 
@@ -31,3 +32,11 @@ PATCH ORDER
         
 
     humanoids
+
+
+to add a new organ
+    new hediff
+    new surgery
+    new item
+    rahs patch
+    qee patch

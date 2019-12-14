@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_NormalArm</defName>
+    <label>extradextrous arm</label>
+    <description>By strengthening the muscles in the entire arm, as well as increasing fine nervous control, the entire performance of the arm is increased.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Limbs1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>30</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>3</EVOR_Resource_Mechanites>
+    </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Saber</defName>
+    <label>ossified bone saber</label>
+    <description>By creating sharp bone growths that naturally keep themselves unnaturally sharp, we can create an appendage more lethal than any sword.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Limbs1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>30</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>3</EVOR_Resource_Mechanites>
+    </costList>
+  </ThingDef>
+
+</Defs>

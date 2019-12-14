@@ -182,7 +182,23 @@
                 <researchPrerequisite>EVOR_Research_Organs1</researchPrerequisite>
             </RecipeDef>
 
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Primary_NormalArm</defName>
+                <label>extradextrous arm</label>
+                <products>
+                    <EVOR_Item_NormalArm>1</EVOR_Item_NormalArm>
+                </products>
+                <researchPrerequisite>EVOR_Research_Limbs1</researchPrerequisite>
+            </RecipeDef>
 
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Saber</defName>
+                <label>ossified bone saber</label>
+                <products>
+                    <EVOR_Item_Saber>1</EVOR_Item_Saber>
+                </products>
+                <researchPrerequisite>EVOR_Research_Limbs1</researchPrerequisite>
+            </RecipeDef>
 
 
 
