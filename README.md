@@ -21,17 +21,21 @@ images
 
 
 PATCH ORDER
-    qee
 
     rahs
+    qee
+    
 
     each individual mod
-        check if rahs
-            add normal or rahs version
-        remove its own costlist if QEE and then add stuff for QEE
-        
+        add its own parts
+        if qee
+            remove costlist, add recipe
+        if elite bionics
+            add hp        
 
     humanoids
+
+i havent done anything yet with elite bionics whoops
 
 
 to add a new organ
