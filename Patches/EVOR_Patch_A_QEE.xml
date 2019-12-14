@@ -76,10 +76,10 @@
         <!--NOTE: ALL PATCHES WHICH ADD STUFF HAVE TO DO THIS WHEN CHECKING FOR QEE-->
         <!--Removes the researchPrereq for the vanilla organ recipes-->
         <li Class="PatchOperationRemove">
-            <xpath>/Defs/ThingDef[contains(defName, "EVOR_Item_"]/recipeMaker</xpath>
+            <xpath>/Defs/ThingDef[defName="EVOR_OrgBase"]/recipeMaker</xpath>
         </li>
         <li Class="PatchOperationRemove">
-            <xpath>/Defs/ThingDef[defName="EVOR_OrgBase"]/recipeMaker</xpath>
+            <xpath>/Defs/ThingDef[contains(defName, "EVOR_Item")]/recipeMaker</xpath>
         </li>
 
         <li Class="PatchOperationAdd">
@@ -129,15 +129,6 @@
                 </RecipeDef>
             </value>
         </li>
-
-
-
-
-
-
-
-
-
 
         <!--TODO add all organ to this-->
         <!--NOTE: ALL PATCHES WHICH ADD STUFF HAVE TO DO THIS WHEN CHECKING FOR QEE-->

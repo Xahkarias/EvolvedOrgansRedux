@@ -19,10 +19,6 @@ images
     preview images for workshop
 
 
-
-NOTE: error in patching with QEE
-
-
 PATCH ORDER
     qee
 
