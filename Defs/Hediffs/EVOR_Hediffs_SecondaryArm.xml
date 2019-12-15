@@ -95,7 +95,54 @@
 
 
 
-
+	<!--EVOR_Bullet_Maggot-->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Secondary_MaggotBolter</defName>
+		<label>voracious maggot bolter</label>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<labelNoun>a voracious maggot bolter</labelNoun>
+		<spawnThingOnRemoved>EVOR_Item_MaggotBolter</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>     
+			<partEfficiency>0.8</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
+				<toggleLabel>Voracious Maggot Bolter</toggleLabel>
+				<toggleDescription>Voracious Maggot Bolter.</toggleDescription>
+				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGBB</toggleBackgroundPath>
+				<toggleIconPath>UI/Widgets/Organs/EVOR_Texture_Minigun</toggleIconPath>
+				<toggleIconAngle>-45.0</toggleIconAngle>
+				<verbs>
+					<li>
+						<label>voracious maggot bolter</label>
+						<verbClass>Verb_Shoot</verbClass>
+						<accuracyTouch>0.36</accuracyTouch>
+						<accuracyShort>0.33</accuracyShort>
+						<accuracyMedium>0.3</accuracyMedium>
+						<accuracyLong>0.27</accuracyLong>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>EVOR_Bullet_Maggot</defaultProjectile>
+						<warmupTime>2.30</warmupTime>
+						<range>20.0</range>
+						<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+						<burstShotCount>12</burstShotCount>
+						<soundCast>Shot_ChargeRifle</soundCast>
+						<soundCastTail>GunTail_Medium</soundCastTail>
+						<muzzleFlashScale>6</muzzleFlashScale>
+					</li>
+				</verbs>
+				<verbsProperties>
+					<li>
+						<label>voracious maggot bolter</label>
+						<description>Voracious Maggot Bolter</description>
+						<uiIconPath>UI/Icon/EVOR_Texture_RedBullets</uiIconPath>
+					</li>
+				</verbsProperties>
+			</li>
+		</comps>
+  </HediffDef>
 
 
 

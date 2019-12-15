@@ -94,9 +94,8 @@
 
 
 	<!--EVOR_Bullet_Maggot-->
-
 	<HediffDef ParentName="AddedBodyPartBase">
-		<defName>EVOR_Heddiff_Primary_MaggotBolter</defName>
+		<defName>EVOR_Hediff_Primary_MaggotBolter</defName>
 		<label>voracious maggot bolter</label>
 		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
 		<labelNoun>a voracious maggot bolter</labelNoun>
@@ -108,25 +107,25 @@
 		</addedPartProps>
 		<comps>
 			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
-				<toggleLabel>PCS ARM-CR Lite</toggleLabel>
-				<toggleDescription>PCS ARM-CR Lite ({0})\n\nA weaponized archotech {1}. With its mounted charge rifle weapon, it charges each shot with unstable energy as it leaves the barrel. It lacks some uranium circuit so it take more time to charge it's energy.</toggleDescription>
+				<toggleLabel>Voracious Maggot Bolter</toggleLabel>
+				<toggleDescription>Voracious Maggot Bolter.</toggleDescription>
 				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGBB</toggleBackgroundPath>
-				<toggleIconPath>Things/Item/Equipment/WeaponRanged/ChargeRifle</toggleIconPath>
+				<toggleIconPath>UI/Widgets/Organs/EVOR_Texture_Minigun</toggleIconPath>
 				<toggleIconAngle>-45.0</toggleIconAngle>
 				<verbs>
 					<li>
-						<label>charge rifle</label>
+						<label>voracious maggot bolter</label>
 						<verbClass>Verb_Shoot</verbClass>
-						<accuracyTouch>0.28</accuracyTouch>
-						<accuracyShort>0.32</accuracyShort>
-						<accuracyMedium>0.28</accuracyMedium>
-						<accuracyLong>0.23</accuracyLong>
+						<accuracyTouch>0.36</accuracyTouch>
+						<accuracyShort>0.33</accuracyShort>
+						<accuracyMedium>0.3</accuracyMedium>
+						<accuracyLong>0.27</accuracyLong>
 						<hasStandardCommand>true</hasStandardCommand>
-						<defaultProjectile>Bullet_ChargeRifle</defaultProjectile>
+						<defaultProjectile>EVOR_Bullet_Maggot</defaultProjectile>
 						<warmupTime>2.30</warmupTime>
-						<range>25.9</range>
+						<range>20.0</range>
 						<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
-						<burstShotCount>15</burstShotCount>
+						<burstShotCount>12</burstShotCount>
 						<soundCast>Shot_ChargeRifle</soundCast>
 						<soundCastTail>GunTail_Medium</soundCastTail>
 						<muzzleFlashScale>6</muzzleFlashScale>
@@ -134,9 +133,9 @@
 				</verbs>
 				<verbsProperties>
 					<li>
-						<label>charge rifle</label>
-						<description>PCS ARM-CR Lite - Charge rifle: A weapon that mounted to your pawn {0}. Pulse-charge technology charges each shot with unstable energy as it leaves the barrel. Released on impact, the charged energy greatly increases the damage done. It only has half stats over normal charge rifle weapon and take more time to charge it's energy.</description>
-						<uiIconPath>UI/Icons/Prosthetic/ChargeB</uiIconPath>
+						<label>voracious maggot bolter</label>
+						<description>Voracious Maggot Bolter</description>
+						<uiIconPath>UI/Icon/EVOR_Texture_RedBullets</uiIconPath>
 					</li>
 				</verbsProperties>
 			</li>

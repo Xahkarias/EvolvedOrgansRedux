@@ -4,7 +4,7 @@
 
   <!-- Primary Heart -->
   <HediffDef ParentName="AddedBodyPartBase">
-    <defName>EVOR_Heddiff_Heart</defName>
+    <defName>EVOR_Hediff_Heart</defName>
     <label>triwoven primary heart</label>
     <defaultLabelColor>(.2,1,.9)</defaultLabelColor>
     <labelNoun>a triwoven primary heart</labelNoun>
@@ -18,7 +18,7 @@
 
   <!-- Kidney -->
   <HediffDef ParentName="AddedBodyPartBase">
-    <defName>EVOR_Heddiff_Kidney</defName>
+    <defName>EVOR_Hediff_Kidney</defName>
     <label>triple filter pass kidney</label>
     <defaultLabelColor>(.2,1,.9)</defaultLabelColor>
     <labelNoun>a triple filter pass kidney</labelNoun>
@@ -39,7 +39,7 @@
 
   <!-- Lung -->
   <HediffDef ParentName="AddedBodyPartBase">
-    <defName>EVOR_Heddiff_Lung</defName>
+    <defName>EVOR_Hediff_Lung</defName>
     <label>nano-alveoli lung</label>
     <defaultLabelColor>(.2,1,.9)</defaultLabelColor>
     <labelNoun>a nano-alveoli lung</labelNoun>
@@ -60,7 +60,7 @@
 
   <!-- Stomach -->
   <HediffDef ParentName="AddedBodyPartBase">
-    <defName>EVOR_Heddiff_Stomach</defName>
+    <defName>EVOR_Hediff_Stomach</defName>
     <label>multichamber stomach</label>
     <defaultLabelColor>(.2,1,.9)</defaultLabelColor>
     <labelNoun>a multichamber stomach</labelNoun>
@@ -82,7 +82,7 @@
 
   <!-- Liver -->
   <HediffDef ParentName="AddedBodyPartBase">
-    <defName>EVOR_Heddiff_Liver</defName>
+    <defName>EVOR_Hediff_Liver</defName>
     <label>quadlobe liver</label>
     <defaultLabelColor>(.2,1,.9)</defaultLabelColor>
     <labelNoun>a quadlobe liver</labelNoun>

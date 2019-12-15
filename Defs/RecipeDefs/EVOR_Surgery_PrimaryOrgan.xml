@@ -42,7 +42,7 @@
     <appliedOnFixedBodyParts>
       <li>Heart</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>EVOR_Heddiff_Heart</addsHediff>
+    <addsHediff>EVOR_Hediff_Heart</addsHediff>
   </RecipeDef>
 
   <RecipeDef ParentName="SurgeryFlesh">
@@ -87,7 +87,7 @@
     <appliedOnFixedBodyParts>
       <li>Kidney</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>EVOR_Heddiff_Kidney</addsHediff>
+    <addsHediff>EVOR_Hediff_Kidney</addsHediff>
   </RecipeDef>
 
   <RecipeDef ParentName="SurgeryFlesh">
@@ -132,7 +132,7 @@
     <appliedOnFixedBodyParts>
       <li>Lung</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>EVOR_Heddiff_Lung</addsHediff>
+    <addsHediff>EVOR_Hediff_Lung</addsHediff>
   </RecipeDef>
 
   <RecipeDef ParentName="SurgeryFlesh">
@@ -177,7 +177,7 @@
     <appliedOnFixedBodyParts>
       <li>Stomach</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>EVOR_Heddiff_Stomach</addsHediff>
+    <addsHediff>EVOR_Hediff_Stomach</addsHediff>
   </RecipeDef>
 
   <RecipeDef ParentName="SurgeryFlesh">
@@ -222,7 +222,7 @@
     <appliedOnFixedBodyParts>
       <li>Liver</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>EVOR_Heddiff_Liver</addsHediff>
+    <addsHediff>EVOR_Hediff_Liver</addsHediff>
   </RecipeDef>
 
 </Defs>

@@ -31,7 +31,7 @@
 
         <!--primary organs-->
         <li Class="PatchOperationAdd">
-          <xpath>/Defs/HediffDef[defName="EVOR_Heddiff_Heart"]</xpath>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Heart"]</xpath>
           <value>
             <comps>
               <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
@@ -42,7 +42,7 @@
 			    <success>Always</success>
 		    </li>
         <li Class="PatchOperationAdd">
-          <xpath>/Defs/HediffDef[defName="EVOR_Heddiff_Kidney"]</xpath>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Kidney"]</xpath>
           <value>
             <comps>
               <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
@@ -53,7 +53,7 @@
 			    <success>Always</success>
 		    </li>
         <li Class="PatchOperationAdd">
-          <xpath>/Defs/HediffDef[defName="EVOR_Heddiff_Lung"]</xpath>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Lung"]</xpath>
           <value>
             <comps>
               <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
@@ -64,7 +64,7 @@
 			    <success>Always</success>
 		    </li>
         <li Class="PatchOperationAdd">
-          <xpath>/Defs/HediffDef[defName="EVOR_Heddiff_Stomach"]</xpath>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Stomach"]</xpath>
           <value>
             <comps>
               <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
@@ -75,7 +75,7 @@
 			    <success>Always</success>
 		    </li>
         <li Class="PatchOperationAdd">
-          <xpath>/Defs/HediffDef[defName="EVOR_Heddiff_Liver"]</xpath>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Liver"]</xpath>
           <value>
             <comps>
               <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
@@ -166,11 +166,6 @@
 			    </value>
 			    <success>Always</success>
 		    </li>
-
-
-
-
-
 
 
 
