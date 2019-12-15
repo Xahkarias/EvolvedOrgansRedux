@@ -13,7 +13,7 @@
           <xpath>/Defs/HediffDef[contains(defName, "EVOR_Hediff_Primary")]/comps</xpath>
           <value>
             <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
-              <linearAdjustment>20</linearAdjustment>
+              <linearAdjustment>15</linearAdjustment>
             </li>
           </value>
 			    <success>Always</success>
@@ -22,7 +22,7 @@
           <xpath>/Defs/HediffDef[contains(defName, "EVOR_Hediff_Secondary")]/comps</xpath>
           <value>
             <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
-              <linearAdjustment>20</linearAdjustment>
+              <linearAdjustment>15</linearAdjustment>
             </li>
 			    </value>
 			    <success>Always</success>
