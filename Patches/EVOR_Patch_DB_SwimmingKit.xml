@@ -143,7 +143,7 @@
 								<value>
 									<RecipeDef ParentName="EVOR_Grower_RecipeBase">
 										<defName>EVOR_QEE_Leg_Swim</defName>
-										<label>hydrophobic webbed leg</label>
+										<label>&lt;color=#00FFF7&gt;hydrophobic webbed leg&lt;/color&gt;</label>
 										<products>
 											<EVOR_Item_Leg_Swim>1</EVOR_Item_Leg_Swim>
 										</products>

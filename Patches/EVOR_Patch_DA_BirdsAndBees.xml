@@ -136,7 +136,7 @@
 								<value>
 									<RecipeDef ParentName="EVOR_Grower_RecipeBase">
 										<defName>EVOR_QEE_ReproductiveOrgans</defName>
-										<label>efficient copulation extremity</label>
+										<label>&lt;color=#00FFF7&gt;efficient copulation extremity&lt;/color&gt;</label>
 										<products>
 											<EVOR_Item_ReproductiveOrgans>1</EVOR_Item_ReproductiveOrgans>
 										</products>

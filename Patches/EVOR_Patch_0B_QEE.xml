@@ -31,29 +31,24 @@
             </value>
         </li>
 
-        <!--Removes research Start3, this will again be handled by QEE-->
-        <li Class="PatchOperationRemove">
-            <xpath>/Defs/ResearchProjectDef[defName="EVOR_Research_Start3"]</xpath>
-        </li>
-
-        <!--Replaces references to Start3 with QEE's vat grower-->
+        <!--Makes Start3 dirt cheap and dependent on organVat-->
         <li Class="PatchOperationReplace">
-            <xpath>/Defs/ResearchProjectDef[defName="EVOR_Research_Limbs1"]/prerequisites</xpath>
+            <xpath>/Defs/ResearchProjectDef[defName="EVOR_Research_Start3"]/baseCost</xpath>
             <value>
-                <prerequisites>
-                    <li>QE_OrganVat</li>
-                </prerequisites>
+                <baseCost>1</baseCost>
             </value>
         </li>
-        <li Class="PatchOperationReplace">
-            <xpath>/Defs/ResearchProjectDef[defName="EVOR_Research_Organs1"]/prerequisites</xpath>
+        <li Class="PatchOperationAdd">
+            <xpath>/Defs/ResearchProjectDef[defName="EVOR_Research_Start3"]/prerequisites</xpath>
             <value>
-                <prerequisites>
-                    <li>QE_OrganVat</li>
-                </prerequisites>
+                <li>QE_OrganVat</li>
             </value>
         </li>
         
+        
+
+
+
         <!--Removes the old protein slag, will be using QEE's instead-->
         <li Class="PatchOperationRemove">
             <xpath>/Defs/ThingDef[defName="EVOR_Resource_Protein"]</xpath>
@@ -139,7 +134,7 @@
 
             <RecipeDef ParentName="EVOR_Grower_RecipeBase">
                 <defName>EVOR_QEE_Heart</defName>
-                <label>triwoven primary heart</label>
+                <label>&lt;color=#00FFF7&gt;triwoven primary heart&lt;/color&gt;</label>
                 <products>
                     <EVOR_Item_Heart>1</EVOR_Item_Heart>
                 </products>
@@ -148,7 +143,7 @@
 
             <RecipeDef ParentName="EVOR_Grower_RecipeBase">
                 <defName>EVOR_QEE_Kidney</defName>
-                <label>triple filter pass kidney</label>
+                <label>&lt;color=#00FFF7&gt;triple filter pass kidney&lt;/color&gt;</label>
                 <products>
                     <EVOR_Item_Kidney>1</EVOR_Item_Kidney>
                 </products>
@@ -157,7 +152,7 @@
 
             <RecipeDef ParentName="EVOR_Grower_RecipeBase">
                 <defName>EVOR_QEE_Lung</defName>
-                <label>nano-alveoli lung</label>
+                <label>&lt;color=#00FFF7&gt;nano-alveoli lung&lt;/color&gt;</label>
                 <products>
                     <EVOR_Item_Lung>1</EVOR_Item_Lung>
                 </products>
@@ -166,7 +161,7 @@
 
             <RecipeDef ParentName="EVOR_Grower_RecipeBase">
                 <defName>EVOR_QEE_Stomach</defName>
-                <label>multichamber stomach</label>
+                <label>&lt;color=#00FFF7&gt;multichamber stomach&lt;/color&gt;</label>
                 <products>
                     <EVOR_Item_Stomach>1</EVOR_Item_Stomach>
                 </products>
@@ -175,7 +170,7 @@
            
             <RecipeDef ParentName="EVOR_Grower_RecipeBase">
                 <defName>EVOR_QEE_Liver</defName>
-                <label>quadlobe liver</label>
+                <label>&lt;color=#00FFF7&gt;quadlobe liver&lt;/color&gt;</label>
                 <products>
                     <EVOR_Item_Kidney>1</EVOR_Item_Kidney>
                 </products>
@@ -184,7 +179,7 @@
 
             <RecipeDef ParentName="EVOR_Grower_RecipeBase">
                 <defName>EVOR_QEE_NormalArm</defName>
-                <label>extradextrous arm</label>
+                <label>&lt;color=#00FFF7&gt;extradextrous arm&lt;/color&gt;</label>
                 <products>
                     <EVOR_Item_NormalArm>1</EVOR_Item_NormalArm>
                 </products>
@@ -193,7 +188,7 @@
 
             <RecipeDef ParentName="EVOR_Grower_RecipeBase">
                 <defName>EVOR_QEE_Saber</defName>
-                <label>ossified bone saber</label>
+                <label>&lt;color=#00FFF7&gt;ossified bone saber&lt;/color&gt;</label>
                 <products>
                     <EVOR_Item_Saber>1</EVOR_Item_Saber>
                 </products>
@@ -202,7 +197,7 @@
 
             <RecipeDef ParentName="EVOR_Grower_RecipeBase">
                 <defName>EVOR_QEE_Leg</defName>
-                <label>reinforced leg</label>
+                <label>&lt;color=#00FFF7&gt;reinforced leg&lt;/color&gt;</label>
                 <products>
                     <EVOR_Item_Leg_Normal>1</EVOR_Item_Leg_Normal>
                 </products>
@@ -211,7 +206,7 @@
 
             <RecipeDef ParentName="EVOR_Grower_RecipeBase">
                 <defName>EVOR_QEE_Leg_Hand</defName>
-                <label>grasping leg</label>
+                <label>&lt;color=#00FFF7&gt;grasping leg&lt;/color&gt;</label>
                 <products>
                     <EVOR_Item_Leg_Hand>1</EVOR_Item_Leg_Hand>
                 </products>
@@ -220,7 +215,7 @@
 
             <RecipeDef ParentName="EVOR_Grower_RecipeBase">
                 <defName>EVOR_QEE_Tail_Blade</defName>
-                <label>serrated stinger tail</label>
+                <label>&lt;color=#00FFF7&gt;serrated stinger tail&lt;/color&gt;</label>
                 <products>
                     <EVOR_Item_Tail_Blade>1</EVOR_Item_Tail_Blade>
                 </products>
@@ -229,7 +224,7 @@
 
             <RecipeDef ParentName="EVOR_Grower_RecipeBase">
                 <defName>EVOR_QEE_Tail_Hand</defName>
-                <label>manipulator tail</label>
+                <label>&lt;color=#00FFF7&gt;manipulator tail&lt;/color&gt;</label>
                 <products>
                     <EVOR_Item_Tail_Hand>1</EVOR_Item_Tail_Hand>
                 </products>
@@ -238,7 +233,7 @@
 
             <RecipeDef ParentName="EVOR_Grower_RecipeBase">
                 <defName>EVOR_QEE_Eye</defName>
-                <label>multispectrum eye</label>
+                <label>&lt;color=#00FFF7&gt;multispectrum eye&lt;/color&gt;</label>
                 <products>
                     <EVOR_Item_Eye>1</EVOR_Item_Eye>
                 </products>
@@ -247,7 +242,7 @@
 
             <RecipeDef ParentName="EVOR_Grower_RecipeBase">
                 <defName>EVOR_QEE_Nose</defName>
-                <label>micro-analyzer nose</label>
+                <label>&lt;color=#00FFF7&gt;micro-analyzer nose&lt;/color&gt;</label>
                 <products>
                     <EVOR_Item_Nose>1</EVOR_Item_Nose>
                 </products>
@@ -256,7 +251,7 @@
 
             <RecipeDef ParentName="EVOR_Grower_RecipeBase">
                 <defName>EVOR_QEE_Ear</defName>
-                <label>multifrequency ear</label>
+                <label>&lt;color=#00FFF7&gt;multifrequency ear&lt;/color&gt;</label>
                 <products>
                     <EVOR_Item_Ear>1</EVOR_Item_Ear>
                 </products>
@@ -265,7 +260,7 @@
 
             <RecipeDef ParentName="EVOR_Grower_RecipeBase">
                 <defName>EVOR_QEE_Spine</defName>
-                <label>neuro-accelerated spine</label>
+                <label>&lt;color=#00FFF7&gt;neuro-accelerated spine&lt;/color&gt;</label>
                 <products>
                     <EVOR_Item_Spine>1</EVOR_Item_Spine>
                 </products>
@@ -274,7 +269,7 @@
 
             <RecipeDef ParentName="EVOR_Grower_RecipeBase">
                 <defName>EVOR_QEE_MaggotBolter</defName>
-                <label>voracious maggot bolter</label>
+                <label>&lt;color=#00FFF7&gt;voracious maggot bolter&lt;/color&gt;</label>
                 <products>
                     <EVOR_Item_MaggotBolter>1</EVOR_Item_MaggotBolter>
                 </products>
@@ -283,7 +278,7 @@
 
             <RecipeDef ParentName="EVOR_Grower_RecipeBase">
                 <defName>EVOR_QEE_Razortick</defName>
-                <label>burrowing razortick cannon</label>
+                <label>&lt;color=#00FFF7&gt;burrowing razortick cannon&lt;/color&gt;</label>
                 <products>
                     <EVOR_Item_Razortick>1</EVOR_Item_Razortick>
                 </products>
@@ -292,7 +287,7 @@
 
             <RecipeDef ParentName="EVOR_Grower_RecipeBase">
                 <defName>EVOR_QEE_Skin_Plating</defName>
-                <label>multilayered dermal plating</label>
+                <label>&lt;color=#00FFF7&gt;multilayered dermal plating&lt;/color&gt;</label>
                 <products>
                     <EVOR_Item_Skin_Plating>1</EVOR_Item_Skin_Plating>
                 </products>
@@ -301,7 +296,7 @@
 
             <RecipeDef ParentName="EVOR_Grower_RecipeBase">
                 <defName>EVOR_QEE_Skin_Flame</defName>
-                <label>flame retardant skin</label>
+                <label>&lt;color=#00FFF7&gt;flame retardant skin&lt;/color&gt;</label>
                 <products>
                     <EVOR_Item_Skin_Flame>1</EVOR_Item_Skin_Flame>
                 </products>
@@ -310,7 +305,7 @@
 
             <RecipeDef ParentName="EVOR_Grower_RecipeBase">
                 <defName>EVOR_QEE_Skin_Insulation</defName>
-                <label>variable insulation skin</label>
+                <label>&lt;color=#00FFF7&gt;variable insulation skin&lt;/color&gt;</label>
                 <products>
                     <EVOR_Item_Skin_Insulation>1</EVOR_Item_Skin_Insulation>
                 </products>
@@ -319,7 +314,7 @@
 
             <RecipeDef ParentName="EVOR_Grower_RecipeBase">
                 <defName>EVOR_QEE_Ribcage</defName>
-                <label>calcium-alloy ribcage</label>
+                <label>&lt;color=#00FFF7&gt;calcium-alloy ribcage&lt;/color&gt;</label>
                 <products>
                     <EVOR_Item_Ribcage>1</EVOR_Item_Ribcage>
                 </products>
