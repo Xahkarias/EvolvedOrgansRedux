@@ -438,7 +438,7 @@
 					</groups>
 				</li>
 				<li>
-					<def>BodyCavity3</def>
+					<def>BodyCavityA</def>
 					<customLabel>left abdominal cavity</customLabel>
 					<coverage>0.010</coverage>
 					<depth>Inside</depth>
@@ -447,7 +447,7 @@
 					</groups>
 				</li>
 				<li>
-					<def>BodyCavity4</def>
+					<def>BodyCavityA</def>
 					<customLabel>right abdominal cavity</customLabel>
 					<coverage>0.010</coverage>
 					<depth>Inside</depth>
