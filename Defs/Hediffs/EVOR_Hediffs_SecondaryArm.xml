@@ -151,7 +151,7 @@
 					</li>
 				</capMods>
 				<statOffsets>
-					<RangedWeapon_Cooldown>0.15</RangedWeapon_Cooldown>
+					<RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
 				</statOffsets>
 			</li>	
 		</stages>
@@ -210,7 +210,7 @@
 					</li>
 				</capMods>
 				<statOffsets>
-					<RangedWeapon_Cooldown>0.15</RangedWeapon_Cooldown>
+					<RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
 				</statOffsets>
 			</li>	
 		</stages>
