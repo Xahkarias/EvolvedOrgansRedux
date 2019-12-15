@@ -183,7 +183,7 @@
             </RecipeDef>
 
             <RecipeDef ParentName="EVOR_Grower_RecipeBase">
-                <defName>EVOR_QEE_Primary_NormalArm</defName>
+                <defName>EVOR_QEE_NormalArm</defName>
                 <label>extradextrous arm</label>
                 <products>
                     <EVOR_Item_NormalArm>1</EVOR_Item_NormalArm>
@@ -216,6 +216,24 @@
                     <EVOR_Item_Leg_Hand>1</EVOR_Item_Leg_Hand>
                 </products>
                 <researchPrerequisite>EVOR_Research_Limbs2</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Tail_Blade</defName>
+                <label>serrated stinger tail</label>
+                <products>
+                    <EVOR_Item_Tail_Blade>1</EVOR_Item_Tail_Blade>
+                </products>
+                <researchPrerequisite>EVOR_Research_Limbs3</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Tail_Hand</defName>
+                <label>manipulator tail</label>
+                <products>
+                    <EVOR_Item_Tail_Hand>1</EVOR_Item_Tail_Hand>
+                </products>
+                <researchPrerequisite>EVOR_Research_Limbs3</researchPrerequisite>
             </RecipeDef>
 
           </value>

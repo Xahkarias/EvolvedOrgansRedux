@@ -110,9 +110,17 @@
 			    <success>Always</success>
 		    </li>
 
+        <!--Covers all tails-->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[contains(defName, "EVOR_Hediff_Tail")]/comps</xpath>
+          <value>
+            <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+              <linearAdjustment>20</linearAdjustment>
+            </li>
+          </value>
+			    <success>Always</success>
+		    </li>
 
-
-        <!--TODO: add all primary organs to this-->
       </operations>
     </match>
   </Operation>
