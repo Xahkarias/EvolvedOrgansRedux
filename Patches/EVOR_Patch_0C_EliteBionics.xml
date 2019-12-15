@@ -46,7 +46,7 @@
           <value>
             <comps>
               <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
-                <linearAdjustment>8</linearAdjustment>
+                <linearAdjustment>10</linearAdjustment>
               </li>
             </comps>
 			    </value>
@@ -57,7 +57,7 @@
           <value>
             <comps>
               <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
-                <linearAdjustment>8</linearAdjustment>
+                <linearAdjustment>10</linearAdjustment>
               </li>
             </comps>
 			    </value>
@@ -120,6 +120,59 @@
           </value>
 			    <success>Always</success>
 		    </li>
+
+        <!--Other Organ-->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Eye"]</xpath>
+          <value>
+            <comps>
+              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                <linearAdjustment>5</linearAdjustment>
+              </li>
+            </comps>
+			    </value>
+			    <success>Always</success>
+		    </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Nose"]</xpath>
+          <value>
+            <comps>
+              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                <linearAdjustment>5</linearAdjustment>
+              </li>
+            </comps>
+			    </value>
+			    <success>Always</success>
+		    </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Ear"]</xpath>
+          <value>
+            <comps>
+              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                <linearAdjustment>5</linearAdjustment>
+              </li>
+            </comps>
+			    </value>
+			    <success>Always</success>
+		    </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Spine"]</xpath>
+          <value>
+            <comps>
+              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                <linearAdjustment>15</linearAdjustment>
+              </li>
+            </comps>
+			    </value>
+			    <success>Always</success>
+		    </li>
+
+
+
+
+
+
+
 
       </operations>
     </match>

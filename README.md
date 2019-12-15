@@ -38,6 +38,9 @@ to add a new organ
     new hediff
     new surgery
     new item
-    rahs patch
+    rahs patch (Only for patches stuff)
     qee patch                 
     elite bionics patch
+
+
+do next
