@@ -290,7 +290,41 @@
                 <researchPrerequisite>EVOR_Research_Limbs4</researchPrerequisite>
             </RecipeDef>
 
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Skin_Plating</defName>
+                <label>multilayered dermal plating</label>
+                <products>
+                    <EVOR_Item_Skin_Plating>1</EVOR_Item_Skin_Plating>
+                </products>
+                <researchPrerequisite>EVOR_Research_Outer1</researchPrerequisite>
+            </RecipeDef>
 
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Skin_Flame</defName>
+                <label>flame retardant skin</label>
+                <products>
+                    <EVOR_Item_Skin_Flame>1</EVOR_Item_Skin_Flame>
+                </products>
+                <researchPrerequisite>EVOR_Research_Outer1</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Skin_Insulation</defName>
+                <label>variable insulation skin</label>
+                <products>
+                    <EVOR_Item_Skin_Insulation>1</EVOR_Item_Skin_Insulation>
+                </products>
+                <researchPrerequisite>EVOR_Research_Outer1</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Ribcage</defName>
+                <label>calcium-alloy ribcage</label>
+                <products>
+                    <EVOR_Item_Ribcage>1</EVOR_Item_Ribcage>
+                </products>
+                <researchPrerequisite>EVOR_Research_Outer1</researchPrerequisite>
+            </RecipeDef>
             
           </value>
         </li>
