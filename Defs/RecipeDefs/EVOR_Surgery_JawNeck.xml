@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>EVOR_Surgery_Jaw_Distend</defName>
+    <label>&lt;color=#00FFF7&gt;implant distendable jaw&lt;/color&gt;</label>
+    <description>Implant a distendable jaw.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Implanting distendable jaw.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EVOR_Item_Jaw_Distend</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>EVOR_Item_Jaw_Distend</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Jaw</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EVOR_Hediff_Jaw_Distend</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>EVOR_Surgery_Jaw_Venom</defName>
+    <label>&lt;color=#00FFF7&gt;implant venomous fangs&lt;/color&gt;</label>
+    <description>Implant venomous fangs.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Implanting venomous fangs.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EVOR_Item_Jaw_Venom</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>EVOR_Item_Jaw_Venom</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Jaw</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EVOR_Hediff_Jaw_Venom</addsHediff>
+  </RecipeDef>
+
+</Defs>

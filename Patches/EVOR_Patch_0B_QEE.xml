@@ -321,6 +321,25 @@
                 <researchPrerequisite>EVOR_Research_Outer1</researchPrerequisite>
             </RecipeDef>
             
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Jaw_Distend</defName>
+                <label>&lt;color=#00FFF7&gt;distendable jaw&lt;/color&gt;</label>
+                <products>
+                    <EVOR_Item_Jaw_Distend>1</EVOR_Item_Jaw_Distend>
+                </products>
+                <researchPrerequisite>EVOR_Research_Organs2</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Jaw_Venom</defName>
+                <label>&lt;color=#00FFF7&gt;venomous fangs&lt;/color&gt;</label>
+                <products>
+                    <EVOR_Item_Jaw_Venom>1</EVOR_Item_Jaw_Venom>
+                </products>
+                <researchPrerequisite>EVOR_Research_Organs2</researchPrerequisite>
+            </RecipeDef>
+
+
           </value>
         </li>
       </operations>

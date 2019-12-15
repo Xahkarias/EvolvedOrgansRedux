@@ -211,6 +211,16 @@
 			    <success>Always</success>
 		    </li>
 
+        <!--This gets all jaws-->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[contains(defName, "EVOR_Hediff_Jaw")]/comps</xpath>
+          <value>
+            <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+              <linearAdjustment>10</linearAdjustment>
+            </li>
+          </value>
+			    <success>Always</success>
+		    </li>
 
       </operations>
     </match>
