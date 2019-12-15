@@ -272,6 +272,16 @@
                 <researchPrerequisite>EVOR_Research_Organs2</researchPrerequisite>
             </RecipeDef>
 
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_MaggotBolter</defName>
+                <label>voracious maggot bolter</label>
+                <products>
+                    <EVOR_Item_MaggotBolter>1</EVOR_Item_MaggotBolter>
+                </products>
+                <researchPrerequisite>EVOR_Research_Limbs4</researchPrerequisite>
+            </RecipeDef>
+
+
           </value>
         </li>
       </operations>

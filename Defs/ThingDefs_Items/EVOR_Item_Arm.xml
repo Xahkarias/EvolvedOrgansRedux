@@ -27,4 +27,21 @@
     </costList>
   </ThingDef>
 
+
+
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_MaggotBolter</defName>
+    <label>voracious maggot bolter</label>
+    <description>By creating a rapidly growing strain of maggots and adapting them to life in our bodies, we can use them as bullet-like ammunition in our bio-weapons.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Limbs4</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>50</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>6</EVOR_Resource_Mechanites>
+    </costList>
+  </ThingDef>
+
+
 </Defs>

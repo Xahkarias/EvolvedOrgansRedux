@@ -26,16 +26,8 @@
   </BodyPartDef>
 
   <BodyPartDef>
-    <defName>BodyCavity3</defName>
-    <label>left abdominal cavity</label>
-    <hitPoints>15</hitPoints>
-    <skinCovered>true</skinCovered>
-	<canSuggestAmputation>false</canSuggestAmputation>
-  </BodyPartDef>
-
-  <BodyPartDef>
-    <defName>BodyCavity4</defName>
-    <label>right abdominal cavity</label>
+    <defName>BodyCavityA</defName>
+    <label>abdominal cavity</label>
     <hitPoints>15</hitPoints>
     <skinCovered>true</skinCovered>
 	<canSuggestAmputation>false</canSuggestAmputation>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>EVOR_Bullet_Maggot</defName>
+        <label>voracious maggot</label>
+        <graphicData>
+            <texPath>Things/Projectile/EVOR_Texture_Maggot</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>9</damageAmountBase>
+            <stoppingPower>1</stoppingPower>
+            <speed>46</speed>
+        </projectile>
+    </ThingDef>
+
+</Defs>

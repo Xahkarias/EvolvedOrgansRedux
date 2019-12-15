@@ -93,13 +93,55 @@
 
 
 
+	<!--EVOR_Bullet_Maggot-->
 
-
-
-
-
-
-
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Heddiff_Primary_MaggotBolter</defName>
+		<label>voracious maggot bolter</label>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<labelNoun>a voracious maggot bolter</labelNoun>
+		<spawnThingOnRemoved>EVOR_Item_MaggotBolter</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>     
+			<partEfficiency>0.8</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
+				<toggleLabel>PCS ARM-CR Lite</toggleLabel>
+				<toggleDescription>PCS ARM-CR Lite ({0})\n\nA weaponized archotech {1}. With its mounted charge rifle weapon, it charges each shot with unstable energy as it leaves the barrel. It lacks some uranium circuit so it take more time to charge it's energy.</toggleDescription>
+				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGBB</toggleBackgroundPath>
+				<toggleIconPath>Things/Item/Equipment/WeaponRanged/ChargeRifle</toggleIconPath>
+				<toggleIconAngle>-45.0</toggleIconAngle>
+				<verbs>
+					<li>
+						<label>charge rifle</label>
+						<verbClass>Verb_Shoot</verbClass>
+						<accuracyTouch>0.28</accuracyTouch>
+						<accuracyShort>0.32</accuracyShort>
+						<accuracyMedium>0.28</accuracyMedium>
+						<accuracyLong>0.23</accuracyLong>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>Bullet_ChargeRifle</defaultProjectile>
+						<warmupTime>2.30</warmupTime>
+						<range>25.9</range>
+						<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+						<burstShotCount>15</burstShotCount>
+						<soundCast>Shot_ChargeRifle</soundCast>
+						<soundCastTail>GunTail_Medium</soundCastTail>
+						<muzzleFlashScale>6</muzzleFlashScale>
+					</li>
+				</verbs>
+				<verbsProperties>
+					<li>
+						<label>charge rifle</label>
+						<description>PCS ARM-CR Lite - Charge rifle: A weapon that mounted to your pawn {0}. Pulse-charge technology charges each shot with unstable energy as it leaves the barrel. Released on impact, the charged energy greatly increases the damage done. It only has half stats over normal charge rifle weapon and take more time to charge it's energy.</description>
+						<uiIconPath>UI/Icons/Prosthetic/ChargeB</uiIconPath>
+					</li>
+				</verbsProperties>
+			</li>
+		</comps>
+  </HediffDef>
 
 
 
