@@ -4,6 +4,9 @@ Repository for the RimWorld mod, EvolvedOrganRedux
 CURRENTLY UNDER CONSTRUCTION
 
 
+<RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>
+addthat to the maggot bolter
+
 BIG TODO:
 
 Defs

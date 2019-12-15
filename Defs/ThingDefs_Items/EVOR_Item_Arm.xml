@@ -43,5 +43,17 @@
     </costList>
   </ThingDef>
 
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Razortick</defName>
+    <label>burrowing razortick cannon</label>
+    <description>The ticks shot by this cannon have a smattering of explosive juices on the tip, followed up by a hard shell. After punching though the intial armor with the explosion, the tick burrows rapidly into the target before dying in a flurry of cuts.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Limbs4</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>60</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>6</EVOR_Resource_Mechanites>
+    </costList>
+  </ThingDef>
 
 </Defs>

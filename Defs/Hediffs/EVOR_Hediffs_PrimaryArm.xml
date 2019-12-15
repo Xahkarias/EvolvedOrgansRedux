@@ -102,7 +102,7 @@
 		<spawnThingOnRemoved>EVOR_Item_MaggotBolter</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>     
-			<partEfficiency>0.8</partEfficiency>
+			<partEfficiency>1.0</partEfficiency>
 			<betterThanNatural>true</betterThanNatural>
 		</addedPartProps>
 		<comps>
@@ -140,9 +140,73 @@
 				</verbsProperties>
 			</li>
 		</comps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.2</offset>
+					</li>
+				</capMods>
+			</li>	
+		</stages>
+ 	</HediffDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Primary_Razortick</defName>
+		<label>burrowing razortick cannon</label>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<labelNoun>a burrowing razortick cannon</labelNoun>
+		<spawnThingOnRemoved>EVOR_Item_Razortick</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>     
+			<partEfficiency>1.0</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
+				<toggleLabel>Burrowing Razortick Cannon</toggleLabel>
+				<toggleDescription>Burrowing Razortick Cannon.</toggleDescription>
+				<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGBB</toggleBackgroundPath>
+				<toggleIconPath>UI/Widgets/Organs/EVOR_Texture_Cannon</toggleIconPath>
+				<toggleIconAngle>-45.0</toggleIconAngle>
+				<verbs>
+					<li>
+						<label>burrowing razortick cannon</label>
+						<verbClass>Verb_Shoot</verbClass>
+						<accuracyTouch>0.50</accuracyTouch>
+						<accuracyShort>0.70</accuracyShort>
+						<accuracyMedium>0.86</accuracyMedium>
+						<accuracyLong>0.90</accuracyLong>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>EVOR_Bullet_Razortick</defaultProjectile>
+						<warmupTime>3.00</warmupTime>
+						<range>45.0</range>
+						<soundCast>Pawn_Megascarab_Angry</soundCast>
+						<soundCastTail>GunTail_Medium</soundCastTail>
+						<muzzleFlashScale>6</muzzleFlashScale>
+					</li>
+				</verbs>
+				<verbsProperties>
+					<li>
+						<label>burrowing razortick cannon</label>
+						<description>Burrowing Razortick Cannon</description>
+						<uiIconPath>Things/Projectile/EVOR_Texture_Tick</uiIconPath>
+					</li>
+				</verbsProperties>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.2</offset>
+					</li>
+				</capMods>
+			</li>	
+		</stages>
   </HediffDef>
-
-
 
 
 

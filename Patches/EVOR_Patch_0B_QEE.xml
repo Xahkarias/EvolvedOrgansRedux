@@ -281,7 +281,17 @@
                 <researchPrerequisite>EVOR_Research_Limbs4</researchPrerequisite>
             </RecipeDef>
 
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Razortick</defName>
+                <label>burrowing razortick cannon</label>
+                <products>
+                    <EVOR_Item_Razortick>1</EVOR_Item_Razortick>
+                </products>
+                <researchPrerequisite>EVOR_Research_Limbs4</researchPrerequisite>
+            </RecipeDef>
 
+
+            
           </value>
         </li>
       </operations>

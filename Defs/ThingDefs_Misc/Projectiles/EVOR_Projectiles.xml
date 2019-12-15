@@ -16,4 +16,20 @@
         </projectile>
     </ThingDef>
 
+    <ThingDef ParentName="BaseBullet">
+        <defName>EVOR_Bullet_Razortick</defName>
+        <label>razortick</label>
+        <graphicData>
+            <texPath>Things/Projectile/EVOR_Texture_Tick</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>30</damageAmountBase>
+            <stoppingPower>4</stoppingPower>
+            <armorPenetrationBase>0.45</armorPenetrationBase>
+            <speed>65</speed>
+        </projectile>
+    </ThingDef>
+
 </Defs>

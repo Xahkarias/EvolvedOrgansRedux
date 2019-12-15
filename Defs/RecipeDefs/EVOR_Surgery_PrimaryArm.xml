@@ -147,7 +147,51 @@
     <addsHediff>EVOR_Hediff_Primary_MaggotBolter</addsHediff>
   </RecipeDef>
 
-
+  <!--Razortick-->
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>EVOR_Surgery_Primary_Razortick</defName>
+    <label>implant burrowing razortick cannon</label>
+    <description>Implant a burrowing razortick cannon.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Implanting burrowing razortick cannon.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EVOR_Item_Razortick</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>EVOR_Item_Razortick</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Shoulder</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EVOR_Hediff_Primary_Razortick</addsHediff>
+  </RecipeDef>
 
 
 
