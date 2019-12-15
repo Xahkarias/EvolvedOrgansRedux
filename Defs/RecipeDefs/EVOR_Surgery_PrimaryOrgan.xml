@@ -2,7 +2,7 @@
 <Defs>
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Heart</defName>
-    <label>implant triwoven primary heart</label>
+    <label>&lt;color=#00FFF7&gt;implant triwoven primary heart&lt;/color&gt;</label>
     <description>Implant a triwoven primary heart.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Implanting triwoven primary heart.</jobString>
@@ -47,7 +47,7 @@
 
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Kidney</defName>
-    <label>implant triple filter pass kidney</label>
+    <label>&lt;color=#00FFF7&gt;implant triple filter pass kidney&lt;/color&gt;</label>
     <description>Implant a triple filter pass kidney.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Implanting triple filter pass kidney.</jobString>
@@ -92,7 +92,7 @@
 
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Lung</defName>
-    <label>implant nano-alveoli lung</label>
+    <label>&lt;color=#00FFF7&gt;implant nano-alveoli lung&lt;/color&gt;</label>
     <description>Implant a nano-alveoli lung.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Implanting nano-alveoli lung.</jobString>
@@ -137,7 +137,7 @@
 
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Stomach</defName>
-    <label>implant multichamber stomach</label>
+    <label>&lt;color=#00FFF7&gt;implant multichamber stomach&lt;/color&gt;</label>
     <description>Implant a multichamber stomach.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Implanting multichamber stomach.</jobString>
@@ -182,7 +182,7 @@
 
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Liver</defName>
-    <label>implant quadlobe liver</label>
+    <label>&lt;color=#00FFF7&gt;implant quadlobe liver&lt;/color&gt;</label>
     <description>Implant a quadlobe liver.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Implanting quadlobe liver.</jobString>

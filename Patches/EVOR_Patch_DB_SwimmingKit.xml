@@ -59,7 +59,7 @@
 					<value>
 						<RecipeDef ParentName="SurgeryFlesh">
 							<defName>EVOR_Surgery_Leg_Swim</defName>
-							<label>implant hydrophobic webbed leg</label>
+							<label>&lt;color=#00FFF7&gt;implant hydrophobic webbed leg&lt;/color&gt;</label>
 							<description>Implant a hydrophobic webbed leg.</description>
 							<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 							<jobString>Implanting hydrophobic webbed leg.</jobString>

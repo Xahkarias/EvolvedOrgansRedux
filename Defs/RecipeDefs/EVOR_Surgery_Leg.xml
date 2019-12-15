@@ -2,7 +2,7 @@
 <Defs>
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Leg_Normal</defName>
-    <label>implant reinforced leg</label>
+    <label>&lt;color=#00FFF7&gt;implant reinforced leg&lt;/color&gt;</label>
     <description>Implant a reinforced leg.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Implanting reinforced leg.</jobString>
@@ -48,7 +48,7 @@
 
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Leg_Hand</defName>
-    <label>implant grasping leg</label>
+    <label>&lt;color=#00FFF7&gt;implant grasping leg&lt;/color&gt;</label>
     <description>Implant a grasping leg.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Implanting grasping leg.</jobString>

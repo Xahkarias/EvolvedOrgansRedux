@@ -2,7 +2,7 @@
 <Defs>
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Tail_Blade</defName>
-    <label>implant serrated stinger tail</label>
+    <label>&lt;color=#00FFF7&gt;implant serrated stinger tail&lt;/color&gt;</label>
     <description>Implant a serrated stinger tail.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Implanting serrated stinger tail.</jobString>
@@ -48,7 +48,7 @@
 
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Tail_Hand</defName>
-    <label>implant manipulator tail</label>
+    <label>&lt;color=#00FFF7&gt;implant manipulator tail&lt;/color&gt;</label>
     <description>Implant a manipulator tail.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Implanting manipulator tail.</jobString>

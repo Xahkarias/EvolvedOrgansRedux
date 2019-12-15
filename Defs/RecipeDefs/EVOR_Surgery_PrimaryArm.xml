@@ -3,7 +3,7 @@
   <!--Normal ARM-->
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Primary_NormalArm</defName>
-    <label>implant extradextrous arm</label>
+    <label>&lt;color=#00FFF7&gt;implant extradextrous arm&lt;/color&gt;</label>
     <description>Implant an extradextrous arm.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Implanting extradextrous arm.</jobString>
@@ -49,7 +49,7 @@
   <!--Saber-->
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Primary_Saber</defName>
-    <label>implant ossified bone saber</label>
+    <label>&lt;color=#00FFF7&gt;implant ossified bone saber&lt;/color&gt;</label>
     <description>Implant an ossified bone saber.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Implanting ossified bone saber.</jobString>
@@ -104,7 +104,7 @@
   <!--Maggot Bolter-->
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Primary_MaggotBolter</defName>
-    <label>implant voracious maggot bolter</label>
+    <label>&lt;color=#00FFF7&gt;implant voracious maggot bolter&lt;/color&gt;</label>
     <description>Implant a voracious maggot bolter.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Implanting voracious maggot bolter.</jobString>
@@ -150,7 +150,7 @@
   <!--Razortick-->
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Primary_Razortick</defName>
-    <label>implant burrowing razortick cannon</label>
+    <label>&lt;color=#00FFF7&gt;implant burrowing razortick cannon&lt;/color&gt;</label>
     <description>Implant a burrowing razortick cannon.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Implanting burrowing razortick cannon.</jobString>

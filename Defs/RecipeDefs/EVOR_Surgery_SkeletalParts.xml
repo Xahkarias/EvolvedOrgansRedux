@@ -2,7 +2,7 @@
 <Defs>
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Skin_Plating</defName>
-    <label>implant multilayered dermal plating</label>
+    <label>&lt;color=#00FFF7&gt;implant multilayered dermal plating&lt;/color&gt;</label>
     <description>Implant multilayered dermal plating.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Implanting multilayered dermal plating.</jobString>
@@ -47,7 +47,7 @@
 
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Skin_Flame</defName>
-    <label>implant flame retardant skin</label>
+    <label>&lt;color=#00FFF7&gt;implant flame retardant skin&lt;/color&gt;</label>
     <description>Implant flame retardant skin.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Implanting flame retardant skin.</jobString>
@@ -92,7 +92,7 @@
 
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Skin_Insulation</defName>
-    <label>implant variable insulation skin</label>
+    <label>&lt;color=#00FFF7&gt;implant variable insulation skin&lt;/color&gt;</label>
     <description>Implant variable insulation skin.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Implanting variable insulation skin.</jobString>
@@ -137,7 +137,7 @@
 
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Ribcage</defName>
-    <label>implant calcium-alloy ribcage</label>
+    <label>&lt;color=#00FFF7&gt;implant calcium-alloy ribcage&lt;/color&gt;</label>
     <description>Implant calcium-alloy ribcage.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Implanting calcium-alloy ribcage.</jobString>

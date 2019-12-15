@@ -52,7 +52,7 @@
 					<value>
 						<RecipeDef ParentName="SurgeryFlesh">
 							<defName>EVOR_Surgery_ReproductiveOrgans</defName>
-							<label>implant efficient copulation extremity</label>
+							<label>&lt;color=#00FFF7&gt;implant efficient copulation extremity&lt;/color&gt;</label>
 							<description>Implant an efficient copulation extremity.</description>
 							<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 							<jobString>Implanting efficient copulation extremity.</jobString>
