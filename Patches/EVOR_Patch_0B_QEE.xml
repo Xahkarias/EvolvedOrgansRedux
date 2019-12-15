@@ -200,7 +200,23 @@
                 <researchPrerequisite>EVOR_Research_Limbs1</researchPrerequisite>
             </RecipeDef>
 
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Leg</defName>
+                <label>reinforced leg</label>
+                <products>
+                    <EVOR_Item_Leg_Normal>1</EVOR_Item_Leg_Normal>
+                </products>
+                <researchPrerequisite>EVOR_Research_Limbs1</researchPrerequisite>
+            </RecipeDef>
 
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_LegHand</defName>
+                <label>grasping leg</label>
+                <products>
+                    <EVOR_Item_Leg_Hand>1</EVOR_Item_Leg_Hand>
+                </products>
+                <researchPrerequisite>EVOR_Research_Limbs2</researchPrerequisite>
+            </RecipeDef>
 
           </value>
         </li>

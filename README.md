@@ -6,7 +6,6 @@ CURRENTLY UNDER CONSTRUCTION
 
 BIG TODO:
 
-manifest file
 Defs
     All Hediffs
     All RecipeDefs
@@ -41,5 +40,5 @@ to add a new organ
     new surgery
     new item
     rahs patch
-    qee patch
-    elite bionics patch
+    qee patch                 
+    elite bionics patch         DO THIS
