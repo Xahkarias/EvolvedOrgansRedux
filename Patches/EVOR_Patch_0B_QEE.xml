@@ -210,7 +210,7 @@
             </RecipeDef>
 
             <RecipeDef ParentName="EVOR_Grower_RecipeBase">
-                <defName>EVOR_QEE_LegHand</defName>
+                <defName>EVOR_QEE_Leg_Hand</defName>
                 <label>grasping leg</label>
                 <products>
                     <EVOR_Item_Leg_Hand>1</EVOR_Item_Leg_Hand>

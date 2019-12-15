@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <RecipeDef ParentName="SurgeryFlesh">
-    <defName>EVOR_Surgery_Primary_Leg_Normal</defName>
+    <defName>EVOR_Surgery_Leg_Normal</defName>
     <label>implant reinforced leg</label>
     <description>Implant a reinforced leg.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
@@ -47,7 +47,7 @@
 
 
   <RecipeDef ParentName="SurgeryFlesh">
-    <defName>EVOR_Surgery_Primary_Leg_Hand</defName>
+    <defName>EVOR_Surgery_Leg_Hand</defName>
     <label>implant grasping leg</label>
     <description>Implant a grasping leg.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>

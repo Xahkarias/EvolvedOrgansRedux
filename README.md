@@ -41,4 +41,4 @@ to add a new organ
     new item
     rahs patch
     qee patch                 
-    elite bionics patch         DO THIS
+    elite bionics patch
