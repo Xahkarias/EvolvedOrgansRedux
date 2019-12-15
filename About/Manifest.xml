@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+    <identifier>EvolvedOrgansRedux</identifier>
+    <version>1.0.0.0</version>
+    <dependencies>
+        <li>ProstheticCombatFramework</li>
+    </dependencies>
+    <!--
+    <incompatibleWith>
+        <li>SomeOtherMod</li>
+    </incompatibleWith>
+    -->
+    <!--
+    <loadBefore>
+        <li>HowManyModsDoesOneNeed &gt;= 9000.1</li>
+    </loadBefore> -->
+    <loadAfter>
+        <li>EliteBionicsFramework</li>
+        <li>QuestionableEthicsEnhanced</li>
+        <li>Rah'sBionicsandSurgeryExpansion</li>
+        <li>TheBirdsandtheBees</li>
+    </loadAfter>
+    <!--
+    <suggests>
+        <li>ExpansionMod &gt;= 1.5</li>
+        <li>OtherCoolMod</li>
+    </suggests> -->
+    <showCrossPromotions>true</showCrossPromotions>
+    <manifestUri>https://rawgit.com/FluffierThanThou/ModManager/master/About/Manifest.xml</manifestUri>
+    <downloadUri>https://github.com/Xahkarias/EvolvedOrgansRedux/releases</downloadUri>
+</Manifest>
