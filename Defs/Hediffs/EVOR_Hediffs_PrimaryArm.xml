@@ -116,10 +116,10 @@
 					<li>
 						<label>voracious maggot bolter</label>
 						<verbClass>Verb_Shoot</verbClass>
-						<accuracyTouch>0.36</accuracyTouch>
-						<accuracyShort>0.33</accuracyShort>
-						<accuracyMedium>0.3</accuracyMedium>
-						<accuracyLong>0.27</accuracyLong>
+						<accuracyTouch>0.33</accuracyTouch>
+						<accuracyShort>0.30</accuracyShort>
+						<accuracyMedium>0.27</accuracyMedium>
+						<accuracyLong>0.24</accuracyLong>
 						<hasStandardCommand>true</hasStandardCommand>
 						<defaultProjectile>EVOR_Bullet_Maggot</defaultProjectile>
 						<warmupTime>2.30</warmupTime>
