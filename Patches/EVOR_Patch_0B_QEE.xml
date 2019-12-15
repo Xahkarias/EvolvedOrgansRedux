@@ -107,7 +107,7 @@
                                     <li>QE_NutrientSolution</li>
                                 </thingDefs>
                             </filter>
-                            <count>100</count>
+                            <count>120</count>
                         </li>
                         <li>
                             <filter>
@@ -234,6 +234,42 @@
                     <EVOR_Item_Tail_Hand>1</EVOR_Item_Tail_Hand>
                 </products>
                 <researchPrerequisite>EVOR_Research_Limbs3</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Eye</defName>
+                <label>multispectrum eye</label>
+                <products>
+                    <EVOR_Item_Eye>1</EVOR_Item_Eye>
+                </products>
+                <researchPrerequisite>EVOR_Research_Organs2</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Nose</defName>
+                <label>micro-analyzer nose</label>
+                <products>
+                    <EVOR_Item_Nose>1</EVOR_Item_Nose>
+                </products>
+                <researchPrerequisite>EVOR_Research_Organs2</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Ear</defName>
+                <label>multifrequency ear</label>
+                <products>
+                    <EVOR_Item_Ear>1</EVOR_Item_Ear>
+                </products>
+                <researchPrerequisite>EVOR_Research_Organs2</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Spine</defName>
+                <label>neuro-accelerated spine</label>
+                <products>
+                    <EVOR_Item_Spine>1</EVOR_Item_Spine>
+                </products>
+                <researchPrerequisite>EVOR_Research_Organs2</researchPrerequisite>
             </RecipeDef>
 
           </value>
