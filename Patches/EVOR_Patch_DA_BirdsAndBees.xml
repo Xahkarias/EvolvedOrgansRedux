@@ -20,6 +20,7 @@
 							<addedPartProps>
 								<solid>true</solid>
 								<partEfficiency>2.0</partEfficiency>
+								<betterThanNatural>true</betterThanNatural>
 							</addedPartProps>
 						</HediffDef>
 					</value>
@@ -99,6 +100,27 @@
 
 				<li Class="PatchOperationFindMod">
 					<mods>
+						<li>Elite Bionics Framework</li>
+					</mods>
+					<match Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/HediffDef[defName="EVOR_Hediff_ReproductiveOrgans"]</xpath>
+								<value>
+									<comps>
+									<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+										<linearAdjustment>6</linearAdjustment>
+									</li>
+									</comps>
+								</value>
+								<success>Always</success>
+							</li>
+						</operations>
+					</match>
+				</li>
+
+				<li Class="PatchOperationFindMod">
+					<mods>
 						<li>Questionable Ethics Enhanced</li>
 					</mods>
 					<match Class="PatchOperationSequence">
@@ -112,20 +134,21 @@
 							<li Class="PatchOperationAdd">
 								<xpath>/Defs</xpath>
 								<value>
-								<RecipeDef ParentName="EVOR_Grower_RecipeBase">
-									<defName>EVOR_QEE_ReproductiveOrgans</defName>
-									<label>efficient copulation extremity</label>
-									<products>
-										<EVOR_Item_ReproductiveOrgans>1</EVOR_Item_ReproductiveOrgans>
-									</products>
-									<researchPrerequisite>EVOR_Research_Organs2</researchPrerequisite>
-								</RecipeDef>
-							</value>
+									<RecipeDef ParentName="EVOR_Grower_RecipeBase">
+										<defName>EVOR_QEE_ReproductiveOrgans</defName>
+										<label>efficient copulation extremity</label>
+										<products>
+											<EVOR_Item_ReproductiveOrgans>1</EVOR_Item_ReproductiveOrgans>
+										</products>
+										<researchPrerequisite>EVOR_Research_Organs2</researchPrerequisite>
+									</RecipeDef>
+								</value>
 							</li>
 						</operations>
 					</match>
 				</li>
 			</operations>
+			<!--NEED ELITE BIONICS PATCH-->
 		</match>
 	</Operation>
 

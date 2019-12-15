@@ -24,6 +24,7 @@
 		<addedPartProps>
 			<solid>true</solid>
 			<partEfficiency>1.0</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
 		</addedPartProps>
 		<stages>
 			<li>
@@ -66,6 +67,7 @@
 			<isGoodWeapon>true</isGoodWeapon>
 			<solid>true</solid>
 			<partEfficiency>1.00</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
 		</addedPartProps>
 		<stages>
 			<li>
