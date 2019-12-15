@@ -150,6 +150,9 @@
 						<offset>0.3</offset>
 					</li>
 				</capMods>
+				<statOffsets>
+					<RangedWeapon_Cooldown>0.15</RangedWeapon_Cooldown>
+				</statOffsets>
 			</li>	
 		</stages>
   	</HediffDef>
@@ -206,6 +209,9 @@
 						<offset>0.3</offset>
 					</li>
 				</capMods>
+				<statOffsets>
+					<RangedWeapon_Cooldown>0.15</RangedWeapon_Cooldown>
+				</statOffsets>
 			</li>	
 		</stages>
   	</HediffDef>
