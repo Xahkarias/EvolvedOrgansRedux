@@ -14,7 +14,7 @@
 					<value>
 						<HediffDef ParentName="AddedBodyPartBase">
 							<defName>EVOR_Hediff_Leg_Swim</defName>
-							<label>webbed leg</label>
+							<label>hydrophobic webbed leg</label>
 							<spawnThingOnRemoved>EVOR_Item_Leg_Swim</spawnThingOnRemoved>
 							<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
 							<addedPartProps>
@@ -40,7 +40,7 @@
 					<value>
 						<ThingDef ParentName="EVOR_OrgBase">
 							<defName>EVOR_Item_Leg_Swim</defName>
-							<label>webbed leg</label>
+							<label>hydrophobic webbed leg</label>
 							<description>By creating a new cellular mesh that is both light and durable, we can create a mesh that allows for leg mounted webbing that doesnt tear easily.</description>
 							<recipeMaker>
       							<researchPrerequisite>EVOR_Research_Limbs2</researchPrerequisite>
@@ -59,10 +59,10 @@
 					<value>
 						<RecipeDef ParentName="SurgeryFlesh">
 							<defName>EVOR_Surgery_Leg_Swim</defName>
-							<label>implant webbed leg</label>
-							<description>Implant a webbed leg.</description>
+							<label>implant hydrophobic webbed leg</label>
+							<description>Implant a hydrophobic webbed leg.</description>
 							<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-							<jobString>Implanting webbed leg.</jobString>
+							<jobString>Implanting hydrophobic webbed leg.</jobString>
 							<workAmount>3000</workAmount>
 							<skillRequirements>
 								<Medicine>10</Medicine>
@@ -143,7 +143,7 @@
 								<value>
 									<RecipeDef ParentName="EVOR_Grower_RecipeBase">
 										<defName>EVOR_QEE_Leg_Swim</defName>
-										<label>webbed leg</label>
+										<label>hydrophobic webbed leg</label>
 										<products>
 											<EVOR_Item_Leg_Swim>1</EVOR_Item_Leg_Swim>
 										</products>

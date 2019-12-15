@@ -14,7 +14,6 @@ Defs
     All WorktypeDefs
 Patches
     All patches
-    especially all of rahs
 images
     preview images for workshop
 
