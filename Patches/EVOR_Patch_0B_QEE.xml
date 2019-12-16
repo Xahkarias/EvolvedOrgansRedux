@@ -339,6 +339,63 @@
                 <researchPrerequisite>EVOR_Research_Organs2</researchPrerequisite>
             </RecipeDef>
 
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Abd_ThirdLung</defName>
+                <label>&lt;color=#00FFF7&gt;extra nano-filter lung&lt;/color&gt;</label>
+                <products>
+                    <EVOR_Item_Abd_ThirdLung>1</EVOR_Item_Abd_ThirdLung>
+                </products>
+                <researchPrerequisite>EVOR_Research_Organs3</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_Hediff_Abd_SecondHeart</defName>
+                <label>&lt;color=#00FFF7&gt;auxillary heart&lt;/color&gt;</label>
+                <products>
+                    <EVOR_Item_Abd_SecondHeart>1</EVOR_Item_Abd_SecondHeart>
+                </products>
+                <researchPrerequisite>EVOR_Research_Organs3</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Abd_Combat</defName>
+                <label>&lt;color=#00FFF7&gt;combat serum gland&lt;/color&gt;</label>
+                <products>
+                    <EVOR_Item_Abd_Combat>1</EVOR_Item_Abd_Combat>
+                </products>
+                <researchPrerequisite>EVOR_Research_Organs3</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Abd_Hormone</defName>
+                <label>&lt;color=#00FFF7&gt;hormone regulator&lt;/color&gt;</label>
+                <products>
+                    <EVOR_Item_Abd_Hormone>1</EVOR_Item_Abd_Hormone>
+                </products>
+                <researchPrerequisite>EVOR_Research_Organs3</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Abd_Lymph</defName>
+                <label>&lt;color=#00FFF7&gt;lymphatic proliferator&lt;/color&gt;</label>
+                <products>
+                    <EVOR_Item_Abd_Lymph>1</EVOR_Item_Abd_Lymph>
+                </products>
+                <researchPrerequisite>EVOR_Research_Organs3</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Abd_Cultivate</defName>
+                <label>&lt;color=#00FFF7&gt;microbiome cultivator&lt;/color&gt;</label>
+                <products>
+                    <EVOR_Item_Abd_Cultivate>1</EVOR_Item_Abd_Cultivate>
+                </products>
+                <researchPrerequisite>EVOR_Research_Organs3</researchPrerequisite>
+            </RecipeDef>
+
+
+
+
 
           </value>
         </li>

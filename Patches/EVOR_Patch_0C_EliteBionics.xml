@@ -222,6 +222,22 @@
 			    <success>Always</success>
 		    </li>
 
+        <!--This gets all abd-->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[contains(defName, "EVOR_Hediff_Abd")]</xpath>
+          <value>
+            <comps>
+              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                <linearAdjustment>5</linearAdjustment>
+              </li>
+            </comps>
+          </value>
+			    <success>Always</success>
+		    </li>
+
+
+
+
       </operations>
     </match>
   </Operation>

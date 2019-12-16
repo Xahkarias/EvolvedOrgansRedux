@@ -31,7 +31,7 @@
     <stages>
       <li>
         <statOffsets>
-          <ImmunityGainSpeed>0.2</ImmunityGainSpeed>
+          <ToxicSensitivity>-0.15</ToxicSensitivity>
         </statOffsets>
       </li>
     </stages>

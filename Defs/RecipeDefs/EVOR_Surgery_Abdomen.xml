@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--
+    Aux Lung - 1
+    Aux Heart - 2
+    Combat - A
+    Cultivator - A 
+    Hormone - A 1 2
+    Lymph - A 1 2
+    
+  -->
+
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>EVOR_Surgery_Abd_ThirdLung</defName>
+    <label>&lt;color=#00FFF7&gt;implant extra nano-filter lung&lt;/color&gt;</label>
+    <description>Implant an extra nano-filter lung.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Implanting extra nano-filter lung.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EVOR_Item_Abd_ThirdLung</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>EVOR_Item_Abd_ThirdLung</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>BodyCavity1</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EVOR_Hediff_Abd_ThirdLung</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>EVOR_Surgery_Abd_SecondHeart</defName>
+    <label>&lt;color=#00FFF7&gt;implant auxillary heart&lt;/color&gt;</label>
+    <description>Implant an auxillary heart.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Implanting auxillary heart.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EVOR_Item_Abd_SecondHeart</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>EVOR_Item_Abd_SecondHeart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>BodyCavity2</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EVOR_Hediff_Abd_SecondHeart</addsHediff>
+  </RecipeDef>
+
+
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>EVOR_Surgery_Abd_Combat</defName>
+    <label>&lt;color=#00FFF7&gt;implant combat serum gland&lt;/color&gt;</label>
+    <description>Implant a combat serum gland.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Implanting combat serum gland.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EVOR_Item_Abd_Combat</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>EVOR_Item_Abd_Combat</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>BodyCavityA</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EVOR_Hediff_Abd_Combat</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>EVOR_Surgery_Abd_Cultivate</defName>
+    <label>&lt;color=#00FFF7&gt;implant microbiome cultivator&lt;/color&gt;</label>
+    <description>Implant a microbiome cultivator.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Implanting microbiome cultivator.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EVOR_Item_Abd_Cultivate</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>EVOR_Item_Abd_Cultivate</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>BodyCavityA</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EVOR_Hediff_Abd_Cultivate</addsHediff>
+  </RecipeDef>
+
+
+
+
+
+  <!--Hormone Surgeries-->
+  <RecipeDef Name="EVOR_Surgery_Abstract_Hormone" Abstract="True" ParentName="SurgeryFlesh">
+    <label>&lt;color=#00FFF7&gt;implant hormone regulator&lt;/color&gt;</label>
+    <description>Implant a hormone regulator.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Implanting hormone regulator.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EVOR_Item_Abd_Hormone</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>EVOR_Item_Abd_Hormone</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <addsHediff>EVOR_Hediff_Abd_Hormone</addsHediff>
+	</RecipeDef>
+
+  <RecipeDef ParentName="EVOR_Surgery_Abstract_Hormone">
+    <defName>EVOR_Surgery_Abd_Hormone_1</defName>
+    <appliedOnFixedBodyParts>
+      <li>BodyCavity1</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  <RecipeDef ParentName="EVOR_Surgery_Abstract_Hormone">
+    <defName>EVOR_Surgery_Abd_Hormone_2</defName>
+    <appliedOnFixedBodyParts>
+      <li>BodyCavity2</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  <RecipeDef ParentName="EVOR_Surgery_Abstract_Hormone">
+    <defName>EVOR_Surgery_Abd_Hormone_A</defName>
+    <appliedOnFixedBodyParts>
+      <li>BodyCavityA</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+
+
+
+
+
+  <!--Lymph Surgeries-->
+  <RecipeDef Name="EVOR_Surgery_Abstract_Lymph" Abstract="True" ParentName="SurgeryFlesh">
+    <label>&lt;color=#00FFF7&gt;implant lymphatic proliferator&lt;/color&gt;</label>
+    <description>Implant a lymphatic proliferator.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Implanting lymphatic proliferator.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EVOR_Item_Abd_Lymph</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>EVOR_Item_Abd_Lymph</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <addsHediff>EVOR_Hediff_Abd_Lymph</addsHediff>
+	</RecipeDef>
+
+  <RecipeDef ParentName="EVOR_Surgery_Abstract_Lymph">
+    <defName>EVOR_Surgery_Abd_Lymph_1</defName>
+    <appliedOnFixedBodyParts>
+      <li>BodyCavity1</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  <RecipeDef ParentName="EVOR_Surgery_Abstract_Lymph">
+    <defName>EVOR_Surgery_Abd_Lymph_2</defName>
+    <appliedOnFixedBodyParts>
+      <li>BodyCavity2</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  <RecipeDef ParentName="EVOR_Surgery_Abstract_Lymph">
+    <defName>EVOR_Surgery_Abd_Lymph_A</defName>
+    <appliedOnFixedBodyParts>
+      <li>BodyCavityA</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+</Defs>
