@@ -182,7 +182,7 @@
           <value>
             <comps>
               <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
-                <linearAdjustment>20</linearAdjustment>
+                <linearAdjustment>15</linearAdjustment>
               </li>
             </comps>
 			    </value>
@@ -193,7 +193,7 @@
           <value>
             <comps>
               <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
-                <linearAdjustment>20</linearAdjustment>
+                <linearAdjustment>15</linearAdjustment>
               </li>
             </comps>
 			    </value>
@@ -247,6 +247,20 @@
           </value>
 			    <success>Always</success>
 		    </li>
+
+        <!--This gets all skull-->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[contains(defName, "EVOR_Hediff_Skull")]</xpath>
+          <value>
+            <comps>
+              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                <linearAdjustment>10</linearAdjustment>
+              </li>
+            </comps>
+          </value>
+			    <success>Always</success>
+		    </li>
+
 
 
       </operations>

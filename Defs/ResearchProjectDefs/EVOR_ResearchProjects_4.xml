@@ -162,7 +162,6 @@
 
   <ResearchProjectDef>
     <defName>EVOR_Research_Outer1</defName>
-    <!--Unlocks all psychic stuff etc-->
     <tab>EVOR_EvolvedOrgansResearchTab</tab>
     <label>Resilient Tissue Framework</label>
     <description>Restructuring our tissue frameworks to survive the stress of being outside the body is crucial to creating defensive adaptations.</description>
@@ -181,7 +180,6 @@
 
   <ResearchProjectDef>
     <defName>EVOR_Research_Other1</defName>
-    <!--Unlocks all psychic stuff etc-->
     <tab>EVOR_EvolvedOrgansResearchTab</tab>
     <label>Partial Body Structure Reconfiguration</label>
     <description>Expaning upon our ability to create new load-bearing bioforms, we can create radical new bodies types.</description>

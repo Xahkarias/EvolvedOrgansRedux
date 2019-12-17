@@ -458,6 +458,24 @@
                 <researchPrerequisite>EVOR_Research_Other1</researchPrerequisite>
             </RecipeDef>
 
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Skull_Shielding</defName>
+                <label>&lt;color=#00FFF7&gt;interference shielding&lt;/color&gt;</label>
+                <products>
+                    <EVOR_Item_Skull_Shielding>1</EVOR_Item_Skull_Shielding>
+                </products>
+                <researchPrerequisite>EVOR_Research_Outer1</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Skull_Plating</defName>
+                <label>&lt;color=#00FFF7&gt;cranial plating&lt;/color&gt;</label>
+                <products>
+                    <EVOR_Item_Skull_Plating>1</EVOR_Item_Skull_Plating>
+                </products>
+                <researchPrerequisite>EVOR_Research_Outer1</researchPrerequisite>
+            </RecipeDef>
+
 
           </value>
         </li>
