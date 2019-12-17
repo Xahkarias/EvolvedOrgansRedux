@@ -420,6 +420,16 @@
                 <researchPrerequisite>EVOR_Research_Limbs2</researchPrerequisite>
             </RecipeDef>
 
+            <!--
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_PlatedLimb</defName>
+                <label>&lt;color=#00FFF7&gt;electroshock tentacle&lt;/color&gt;</label>
+                <products>
+                    <EVOR_Item_ShockTentacle>1</EVOR_Item_ShockTentacle>
+                </products>
+                <researchPrerequisite>EVOR_Research_Limbs2</researchPrerequisite>
+            </RecipeDef>
+            -->
 
           </value>
         </li>

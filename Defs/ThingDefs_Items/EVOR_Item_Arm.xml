@@ -53,10 +53,6 @@
     </costList>
   </ThingDef>
 
-
-
-
-
   <ThingDef ParentName="EVOR_OrgBase">
     <defName>EVOR_Item_HighPincer</defName>
     <label>high pressure pincer</label>
@@ -95,4 +91,22 @@
       <EVOR_Resource_Mechanites>6</EVOR_Resource_Mechanites>
     </costList>
   </ThingDef>
+
+  <!--
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_ShockTentacle</defName>
+    <label>electroshock tentacle</label>
+    <description>While not possessing strong musculature, this tentacle's main purpose is to incapacitate an opponent with strong shocks of electricity.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Limbs2</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>30</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>6</EVOR_Resource_Mechanites>
+    </costList>
+  </ThingDef> -->
+
+
+
+  
 </Defs>

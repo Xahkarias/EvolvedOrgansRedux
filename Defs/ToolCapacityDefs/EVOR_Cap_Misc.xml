@@ -9,4 +9,12 @@
   <ToolCapacityDef>
     <defName>EVOR_Cap_Sonic</defName>
   </ToolCapacityDef>
+
+  <!--
+  <ToolCapacityDef>
+    <defName>EVOR_Cap_Shock</defName>
+  </ToolCapacityDef>
+  -->
+
+  
 </Defs>

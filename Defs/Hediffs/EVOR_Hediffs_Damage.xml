@@ -84,4 +84,73 @@
         </stages>
     </HediffDef>
 
+    <!--
+    <HediffDef>
+        <defName>EVOR_Hediff_Damage_Shock</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+        <label>shock damage</label>
+        <lethalSeverity>4</lethalSeverity>
+        <makesSickThought>false</makesSickThought>
+        <scenarioCanAdd>true</scenarioCanAdd>
+        <comps>
+        <li Class="HediffCompProperties_Immunizable">
+            <severityPerDayNotImmune>-1.00</severityPerDayNotImmune>
+        </li>
+        </comps>
+        <stages>
+            <li>
+                <label>initial</label>
+                <becomeVisible>false</becomeVisible>
+            </li>
+            <li>
+                <label>initial</label>
+                <minSeverity>0.01</minSeverity>
+            </li>
+            <li>
+                <label>initial</label>
+                <minSeverity>0.10</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>-0.05</offset>
+                    </li>
+                </capMods>
+            </li>
+            <li>
+                <label>minor</label>
+                <minSeverity>0.20</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>-0.20</offset>
+                    </li>
+                </capMods>
+            </li>
+            <li>
+                <label>moderate</label>
+                <minSeverity>0.40</minSeverity>
+                <vomitMtbDays>5</vomitMtbDays>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>-0.035</offset>
+                    </li>
+                </capMods>
+            </li>
+            <li>
+                <label>high</label>
+                <minSeverity>0.80</minSeverity>
+                <vomitMtbDays>5</vomitMtbDays>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>-0.50</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
+    -->
+
 </Defs>

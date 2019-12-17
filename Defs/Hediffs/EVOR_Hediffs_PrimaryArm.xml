@@ -205,16 +205,6 @@
 		</stages>
   	</HediffDef>
 
-
-
-
-
-
-
-
-
-
-
 	<HediffDef ParentName="AddedBodyPartBase">
 		<defName>EVOR_Hediff_Primary_HighPincer</defName>
 		<label>high pressure pincer</label>
@@ -309,7 +299,6 @@
 		</stages>
 	</HediffDef>
 
-
 	<HediffDef ParentName="AddedBodyPartBase">
 		<defName>EVOR_Hediff_Primary_PlatedLimb</defName>
 		<label>tri-plated limb</label>
@@ -352,5 +341,49 @@
 			</li>	
 		</stages>
 	</HediffDef>
+
+	<!--
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Primary_ShockTentacle</defName>
+		<label>electroshock tentacle</label>
+		<labelNoun>an electroshock tentacle</labelNoun>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<capacities>
+							<li>Blunt</li>
+							<li>EVOR_Cap_Shock</li>
+						</capacities>
+						<power>3.0</power>
+						<cooldownTime>3.2</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<armorPenetration>1.0</armorPenetration>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>EVOR_Item_ShockTentacle</spawnThingOnRemoved>
+		<addedPartProps>
+			<isGoodWeapon>true</isGoodWeapon>
+			<solid>true</solid>
+			<partEfficiency>1.00</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeWeapon_CooldownMultiplier>-.05</MeleeWeapon_CooldownMultiplier>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef> -->
+
+
+
+
+
+
 
 </Defs>
