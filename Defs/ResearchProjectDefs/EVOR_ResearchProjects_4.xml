@@ -180,11 +180,11 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>EVOR_Research_Liminal1</defName>
+    <defName>EVOR_Research_Other1</defName>
     <!--Unlocks all psychic stuff etc-->
     <tab>EVOR_EvolvedOrgansResearchTab</tab>
     <label>Partial Body Structure Reconfiguration</label>
-    <description>Expaning upon our ability to create new load-bearing bioforms, we can create new bodies for ourselves from the waist down.</description>
+    <description>Expaning upon our ability to create new load-bearing bioforms, we can create radical new bodies types.</description>
     <baseCost>4000</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>

@@ -431,6 +431,24 @@
             </RecipeDef>
             -->
 
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Back_Wing</defName>
+                <label>&lt;color=#00FFF7&gt;feathered wings&lt;/color&gt;</label>
+                <products>
+                    <EVOR_Item_Back_Wing>1</EVOR_Item_Back_Wing>
+                </products>
+                <researchPrerequisite>EVOR_Research_Other1</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Back_Wing</defName>
+                <label>&lt;color=#00FFF7&gt;manipulator cluster&lt;/color&gt;</label>
+                <products>
+                    <EVOR_Item_Back_Hand>1</EVOR_Item_Back_Hand>
+                </products>
+                <researchPrerequisite>EVOR_Research_Limbs3</researchPrerequisite>
+            </RecipeDef>
+
           </value>
         </li>
       </operations>

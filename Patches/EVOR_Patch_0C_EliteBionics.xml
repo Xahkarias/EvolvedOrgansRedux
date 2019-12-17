@@ -235,7 +235,18 @@
 			    <success>Always</success>
 		    </li>
 
-
+        <!--This gets all back-->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[contains(defName, "EVOR_Hediff_Back")]</xpath>
+          <value>
+            <comps>
+              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                <linearAdjustment>5</linearAdjustment>
+              </li>
+            </comps>
+          </value>
+			    <success>Always</success>
+		    </li>
 
 
       </operations>
