@@ -187,10 +187,10 @@
             </RecipeDef>
 
             <RecipeDef ParentName="EVOR_Grower_RecipeBase">
-                <defName>EVOR_QEE_Saber</defName>
+                <defName>EVOR_QEE_BoneSaber</defName>
                 <label>&lt;color=#00FFF7&gt;ossified bone saber&lt;/color&gt;</label>
                 <products>
-                    <EVOR_Item_Saber>1</EVOR_Item_Saber>
+                    <EVOR_Item_BoneSaber>1</EVOR_Item_BoneSaber>
                 </products>
                 <researchPrerequisite>EVOR_Research_Limbs1</researchPrerequisite>
             </RecipeDef>
@@ -393,8 +393,32 @@
                 <researchPrerequisite>EVOR_Research_Organs3</researchPrerequisite>
             </RecipeDef>
 
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_HighPincer</defName>
+                <label>&lt;color=#00FFF7&gt;high pressure pincer&lt;/color&gt;</label>
+                <products>
+                    <EVOR_Item_HighPincer>1</EVOR_Item_HighPincer>
+                </products>
+                <researchPrerequisite>EVOR_Research_Limbs2</researchPrerequisite>
+            </RecipeDef>
 
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_SonicMace</defName>
+                <label>&lt;color=#00FFF7&gt;sonic impact mace&lt;/color&gt;</label>
+                <products>
+                    <EVOR_Item_SonicMace>1</EVOR_Item_SonicMace>
+                </products>
+                <researchPrerequisite>EVOR_Research_Limbs2</researchPrerequisite>
+            </RecipeDef>
 
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_PlatedLimb</defName>
+                <label>&lt;color=#00FFF7&gt;tri-plated limb&lt;/color&gt;</label>
+                <products>
+                    <EVOR_Item_PlatedLimb>1</EVOR_Item_PlatedLimb>
+                </products>
+                <researchPrerequisite>EVOR_Research_Limbs2</researchPrerequisite>
+            </RecipeDef>
 
 
           </value>

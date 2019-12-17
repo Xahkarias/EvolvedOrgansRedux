@@ -49,7 +49,7 @@
 
   <!--Saber-->
   <RecipeDef ParentName="SurgeryFlesh">
-    <defName>EVOR_Surgery_Secondary_Saber</defName>
+    <defName>EVOR_Surgery_Secondary_BoneSaber</defName>
     <label>&lt;color=#00FFF7&gt;implant ossified bone saber&lt;/color&gt;</label>
     <description>Implant an ossified bone saber.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
@@ -73,7 +73,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>EVOR_Item_Saber</li>
+            <li>EVOR_Item_BoneSaber</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -84,24 +84,15 @@
         <li>Medicine</li>
       </categories>
       <thingDefs>
-        <li>EVOR_Item_Saber</li>
+        <li>EVOR_Item_BoneSaber</li>
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
       <li>LowerShoulder</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>EVOR_Hediff_Secondary_Saber</addsHediff>
+    <addsHediff>EVOR_Hediff_Secondary_BoneSaber</addsHediff>
     <researchPrerequisite>EVOR_Research_Limbs3</researchPrerequisite>
   </RecipeDef>
-
-
-
-
-
-
-
-
-
 
   <!--Maggot Bolter-->
   <RecipeDef ParentName="SurgeryFlesh">
@@ -194,7 +185,157 @@
     <appliedOnFixedBodyParts>
       <li>LowerShoulder</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>EVOR_Hediff_Primary_Razortick</addsHediff>
+    <addsHediff>EVOR_Hediff_Secondary_Razortick</addsHediff>
     <researchPrerequisite>EVOR_Research_Limbs3</researchPrerequisite>
   </RecipeDef>
+
+
+
+
+
+
+
+
+
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>EVOR_Surgery_Secondary_HighPincer</defName>
+    <label>&lt;color=#00FFF7&gt;implant high pressure pincer&lt;/color&gt;</label>
+    <description>Implant a high pressure pincer.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Implanting high pressure pincer.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EVOR_Item_HighPincer</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>EVOR_Item_HighPincer</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>LowerShoulder</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EVOR_Hediff_Secondary_HighPincer</addsHediff>
+    <researchPrerequisite>EVOR_Research_Limbs3</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>EVOR_Surgery_Secondary_SonicMace</defName>
+    <label>&lt;color=#00FFF7&gt;implant sonic impact mace&lt;/color&gt;</label>
+    <description>Implant a sonic impact mace.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Implanting sonic impact mace.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EVOR_Item_SonicMace</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>EVOR_Item_SonicMace</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>LowerShoulder</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EVOR_Hediff_Secondary_SonicMace</addsHediff>
+    <researchPrerequisite>EVOR_Research_Limbs3</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>EVOR_Surgery_Secondary_PlatedLimb</defName>
+    <label>&lt;color=#00FFF7&gt;implant tri-plated limb&lt;/color&gt;</label>
+    <description>Implant a tri-plated limb.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Implanting tri-plated limb.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EVOR_Item_PlatedLimb</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>EVOR_Item_PlatedLimb</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>LowerShoulder</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EVOR_Hediff_Secondary_PlatedLimb</addsHediff>
+    <researchPrerequisite>EVOR_Research_Limbs3</researchPrerequisite>
+  </RecipeDef>
+
+
+
+
 </Defs>

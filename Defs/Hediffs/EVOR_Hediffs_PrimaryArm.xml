@@ -41,8 +41,8 @@
 		</stages>
 	</HediffDef>
 
-  <HediffDef ParentName="AddedBodyPartBase">
-		<defName>EVOR_Hediff_Primary_Saber</defName>
+  	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Primary_BoneSaber</defName>
 		<label>ossified bone saber</label>
 		<labelNoun>an ossified bone saber</labelNoun>
 		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
@@ -54,7 +54,7 @@
 							<li>Stab</li>
 							<li>Cut</li>
 						</capacities>
-						<power>27.0</power>
+						<power>30.0</power>
 						<cooldownTime>2.2</cooldownTime>
 						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
 						<armorPenetration>0.1</armorPenetration>
@@ -62,7 +62,7 @@
 				</tools>
 			</li>
 		</comps>
-		<spawnThingOnRemoved>EVOR_Item_Saber</spawnThingOnRemoved>
+		<spawnThingOnRemoved>EVOR_Item_BoneSaber</spawnThingOnRemoved>
 		<addedPartProps>
 			<isGoodWeapon>true</isGoodWeapon>
 			<solid>true</solid>
@@ -83,15 +83,6 @@
 			</li>	
 		</stages>
 	</HediffDef>
-
-
-
-
-
-
-
-
-
 
 	<!--EVOR_Bullet_Maggot-->
 	<HediffDef ParentName="AddedBodyPartBase">
@@ -212,7 +203,7 @@
 				</statOffsets>
 			</li>	
 		</stages>
-  </HediffDef>
+  	</HediffDef>
 
 
 
@@ -223,6 +214,142 @@
 
 
 
-  
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Primary_HighPincer</defName>
+		<label>high pressure pincer</label>
+		<labelNoun>a high pressure pincer</labelNoun>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>23.0</power>
+						<cooldownTime>3.2</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<armorPenetration>0.4</armorPenetration>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>EVOR_Item_HighPincer</spawnThingOnRemoved>
+		<addedPartProps>
+			<isGoodWeapon>true</isGoodWeapon>
+			<solid>true</solid>
+			<partEfficiency>1.00</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeWeapon_CooldownMultiplier>-.05</MeleeWeapon_CooldownMultiplier>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.2</offset>
+					</li>
+				</capMods>
+			</li>	
+		</stages>
+	</HediffDef>
+
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Primary_SonicMace</defName>
+		<label>sonic impact mace</label>
+		<labelNoun>a sonic impact mace</labelNoun>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>10.0</power>
+						<cooldownTime>3.2</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<armorPenetration>0.1</armorPenetration>
+						<surpriseAttack>
+							<extraMeleeDamages>
+								<li>
+									<def>Stun</def>
+									<amount>35</amount>
+								</li>
+							</extraMeleeDamages>
+						</surpriseAttack>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>EVOR_Item_SonicMace</spawnThingOnRemoved>
+		<addedPartProps>
+			<isGoodWeapon>true</isGoodWeapon>
+			<solid>true</solid>
+			<partEfficiency>1.00</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeWeapon_CooldownMultiplier>-.05</MeleeWeapon_CooldownMultiplier>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.2</offset>
+					</li>
+				</capMods>
+			</li>	
+		</stages>
+	</HediffDef>
+
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Primary_PlatedLimb</defName>
+		<label>tri-plated limb</label>
+		<labelNoun>a tri-plated limbs</labelNoun>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>12</power>
+						<cooldownTime>2</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>EVOR_Item_PlatedLimb</spawnThingOnRemoved>
+		<addedPartProps>
+			<isGoodWeapon>true</isGoodWeapon>
+			<solid>true</solid>
+			<partEfficiency>1.00</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeWeapon_CooldownMultiplier>-.05</MeleeWeapon_CooldownMultiplier>
+					<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+					<ArmorRating_Heat>0.025</ArmorRating_Heat>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.2</offset>
+					</li>
+				</capMods>
+			</li>	
+		</stages>
+	</HediffDef>
 
 </Defs>
