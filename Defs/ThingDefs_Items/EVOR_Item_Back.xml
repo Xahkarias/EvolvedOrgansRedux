@@ -27,4 +27,16 @@
     </costList>
   </ThingDef>
 
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Back_Muscle</defName>
+    <label>dense musculature</label>
+    <description>Adding extra bands of muscle that support the limbs allows the host to hit harder and carry more.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Other1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>30</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>3</EVOR_Resource_Mechanites>
+    </costList>
+  </ThingDef>
 </Defs>
