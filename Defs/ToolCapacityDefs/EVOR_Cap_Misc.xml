@@ -6,5 +6,7 @@
     <defName>EVOR_Cap_Toxic</defName>
   </ToolCapacityDef>
 
-
+  <ToolCapacityDef>
+    <defName>EVOR_Cap_Sonic</defName>
+  </ToolCapacityDef>
 </Defs>

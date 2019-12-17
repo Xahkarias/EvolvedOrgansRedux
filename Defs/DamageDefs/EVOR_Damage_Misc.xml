@@ -13,4 +13,14 @@
     </additionalHediffs>
   </DamageDef>
 
+  <DamageDef ParentName="Bite">
+    <defName>EVOR_Damage_Sonic</defName>
+    <label>sonic strike</label>
+    <additionalHediffs>
+      <li>
+        <hediff>EVOR_Hediff_Damage_Sonic</hediff>
+        <severityPerDamageDealt>0.05</severityPerDamageDealt>
+      </li>
+    </additionalHediffs>
+  </DamageDef>
 </Defs>

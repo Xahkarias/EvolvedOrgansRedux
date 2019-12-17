@@ -270,6 +270,7 @@
 					<li>
 						<capacities>
 							<li>Blunt</li>
+							<li>EVOR_Cap_Sonic</li>
 						</capacities>
 						<power>10.0</power>
 						<cooldownTime>3.2</cooldownTime>
