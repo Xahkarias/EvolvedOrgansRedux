@@ -34,16 +34,8 @@
   </BodyPartDef>
 
   <BodyPartDef>
-    <defName>UpperBack</defName>
-    <label>upper back</label>
-    <hitPoints>20</hitPoints>
-    <skinCovered>true</skinCovered>
-	<canSuggestAmputation>false</canSuggestAmputation>
-  </BodyPartDef>
-
-  <BodyPartDef>
-    <defName>LowerBack</defName>
-    <label>lower back</label>
+    <defName>Back</defName>
+    <label>back</label>
     <hitPoints>20</hitPoints>
     <skinCovered>true</skinCovered>
 	<canSuggestAmputation>false</canSuggestAmputation>

@@ -456,7 +456,7 @@
 					</groups>
 				</li>
 				<li>	
-					<def>UpperBack</def>
+					<def>Back</def>
 					<customLabel>upper back</customLabel>
 					<coverage>0.020</coverage>
 					<depth>Inside</depth>
@@ -465,7 +465,7 @@
 					</groups>
 				</li>
 				<li>	
-					<def>LowerBack</def>
+					<def>Back</def>
 					<customLabel>lower back</customLabel>
 					<coverage>0.020</coverage>
 					<depth>Inside</depth>
