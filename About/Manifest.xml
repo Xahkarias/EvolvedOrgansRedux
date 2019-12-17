@@ -23,6 +23,7 @@
         <li>NightVision</li>
         <li>Rimatomics</li>
         <li>Dubs-Bad-Hygiene</li>
+        <li>VerbExpansionFramework</li>
     </loadAfter>
     <!--
     <suggests>
