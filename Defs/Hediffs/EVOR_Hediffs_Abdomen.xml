@@ -68,8 +68,8 @@
 		<stages>
 			<li>
 				<statOffsets>
-					<MeleeDodgeChance>5</MeleeDodgeChance>
-					<MeleeHitChance>6</MeleeHitChance>
+					<MeleeDodgeChance>8</MeleeDodgeChance>
+					<MeleeHitChance>8</MeleeHitChance>
 					<MeleeWeapon_CooldownMultiplier>-.2</MeleeWeapon_CooldownMultiplier>
 				</statOffsets>
 				<painFactor>0.75</painFactor>
