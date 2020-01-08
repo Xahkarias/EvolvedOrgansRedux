@@ -57,7 +57,7 @@
 					<xpath>/Defs</xpath>
 					<value>
 						<RecipeDef ParentName="SurgeryFlesh">
-							<defName>EVOR_Surgery_Leg_Swim</defName>
+							<defName>EVOR_Surgery_Sternum_Spores</defName>
 							<label>&lt;color=#00FFF7&gt;implant shrouding spore cysts&lt;/color&gt;</label>
 							<description>Implant shrouding spore cysts.</description>
 							<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
@@ -152,7 +152,6 @@
 					</match>
 				</li>
 			</operations>
-			<!--NEED ELITE BIONICS PATCH-->
 		</match>
 	</Operation>
 
