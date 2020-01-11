@@ -97,7 +97,7 @@
         <statOffsets>
           <ImmunityGainSpeed>0.1</ImmunityGainSpeed>
         </statOffsets>
-        <restFallFactor>0.80</restFallFactor>
+        <restFallFactor>0.90</restFallFactor>
       </li>
     </stages>
   </HediffDef>
