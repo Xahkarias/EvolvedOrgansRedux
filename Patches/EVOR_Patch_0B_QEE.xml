@@ -476,6 +476,77 @@
                 <researchPrerequisite>EVOR_Research_Outer1</researchPrerequisite>
             </RecipeDef>
 
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Brain_Rest</defName>
+                <label>&lt;color=#00FFF7&gt;hibernation module&lt;/color&gt;</label>
+                <products>
+                    <EVOR_Item_Brain_Rest>1</EVOR_Item_Brain_Rest>
+                </products>
+                <researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Brain_Physics</defName>
+                <label>&lt;color=#00FFF7&gt;physics processing cortex&lt;/color&gt;</label>
+                <products>
+                    <EVOR_Item_Brain_Physics>1</EVOR_Item_Brain_Physics>
+                </products>
+                <researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Brain_Diplo</defName>
+                <label>&lt;color=#00FFF7&gt;interbeing relations cortex&lt;/color&gt;</label>
+                <products>
+                    <EVOR_Item_Brain_Diplo>1</EVOR_Item_Brain_Diplo>
+                </products>
+                <researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Brain_Hyper</defName>
+                <label>&lt;color=#00FFF7&gt;neural hyperthreader&lt;/color&gt;</label>
+                <products>
+                    <EVOR_Item_Brain_Hyper>1</EVOR_Item_Brain_Hyper>
+                </products>
+                <researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Brain_Logic</defName>
+                <label>&lt;color=#00FFF7&gt;logical reasoning cortex&lt;/color&gt;</label>
+                <products>
+                    <EVOR_Item_Brain_Logic>1</EVOR_Item_Brain_Logic>
+                </products>
+                <researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Brain_Bio</defName>
+                <label>&lt;color=#00FFF7&gt;biological processing cortex&lt;/color&gt;</label>
+                <products>
+                    <EVOR_Item_Brain_Bio>1</EVOR_Item_Brain_Bio>
+                </products>
+                <researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Brain_Chem</defName>
+                <label>&lt;color=#00FFF7&gt;chemical processing cortex&lt;/color&gt;</label>
+                <products>
+                    <EVOR_Item_Brain_Chem>1</EVOR_Item_Brain_Chem>
+                </products>
+                <researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+                <defName>EVOR_QEE_Brain_Nails</defName>
+                <label>&lt;color=#00FFF7&gt;butcher's nails&lt;/color&gt;</label>
+                <products>
+                    <EVOR_Item_Brain_Nails>1</EVOR_Item_Brain_Nails>
+                </products>
+                <researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
+            </RecipeDef>
 
           </value>
         </li>
