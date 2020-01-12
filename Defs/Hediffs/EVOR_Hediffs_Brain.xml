@@ -187,7 +187,7 @@
 				<mentalStateGivers>
 					<li>
 						<mentalState>Berserk</mentalState>
-						<mtbDays>14</mtbDays>
+						<mtbDays>10</mtbDays>
 					</li>
 				</mentalStateGivers>
 				<statOffsets>

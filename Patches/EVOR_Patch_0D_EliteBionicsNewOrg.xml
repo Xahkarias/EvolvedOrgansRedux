@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<success>Always</success>
+		<mods>
+			<li>Elite Bionics Framework</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<!--ADDING HEDIFF-->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<HediffDef ParentName="ImplantHediffBase">
+							<defName>EVOR_Hediff_Brain_Health</defName>
+							<label>extreme neuroplasticity enabler</label>
+							<spawnThingOnRemoved>EVOR_Item_Brain_Health</spawnThingOnRemoved>
+							<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+							<addedPartProps>
+								<solid>true</solid>
+								<partEfficiency>1.0</partEfficiency>
+								<betterThanNatural>true</betterThanNatural>
+							</addedPartProps>
+                            <comps>
+                                <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                                    <linearAdjustment>10</linearAdjustment>
+                                </li>
+                            </comps>
+						</HediffDef>
+					</value>
+					<success>Always</success>
+				</li>
+
+				<!--ADDING ITEM-->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<ThingDef ParentName="EVOR_OrgBase">
+							<defName>EVOR_Item_Brain_Health</defName>
+							<label>extreme neuroplasticity enabler</label>
+							<description>This small gland unlocks the latent ability of the brain to rewrite itself, allowing it to take slightly more punishment.</description>
+							<recipeMaker>
+      							<researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
+    						</recipeMaker>
+							<costList>
+								<EVOR_Resource_Protein>40</EVOR_Resource_Protein>
+      							<EVOR_Resource_Mechanites>15</EVOR_Resource_Mechanites>
+							</costList>
+						</ThingDef>
+					</value>
+					<success>Always</success>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<RecipeDef ParentName="SurgeryFlesh">
+							<defName>EVOR_Surgery_Brain_Health</defName>
+							<label>&lt;color=#00FFF7&gt;implant extreme neuroplasticity enabler&lt;/color&gt;</label>
+							<description>Implant an extreme neuroplasticity enabler.</description>
+							<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+							<jobString>Implanting extreme neuroplasticity enabler.</jobString>
+							<workAmount>3000</workAmount>
+							<skillRequirements>
+								<Medicine>10</Medicine>
+							</skillRequirements>
+							<recipeUsers>
+								<li>Human</li>
+							</recipeUsers>
+							<ingredients>
+								<li>
+									<filter>
+										<categories>
+											<li>Medicine</li>
+										</categories>
+									</filter>
+									<count>2</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>EVOR_Item_Brain_Health</li>
+										</thingDefs>
+									</filter>
+									<count>1</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<categories>
+									<li>Medicine</li>
+								</categories>
+								<thingDefs>
+									<li>EVOR_Item_Brain_Health</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<appliedOnFixedBodyParts>
+								<li>Brain</li>
+							</appliedOnFixedBodyParts>
+							<addsHediff>EVOR_Hediff_Brain_Health</addsHediff>
+						</RecipeDef>
+					</value>
+					<success>Always</success>
+				</li>
+
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Questionable Ethics Enhanced</li>
+					</mods>
+					<match Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationRemove">
+            					<xpath>/Defs/ThingDef[defName="EVOR_Item_Brain_Health"]/recipeMaker</xpath>
+        					</li>
+							<li Class="PatchOperationRemove">
+            					<xpath>/Defs/ThingDef[defName="EVOR_Item_Brain_Health"]/costList</xpath>
+        					</li>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs</xpath>
+								<value>
+									<RecipeDef ParentName="EVOR_Grower_RecipeBase">
+										<defName>EVOR_QEE_Brain_Health</defName>
+										<label>&lt;color=#00FFF7&gt;efficient copulation extremity&lt;/color&gt;</label>
+										<products>
+											<EVOR_Item_Brain_Health>1</EVOR_Item_Brain_Health>
+										</products>
+										<researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
+									</RecipeDef>
+								</value>
+							</li>
+						</operations>
+					</match>
+				</li>
+			</operations>
+			<!--NEED ELITE BIONICS PATCH-->
+		</match>
+	</Operation>
+
+</Patch>
+
+
+
+
