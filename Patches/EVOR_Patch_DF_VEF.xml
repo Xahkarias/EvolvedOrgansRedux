@@ -45,8 +45,8 @@
       							<researchPrerequisite>EVOR_Research_Outer1</researchPrerequisite>
     						</recipeMaker>
 							<costList>
-								<EVOR_Resource_Protein>40</EVOR_Resource_Protein>
-      							<EVOR_Resource_Mechanites>3</EVOR_Resource_Mechanites>
+								<EVOR_Resource_Protein>100</EVOR_Resource_Protein>
+      							<EVOR_Resource_Mechanites>2</EVOR_Resource_Mechanites>
 							</costList>
 						</ThingDef>
 					</value>
@@ -138,7 +138,7 @@
 							<li Class="PatchOperationAdd">
 								<xpath>/Defs</xpath>
 								<value>
-									<RecipeDef ParentName="EVOR_Grower_RecipeBase">
+									<RecipeDef ParentName="EVOR_Grower_Recipe_Medium">
 										<defName>EVOR_QEE_Sternum_Spores</defName>
 										<label>&lt;color=#00FFF7&gt;shrouding spore cysts&lt;/color&gt;</label>
 										<products>

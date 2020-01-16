@@ -44,8 +44,8 @@
       							<researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
     						</recipeMaker>
 							<costList>
-								<EVOR_Resource_Protein>40</EVOR_Resource_Protein>
-      							<EVOR_Resource_Mechanites>15</EVOR_Resource_Mechanites>
+								<EVOR_Resource_Protein>170</EVOR_Resource_Protein>
+      							<EVOR_Resource_Mechanites>4</EVOR_Resource_Mechanites>
 							</costList>
 						</ThingDef>
 					</value>
@@ -118,7 +118,7 @@
 							<li Class="PatchOperationAdd">
 								<xpath>/Defs</xpath>
 								<value>
-									<RecipeDef ParentName="EVOR_Grower_RecipeBase">
+									<RecipeDef ParentName="EVOR_Grower_Recipe_Brain">
 										<defName>EVOR_QEE_Brain_Health</defName>
 										<label>&lt;color=#00FFF7&gt;efficient copulation extremity&lt;/color&gt;</label>
 										<products>

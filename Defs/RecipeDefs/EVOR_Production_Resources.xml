@@ -39,7 +39,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<EVOR_Resource_Mechanites>3</EVOR_Resource_Mechanites>
+			<EVOR_Resource_Mechanites>4</EVOR_Resource_Mechanites>
 		</products>
 		<researchPrerequisite>EVOR_Research_Start2</researchPrerequisite>
 		<skillRequirements>
@@ -68,7 +68,7 @@
 						<li>MeatRaw</li>
 					</categories>
 				</filter>
-				<count>40</count>
+				<count>2.5</count>
 			</li>
 			<li>
 				<filter>
@@ -88,7 +88,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<EVOR_Resource_Protein>12</EVOR_Resource_Protein>
+			<EVOR_Resource_Protein>25</EVOR_Resource_Protein>
 		</products>
 		<researchPrerequisite>EVOR_Research_Start1</researchPrerequisite>
 		<skillRequirements>

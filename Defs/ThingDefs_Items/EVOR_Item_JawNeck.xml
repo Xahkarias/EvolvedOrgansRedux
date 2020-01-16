@@ -9,7 +9,7 @@
       <researchPrerequisite>EVOR_Research_Organs2</researchPrerequisite>
     </recipeMaker>
     <costList>
-      <EVOR_Resource_Protein>15</EVOR_Resource_Protein>
+      <EVOR_Resource_Protein>120</EVOR_Resource_Protein>
       <EVOR_Resource_Mechanites>2</EVOR_Resource_Mechanites>
     </costList>
   </ThingDef>
@@ -22,8 +22,8 @@
       <researchPrerequisite>EVOR_Research_Organs2</researchPrerequisite>
     </recipeMaker>
     <costList>
-      <EVOR_Resource_Protein>20</EVOR_Resource_Protein>
-      <EVOR_Resource_Mechanites>3</EVOR_Resource_Mechanites>
+      <EVOR_Resource_Protein>120</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>2</EVOR_Resource_Mechanites>
     </costList>
   </ThingDef>
 

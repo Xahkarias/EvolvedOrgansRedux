@@ -39,8 +39,8 @@
       							<researchPrerequisite>EVOR_Research_Organs2</researchPrerequisite>
     						</recipeMaker>
 							<costList>
-								<EVOR_Resource_Protein>12</EVOR_Resource_Protein>
-      							<EVOR_Resource_Mechanites>3</EVOR_Resource_Mechanites>
+								<EVOR_Resource_Protein>90</EVOR_Resource_Protein>
+      							<EVOR_Resource_Mechanites>1</EVOR_Resource_Mechanites>
 							</costList>
 						</ThingDef>
 					</value>
@@ -134,7 +134,7 @@
 							<li Class="PatchOperationAdd">
 								<xpath>/Defs</xpath>
 								<value>
-									<RecipeDef ParentName="EVOR_Grower_RecipeBase">
+									<RecipeDef ParentName="EVOR_Grower_Recipe_Small">
 										<defName>EVOR_QEE_ReproductiveOrgans</defName>
 										<label>&lt;color=#00FFF7&gt;efficient copulation extremity&lt;/color&gt;</label>
 										<products>
