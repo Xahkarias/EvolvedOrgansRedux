@@ -95,6 +95,9 @@
                             </productGraphic>
                         </li>
                     </modExtensions>
+                </RecipeDef>
+
+                <RecipeDef Name="EVOR_Grower_Recipe_Small" ParentName="EVOR_Grower_RecipeBase" Abstract="True">
                     <ingredients>
                         <li>
                             <filter>
@@ -102,7 +105,7 @@
                                     <li>QE_NutrientSolution</li>
                                 </thingDefs>
                             </filter>
-                            <count>120</count>
+                            <count>150</count>
                         </li>
                         <li>
                             <filter>
@@ -110,7 +113,123 @@
                                     <li>QE_ProteinMash</li>
                                 </thingDefs>
                             </filter>
-                            <count>25</count>
+                            <count>80</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>EVOR_Resource_Mechanites</li>
+                                </thingDefs>
+                            </filter>
+                            <count>1</count>
+                        </li>
+                    </ingredients>
+                </RecipeDef>
+
+                <RecipeDef Name="EVOR_Grower_Recipe_Medium" ParentName="EVOR_Grower_RecipeBase" Abstract="True">
+                    <ingredients>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>QE_NutrientSolution</li>
+                                </thingDefs>
+                            </filter>
+                            <count>200</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>QE_ProteinMash</li>
+                                </thingDefs>
+                            </filter>
+                            <count>100</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>EVOR_Resource_Mechanites</li>
+                                </thingDefs>
+                            </filter>
+                            <count>2</count>
+                        </li>
+                    </ingredients>
+                </RecipeDef>
+
+                <RecipeDef Name="EVOR_Grower_Recipe_Large" ParentName="EVOR_Grower_RecipeBase" Abstract="True">
+                    <ingredients>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>QE_NutrientSolution</li>
+                                </thingDefs>
+                            </filter>
+                            <count>250</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>QE_ProteinMash</li>
+                                </thingDefs>
+                            </filter>
+                            <count>140</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>EVOR_Resource_Mechanites</li>
+                                </thingDefs>
+                            </filter>
+                            <count>3</count>
+                        </li>
+                    </ingredients>
+                </RecipeDef>
+
+                <RecipeDef Name="EVOR_Grower_Recipe_Limb" ParentName="EVOR_Grower_RecipeBase" Abstract="True">
+                    <ingredients>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>QE_NutrientSolution</li>
+                                </thingDefs>
+                            </filter>
+                            <count>200</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>QE_ProteinMash</li>
+                                </thingDefs>
+                            </filter>
+                            <count>120</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>EVOR_Resource_Mechanites</li>
+                                </thingDefs>
+                            </filter>
+                            <count>2</count>
+                        </li>
+                    </ingredients>
+                </RecipeDef>
+
+                <RecipeDef Name="EVOR_Grower_Recipe_Brain" ParentName="EVOR_Grower_RecipeBase" Abstract="True">
+                    <ingredients>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>QE_NutrientSolution</li>
+                                </thingDefs>
+                            </filter>
+                            <count>240</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>QE_ProteinMash</li>
+                                </thingDefs>
+                            </filter>
+                            <count>150</count>
                         </li>
                         <li>
                             <filter>
@@ -122,8 +241,97 @@
                         </li>
                     </ingredients>
                 </RecipeDef>
+
+                <RecipeDef Name="EVOR_Grower_Recipe_Skin" ParentName="EVOR_Grower_RecipeBase" Abstract="True">
+                    <ingredients>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>QE_NutrientSolution</li>
+                                </thingDefs>
+                            </filter>
+                            <count>350</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>QE_ProteinMash</li>
+                                </thingDefs>
+                            </filter>
+                            <count>100</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>EVOR_Resource_Mechanites</li>
+                                </thingDefs>
+                            </filter>
+                            <count>2</count>
+                        </li>
+                    </ingredients>
+                </RecipeDef>
+
+                <RecipeDef Name="EVOR_Grower_Recipe_MediumMech" ParentName="EVOR_Grower_RecipeBase" Abstract="True">
+                    <ingredients>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>QE_NutrientSolution</li>
+                                </thingDefs>
+                            </filter>
+                            <count>200</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>QE_ProteinMash</li>
+                                </thingDefs>
+                            </filter>
+                            <count>100</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>EVOR_Resource_Mechanites</li>
+                                </thingDefs>
+                            </filter>
+                            <count>3</count>
+                        </li>
+                    </ingredients>
+                </RecipeDef>
+
+                <RecipeDef Name="EVOR_Grower_Recipe_LimbMech" ParentName="EVOR_Grower_RecipeBase" Abstract="True">
+                    <ingredients>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>QE_NutrientSolution</li>
+                                </thingDefs>
+                            </filter>
+                            <count>200</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>QE_ProteinMash</li>
+                                </thingDefs>
+                            </filter>
+                            <count>120</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>EVOR_Resource_Mechanites</li>
+                                </thingDefs>
+                            </filter>
+                            <count>3</count>
+                        </li>
+                    </ingredients>
+                </RecipeDef>
+
             </value>
         </li>
+
 
         <!--TODO add all organ to this-->
         <!--NOTE: ALL PATCHES WHICH ADD STUFF HAVE TO DO THIS WHEN CHECKING FOR QEE-->
@@ -132,7 +340,7 @@
             <xpath>/Defs</xpath>
             <value>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Medium">
                 <defName>EVOR_QEE_Heart</defName>
                 <label>&lt;color=#00FFF7&gt;triwoven primary heart&lt;/color&gt;</label>
                 <products>
@@ -141,7 +349,7 @@
                 <researchPrerequisite>EVOR_Research_Organs1</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Small">
                 <defName>EVOR_QEE_Kidney</defName>
                 <label>&lt;color=#00FFF7&gt;triple filter pass kidney&lt;/color&gt;</label>
                 <products>
@@ -150,7 +358,7 @@
                 <researchPrerequisite>EVOR_Research_Organs1</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Medium">
                 <defName>EVOR_QEE_Lung</defName>
                 <label>&lt;color=#00FFF7&gt;nano-alveoli lung&lt;/color&gt;</label>
                 <products>
@@ -159,7 +367,7 @@
                 <researchPrerequisite>EVOR_Research_Organs1</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Medium">
                 <defName>EVOR_QEE_Stomach</defName>
                 <label>&lt;color=#00FFF7&gt;multichamber stomach&lt;/color&gt;</label>
                 <products>
@@ -168,7 +376,7 @@
                 <researchPrerequisite>EVOR_Research_Organs1</researchPrerequisite>
             </RecipeDef>
            
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Medium">
                 <defName>EVOR_QEE_Liver</defName>
                 <label>&lt;color=#00FFF7&gt;quadlobe liver&lt;/color&gt;</label>
                 <products>
@@ -177,7 +385,7 @@
                 <researchPrerequisite>EVOR_Research_Organs1</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Limb">
                 <defName>EVOR_QEE_NormalArm</defName>
                 <label>&lt;color=#00FFF7&gt;extradextrous arm&lt;/color&gt;</label>
                 <products>
@@ -186,7 +394,7 @@
                 <researchPrerequisite>EVOR_Research_Limbs1</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Limb">
                 <defName>EVOR_QEE_BoneSaber</defName>
                 <label>&lt;color=#00FFF7&gt;ossified bone saber&lt;/color&gt;</label>
                 <products>
@@ -195,7 +403,7 @@
                 <researchPrerequisite>EVOR_Research_Limbs1</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Limb">
                 <defName>EVOR_QEE_Leg</defName>
                 <label>&lt;color=#00FFF7&gt;reinforced leg&lt;/color&gt;</label>
                 <products>
@@ -204,7 +412,7 @@
                 <researchPrerequisite>EVOR_Research_Limbs1</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Limb">
                 <defName>EVOR_QEE_Leg_Hand</defName>
                 <label>&lt;color=#00FFF7&gt;grasping leg&lt;/color&gt;</label>
                 <products>
@@ -213,7 +421,7 @@
                 <researchPrerequisite>EVOR_Research_Limbs2</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Limb">
                 <defName>EVOR_QEE_Tail_Blade</defName>
                 <label>&lt;color=#00FFF7&gt;serrated stinger tail&lt;/color&gt;</label>
                 <products>
@@ -222,7 +430,7 @@
                 <researchPrerequisite>EVOR_Research_Limbs3</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Limb">
                 <defName>EVOR_QEE_Tail_Hand</defName>
                 <label>&lt;color=#00FFF7&gt;manipulator tail&lt;/color&gt;</label>
                 <products>
@@ -231,7 +439,7 @@
                 <researchPrerequisite>EVOR_Research_Limbs3</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Small">
                 <defName>EVOR_QEE_Eye</defName>
                 <label>&lt;color=#00FFF7&gt;multispectrum eye&lt;/color&gt;</label>
                 <products>
@@ -240,7 +448,7 @@
                 <researchPrerequisite>EVOR_Research_Organs2</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Small">
                 <defName>EVOR_QEE_Nose</defName>
                 <label>&lt;color=#00FFF7&gt;micro-analyzer nose&lt;/color&gt;</label>
                 <products>
@@ -249,7 +457,7 @@
                 <researchPrerequisite>EVOR_Research_Organs2</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Small">
                 <defName>EVOR_QEE_Ear</defName>
                 <label>&lt;color=#00FFF7&gt;multifrequency ear&lt;/color&gt;</label>
                 <products>
@@ -258,7 +466,7 @@
                 <researchPrerequisite>EVOR_Research_Organs2</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_MediumMech">
                 <defName>EVOR_QEE_Spine</defName>
                 <label>&lt;color=#00FFF7&gt;neuro-accelerated spine&lt;/color&gt;</label>
                 <products>
@@ -267,7 +475,7 @@
                 <researchPrerequisite>EVOR_Research_Organs2</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_LimbMech">
                 <defName>EVOR_QEE_MaggotBolter</defName>
                 <label>&lt;color=#00FFF7&gt;voracious maggot bolter&lt;/color&gt;</label>
                 <products>
@@ -276,7 +484,7 @@
                 <researchPrerequisite>EVOR_Research_Limbs4</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_LimbMech">
                 <defName>EVOR_QEE_Razortick</defName>
                 <label>&lt;color=#00FFF7&gt;burrowing razortick cannon&lt;/color&gt;</label>
                 <products>
@@ -285,7 +493,7 @@
                 <researchPrerequisite>EVOR_Research_Limbs4</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Skin">
                 <defName>EVOR_QEE_Skin_Plating</defName>
                 <label>&lt;color=#00FFF7&gt;multilayered dermal plating&lt;/color&gt;</label>
                 <products>
@@ -294,7 +502,7 @@
                 <researchPrerequisite>EVOR_Research_Outer1</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Skin">
                 <defName>EVOR_QEE_Skin_Flame</defName>
                 <label>&lt;color=#00FFF7&gt;flame retardant skin&lt;/color&gt;</label>
                 <products>
@@ -303,7 +511,7 @@
                 <researchPrerequisite>EVOR_Research_Outer1</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Skin">
                 <defName>EVOR_QEE_Skin_Insulation</defName>
                 <label>&lt;color=#00FFF7&gt;variable insulation skin&lt;/color&gt;</label>
                 <products>
@@ -312,7 +520,7 @@
                 <researchPrerequisite>EVOR_Research_Outer1</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Large">
                 <defName>EVOR_QEE_Ribcage</defName>
                 <label>&lt;color=#00FFF7&gt;calcium-alloy ribcage&lt;/color&gt;</label>
                 <products>
@@ -321,7 +529,7 @@
                 <researchPrerequisite>EVOR_Research_Outer1</researchPrerequisite>
             </RecipeDef>
             
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Medium">
                 <defName>EVOR_QEE_Jaw_Distend</defName>
                 <label>&lt;color=#00FFF7&gt;distendable jaw&lt;/color&gt;</label>
                 <products>
@@ -330,7 +538,7 @@
                 <researchPrerequisite>EVOR_Research_Organs2</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Medium">
                 <defName>EVOR_QEE_Jaw_Venom</defName>
                 <label>&lt;color=#00FFF7&gt;venomous fangs&lt;/color&gt;</label>
                 <products>
@@ -339,7 +547,7 @@
                 <researchPrerequisite>EVOR_Research_Organs2</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Medium">
                 <defName>EVOR_QEE_Abd_ThirdLung</defName>
                 <label>&lt;color=#00FFF7&gt;extra nano-filter lung&lt;/color&gt;</label>
                 <products>
@@ -348,7 +556,7 @@
                 <researchPrerequisite>EVOR_Research_Organs3</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Medium">
                 <defName>EVOR_Hediff_Abd_SecondHeart</defName>
                 <label>&lt;color=#00FFF7&gt;auxillary heart&lt;/color&gt;</label>
                 <products>
@@ -357,7 +565,7 @@
                 <researchPrerequisite>EVOR_Research_Organs3</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Small">
                 <defName>EVOR_QEE_Abd_Combat</defName>
                 <label>&lt;color=#00FFF7&gt;combat serum gland&lt;/color&gt;</label>
                 <products>
@@ -366,7 +574,7 @@
                 <researchPrerequisite>EVOR_Research_Organs3</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Small">
                 <defName>EVOR_QEE_Abd_Hormone</defName>
                 <label>&lt;color=#00FFF7&gt;hormone regulator&lt;/color&gt;</label>
                 <products>
@@ -375,7 +583,7 @@
                 <researchPrerequisite>EVOR_Research_Organs3</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Small">
                 <defName>EVOR_QEE_Abd_Lymph</defName>
                 <label>&lt;color=#00FFF7&gt;lymphatic proliferator&lt;/color&gt;</label>
                 <products>
@@ -384,7 +592,7 @@
                 <researchPrerequisite>EVOR_Research_Organs3</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Medium">
                 <defName>EVOR_QEE_Abd_Cultivate</defName>
                 <label>&lt;color=#00FFF7&gt;microbiome cultivator&lt;/color&gt;</label>
                 <products>
@@ -393,7 +601,7 @@
                 <researchPrerequisite>EVOR_Research_Organs3</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Limb">
                 <defName>EVOR_QEE_HighPincer</defName>
                 <label>&lt;color=#00FFF7&gt;high pressure pincer&lt;/color&gt;</label>
                 <products>
@@ -402,7 +610,7 @@
                 <researchPrerequisite>EVOR_Research_Limbs2</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Limb">
                 <defName>EVOR_QEE_SonicMace</defName>
                 <label>&lt;color=#00FFF7&gt;sonic impact mace&lt;/color&gt;</label>
                 <products>
@@ -411,7 +619,7 @@
                 <researchPrerequisite>EVOR_Research_Limbs2</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Limb">
                 <defName>EVOR_QEE_PlatedLimb</defName>
                 <label>&lt;color=#00FFF7&gt;tri-plated limb&lt;/color&gt;</label>
                 <products>
@@ -431,7 +639,7 @@
             </RecipeDef>
             -->
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_LimbMech">
                 <defName>EVOR_QEE_Back_Wing</defName>
                 <label>&lt;color=#00FFF7&gt;feathered wings&lt;/color&gt;</label>
                 <products>
@@ -440,8 +648,8 @@
                 <researchPrerequisite>EVOR_Research_Other1</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
-                <defName>EVOR_QEE_Back_Wing</defName>
+            <RecipeDef ParentName="EVOR_Grower_Recipe_LimbMech">
+                <defName>EVOR_QEE_Back_Hand</defName>
                 <label>&lt;color=#00FFF7&gt;manipulator cluster&lt;/color&gt;</label>
                 <products>
                     <EVOR_Item_Back_Hand>1</EVOR_Item_Back_Hand>
@@ -449,7 +657,7 @@
                 <researchPrerequisite>EVOR_Research_Limbs3</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_LimbMech">
                 <defName>EVOR_QEE_Back_Muscle</defName>
                 <label>&lt;color=#00FFF7&gt;dense musculature&lt;/color&gt;</label>
                 <products>
@@ -458,7 +666,7 @@
                 <researchPrerequisite>EVOR_Research_Other1</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Medium">
                 <defName>EVOR_QEE_Skull_Shielding</defName>
                 <label>&lt;color=#00FFF7&gt;interference shielding&lt;/color&gt;</label>
                 <products>
@@ -467,7 +675,7 @@
                 <researchPrerequisite>EVOR_Research_Outer1</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Medium">
                 <defName>EVOR_QEE_Skull_Plating</defName>
                 <label>&lt;color=#00FFF7&gt;cranial plating&lt;/color&gt;</label>
                 <products>
@@ -476,7 +684,7 @@
                 <researchPrerequisite>EVOR_Research_Outer1</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Brain">
                 <defName>EVOR_QEE_Brain_Rest</defName>
                 <label>&lt;color=#00FFF7&gt;hibernation module&lt;/color&gt;</label>
                 <products>
@@ -485,7 +693,7 @@
                 <researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Brain">
                 <defName>EVOR_QEE_Brain_Physics</defName>
                 <label>&lt;color=#00FFF7&gt;physics processing cortex&lt;/color&gt;</label>
                 <products>
@@ -494,7 +702,7 @@
                 <researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Brain">
                 <defName>EVOR_QEE_Brain_Diplo</defName>
                 <label>&lt;color=#00FFF7&gt;interbeing relations cortex&lt;/color&gt;</label>
                 <products>
@@ -503,7 +711,7 @@
                 <researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Brain">
                 <defName>EVOR_QEE_Brain_Hyper</defName>
                 <label>&lt;color=#00FFF7&gt;neural hyperthreader&lt;/color&gt;</label>
                 <products>
@@ -512,7 +720,7 @@
                 <researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Brain">
                 <defName>EVOR_QEE_Brain_Logic</defName>
                 <label>&lt;color=#00FFF7&gt;logical reasoning cortex&lt;/color&gt;</label>
                 <products>
@@ -521,7 +729,7 @@
                 <researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Brain">
                 <defName>EVOR_QEE_Brain_Bio</defName>
                 <label>&lt;color=#00FFF7&gt;biological processing cortex&lt;/color&gt;</label>
                 <products>
@@ -530,7 +738,7 @@
                 <researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Brain">
                 <defName>EVOR_QEE_Brain_Chem</defName>
                 <label>&lt;color=#00FFF7&gt;chemical processing cortex&lt;/color&gt;</label>
                 <products>
@@ -539,7 +747,7 @@
                 <researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
+            <RecipeDef ParentName="EVOR_Grower_Recipe_Brain">
                 <defName>EVOR_QEE_Brain_Nails</defName>
                 <label>&lt;color=#00FFF7&gt;butcher's nails&lt;/color&gt;</label>
                 <products>
