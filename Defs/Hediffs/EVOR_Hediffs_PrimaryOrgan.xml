@@ -72,9 +72,12 @@
     </addedPartProps>
     <stages>
       <li>
-        <makeImmuneTo>
+        <!--<makeImmuneTo>
           <li>FoodPoisoning</li>
-        </makeImmuneTo>
+        </makeImmuneTo>-->
+        <statOffsets>
+          <FoodPoisonChance>-1.00</FoodPoisonChance>
+        </statOffsets>
         <hungerRateFactor>0.80</hungerRateFactor>
       </li>
     </stages>

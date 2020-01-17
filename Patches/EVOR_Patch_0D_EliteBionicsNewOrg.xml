@@ -120,7 +120,7 @@
 								<value>
 									<RecipeDef ParentName="EVOR_Grower_Recipe_Brain">
 										<defName>EVOR_QEE_Brain_Health</defName>
-										<label>&lt;color=#00FFF7&gt;efficient copulation extremity&lt;/color&gt;</label>
+										<label>&lt;color=#00FFF7&gt;extreme neuroplasticity enabler&lt;/color&gt;</label>
 										<products>
 											<EVOR_Item_Brain_Health>1</EVOR_Item_Brain_Health>
 										</products>
