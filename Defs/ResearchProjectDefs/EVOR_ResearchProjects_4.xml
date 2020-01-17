@@ -145,7 +145,7 @@
     <!--Unlocks all psychic stuff etc-->
     <tab>EVOR_EvolvedOrgansResearchTab</tab>
     <label>Psychic Synapse Network</label>
-    <description>With our extensive knowledge of the bind, we can find out ways to influence people's thoughts and mood from a distance.</description>
+    <description>With our extensive knowledge of the mind, we can find out ways to influence people's thoughts and mood from a distance.</description>
     <baseCost>4500</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
