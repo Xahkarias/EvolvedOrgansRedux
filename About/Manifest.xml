@@ -2,9 +2,9 @@
 <Manifest>
     <identifier>EvolvedOrgansRedux</identifier>
     <version>1.0.0.0</version>
-    <dependencies>
-        <li>ProstheticCombatFramework</li>
-    </dependencies>
+    <!--<dependencies>
+        
+    </dependencies>-->
     <!--
     <incompatibleWith>
         <li>SomeOtherMod</li>
@@ -24,6 +24,7 @@
         <li>Rimatomics</li>
         <li>Dubs-Bad-Hygiene</li>
         <li>VerbExpansionFramework</li>
+        <li>ProstheticCombatFramework</li>
     </loadAfter>
     <!--
     <suggests>

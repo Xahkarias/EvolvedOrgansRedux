@@ -28,32 +28,6 @@
   </ThingDef>
 
   <ThingDef ParentName="EVOR_OrgBase">
-    <defName>EVOR_Item_MaggotBolter</defName>
-    <label>voracious maggot bolter</label>
-    <description>By creating a rapidly growing strain of maggots and adapting them to life in our bodies, we can use them as bullet-like ammunition in our bio-weapons.</description>
-    <recipeMaker>
-      <researchPrerequisite>EVOR_Research_Limbs4</researchPrerequisite>
-    </recipeMaker>
-    <costList>
-      <EVOR_Resource_Protein>140</EVOR_Resource_Protein>
-      <EVOR_Resource_Mechanites>3</EVOR_Resource_Mechanites>
-    </costList>
-  </ThingDef>
-
-  <ThingDef ParentName="EVOR_OrgBase">
-    <defName>EVOR_Item_Razortick</defName>
-    <label>burrowing razortick cannon</label>
-    <description>The ticks shot by this cannon have a smattering of explosive juices on the tip, followed up by a hard shell. After punching though the intial armor with the explosion, the tick burrows rapidly into the target before dying in a flurry of cuts.</description>
-    <recipeMaker>
-      <researchPrerequisite>EVOR_Research_Limbs4</researchPrerequisite>
-    </recipeMaker>
-    <costList>
-      <EVOR_Resource_Protein>140</EVOR_Resource_Protein>
-      <EVOR_Resource_Mechanites>3</EVOR_Resource_Mechanites>
-    </costList>
-  </ThingDef>
-
-  <ThingDef ParentName="EVOR_OrgBase">
     <defName>EVOR_Item_HighPincer</defName>
     <label>high pressure pincer</label>
     <description>The claws on this limb are made of the toughest chitin, as well as being backed by muscles stronger than most animal jaws. The end result is a pincer that can wrench though any metal to destroy what lies inside.</description>

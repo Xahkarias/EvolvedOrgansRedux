@@ -475,24 +475,6 @@
                 <researchPrerequisite>EVOR_Research_Organs2</researchPrerequisite>
             </RecipeDef>
 
-            <RecipeDef ParentName="EVOR_Grower_Recipe_LimbMech">
-                <defName>EVOR_QEE_MaggotBolter</defName>
-                <label>&lt;color=#00FFF7&gt;voracious maggot bolter&lt;/color&gt;</label>
-                <products>
-                    <EVOR_Item_MaggotBolter>1</EVOR_Item_MaggotBolter>
-                </products>
-                <researchPrerequisite>EVOR_Research_Limbs4</researchPrerequisite>
-            </RecipeDef>
-
-            <RecipeDef ParentName="EVOR_Grower_Recipe_LimbMech">
-                <defName>EVOR_QEE_Razortick</defName>
-                <label>&lt;color=#00FFF7&gt;burrowing razortick cannon&lt;/color&gt;</label>
-                <products>
-                    <EVOR_Item_Razortick>1</EVOR_Item_Razortick>
-                </products>
-                <researchPrerequisite>EVOR_Research_Limbs4</researchPrerequisite>
-            </RecipeDef>
-
             <RecipeDef ParentName="EVOR_Grower_Recipe_Skin">
                 <defName>EVOR_QEE_Skin_Plating</defName>
                 <label>&lt;color=#00FFF7&gt;multilayered dermal plating&lt;/color&gt;</label>

@@ -26,7 +26,7 @@
                                 <li>
                                     <hungerRateFactor>1.1</hungerRateFactor>
                                     <statOffsets>
-                                        <Radiation>-0.40</Radiation>
+                                        <Radiation>-0.50</Radiation>
                                     </statOffsets>
                                 </li>
                             </stages>
