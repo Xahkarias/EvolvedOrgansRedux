@@ -25,7 +25,7 @@
     <addedPartProps>
       <isGoodWeapon>true</isGoodWeapon>
       <solid>true</solid>
-      <partEfficiency>1.0</partEfficiency>
+      <partEfficiency>1.2</partEfficiency>
     </addedPartProps>
   </HediffDef>
 
@@ -51,7 +51,7 @@
     <addedPartProps>
       <isGoodWeapon>true</isGoodWeapon>
       <solid>true</solid>
-      <partEfficiency>1.0</partEfficiency>
+      <partEfficiency>1.2</partEfficiency>
     </addedPartProps>
     <stages>
       <li>
