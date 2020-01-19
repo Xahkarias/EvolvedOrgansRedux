@@ -24,7 +24,7 @@
 							</addedPartProps>
 							<stages>
                                 <li>
-                                    <hungerRateFactor>1.1</hungerRateFactor>
+                                    <hungerRateFactor>1.15</hungerRateFactor>
                                     <statOffsets>
                                         <Radiation>-0.50</Radiation>
                                     </statOffsets>
