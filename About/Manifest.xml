@@ -3,14 +3,11 @@
     <identifier>EvolvedOrgansRedux</identifier>
     <version>1.0.0.0</version>
     <!--<dependencies>
-        
-    </dependencies>-->
-    <!--
+        <li>E</li>
+    </dependencies>
     <incompatibleWith>
         <li>SomeOtherMod</li>
     </incompatibleWith>
-    -->
-    <!--
     <loadBefore>
         <li>HowManyModsDoesOneNeed &gt;= 9000.1</li>
     </loadBefore> -->
@@ -28,9 +25,12 @@
         <li>ProstheticCombatFramework</li>
 
         <!--RACE COMPATS-->
+        <!--Does not include naturally compatible races-->
         <li>LeeaniPlayableRace</li>
         <li>AvaliContinued</li>
         <li>Kurin,TheThreeTailedFox</li>
+        <li>RaccRace</li>
+        <li>Vulpine Race Pack</li>
     </loadAfter>
     <!--
     <suggests>
