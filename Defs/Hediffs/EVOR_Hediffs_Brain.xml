@@ -32,13 +32,13 @@
 						<offset>0.25</offset>
 					</li>
 				</capMods>
+				<restFallFactor>0.80</restFallFactor>
 				<statOffsets>
 					<GlobalLearningFactor>0.20</GlobalLearningFactor>
 					<MentalBreakThreshold>-0.25</MentalBreakThreshold>
 					<WorkSpeedGlobal>0.25</WorkSpeedGlobal>
 					<ResearchSpeed>0.15</ResearchSpeed>
 					<MedicalTendQuality>0.10</MedicalTendQuality>
-					<restFallFactor>0.80</restFallFactor>
 				</statOffsets>
 			</li>
 		</stages>
