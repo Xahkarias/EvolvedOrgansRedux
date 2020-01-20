@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  <!--
   <ThingDef ParentName="EVOR_OrgBase">
     <defName>EVOR_Item_Brain_Rest</defName>
     <label>hibernation module</label>
@@ -39,6 +40,7 @@
       <EVOR_Resource_Mechanites>4</EVOR_Resource_Mechanites>
     </costList>
   </ThingDef>
+  -->
 
   <ThingDef ParentName="EVOR_OrgBase">
     <defName>EVOR_Item_Brain_Hyper</defName>
@@ -53,6 +55,7 @@
     </costList>
   </ThingDef>
 
+  <!--
   <ThingDef ParentName="EVOR_OrgBase">
     <defName>EVOR_Item_Brain_Logic</defName>
     <label>logical reasoning cortex</label>
@@ -91,6 +94,7 @@
       <EVOR_Resource_Mechanites>4</EVOR_Resource_Mechanites>
     </costList>
   </ThingDef>
+  -->
 
   <ThingDef ParentName="EVOR_OrgBase">
     <defName>EVOR_Item_Brain_Nails</defName>

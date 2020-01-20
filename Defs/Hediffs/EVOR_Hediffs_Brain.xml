@@ -1,71 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<HediffDef ParentName="ImplantHediffBase">
-		<defName>EVOR_Hediff_Brain_Rest</defName>
-		<label>hibernation module</label>
-		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
-		<labelNoun>hibernation module</labelNoun>
-		<spawnThingOnRemoved>EVOR_Item_Brain_Rest</spawnThingOnRemoved>
-		<addedPartProps>
-			<solid>true</solid>
-			<partEfficiency>1.0</partEfficiency>
-			<betterThanNatural>true</betterThanNatural>
-		</addedPartProps>
-		<stages>
-			<li>
-				<restFallFactor>0.60</restFallFactor>
-			</li>
-		</stages>
-	</HediffDef>
 
-	<HediffDef ParentName="ImplantHediffBase">
-		<defName>EVOR_Hediff_Brain_Physics</defName>
-		<label>physics processing cortex</label>
-		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
-		<labelNoun>physics processing cortex</labelNoun>
-		<spawnThingOnRemoved>EVOR_Item_Brain_Physics</spawnThingOnRemoved>
-		<addedPartProps>
-			<solid>true</solid>
-			<partEfficiency>1.0</partEfficiency>
-			<betterThanNatural>true</betterThanNatural>
-		</addedPartProps>
-		<stages>
-			<li>
-				<statOffsets>
-					<AimingDelayFactor>-0.10</AimingDelayFactor>
-					<ShootingAccuracyPawn>2</ShootingAccuracyPawn>
-					<ConstructionSpeed>0.5</ConstructionSpeed>
-					<ConstructSuccessChance>0.2</ConstructSuccessChance>
-					<MiningSpeed>0.5</MiningSpeed>
-					<MiningYield>0.5</MiningYield>
-				</statOffsets>
-			</li>
-		</stages>
-	</HediffDef>
-
-	<HediffDef ParentName="ImplantHediffBase">
-		<defName>EVOR_Hediff_Brain_Diplo</defName>
-		<label>interbeing relations cortex</label>
-		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
-		<labelNoun>interbeing relations cortex</labelNoun>
-		<spawnThingOnRemoved>EVOR_Item_Brain_Diplo</spawnThingOnRemoved>
-		<addedPartProps>
-			<solid>true</solid>
-			<partEfficiency>1.0</partEfficiency>
-			<betterThanNatural>true</betterThanNatural>
-		</addedPartProps>
-		<stages>
-			<li>
-				<statOffsets>
+	<!--
 					<NegotiationAbility>0.35</NegotiationAbility>
           			<TradePriceImprovement>0.20</TradePriceImprovement>
           			<SocialImpact>0.25</SocialImpact>
 					<TameAnimalChance>0.2</TameAnimalChance>
 					<TrainAnimalChance>0.2</TrainAnimalChance>
-				</statOffsets>
-			</li>
-		</stages>
-	</HediffDef>
+					<ConstructSuccessChance>0.2</ConstructSuccessChance>
+					<MiningSpeed>0.5</MiningSpeed>
+					<MiningYield>0.5</MiningYield>
+				-->
+	
 
 	<HediffDef ParentName="ImplantHediffBase">
 		<defName>EVOR_Hediff_Brain_Hyper</defName>
@@ -87,84 +33,12 @@
 					</li>
 				</capMods>
 				<statOffsets>
-					<GlobalLearningFactor>0.10</GlobalLearningFactor>
+					<GlobalLearningFactor>0.20</GlobalLearningFactor>
 					<MentalBreakThreshold>-0.25</MentalBreakThreshold>
 					<WorkSpeedGlobal>0.25</WorkSpeedGlobal>
-				</statOffsets>
-			</li>
-		</stages>
-	</HediffDef>
-
-	<HediffDef ParentName="ImplantHediffBase">
-		<defName>EVOR_Hediff_Brain_Logic</defName>
-		<label>logical reasoning cortex</label>
-		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
-		<labelNoun>logical reasoning cortex</labelNoun>
-		<spawnThingOnRemoved>EVOR_Item_Brain_Logic</spawnThingOnRemoved>
-		<addedPartProps>
-			<solid>true</solid>
-			<partEfficiency>1.0</partEfficiency>
-			<betterThanNatural>true</betterThanNatural>
-		</addedPartProps>
-		<stages>
-			<li>
-				<statOffsets>
-					<GlobalLearningFactor>0.15</GlobalLearningFactor>
-          			<ResearchSpeed>0.10</ResearchSpeed>
-          			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
-				</statOffsets>
-			</li>
-		</stages>
-	</HediffDef>
-
-	<HediffDef ParentName="ImplantHediffBase">
-		<defName>EVOR_Hediff_Brain_Bio</defName>
-		<label>biological processing cortex</label>
-		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
-		<labelNoun>biological processing cortex</labelNoun>
-		<spawnThingOnRemoved>EVOR_Item_Brain_Bio</spawnThingOnRemoved>
-		<addedPartProps>
-			<solid>true</solid>
-			<partEfficiency>1.0</partEfficiency>
-			<betterThanNatural>true</betterThanNatural>
-		</addedPartProps>
-		<stages>
-			<li>
-				<statOffsets>
-					<MedicalTendSpeed>0.5</MedicalTendSpeed>
-          			<MedicalTendQuality>0.10</MedicalTendQuality>
-          			<MedicalOperationSpeed>0.75</MedicalOperationSpeed>
-					<DrugCookingSpeed>0.5</DrugCookingSpeed>
-					<CookSpeed>1</CookSpeed>
-					<ButcheryFleshEfficiency>0.25</ButcheryFleshEfficiency>
-					<AnimalGatherSpeed>0.2</AnimalGatherSpeed>
-					<AnimalGatherYield>0.1</AnimalGatherYield>
-					<PlantWorkSpeed>0.5</PlantWorkSpeed>
-				</statOffsets>
-			</li>
-		</stages>
-	</HediffDef>
-
-	<HediffDef ParentName="ImplantHediffBase">
-		<defName>EVOR_Hediff_Brain_Chem</defName>
-		<label>chemical processing cortex</label>
-		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
-		<labelNoun>chemical processing cortex</labelNoun>
-		<spawnThingOnRemoved>EVOR_Item_Brain_Chem</spawnThingOnRemoved>
-		<addedPartProps>
-			<solid>true</solid>
-			<partEfficiency>1.0</partEfficiency>
-			<betterThanNatural>true</betterThanNatural>
-		</addedPartProps>
-		<stages>
-			<li>
-				<statOffsets>
-					<SmeltingSpeed>0.5</SmeltingSpeed>
-					<ButcheryMechanoidSpeed>0.5</ButcheryMechanoidSpeed>
-					<DrugSynthesisSpeed>0.5</DrugSynthesisSpeed>
-					<TailoringSpeed>0.5</TailoringSpeed>
-					<SculptingSpeed>0.5</SculptingSpeed>
-					<UnskilledLaborSpeed>0.5</UnskilledLaborSpeed>
+					<ResearchSpeed>0.15</ResearchSpeed>
+					<MedicalTendQuality>0.10</MedicalTendQuality>
+					<restFallFactor>0.80</restFallFactor>
 				</statOffsets>
 			</li>
 		</stages>
@@ -187,7 +61,7 @@
 				<mentalStateGivers>
 					<li>
 						<mentalState>Berserk</mentalState>
-						<mtbDays>10</mtbDays>
+						<mtbDays>6</mtbDays>
 					</li>
 				</mentalStateGivers>
 				<statOffsets>
@@ -197,6 +71,7 @@
 					<MentalBreakThreshold>0.10</MentalBreakThreshold>
 					<NegotiationAbility>-1</NegotiationAbility>
           			<SocialImpact>-1</SocialImpact>
+					<AimingDelayFactor>-0.10</AimingDelayFactor>
 				</statOffsets>
 				<painFactor>0.33</painFactor>
 			</li>
