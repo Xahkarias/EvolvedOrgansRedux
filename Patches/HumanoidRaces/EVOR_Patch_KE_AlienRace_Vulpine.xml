@@ -8,6 +8,26 @@
 		<match Class="PatchOperationSequence">
 			<operations>
 
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Questionable Ethics Enhanced</li>
+					</mods>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/RecipeDef[defName="EVOR_Production_Protein_Humie"]/fixedIngredientFilter/thingDefs</xpath>
+						<value>
+							<li>Meat_Alien_Frijjid</li>
+            				<li>Meat_Alien_Fennex</li>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>/Defs/RecipeDef[defName="EVOR_QEE_Production_Protein_Humie"]/fixedIngredientFilter/thingDefs</xpath>
+						<value>
+							<li>Meat_Alien_Frijjid</li>
+            				<li>Meat_Alien_Fennex</li>
+						</value>
+					</match>
+				</li>
+
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs/BodyDef[defName="Fennex"]/corePart/parts</xpath>
 					<value>

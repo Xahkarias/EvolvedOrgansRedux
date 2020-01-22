@@ -50,8 +50,8 @@
 	
 	<RecipeDef>
 		<defName>EVOR_Production_Protein</defName>
-		<label>refine proteins</label>
-		<description>Refine proteins from butchered meat.</description>
+		<label>refine proteins using animal meat</label>
+		<description>Refine proteins from butchered animal meat.</description>
 		<jobString>Refining protein.</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		    <allowMixingIngredients>true</allowMixingIngredients>
@@ -97,5 +97,45 @@
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
+
+	<RecipeDef>
+		<defName>EVOR_Production_Protein_Humie</defName>
+		<label>refine proteins using humanoid meat</label>
+		<description>Refine proteins from butchered humanoid meat.</description>
+		<jobString>Refining protein.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+		<workAmount>250</workAmount>
+		<recipeUsers>
+			<li>BiofuelRefinery</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+					</categories>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Meat_Human</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<EVOR_Resource_Protein>25</EVOR_Resource_Protein>
+		</products>
+		<researchPrerequisite>EVOR_Research_Start1</researchPrerequisite>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
 
 </Defs>
