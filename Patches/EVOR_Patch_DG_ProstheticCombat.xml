@@ -98,8 +98,8 @@
 											<verbClass>Verb_Shoot</verbClass>
 											<accuracyTouch>0.50</accuracyTouch>
 											<accuracyShort>0.70</accuracyShort>
-											<accuracyMedium>0.86</accuracyMedium>
-											<accuracyLong>0.90</accuracyLong>
+											<accuracyMedium>0.80</accuracyMedium>
+											<accuracyLong>0.70</accuracyLong>
 											<hasStandardCommand>true</hasStandardCommand>
 											<defaultProjectile>EVOR_Bullet_VenomCrystal</defaultProjectile>
 											<warmupTime>3.00</warmupTime>
@@ -220,8 +220,8 @@
 											<verbClass>Verb_Shoot</verbClass>
 											<accuracyTouch>0.50</accuracyTouch>
 											<accuracyShort>0.70</accuracyShort>
-											<accuracyMedium>0.86</accuracyMedium>
-											<accuracyLong>0.90</accuracyLong>
+											<accuracyMedium>0.80</accuracyMedium>
+											<accuracyLong>0.70</accuracyLong>
 											<hasStandardCommand>true</hasStandardCommand>
 											<defaultProjectile>EVOR_Bullet_VenomCrystal</defaultProjectile>
 											<warmupTime>3.00</warmupTime>
