@@ -32,6 +32,9 @@
         <li>RaccRace</li>
         <li>VulpineRacePack</li>
         <li>NewRatkinPlus</li>
+        <li>LogannRace</li>
+        <li>Yabils:SpaceGremlins</li>
+        <li>Lizardmen</li>
     </loadAfter>
     <!--
     <suggests>

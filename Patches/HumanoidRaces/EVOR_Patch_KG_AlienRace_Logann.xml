@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Logann Race</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Questionable Ethics Enhanced</li>
+					</mods>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/RecipeDef[defName="EVOR_Production_Protein_Humie"]/fixedIngredientFilter/thingDefs</xpath>
+						<value>
+							<li>Meat_Alien_Wolvx</li>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>/Defs/RecipeDef[defName="EVOR_QEE_Production_Protein_Humie"]/fixedIngredientFilter/thingDefs</xpath>
+						<value>
+							<li>Meat_Alien_Wolvx</li>
+						</value>
+					</match>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/BodyDef[defName="Wolvx"]/corePart/parts</xpath>
+					<value>
+
+						<li>
+							<def>LowerShoulder</def>
+							<customLabel>left lower shoulder</customLabel>
+							<coverage>0.00</coverage>
+							<groups>
+								<li>Torso</li>
+							</groups>
+						</li>
+						<li>
+							<def>LowerShoulder</def>
+							<customLabel>right lower shoulder</customLabel>
+							<coverage>0.00</coverage>
+							<groups>
+								<li>Torso</li>
+							</groups>
+						</li>
+						<li>
+							<def>BodyCavity1</def>
+							<customLabel>left chest cavity</customLabel>
+							<coverage>0.010</coverage>
+							<depth>Inside</depth>
+							<groups>
+								<li>Torso</li>
+							</groups>
+						</li>
+						<li>
+							<def>BodyCavity2</def>
+							<customLabel>right chest cavity</customLabel>
+							<coverage>0.010</coverage>
+							<depth>Inside</depth>
+							<groups>
+								<li>Torso</li>
+							</groups>
+						</li>
+						<li>
+							<def>BodyCavityA</def>
+							<customLabel>left abdominal cavity</customLabel>
+							<coverage>0.010</coverage>
+							<depth>Inside</depth>
+							<groups>
+								<li>Torso</li>
+							</groups>
+						</li>
+						<li>
+							<def>BodyCavityA</def>
+							<customLabel>right abdominal cavity</customLabel>
+							<coverage>0.010</coverage>
+							<depth>Inside</depth>
+							<groups>
+								<li>Torso</li>
+							</groups>
+						</li>
+						<li>	
+							<def>Back</def>
+							<customLabel>upper back</customLabel>
+							<coverage>0.020</coverage>
+							<depth>Inside</depth>
+							<groups>
+								<li>Torso</li>
+							</groups>
+						</li>
+						<li>	
+							<def>Back</def>
+							<customLabel>lower back</customLabel>
+							<coverage>0.020</coverage>
+							<depth>Inside</depth>
+							<groups>
+								<li>Torso</li>
+							</groups>
+						</li>
+
+					</value>
+				</li>
+
+				<!--Racc race has def that matches our tail, no need to patch-->
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>
+
