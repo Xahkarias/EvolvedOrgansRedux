@@ -36,6 +36,9 @@
         <li>Yabils:SpaceGremlins</li>
         <li>Lizardmen</li>
         <li>DragonianRace</li>
+        <li>ZabrakRace</li>
+        <li>Drow</li>
+        <li>Orassans</li>
     </loadAfter>
     <!--
     <suggests>
