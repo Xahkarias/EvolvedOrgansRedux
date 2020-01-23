@@ -75,11 +75,11 @@
 						</HediffDef>
 
 						<HediffDef ParentName="AddedBodyPartBase">
-							<defName>EVOR_Hediff_Primary_Razortick</defName>
-							<label>burrowing razortick cannon</label>
+							<defName>EVOR_Hediff_Primary_VenomCrystal</defName>
+							<label>venom crystal cannon</label>
 							<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
-							<labelNoun>a burrowing razortick cannon</labelNoun>
-							<spawnThingOnRemoved>EVOR_Item_Razortick</spawnThingOnRemoved>
+							<labelNoun>a venom crystal cannon</labelNoun>
+							<spawnThingOnRemoved>EVOR_Item_VenomCrystal</spawnThingOnRemoved>
 							<addedPartProps>
 								<solid>true</solid>     
 								<partEfficiency>1.0</partEfficiency>
@@ -87,21 +87,21 @@
 							</addedPartProps>
 							<comps>
 								<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
-									<toggleLabel>Burrowing Razortick Cannon</toggleLabel>
-									<toggleDescription>Burrowing Razortick Cannon.</toggleDescription>
+									<toggleLabel>Venom Crystal Cannon</toggleLabel>
+									<toggleDescription>Venom Crystal Cannon.</toggleDescription>
 									<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGBB</toggleBackgroundPath>
 									<toggleIconPath>UI/Widgets/Organs/EVOR_Texture_Cannon</toggleIconPath>
 									<toggleIconAngle>-45.0</toggleIconAngle>
 									<verbs>
 										<li>
-											<label>burrowing razortick cannon</label>
+											<label>venom crystal cannon</label>
 											<verbClass>Verb_Shoot</verbClass>
 											<accuracyTouch>0.50</accuracyTouch>
 											<accuracyShort>0.70</accuracyShort>
 											<accuracyMedium>0.86</accuracyMedium>
 											<accuracyLong>0.90</accuracyLong>
 											<hasStandardCommand>true</hasStandardCommand>
-											<defaultProjectile>EVOR_Bullet_Razortick</defaultProjectile>
+											<defaultProjectile>EVOR_Bullet_VenomCrystal</defaultProjectile>
 											<warmupTime>3.00</warmupTime>
 											<range>45.0</range>
 											<soundCast>Pawn_Megascarab_Angry</soundCast>
@@ -111,9 +111,9 @@
 									</verbs>
 									<verbsProperties>
 										<li>
-											<label>burrowing razortick cannon</label>
-											<description>Burrowing Razortick Cannon</description>
-											<uiIconPath>Things/Projectile/EVOR_Texture_Tick</uiIconPath>
+											<label>venom crystal cannon</label>
+											<description>Venom Crystal Cannon</description>
+											<uiIconPath>Things/Projectile/EVOR_Texture_VenomCrystal</uiIconPath>
 										</li>
 									</verbsProperties>
 								</li>
@@ -197,11 +197,11 @@
 						</HediffDef>
 
 						<HediffDef ParentName="AddedBodyPartBase">
-							<defName>EVOR_Hediff_Secondary_Razortick</defName>
-							<label>burrowing razortick cannon</label>
+							<defName>EVOR_Hediff_Secondary_VenomCrystal</defName>
+							<label>venom crystal cannon</label>
 							<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
-							<labelNoun>a burrowing razortick cannon</labelNoun>
-							<spawnThingOnRemoved>EVOR_Item_Razortick</spawnThingOnRemoved>
+							<labelNoun>a venom crystal cannon</labelNoun>
+							<spawnThingOnRemoved>EVOR_Item_VenomCrystal</spawnThingOnRemoved>
 							<addedPartProps>
 								<solid>true</solid>     
 								<partEfficiency>1.0</partEfficiency>
@@ -209,21 +209,21 @@
 							</addedPartProps>
 							<comps>
 								<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
-									<toggleLabel>Burrowing Razortick Cannon</toggleLabel>
-									<toggleDescription>Burrowing Razortick Cannon.</toggleDescription>
+									<toggleLabel>Venom Crystal Cannon</toggleLabel>
+									<toggleDescription>Venom Crystal Cannon.</toggleDescription>
 									<toggleBackgroundPath>UI/Widgets/Prosthetic/DesButBGBB</toggleBackgroundPath>
 									<toggleIconPath>UI/Widgets/Organs/EVOR_Texture_Cannon</toggleIconPath>
 									<toggleIconAngle>-45.0</toggleIconAngle>
 									<verbs>
 										<li>
-											<label>burrowing razortick cannon</label>
+											<label>venom crystal cannon</label>
 											<verbClass>Verb_Shoot</verbClass>
 											<accuracyTouch>0.50</accuracyTouch>
 											<accuracyShort>0.70</accuracyShort>
 											<accuracyMedium>0.86</accuracyMedium>
 											<accuracyLong>0.90</accuracyLong>
 											<hasStandardCommand>true</hasStandardCommand>
-											<defaultProjectile>EVOR_Bullet_Razortick</defaultProjectile>
+											<defaultProjectile>EVOR_Bullet_VenomCrystal</defaultProjectile>
 											<warmupTime>3.00</warmupTime>
 											<range>45.0</range>
 											<soundCast>Pawn_Megascarab_Angry</soundCast>
@@ -233,9 +233,9 @@
 									</verbs>
 									<verbsProperties>
 										<li>
-											<label>burrowing razortick cannon</label>
-											<description>Burrowing Razortick Cannon</description>
-											<uiIconPath>UI/Icon/EVOR_Texture_RedShell</uiIconPath>
+											<label>venom crystal cannon</label>
+											<description>Venom Crystal Cannon</description>
+											<uiIconPath>UI/Icon/EVOR_Texture_VenomCrystal</uiIconPath>
 										</li>
 									</verbsProperties>
 								</li>
@@ -277,9 +277,9 @@
 						</ThingDef>
 
 						<ThingDef ParentName="EVOR_OrgBase">
-							<defName>EVOR_Item_Razortick</defName>
-							<label>burrowing razortick cannon</label>
-							<description>The ticks shot by this cannon have a smattering of explosive juices on the tip, followed up by a hard shell. After punching though the intial armor with the explosion, the tick burrows rapidly into the target before dying in a flurry of cuts.</description>
+							<defName>EVOR_Item_VenomCrystal</defName>
+							<label>venom crystal cannon</label>
+							<description>The crystals fired from this cannon are made of a durable chunk of solid venom, able to punch through the strongest armor and then eat though anything underneath.</description>
 							<recipeMaker>
 								<researchPrerequisite>EVOR_Research_Limbs4</researchPrerequisite>
 							</recipeMaker>
@@ -342,13 +342,13 @@
 							<addsHediff>EVOR_Hediff_Primary_MaggotBolter</addsHediff>
 						</RecipeDef>
 
-						<!--Razortick-->
+						<!--Venomcrystal-->
 						<RecipeDef ParentName="SurgeryFlesh">
-							<defName>EVOR_Surgery_Primary_Razortick</defName>
-							<label>&lt;color=#00FFF7&gt;implant burrowing razortick cannon&lt;/color&gt;</label>
-							<description>Implant a burrowing razortick cannon.</description>
+							<defName>EVOR_Surgery_Primary_VenomCrystal</defName>
+							<label>&lt;color=#00FFF7&gt;implant venom crystal cannon&lt;/color&gt;</label>
+							<description>Implant a venom crystal cannon.</description>
 							<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-							<jobString>Implanting burrowing razortick cannon.</jobString>
+							<jobString>Implanting venom crystal cannon.</jobString>
 							<workAmount>3000</workAmount>
 							<skillRequirements>
 								<Medicine>10</Medicine>
@@ -368,7 +368,7 @@
 								<li>
 									<filter>
 										<thingDefs>
-											<li>EVOR_Item_Razortick</li>
+											<li>EVOR_Item_VenomCrystal</li>
 										</thingDefs>
 									</filter>
 									<count>1</count>
@@ -379,13 +379,13 @@
 									<li>Medicine</li>
 								</categories>
 								<thingDefs>
-									<li>EVOR_Item_Razortick</li>
+									<li>EVOR_Item_VenomCrystal</li>
 								</thingDefs>
 							</fixedIngredientFilter>
 							<appliedOnFixedBodyParts>
 								<li>Shoulder</li>
 							</appliedOnFixedBodyParts>
-							<addsHediff>EVOR_Hediff_Primary_Razortick</addsHediff>
+							<addsHediff>EVOR_Hediff_Primary_VenomCrystal</addsHediff>
 						</RecipeDef>
 
 						<!--Maggot Bolter-->
@@ -435,13 +435,13 @@
 							<researchPrerequisite>EVOR_Research_Limbs3</researchPrerequisite>
 						</RecipeDef>
 
-						<!--Razortick-->
+						<!--venomcrystal-->
 						<RecipeDef ParentName="SurgeryFlesh">
-							<defName>EVOR_Surgery_Secondary_Razortick</defName>
-							<label>&lt;color=#00FFF7&gt;implant burrowing razortick cannon&lt;/color&gt;</label>
-							<description>Implant a burrowing razortick cannon.</description>
+							<defName>EVOR_Surgery_Secondary_VenomCrystal</defName>
+							<label>&lt;color=#00FFF7&gt;implant venom crystal cannon&lt;/color&gt;</label>
+							<description>Implant a venom crystal cannon.</description>
 							<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-							<jobString>Implanting burrowing razortick cannon.</jobString>
+							<jobString>Implanting venom crystal cannon.</jobString>
 							<workAmount>3000</workAmount>
 							<skillRequirements>
 								<Medicine>10</Medicine>
@@ -461,7 +461,7 @@
 								<li>
 									<filter>
 										<thingDefs>
-											<li>EVOR_Item_Razortick</li>
+											<li>EVOR_Item_VenomCrystal</li>
 										</thingDefs>
 									</filter>
 									<count>1</count>
@@ -472,13 +472,13 @@
 									<li>Medicine</li>
 								</categories>
 								<thingDefs>
-									<li>EVOR_Item_Razortick</li>
+									<li>EVOR_Item_VenomCrystal</li>
 								</thingDefs>
 							</fixedIngredientFilter>
 							<appliedOnFixedBodyParts>
 								<li>LowerShoulder</li>
 							</appliedOnFixedBodyParts>
-							<addsHediff>EVOR_Hediff_Secondary_Razortick</addsHediff>
+							<addsHediff>EVOR_Hediff_Secondary_VenomCrystal</addsHediff>
 							<researchPrerequisite>EVOR_Research_Limbs3</researchPrerequisite>
 						</RecipeDef>
 
@@ -506,10 +506,10 @@
 						</ThingDef>
 
 						<ThingDef ParentName="BaseBullet">
-							<defName>EVOR_Bullet_Razortick</defName>
-							<label>razortick</label>
+							<defName>EVOR_Bullet_VenomCrystal</defName>
+							<label>venom crystal</label>
 							<graphicData>
-								<texPath>Things/Projectile/EVOR_Texture_Tick</texPath>
+								<texPath>Things/Projectile/EVOR_Texture_VenomCrystal</texPath>
 								<graphicClass>Graphic_Single</graphicClass>
 							</graphicData>
 							<projectile>
@@ -550,7 +550,7 @@
 								<success>Always</success>
 							</li>
 							<li Class="PatchOperationAdd">
-								<xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_Razortick"]/comps</xpath>
+								<xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_VenomCrystal"]/comps</xpath>
 								<value>
 									<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
 										<linearAdjustment>15</linearAdjustment>
@@ -559,7 +559,7 @@
 								<success>Always</success>
 							</li>
 							<li Class="PatchOperationAdd">
-								<xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_Razortick"]/comps</xpath>
+								<xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_VenomCrystal"]/comps</xpath>
 								<value>
 									<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
 										<linearAdjustment>15</linearAdjustment>
@@ -585,10 +585,10 @@
 								<xpath>/Defs/ThingDef[defName="EVOR_Item_MaggotBolter"]/costList</xpath>
 							</li>
 							<li Class="PatchOperationRemove">
-								<xpath>/Defs/ThingDef[defName="EVOR_Item_Razortick"]/recipeMaker</xpath>
+								<xpath>/Defs/ThingDef[defName="EVOR_Item_VenomCrystal"]/recipeMaker</xpath>
 							</li>
 							<li Class="PatchOperationRemove">
-								<xpath>/Defs/ThingDef[defName="EVOR_Item_Razortick"]/costList</xpath>
+								<xpath>/Defs/ThingDef[defName="EVOR_Item_VenomCrystal"]/costList</xpath>
 							</li>
 							<li Class="PatchOperationAdd">
 								<xpath>/Defs</xpath>
@@ -603,10 +603,10 @@
 									</RecipeDef>
 
 									<RecipeDef ParentName="EVOR_Grower_Recipe_LimbMech">
-										<defName>EVOR_QEE_Razortick</defName>
-										<label>&lt;color=#00FFF7&gt;burrowing razortick cannon&lt;/color&gt;</label>
+										<defName>EVOR_QEE_VenomCrystal</defName>
+										<label>&lt;color=#00FFF7&gt;venom crystal cannon&lt;/color&gt;</label>
 										<products>
-											<EVOR_Item_Razortick>1</EVOR_Item_Razortick>
+											<EVOR_Item_VenomCrystal>1</EVOR_Item_VenomCrystal>
 										</products>
 										<researchPrerequisite>EVOR_Research_Limbs4</researchPrerequisite>
 									</RecipeDef>
