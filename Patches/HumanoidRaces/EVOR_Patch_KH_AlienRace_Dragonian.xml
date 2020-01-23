@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Dragonian Race</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+				
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Questionable Ethics Enhanced</li>
+					</mods>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/RecipeDef[defName="EVOR_Production_Protein_Humie"]/fixedIngredientFilter/thingDefs</xpath>
+						<value>
+							<li>Meat_Dragonian_Female</li>
+							<li>Meat_Dragonian_Male</li>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>/Defs/RecipeDef[defName="EVOR_QEE_Production_Protein_Humie"]/fixedIngredientFilter/thingDefs</xpath>
+						<value>
+							<li>Meat_Dragonian_Female</li>
+							<li>Meat_Dragonian_Male</li>
+						</value>
+					</match>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/BodyDef[defName="Dragonian"]/corePart/parts</xpath>
+					<value>
+
+						<li>
+							<def>LowerShoulder</def>
+							<customLabel>left lower shoulder</customLabel>
+							<coverage>0.00</coverage>
+							<groups>
+								<li>Torso</li>
+							</groups>
+						</li>
+						<li>
+							<def>LowerShoulder</def>
+							<customLabel>right lower shoulder</customLabel>
+							<coverage>0.00</coverage>
+							<groups>
+								<li>Torso</li>
+							</groups>
+						</li>
+						<li>
+							<def>BodyCavity1</def>
+							<customLabel>left chest cavity</customLabel>
+							<coverage>0.010</coverage>
+							<depth>Inside</depth>
+							<groups>
+								<li>Torso</li>
+							</groups>
+						</li>
+						<li>
+							<def>BodyCavity2</def>
+							<customLabel>right chest cavity</customLabel>
+							<coverage>0.010</coverage>
+							<depth>Inside</depth>
+							<groups>
+								<li>Torso</li>
+							</groups>
+						</li>
+						<li>
+							<def>BodyCavityA</def>
+							<customLabel>left abdominal cavity</customLabel>
+							<coverage>0.010</coverage>
+							<depth>Inside</depth>
+							<groups>
+								<li>Torso</li>
+							</groups>
+						</li>
+						<li>
+							<def>BodyCavityA</def>
+							<customLabel>right abdominal cavity</customLabel>
+							<coverage>0.010</coverage>
+							<depth>Inside</depth>
+							<groups>
+								<li>Torso</li>
+							</groups>
+						</li>
+						<li>	
+							<def>Back</def>
+							<customLabel>upper back</customLabel>
+							<coverage>0.020</coverage>
+							<depth>Inside</depth>
+							<groups>
+								<li>Torso</li>
+							</groups>
+						</li>
+						<li>	
+							<def>Back</def>
+							<customLabel>lower back</customLabel>
+							<coverage>0.020</coverage>
+							<depth>Inside</depth>
+							<groups>
+								<li>Torso</li>
+							</groups>
+						</li>
+
+					</value>
+				</li>
+
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+
+						<RecipeDef ParentName="SurgeryFlesh">
+							<defName>EVOR_Surgery_Tail_Blade_Dragonian</defName>
+							<label>&lt;color=#00FFF7&gt;implant dragonian serrated stinger tail&lt;/color&gt;</label>
+							<description>Implant a dragonian serrated stinger tail.</description>
+							<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+							<jobString>Implanting dragonian serrated stinger tail.</jobString>
+							<workAmount>3000</workAmount>
+							<skillRequirements>
+								<Medicine>10</Medicine>
+							</skillRequirements>
+							<recipeUsers>
+								<li>Dragonian_Male</li>
+								<li>Dragonian_Female</li>
+							</recipeUsers>
+							<ingredients>
+								<li>
+									<filter>
+										<categories>
+											<li>Medicine</li>
+										</categories>
+									</filter>
+									<count>2</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>EVOR_Item_Tail_Blade</li>
+										</thingDefs>
+									</filter>
+									<count>1</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<categories>
+									<li>Medicine</li>
+								</categories>
+								<thingDefs>
+									<li>EVOR_Item_Tail_Blade</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<appliedOnFixedBodyParts>
+								<li>DR_Tail</li>
+							</appliedOnFixedBodyParts>
+							<addsHediff>EVOR_Hediff_Tail_Blade</addsHediff>
+						</RecipeDef>
+
+
+						<RecipeDef ParentName="SurgeryFlesh">
+							<defName>EVOR_Surgery_Tail_Hand_Dragonian</defName>
+							<label>&lt;color=#00FFF7&gt;implant dragonian manipulator tail&lt;/color&gt;</label>
+							<description>Implant a dragonian manipulator tail.</description>
+							<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+							<jobString>Implanting dragonian manipulator tail.</jobString>
+							<workAmount>3000</workAmount>
+							<skillRequirements>
+								<Medicine>10</Medicine>
+							</skillRequirements>
+							<recipeUsers>
+								<li>Dragonian_Male</li>
+								<li>Dragonian_Female</li>
+							</recipeUsers>
+							<ingredients>
+								<li>
+									<filter>
+										<categories>
+											<li>Medicine</li>
+										</categories>
+									</filter>
+									<count>2</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>EVOR_Item_Tail_Hand</li>
+										</thingDefs>
+									</filter>
+									<count>1</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<categories>
+									<li>Medicine</li>
+								</categories>
+								<thingDefs>
+									<li>EVOR_Item_Tail_Hand</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<appliedOnFixedBodyParts>
+								<li>DR_Tail</li>
+							</appliedOnFixedBodyParts>
+							<addsHediff>EVOR_Hediff_Tail_Hand</addsHediff>
+						</RecipeDef>
+			
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>
+

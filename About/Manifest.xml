@@ -35,6 +35,7 @@
         <li>LogannRace</li>
         <li>Yabils:SpaceGremlins</li>
         <li>Lizardmen</li>
+        <li>DragonianRace</li>
     </loadAfter>
     <!--
     <suggests>
