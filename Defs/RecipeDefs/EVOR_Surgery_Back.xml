@@ -47,10 +47,10 @@
 
     <RecipeDef ParentName="SurgeryFlesh">
         <defName>EVOR_Surgery_Back_Hand</defName>
-        <label>&lt;color=#00FFF7&gt;implant manipulator cluster&lt;/color&gt;</label>
-        <description>Implant a manipulator cluster.</description>
+        <label>&lt;color=#00FFF7&gt;implant tentacle cluster&lt;/color&gt;</label>
+        <description>Implant a tentacle cluster.</description>
         <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-        <jobString>Implanting manipulator cluster.</jobString>
+        <jobString>Implanting tentacle cluster.</jobString>
         <workAmount>3000</workAmount>
         <skillRequirements>
             <Medicine>10</Medicine>

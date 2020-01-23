@@ -671,7 +671,7 @@
 
 						<RecipeDef ParentName="EVOR_Grower_Recipe_LimbMech">
 							<defName>EVOR_QEE_Back_Hand</defName>
-							<label>&lt;color=#00FFF7&gt;manipulator cluster&lt;/color&gt;</label>
+							<label>&lt;color=#00FFF7&gt;tentacle cluster&lt;/color&gt;</label>
 							<products>
 								<EVOR_Item_Back_Hand>1</EVOR_Item_Back_Hand>
 							</products>

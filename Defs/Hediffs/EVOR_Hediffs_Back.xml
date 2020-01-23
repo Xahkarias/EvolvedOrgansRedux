@@ -26,8 +26,8 @@
 
   	<HediffDef ParentName="AddedBodyPartBase">
 		<defName>EVOR_Hediff_Back_Hand</defName>
-		<label>manipulator cluster</label>
-		<labelNoun>a manipulator cluster</labelNoun>
+		<label>tentacle cluster</label>
+		<labelNoun>a tentacle cluster</labelNoun>
 		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
 		<spawnThingOnRemoved>EVOR_Item_Back_Hand</spawnThingOnRemoved>
 		<addedPartProps>

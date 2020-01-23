@@ -16,7 +16,7 @@
 
   <ThingDef ParentName="EVOR_OrgBase">
     <defName>EVOR_Item_Back_Hand</defName>
-    <label>manipulator cluster</label>
+    <label>tentacle cluster</label>
     <description>Adding a small amount of manipulator tentacles on our backs can increase our ability to work.</description>
     <recipeMaker>
       <researchPrerequisite>EVOR_Research_Limbs3</researchPrerequisite>
