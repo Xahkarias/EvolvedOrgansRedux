@@ -1,8 +1,11 @@
 # EvolvedOrgansRedux
 Adds a whole slew of new implants and organs for colonists, by adding new parts that have been evolved beyond what could naturally have been created.
 
-<h3>This Github serves as a central repository for information about EvolvedOrgansRedux</h3>
+<h3>This Github serves as a central repository for information about EvolvedOrgansRedux
+</h3>
 Please see:
+
+* [On Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1978492655)
 
 * Issues: For bug reporting and requests for features / compatibility
 * The Wiki: for the FAQ, compatibility, and other information
