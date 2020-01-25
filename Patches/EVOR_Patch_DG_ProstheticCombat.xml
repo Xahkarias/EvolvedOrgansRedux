@@ -64,7 +64,7 @@
 									<capMods>
 										<li>
 											<capacity>Manipulation</capacity>
-											<offset>-0.2</offset>
+											<offset>-0.4</offset>
 										</li>
 									</capMods>
 									<statOffsets>
@@ -123,7 +123,7 @@
 									<capMods>
 										<li>
 											<capacity>Manipulation</capacity>
-											<offset>-0.2</offset>
+											<offset>-0.4</offset>
 										</li>
 									</capMods>
 									<statOffsets>
@@ -186,7 +186,7 @@
 									<capMods>
 										<li>
 											<capacity>Manipulation</capacity>
-											<offset>0.3</offset>
+											<offset>0.1</offset>
 										</li>
 									</capMods>
 									<statOffsets>
@@ -245,7 +245,7 @@
 									<capMods>
 										<li>
 											<capacity>Manipulation</capacity>
-											<offset>0.3</offset>
+											<offset>0.1</offset>
 										</li>
 									</capMods>
 									<statOffsets>
