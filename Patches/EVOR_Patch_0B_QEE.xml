@@ -613,6 +613,7 @@
 							<researchPrerequisite>EVOR_Research_Organs3</researchPrerequisite>
 						</RecipeDef>
 
+						<!--
 						<RecipeDef ParentName="EVOR_Grower_Recipe_Medium">
 							<defName>EVOR_QEE_Abd_Cultivate</defName>
 							<label>&lt;color=#00FFF7&gt;microbiome cultivator&lt;/color&gt;</label>
@@ -621,7 +622,8 @@
 							</products>
 							<researchPrerequisite>EVOR_Research_Organs3</researchPrerequisite>
 						</RecipeDef>
-
+						-->
+						
 						<RecipeDef ParentName="EVOR_Grower_Recipe_Limb">
 							<defName>EVOR_QEE_HighPincer</defName>
 							<label>&lt;color=#00FFF7&gt;high pressure pincer&lt;/color&gt;</label>

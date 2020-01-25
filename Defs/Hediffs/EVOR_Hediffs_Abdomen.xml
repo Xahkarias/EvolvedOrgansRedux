@@ -124,6 +124,7 @@
 		</stages>
 	</HediffDef>
 
+	<!--
 	<HediffDef ParentName="AddedBodyPartBase">
 		<defName>EVOR_Hediff_Abd_Cultivate</defName>
 		<label>microbiome cultivator</label>
@@ -144,6 +145,6 @@
 			</li>
 		</stages>
 	</HediffDef>
-
+	-->
 
 </Defs>

@@ -147,6 +147,7 @@
     <addsHediff>EVOR_Hediff_Abd_Combat</addsHediff>
   </RecipeDef>
 
+  <!--
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Abd_Cultivate</defName>
     <label>&lt;color=#00FFF7&gt;implant microbiome cultivator&lt;/color&gt;</label>
@@ -191,7 +192,7 @@
     </appliedOnFixedBodyParts>
     <addsHediff>EVOR_Hediff_Abd_Cultivate</addsHediff>
   </RecipeDef>
-
+  -->
 
 
 

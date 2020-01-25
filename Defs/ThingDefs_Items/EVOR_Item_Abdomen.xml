@@ -66,6 +66,7 @@
     </costList>
   </ThingDef>
 
+  <!--
   <ThingDef ParentName="EVOR_OrgBase">
     <defName>EVOR_Item_Abd_Cultivate</defName>
     <label>microbiome cultivator</label>
@@ -78,5 +79,6 @@
       <EVOR_Resource_Mechanites>3</EVOR_Resource_Mechanites>
     </costList>
   </ThingDef>
-
+  -->
+  
 </Defs>
