@@ -98,8 +98,8 @@
 											<verbClass>Verb_Shoot</verbClass>
 											<accuracyTouch>0.50</accuracyTouch>
 											<accuracyShort>0.70</accuracyShort>
-											<accuracyMedium>0.80</accuracyMedium>
-											<accuracyLong>0.70</accuracyLong>
+											<accuracyMedium>0.86</accuracyMedium>
+											<accuracyLong>0.90</accuracyLong>
 											<hasStandardCommand>true</hasStandardCommand>
 											<defaultProjectile>EVOR_Bullet_VenomCrystal</defaultProjectile>
 											<warmupTime>3.00</warmupTime>
@@ -114,7 +114,7 @@
 											<label>venom crystal cannon</label>
 											<description>Venom Crystal Cannon</description>
 											<uiIconPath>Things/Projectile/EVOR_Texture_VenomCrystal</uiIconPath>
-										</li>
+										</li>			
 									</verbsProperties>
 								</li>
 							</comps>
@@ -220,8 +220,8 @@
 											<verbClass>Verb_Shoot</verbClass>
 											<accuracyTouch>0.50</accuracyTouch>
 											<accuracyShort>0.70</accuracyShort>
-											<accuracyMedium>0.80</accuracyMedium>
-											<accuracyLong>0.70</accuracyLong>
+											<accuracyMedium>0.86</accuracyMedium>
+											<accuracyLong>0.90</accuracyLong>
 											<hasStandardCommand>true</hasStandardCommand>
 											<defaultProjectile>EVOR_Bullet_VenomCrystal</defaultProjectile>
 											<warmupTime>3.00</warmupTime>
@@ -235,7 +235,7 @@
 										<li>
 											<label>venom crystal cannon</label>
 											<description>Venom Crystal Cannon</description>
-											<uiIconPath>UI/Icon/EVOR_Texture_VenomCrystal</uiIconPath>
+											<uiIconPath>Things/Projectile/EVOR_Texture_VenomCrystal</uiIconPath>
 										</li>
 									</verbsProperties>
 								</li>
