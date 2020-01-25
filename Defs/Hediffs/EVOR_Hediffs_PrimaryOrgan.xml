@@ -11,7 +11,7 @@
     <spawnThingOnRemoved>EVOR_Item_Heart</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>2.2</partEfficiency>
+      <partEfficiency>2.0</partEfficiency>
       <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
   </HediffDef>
@@ -25,7 +25,7 @@
     <spawnThingOnRemoved>EVOR_Item_Kidney</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>     
-      <partEfficiency>2.0</partEfficiency>
+      <partEfficiency>1.8</partEfficiency>
       <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
     <stages>
@@ -46,7 +46,7 @@
     <spawnThingOnRemoved>EVOR_Item_Lung</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>2.0</partEfficiency>
+      <partEfficiency>1.8</partEfficiency>
       <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
      <stages>
@@ -67,7 +67,7 @@
     <spawnThingOnRemoved>EVOR_Item_Stomach</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>2.0</partEfficiency>
+      <partEfficiency>1.8</partEfficiency>
       <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
     <stages>
@@ -92,7 +92,7 @@
     <spawnThingOnRemoved>EVOR_Item_Liver</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>2.0</partEfficiency>
+      <partEfficiency>1.8</partEfficiency>
       <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
     <stages>

@@ -579,7 +579,7 @@
 
 						<RecipeDef ParentName="EVOR_Grower_Recipe_Medium">
 							<defName>EVOR_Hediff_Abd_SecondHeart</defName>
-							<label>&lt;color=#00FFF7&gt;auxillary heart&lt;/color&gt;</label>
+							<label>&lt;color=#00FFF7&gt;auxilary heart&lt;/color&gt;</label>
 							<products>
 								<EVOR_Item_Abd_SecondHeart>1</EVOR_Item_Abd_SecondHeart>
 							</products>
@@ -680,7 +680,7 @@
 
 						<RecipeDef ParentName="EVOR_Grower_Recipe_LimbMech">
 							<defName>EVOR_QEE_Back_Muscle</defName>
-							<label>&lt;color=#00FFF7&gt;dense musculature&lt;/color&gt;</label>
+							<label>&lt;color=#00FFF7&gt;musculature braces&lt;/color&gt;</label>
 							<products>
 								<EVOR_Item_Back_Muscle>1</EVOR_Item_Back_Muscle>
 							</products>

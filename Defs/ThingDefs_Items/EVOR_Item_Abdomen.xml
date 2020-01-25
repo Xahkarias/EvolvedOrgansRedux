@@ -16,8 +16,8 @@
 
   <ThingDef ParentName="EVOR_OrgBase">
 		<defName>EVOR_Item_Abd_SecondHeart</defName>
-    <label>auxillary heart</label>
-    <description>This auxillary heart increases the amount of oxygen going though the person's body, allowing them to do work more efficiently.</description>
+    <label>auxilary heart</label>
+    <description>This auxilary heart increases the amount of oxygen going though the person's body, allowing them to do work more efficiently.</description>
     <recipeMaker>
       <researchPrerequisite>EVOR_Research_Organs3</researchPrerequisite>
     </recipeMaker>

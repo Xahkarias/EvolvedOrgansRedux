@@ -92,10 +92,10 @@
 
     <RecipeDef ParentName="SurgeryFlesh">
         <defName>EVOR_Surgery_Back_Muscle</defName>
-        <label>&lt;color=#00FFF7&gt;implant dense musculature&lt;/color&gt;</label>
-        <description>Implant dense musculature.</description>
+        <label>&lt;color=#00FFF7&gt;implant musculature braces&lt;/color&gt;</label>
+        <description>Implant musculature braces.</description>
         <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-        <jobString>Implanting dense musculature.</jobString>
+        <jobString>Implanting musculature braces.</jobString>
         <workAmount>3000</workAmount>
         <skillRequirements>
             <Medicine>10</Medicine>

@@ -10,12 +10,12 @@
 		<spawnThingOnRemoved>EVOR_Item_Eye</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
-			<partEfficiency>2.0</partEfficiency>
+			<partEfficiency>1.8</partEfficiency>
 		</addedPartProps>
 		<stages>
 			<li>
 				<statOffsets>
-					<AimingDelayFactor>-0.15</AimingDelayFactor>
+					<AimingDelayFactor>-0.10</AimingDelayFactor>
 					<ShootingAccuracyPawn>2</ShootingAccuracyPawn>
 				</statOffsets>
 			</li>
@@ -31,7 +31,7 @@
 		<spawnThingOnRemoved>EVOR_Item_Nose</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
-			<partEfficiency>2.0</partEfficiency>
+			<partEfficiency>1.8</partEfficiency>
 		</addedPartProps>
 		<stages>
 			<li>
@@ -53,7 +53,7 @@
 		<spawnThingOnRemoved>EVOR_Item_Ear</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
-			<partEfficiency>2.0</partEfficiency>
+			<partEfficiency>1.8</partEfficiency>
 		</addedPartProps>
 		<stages>
 			<li>
@@ -78,7 +78,7 @@
 		<stages>
 			<li>
 				<statOffsets>
-					<WorkSpeedGlobal>0.25</WorkSpeedGlobal>
+					<WorkSpeedGlobal>0.15</WorkSpeedGlobal>
 				</statOffsets>
 			</li>
 		</stages>

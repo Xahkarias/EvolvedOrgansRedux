@@ -58,10 +58,10 @@
 
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Abd_SecondHeart</defName>
-    <label>&lt;color=#00FFF7&gt;implant auxillary heart&lt;/color&gt;</label>
-    <description>Implant an auxillary heart.</description>
+    <label>&lt;color=#00FFF7&gt;implant auxilary heart&lt;/color&gt;</label>
+    <description>Implant an auxilary heart.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-    <jobString>Implanting auxillary heart.</jobString>
+    <jobString>Implanting auxilary heart.</jobString>
     <workAmount>3000</workAmount>
     <skillRequirements>
       <Medicine>10</Medicine>

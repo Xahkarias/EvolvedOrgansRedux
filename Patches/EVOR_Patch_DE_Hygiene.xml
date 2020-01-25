@@ -11,7 +11,7 @@
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs/HediffDef[defName="EVOR_Hediff_Kidney"]/stages/li[1]/statOffsets</xpath>
 					<value>
-						<ThirstRateMultiplier>-0.20</ThirstRateMultiplier>
+						<ThirstRateMultiplier>-0.15</ThirstRateMultiplier>
 					</value>
 					<success>Always</success>
 				</li>

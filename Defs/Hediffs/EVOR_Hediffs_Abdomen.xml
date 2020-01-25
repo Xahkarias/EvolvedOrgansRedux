@@ -29,9 +29,9 @@
 
 	<HediffDef ParentName="AddedBodyPartBase">
 		<defName>EVOR_Hediff_Abd_SecondHeart</defName>
-		<label>auxillary heart</label>
+		<label>auxilary heart</label>
 		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
-		<labelNoun>an auxillary heart</labelNoun>
+		<labelNoun>an auxilary heart</labelNoun>
 		<spawnThingOnRemoved>EVOR_Item_Abd_SecondHeart</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
@@ -43,7 +43,7 @@
 				<capMods>
 				<li>
 					<capacity>BloodPumping</capacity>
-					<offset>0.8</offset>
+					<offset>0.5</offset>
 				</li>
 				<li>
 					<capacity>Moving</capacity>
@@ -68,9 +68,9 @@
 		<stages>
 			<li>
 				<statOffsets>
-					<MeleeDodgeChance>4</MeleeDodgeChance>
-					<MeleeHitChance>4</MeleeHitChance>
-					<MeleeWeapon_CooldownMultiplier>-.15</MeleeWeapon_CooldownMultiplier>
+					<MeleeDodgeChance>2</MeleeDodgeChance>
+					<MeleeHitChance>2</MeleeHitChance>
+					<MeleeWeapon_CooldownMultiplier>-.1</MeleeWeapon_CooldownMultiplier>
 				</statOffsets>
 				<painFactor>0.75</painFactor>
 			</li>
@@ -118,7 +118,7 @@
 					<li>SleepingSickness</li>
 				</makeImmuneTo>
 				<statOffsets>
-					<ImmunityGainSpeed>0.6</ImmunityGainSpeed>
+					<ImmunityGainSpeed>0.4</ImmunityGainSpeed>
 				</statOffsets>
 			</li>
 		</stages>

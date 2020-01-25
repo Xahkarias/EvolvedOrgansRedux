@@ -68,10 +68,10 @@
 					<MeleeDodgeChance>10</MeleeDodgeChance>
 					<MeleeHitChance>10</MeleeHitChance>
 					<MeleeWeapon_CooldownMultiplier>-.3</MeleeWeapon_CooldownMultiplier>
-					<MentalBreakThreshold>0.10</MentalBreakThreshold>
-					<NegotiationAbility>-1</NegotiationAbility>
-          			<SocialImpact>-1</SocialImpact>
-					<AimingDelayFactor>-0.10</AimingDelayFactor>
+					<MentalBreakThreshold>0.05</MentalBreakThreshold>
+					<NegotiationAbility>-1.5</NegotiationAbility>
+          			<SocialImpact>-1.5</SocialImpact>
+					<AimingDelayFactor>-0.15</AimingDelayFactor>
 				</statOffsets>
 				<painFactor>0.33</painFactor>
 			</li>

@@ -17,7 +17,7 @@
 				<capMods>
 					<li>
 						<capacity>Moving</capacity>
-						<offset>0.75</offset>
+						<offset>0.6</offset>
 					</li>
 				</capMods>
 			</li>
@@ -40,7 +40,7 @@
 				<capMods>
 					<li>
 						<capacity>Manipulation</capacity>
-						<offset>0.2</offset>
+						<offset>0.25</offset>
 					</li>
 				</capMods>
 			</li>	
@@ -49,8 +49,8 @@
 
 	<HediffDef ParentName="AddedBodyPartBase">
 		<defName>EVOR_Hediff_Back_Muscle</defName>
-		<label>dense musculature</label>
-		<labelNoun>dense musculature</labelNoun>
+		<label>musculature braces</label>
+		<labelNoun>musculature braces</labelNoun>
 		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
 		<spawnThingOnRemoved>EVOR_Item_Back_Muscle</spawnThingOnRemoved>
 		<addedPartProps>

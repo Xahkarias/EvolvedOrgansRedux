@@ -29,8 +29,8 @@
 
   <ThingDef ParentName="EVOR_OrgBase">
     <defName>EVOR_Item_Back_Muscle</defName>
-    <label>dense musculature</label>
-    <description>Adding extra bands of muscle that support the limbs allows the host to hit harder and carry more.</description>
+    <label>musculature braces</label>
+    <description>Adding extra bands of muscle, as well as supporting bone to connect to, allows the host to hit harder and carry more.</description>
     <recipeMaker>
       <researchPrerequisite>EVOR_Research_Other1</researchPrerequisite>
     </recipeMaker>

@@ -9,13 +9,13 @@
 		<spawnThingOnRemoved>EVOR_Item_Leg_Normal</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
-			<partEfficiency>2.0</partEfficiency>
+			<partEfficiency>1.8</partEfficiency>
 			<betterThanNatural>true</betterThanNatural>
 		</addedPartProps>
 		<stages>
 			<li>
                 <statOffsets>
-                    <CarryingCapacity>20</CarryingCapacity>
+                    <CarryingCapacity>5</CarryingCapacity>
                 </statOffsets>
             </li>
 		</stages>
