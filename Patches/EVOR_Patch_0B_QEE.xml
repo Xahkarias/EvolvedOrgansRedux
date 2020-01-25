@@ -371,6 +371,16 @@
 					</value>
 				</li>
 
+				<li Class ="PatchOperationAddModExtension">
+					<xpath>Defs/HediffDef[contains(defName, "EVOR_Hediff") and not(contains(defName, "EVOR_Hediff_Damage_"))]</xpath>
+					<value>
+						<li Class="QEthics.HediffTemplateProperties">
+							<includeInGenomeTemplate>true</includeInGenomeTemplate>
+							<includeInBrainTemplate>false</includeInBrainTemplate>
+						</li>
+					</value>
+				</li>
+
 
 				<!--TODO add all organ to this-->
 				<!--NOTE: ALL PATCHES WHICH ADD STUFF HAVE TO DO THIS WHEN CHECKING FOR QEE-->
@@ -623,7 +633,7 @@
 							<researchPrerequisite>EVOR_Research_Organs3</researchPrerequisite>
 						</RecipeDef>
 						-->
-						
+
 						<RecipeDef ParentName="EVOR_Grower_Recipe_Limb">
 							<defName>EVOR_QEE_HighPincer</defName>
 							<label>&lt;color=#00FFF7&gt;high pressure pincer&lt;/color&gt;</label>
