@@ -61,8 +61,8 @@
 		<stages>
 			<li>
                 <statOffsets>
-                    <CarryingCapacity>10</CarryingCapacity>
-					<MeleeWeapon_DamageMultiplier>0.2</MeleeWeapon_DamageMultiplier>
+                    <CarryingCapacity>15</CarryingCapacity>
+					<MeleeWeapon_DamageMultiplier>0.1</MeleeWeapon_DamageMultiplier>
                 </statOffsets>		
             </li>	
 		</stages>
