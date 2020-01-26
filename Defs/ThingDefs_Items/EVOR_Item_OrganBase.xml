@@ -1,29 +1,28 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Name="EVOR_OrgBase" ParentName="BodyPartArtificialBase" Abstract="True">
-    <defName>EVOR_OrgBase</defName>
-    <techLevel>Spacer</techLevel>
-    <statBases>
-      <MarketValue>2800</MarketValue>
-      <Mass>0.3</Mass>
-      <WorkToMake>5000</WorkToMake>
-    </statBases>
-    <recipeMaker>
-      <skillRequirements>
-        <Crafting>10</Crafting>
-        <Medicine>10</Medicine>
-      </skillRequirements>
-      <recipeUsers>
-        <li>EVOR_Building_Cellbench</li>
-      </recipeUsers>
-    </recipeMaker>
-    <graphicData>
-      <texPath>Things/Item/Health/EVOR_Texture_OrganBox</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.80</drawSize>
-    </graphicData>
-    <comps/>
-  </ThingDef>
+	<ThingDef Name="EVOR_OrgBase" ParentName="BodyPartArtificialBase" Abstract="True">
+		<defName>EVOR_OrgBase</defName>
+		<techLevel>Spacer</techLevel>
+		<statBases>
+			<MarketValue>2800</MarketValue>
+			<Mass>0.3</Mass>
+			<WorkToMake>5000</WorkToMake>
+		</statBases>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+				<Medicine>10</Medicine>
+			</skillRequirements>
+			<recipeUsers>
+				<li>EVOR_Building_Cellbench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Item/Health/EVOR_Texture_OrganBox</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.80</drawSize>
+		</graphicData>
+	</ThingDef>
 
 </Defs>
