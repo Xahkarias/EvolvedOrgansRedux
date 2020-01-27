@@ -429,7 +429,7 @@
 							<defName>EVOR_QEE_Liver</defName>
 							<label>&lt;color=#00FFF7&gt;quadlobe liver&lt;/color&gt;</label>
 							<products>
-								<EVOR_Item_Kidney>1</EVOR_Item_Kidney>
+								<EVOR_Item_Liver>1</EVOR_Item_Liver>
 							</products>
 							<researchPrerequisite>EVOR_Research_Organs1</researchPrerequisite>
 						</RecipeDef>
