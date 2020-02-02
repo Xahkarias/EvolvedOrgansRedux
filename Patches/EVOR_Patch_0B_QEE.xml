@@ -173,7 +173,7 @@
 											<li>QE_NutrientSolution</li>
 										</thingDefs>
 									</filter>
-									<count>200</count>
+									<count>150</count>
 								</li>
 								<li>
 									<filter>
@@ -202,7 +202,7 @@
 											<li>QE_NutrientSolution</li>
 										</thingDefs>
 									</filter>
-									<count>250</count>
+									<count>150</count>
 								</li>
 								<li>
 									<filter>
@@ -231,7 +231,7 @@
 											<li>QE_NutrientSolution</li>
 										</thingDefs>
 									</filter>
-									<count>200</count>
+									<count>150</count>
 								</li>
 								<li>
 									<filter>
@@ -247,7 +247,7 @@
 											<li>EVOR_Resource_Mechanites</li>
 										</thingDefs>
 									</filter>
-									<count>2</count>
+									<count>3</count>
 								</li>
 							</ingredients>
 						</RecipeDef>
@@ -260,7 +260,7 @@
 											<li>QE_NutrientSolution</li>
 										</thingDefs>
 									</filter>
-									<count>240</count>
+									<count>150</count>
 								</li>
 								<li>
 									<filter>
@@ -289,36 +289,7 @@
 											<li>QE_NutrientSolution</li>
 										</thingDefs>
 									</filter>
-									<count>350</count>
-								</li>
-								<li>
-									<filter>
-										<thingDefs>
-											<li>QE_ProteinMash</li>
-										</thingDefs>
-									</filter>
-									<count>100</count>
-								</li>
-								<li>
-									<filter>
-										<thingDefs>
-											<li>EVOR_Resource_Mechanites</li>
-										</thingDefs>
-									</filter>
-									<count>2</count>
-								</li>
-							</ingredients>
-						</RecipeDef>
-
-						<RecipeDef Name="EVOR_Grower_Recipe_MediumMech" ParentName="EVOR_Grower_RecipeBase" Abstract="True">
-							<ingredients>
-								<li>
-									<filter>
-										<thingDefs>
-											<li>QE_NutrientSolution</li>
-										</thingDefs>
-									</filter>
-									<count>200</count>
+									<count>150</count>
 								</li>
 								<li>
 									<filter>
@@ -339,6 +310,35 @@
 							</ingredients>
 						</RecipeDef>
 
+						<RecipeDef Name="EVOR_Grower_Recipe_MediumMech" ParentName="EVOR_Grower_RecipeBase" Abstract="True">
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>QE_NutrientSolution</li>
+										</thingDefs>
+									</filter>
+									<count>150</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>QE_ProteinMash</li>
+										</thingDefs>
+									</filter>
+									<count>100</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>EVOR_Resource_Mechanites</li>
+										</thingDefs>
+									</filter>
+									<count>4</count>
+								</li>
+							</ingredients>
+						</RecipeDef>
+
 						<RecipeDef Name="EVOR_Grower_Recipe_LimbMech" ParentName="EVOR_Grower_RecipeBase" Abstract="True">
 							<ingredients>
 								<li>
@@ -347,7 +347,7 @@
 											<li>QE_NutrientSolution</li>
 										</thingDefs>
 									</filter>
-									<count>200</count>
+									<count>150</count>
 								</li>
 								<li>
 									<filter>
@@ -363,7 +363,7 @@
 											<li>EVOR_Resource_Mechanites</li>
 										</thingDefs>
 									</filter>
-									<count>3</count>
+									<count>4</count>
 								</li>
 							</ingredients>
 						</RecipeDef>
