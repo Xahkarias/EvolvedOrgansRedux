@@ -4,7 +4,7 @@
     <defName>EVOR_Surgery_Skin_Plating</defName>
     <label>&lt;color=#00FFF7&gt;implant multilayered dermal plating&lt;/color&gt;</label>
     <description>Implant multilayered dermal plating.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <workerClass>Recipe_InstallImplant</workerClass>
     <jobString>Implanting multilayered dermal plating.</jobString>
     <workAmount>3000</workAmount>
     <skillRequirements>
@@ -49,7 +49,7 @@
     <defName>EVOR_Surgery_Skin_Flame</defName>
     <label>&lt;color=#00FFF7&gt;implant flame retardant skin&lt;/color&gt;</label>
     <description>Implant flame retardant skin.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <workerClass>Recipe_InstallImplant</workerClass>
     <jobString>Implanting flame retardant skin.</jobString>
     <workAmount>3000</workAmount>
     <skillRequirements>
@@ -94,7 +94,7 @@
     <defName>EVOR_Surgery_Skin_Insulation</defName>
     <label>&lt;color=#00FFF7&gt;implant variable insulation skin&lt;/color&gt;</label>
     <description>Implant variable insulation skin.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <workerClass>Recipe_InstallImplant</workerClass>
     <jobString>Implanting variable insulation skin.</jobString>
     <workAmount>3000</workAmount>
     <skillRequirements>
@@ -139,7 +139,7 @@
     <defName>EVOR_Surgery_Ribcage</defName>
     <label>&lt;color=#00FFF7&gt;implant calcium-alloy ribcage&lt;/color&gt;</label>
     <description>Implant calcium-alloy ribcage.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <workerClass>Recipe_InstallImplant</workerClass>
     <jobString>Implanting calcium-alloy ribcage.</jobString>
     <workAmount>3000</workAmount>
     <skillRequirements>
