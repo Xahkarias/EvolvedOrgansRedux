@@ -735,6 +735,15 @@
 							<researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
 						</RecipeDef>
 
+						<RecipeDef ParentName="EVOR_Grower_Recipe_Limb">
+							<defName>EVOR_QEE_RendingClaw</defName>
+							<label>&lt;color=#00FFF7&gt;rending claws&lt;/color&gt;</label>
+							<products>
+								<EVOR_Item_RendingClaw>1</EVOR_Item_RendingClaw>
+							</products>
+							<researchPrerequisite>EVOR_Research_Limbs1</researchPrerequisite>
+						</RecipeDef>
+
 					</value>
 				</li>
 			</operations>
