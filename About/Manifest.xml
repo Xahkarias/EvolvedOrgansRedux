@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
     <identifier>EvolvedOrgansRedux</identifier>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <!--<dependencies>
         <li>E</li>
     </dependencies>
@@ -23,6 +23,7 @@
         <li>Dubs-Bad-Hygiene</li>
         <li>VerbExpansionFramework</li>
         <li>ProstheticCombatFramework</li>
+        <li>SupremeMelee</li>
 
         <!--RACE COMPATS-->
         <!--Does not include naturally compatible races-->
@@ -44,6 +45,9 @@
         <li>ArachneRace</li>
         <li>KijinRace</li>
         <li>Half-Dragons</li>
+        <li>KijinRace2.0</li>
+        <!--Gerzee Race is improperly specified in ModManager so no checks there-->
+        <li>Xenohumans</li>
     </loadAfter>
     <!--
     <suggests>

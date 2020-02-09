@@ -80,7 +80,18 @@
     </costList>
   </ThingDef> -->
 
-
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_RendingClaw</defName>
+    <label>rending claws</label>
+    <description>While increasing the range of dexterity less than the extradextrous arm, the sharp talons also increase the user's ability to fight back.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Limbs1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>140</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>2</EVOR_Resource_Mechanites>
+    </costList>
+  </ThingDef>
 
   
 </Defs>

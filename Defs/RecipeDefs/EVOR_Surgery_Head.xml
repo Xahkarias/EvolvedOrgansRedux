@@ -4,7 +4,7 @@
     <defName>EVOR_Surgery_Skull_Shielding</defName>
     <label>&lt;color=#00FFF7&gt;implant interference shielding&lt;/color&gt;</label>
     <description>Implant interference shielding.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <workerClass>Recipe_InstallImplant</workerClass>
     <jobString>Implanting interference shielding.</jobString>
     <workAmount>3000</workAmount>
     <skillRequirements>
@@ -49,7 +49,7 @@
     <defName>EVOR_Surgery_Skull_Plating</defName>
     <label>&lt;color=#00FFF7&gt;implant cranial plating&lt;/color&gt;</label>
     <description>Implant cranial plating.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <workerClass>Recipe_InstallImplant</workerClass>
     <jobString>Implanting cranial plating.</jobString>
     <workAmount>3000</workAmount>
     <skillRequirements>
