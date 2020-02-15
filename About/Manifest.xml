@@ -48,6 +48,7 @@
         <li>KijinRace2.0</li>
         <!--Gerzee Race is improperly specified in ModManager so no checks there-->
         <li>Xenohumans</li>
+        <li>FerianRace</li>
     </loadAfter>
     <!--
     <suggests>
