@@ -56,7 +56,7 @@
   <ThingDef ParentName="EVOR_OrgBase">
     <defName>EVOR_Item_Spine</defName>
     <label>neuro-accelerated spine</label>
-    <description>While the gila coating increases signal transmission speeds by an order of magnitude, more significan is the secondary processing nodules, which allow the spinal cord to process lower urgency signals on its own, lowering the load on the brain.</description>
+    <description>While the gila coating increases signal transmission speeds by an order of magnitude, more significant is the secondary processing nodules, which allow the spinal cord to process lower urgency signals on its own, lowering the load on the brain.</description>
     <recipeMaker>
       <researchPrerequisite>EVOR_Research_Organs1</researchPrerequisite>
     </recipeMaker>
