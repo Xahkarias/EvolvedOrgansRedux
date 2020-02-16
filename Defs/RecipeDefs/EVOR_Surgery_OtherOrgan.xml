@@ -91,6 +91,51 @@
   </RecipeDef>
 
   <RecipeDef ParentName="SurgeryFlesh">
+    <defName>EVOR_Surgery_Nose_Pheromones</defName>
+    <label>&lt;color=#00FFF7&gt;implant pheromone releaser nose&lt;/color&gt;</label>
+    <description>Implant a pheromone releaser nose.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Implanting pheromone releaser nose.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EVOR_Item_Nose_Pheromones</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>EVOR_Item_Nose_Pheromones</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Nose</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EVOR_Hediff_Nose_Pheromones</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Ear</defName>
     <label>&lt;color=#00FFF7&gt;implant multifrequency ear&lt;/color&gt;</label>
     <description>Implant a multifrequency ear.</description>

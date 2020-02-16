@@ -44,6 +44,26 @@
 		</stages>
 	</HediffDef>
 
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Nose_Pheromones</defName>
+		<label>pheromone releaser nose</label>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<labelNoun>a pheromone releaser nose</labelNoun>
+		<spawnThingOnRemoved>EVOR_Item_Nose_Pheromones</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.8</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<NegotiationAbility>0.3</NegotiationAbility>
+					<TradePriceImprovement>0.2</TradePriceImprovement>
+					<SocialImpact>0.4</SocialImpact>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
 
 	<HediffDef ParentName="AddedBodyPartBase">
 		<defName>EVOR_Hediff_Ear</defName>
