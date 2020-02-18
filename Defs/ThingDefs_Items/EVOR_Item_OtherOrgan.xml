@@ -28,6 +28,19 @@
   </ThingDef>
 
   <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Nose_Pheromones</defName>
+    <label>pheromone releaser nose</label>
+    <description>By adding special pheromone glands to the base of the nose, the host can slightly alter the disposition of those they are communicating with.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Organs2</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>90</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>1</EVOR_Resource_Mechanites>
+    </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="EVOR_OrgBase">
     <defName>EVOR_Item_Ear</defName>
     <label>multifrequency ear</label>
     <description>By increasing the spectrum of frequencies able to be heard, as well as allowing the host to temporarily focus on one frequency, these ears allow the host complete knowledge of the sounds around him.</description>
@@ -43,7 +56,7 @@
   <ThingDef ParentName="EVOR_OrgBase">
     <defName>EVOR_Item_Spine</defName>
     <label>neuro-accelerated spine</label>
-    <description>While the gila coating increases signal transmission speeds by an order of magnitude, more significan is the secondary processing nodules, which allow the spinal cord to process lower urgency signals on its own, lowering the load on the brain.</description>
+    <description>While the gila coating increases signal transmission speeds by an order of magnitude, more significant is the secondary processing nodules, which allow the spinal cord to process lower urgency signals on its own, lowering the load on the brain.</description>
     <recipeMaker>
       <researchPrerequisite>EVOR_Research_Organs1</researchPrerequisite>
     </recipeMaker>

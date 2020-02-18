@@ -507,6 +507,15 @@
 						</RecipeDef>
 
 						<RecipeDef ParentName="EVOR_Grower_Recipe_Small">
+							<defName>EVOR_QEE_Nose_Pheromones</defName>
+							<label>&lt;color=#00FFF7&gt;pheromone releaser nose&lt;/color&gt;</label>
+							<products>
+								<EVOR_Item_Nose_Pheromones>1</EVOR_Item_Nose_Pheromones>
+							</products>
+							<researchPrerequisite>EVOR_Research_Organs2</researchPrerequisite>
+						</RecipeDef>
+
+						<RecipeDef ParentName="EVOR_Grower_Recipe_Small">
 							<defName>EVOR_QEE_Ear</defName>
 							<label>&lt;color=#00FFF7&gt;multifrequency ear&lt;/color&gt;</label>
 							<products>

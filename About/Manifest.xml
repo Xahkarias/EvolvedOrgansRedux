@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
     <identifier>EvolvedOrgansRedux</identifier>
-    <version>1.0.5</version>
+    <version>1.0.6</version>
     <!--<dependencies>
         <li>E</li>
     </dependencies>
@@ -48,6 +48,7 @@
         <li>KijinRace2.0</li>
         <!--Gerzee Race is improperly specified in ModManager so no checks there-->
         <li>Xenohumans</li>
+        <li>FerianRace</li>
     </loadAfter>
     <!--
     <suggests>
