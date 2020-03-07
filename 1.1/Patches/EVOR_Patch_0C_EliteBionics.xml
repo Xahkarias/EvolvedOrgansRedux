@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <success>Always</success>
+    <mods>
+        <li>Elite Bionics Framework</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+
+        <!--These cover all non-patched in arms-->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[contains(defName, "EVOR_Hediff_Primary")]/comps</xpath>
+          <value>
+            <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+              <linearAdjustment>15</linearAdjustment>
+            </li>
+          </value>
+			    <success>Always</success>
+		    </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[contains(defName, "EVOR_Hediff_Secondary")]/comps</xpath>
+          <value>
+            <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+              <linearAdjustment>15</linearAdjustment>
+            </li>
+			    </value>
+			    <success>Always</success>
+		    </li>
+
+
+        <!--primary organs-->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Heart"]</xpath>
+          <value>
+            <comps>
+              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                <linearAdjustment>10</linearAdjustment>
+              </li>
+            </comps>
+			    </value>
+			    <success>Always</success>
+		    </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Kidney"]</xpath>
+          <value>
+            <comps>
+              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                <linearAdjustment>10</linearAdjustment>
+              </li>
+            </comps>
+			    </value>
+			    <success>Always</success>
+		    </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Lung"]</xpath>
+          <value>
+            <comps>
+              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                <linearAdjustment>10</linearAdjustment>
+              </li>
+            </comps>
+			    </value>
+			    <success>Always</success>
+		    </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Stomach"]</xpath>
+          <value>
+            <comps>
+              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                <linearAdjustment>10</linearAdjustment>
+              </li>
+            </comps>
+			    </value>
+			    <success>Always</success>
+		    </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Liver"]</xpath>
+          <value>
+            <comps>
+              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                <linearAdjustment>10</linearAdjustment>
+              </li>
+            </comps>
+			    </value>
+			    <success>Always</success>
+		    </li>
+
+        <!--Legs-->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Leg_Normal"]</xpath>
+          <value>
+            <comps>
+              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                <linearAdjustment>20</linearAdjustment>
+              </li>
+            </comps>
+			    </value>
+			    <success>Always</success>
+		    </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Leg_Hand"]</xpath>
+          <value>
+            <comps>
+              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                <linearAdjustment>20</linearAdjustment>
+              </li>
+            </comps>
+			    </value>
+			    <success>Always</success>
+		    </li>
+
+        <!--Covers all tails-->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[contains(defName, "EVOR_Hediff_Tail")]/comps</xpath>
+          <value>
+            <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+              <linearAdjustment>20</linearAdjustment>
+            </li>
+          </value>
+			    <success>Always</success>
+		    </li>
+
+        <!--Other Organ-->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Eye"]</xpath>
+          <value>
+            <comps>
+              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                <linearAdjustment>5</linearAdjustment>
+              </li>
+            </comps>
+			    </value>
+			    <success>Always</success>
+		    </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[contains(defName, "EVOR_Hediff_Nose")]</xpath>
+          <value>
+            <comps>
+              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                <linearAdjustment>5</linearAdjustment>
+              </li>
+            </comps>
+			    </value>
+			    <success>Always</success>
+		    </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Ear"]</xpath>
+          <value>
+            <comps>
+              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                <linearAdjustment>5</linearAdjustment>
+              </li>
+            </comps>
+			    </value>
+			    <success>Always</success>
+		    </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Spine"]</xpath>
+          <value>
+            <comps>
+              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                <linearAdjustment>15</linearAdjustment>
+              </li>
+            </comps>
+			    </value>
+			    <success>Always</success>
+		    </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Skin_Plating"]</xpath>
+          <value>
+            <comps>
+              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                <linearAdjustment>25</linearAdjustment>
+              </li>
+            </comps>
+			    </value>
+			    <success>Always</success>
+		    </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Skin_Flame"]</xpath>
+          <value>
+            <comps>
+              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                <linearAdjustment>15</linearAdjustment>
+              </li>
+            </comps>
+			    </value>
+			    <success>Always</success>
+		    </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Skin_Insulation"]</xpath>
+          <value>
+            <comps>
+              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                <linearAdjustment>15</linearAdjustment>
+              </li>
+            </comps>
+			    </value>
+			    <success>Always</success>
+		    </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Ribcage"]</xpath>
+          <value>
+            <comps>
+              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                <linearAdjustment>15</linearAdjustment>
+              </li>
+            </comps>
+			    </value>
+			    <success>Always</success>
+		    </li>
+
+        <!--This gets all jaws-->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[contains(defName, "EVOR_Hediff_Jaw")]/comps</xpath>
+          <value>
+            <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+              <linearAdjustment>10</linearAdjustment>
+            </li>
+          </value>
+			    <success>Always</success>
+		    </li>
+
+        <!--This gets all abd-->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[contains(defName, "EVOR_Hediff_Abd")]</xpath>
+          <value>
+            <comps>
+              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                <linearAdjustment>5</linearAdjustment>
+              </li>
+            </comps>
+          </value>
+			    <success>Always</success>
+		    </li>
+
+        <!--This gets all back-->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[contains(defName, "EVOR_Hediff_Back")]</xpath>
+          <value>
+            <comps>
+              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                <linearAdjustment>5</linearAdjustment>
+              </li>
+            </comps>
+          </value>
+			    <success>Always</success>
+		    </li>
+
+        <!--This gets all skull-->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[contains(defName, "EVOR_Hediff_Skull")]</xpath>
+          <value>
+            <comps>
+              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                <linearAdjustment>10</linearAdjustment>
+              </li>
+            </comps>
+          </value>
+			    <success>Always</success>
+		    </li>
+
+        <!--This gets all brain-->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[contains(defName, "EVOR_Hediff_Brain")]</xpath>
+          <value>
+            <comps>
+              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                <linearAdjustment>6</linearAdjustment>
+              </li>
+            </comps>
+          </value>
+			    <success>Always</success>
+		    </li>
+
+      </operations>
+    </match>
+  </Operation>
+</Patch>
