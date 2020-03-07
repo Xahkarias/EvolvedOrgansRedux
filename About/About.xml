@@ -2,7 +2,7 @@
 <ModMetaData>
   <name>EvolvedOrgansRedux</name>
   <author>Xahkarias</author>
-  <packageId>Xahkarias.EVORedux</packageId>
+  <packageId>Xahkarias.EvolvedOrgansRedux</packageId>
   <description>Adds a large amount of enhanced organs to add new functionality to your colonists, turning them from either the most efficient organism on the Rim, or the living equivalence of main battle tank column</description>
 
   <url>https://github.com/Xahkarias/EvolvedOrgansRedux</url>
@@ -11,47 +11,16 @@
     <li>1.1</li>
   </supportedVersions>
   
-  <!--
   <loadAfterByVersion>
     <v1.1>
-      <li>
-        <packageId>V1024.EBFramework</packageId>
-        <displayName>Elite Bionics Framework</displayName>
-        <steamWorkshopUrl>steam://url/CommunityFilePage/1665403571</steamWorkshopUrl>
-      </li>
-      <li>
-        <packageId>Rah.RBSE</packageId>
-        <displayName>Rah's Bionics and Surgery Expansion</displayName>
-        <steamWorkshopUrl>steam://url/CommunityFilePage/850429707</steamWorkshopUrl>
-      </li>
-      <li>
-        <packageId>kongmd.qee</packageId>
-        <displayName>Questionable Ethics Expanded</displayName>
-        <steamWorkshopUrl>steam://url/CommunityFilePage/1787359789</steamWorkshopUrl>
-      </li>
-      <li>
-        <packageId>fluffy.thebirdsandthebees</packageId>
-        <displayName>The Birds and the Bees</displayName>
-        <steamWorkshopUrl>steam://url/CommunityFilePage/751049133</steamWorkshopUrl>
-      </li>
-      <li>
-        <packageId>ChJees.SupremeMelee</packageId>
-        <displayName>Supreme Melee</displayName>
-        <steamWorkshopUrl>steam://url/CommunityFilePage/1841138974</steamWorkshopUrl>
-      </li>
+      <li>V1024.EBFramework</li>
+      <li>Rah.RBSE</li>
+      <li>kongmd.qee</li>
+      <li>fluffy.thebirdsandthebees</li>
+      <li>ChJees.SupremeMelee</li>
+      <li>Dubwise.Rimatomics</li>
+      <li>Dubwise.DubsBadHygiene</li>
     </v1.1>
-  </loadAfterByVersion>
-  -->
-
-      <!--<li>[1.0]SwimmingKit</li>
-        <li>NightVision</li>
-        <li>Rimatomics</li>
-        <li>Dubs-Bad-Hygiene</li>
-        <li>VerbExpansionFramework</li>
-        <li>ProstheticCombatFramework</li>
-        <li>SupremeMelee</li>
--->
-        
-
+  </loadAfterByVersion>        
 
 </ModMetaData>
