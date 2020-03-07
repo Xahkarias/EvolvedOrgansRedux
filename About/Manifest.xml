@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
     <identifier>EvolvedOrgansRedux</identifier>
-    <version>1.0.6</version>
+    <version>1.0.7</version>
     <!--<dependencies>
         <li>E</li>
     </dependencies>
@@ -17,12 +17,8 @@
         <li>QuestionableEthicsEnhanced</li>
         <li>Rah'sBionicsandSurgeryExpansion</li>
         <li>TheBirdsandtheBees</li>
-        <li>[1.0]SwimmingKit</li>
-        <li>NightVision</li>
         <li>Rimatomics</li>
         <li>Dubs-Bad-Hygiene</li>
-        <li>VerbExpansionFramework</li>
-        <li>ProstheticCombatFramework</li>
         <li>SupremeMelee</li>
 
         <!--RACE COMPATS-->
