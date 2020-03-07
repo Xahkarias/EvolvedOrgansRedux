@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<success>Always</success>
+		<mods>
+			<li>Rimatomics</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<!--ADDING HEDIFF-->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<HediffDef ParentName="AddedBodyPartBase">
+							<defName>EVOR_Hediff_Abd_Rad</defName>
+							<label>radiation suppressor</label>
+							<spawnThingOnRemoved>EVOR_Item_Abd_Rad</spawnThingOnRemoved>
+							<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+							<addedPartProps>
+								<solid>true</solid>
+								<partEfficiency>1.0</partEfficiency>
+								<betterThanNatural>true</betterThanNatural>
+							</addedPartProps>
+							<stages>
+                                <li>
+                                    <hungerRateFactor>1.15</hungerRateFactor>
+                                    <statOffsets>
+                                        <Radiation>-0.40</Radiation>
+                                    </statOffsets>
+                                </li>
+                            </stages>
+							<description>An organ developed to release protective protiens which insulate cells from radiation damage as well as filtering and replacing irradiated tissue.</description>
+							<descriptionHyperlinks><ThingDef>EVOR_Item_Abd_Rad</ThingDef></descriptionHyperlinks>
+						</HediffDef>
+					</value>
+					<success>Always</success>
+				</li>
+
+				<!--ADDING ITEM-->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<ThingDef ParentName="EVOR_OrgBase">
+							<defName>EVOR_Item_Abd_Rad</defName>
+							<label>radiation suppressor</label>
+							<description>An organ developed to release protective protiens which insulate cells from radiation damage as well as filtering and replacing irradiated tissue.</description>
+							<recipeMaker>
+      							<researchPrerequisite>EVOR_Research_Organs3</researchPrerequisite>
+    						</recipeMaker>
+							<costList>
+								<EVOR_Resource_Protein>100</EVOR_Resource_Protein>
+      							<EVOR_Resource_Mechanites>2</EVOR_Resource_Mechanites>
+							</costList>
+							<descriptionHyperlinks><RecipeDef>EVOR_Surgery_Abd_Rad_1</RecipeDef></descriptionHyperlinks>
+						</ThingDef>
+					</value>
+					<success>Always</success>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+                        <RecipeDef Name="EVOR_Surgery_Abstract_Rad" Abstract="True" ParentName="SurgeryFlesh">
+                            <label>&lt;color=#00FFF7&gt;implant radiation suppressor&lt;/color&gt;</label>
+                            <description>Implant a radiation suppressor.</description>
+                            <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+                            <jobString>Implanting radiation suppressor.</jobString>
+                            <workAmount>3000</workAmount>
+                            <skillRequirements>
+                            <Medicine>10</Medicine>
+                            </skillRequirements>
+                            <recipeUsers>
+                            <li>Human</li>
+                            </recipeUsers>
+                            <ingredients>
+                            <li>
+                                <filter>
+                                <categories>
+                                    <li>Medicine</li>
+                                </categories>
+                                </filter>
+                                <count>2</count>
+                            </li>
+                            <li>
+                                <filter>
+                                <thingDefs>
+                                    <li>EVOR_Item_Abd_Rad</li>
+                                </thingDefs>
+                                </filter>
+                                <count>1</count>
+                            </li>
+                            </ingredients>
+                            <fixedIngredientFilter>
+                            <categories>
+                                <li>Medicine</li>
+                            </categories>
+                            <thingDefs>
+                                <li>EVOR_Item_Abd_Rad</li>
+                            </thingDefs>
+                            </fixedIngredientFilter>
+                            <addsHediff>EVOR_Hediff_Abd_Rad</addsHediff>
+							<descriptionHyperlinks><ThingDef>EVOR_Item_Abd_Rad</ThingDef></descriptionHyperlinks>
+                        </RecipeDef>
+
+                        <RecipeDef ParentName="EVOR_Surgery_Abstract_Rad">
+                            <defName>EVOR_Surgery_Abd_Rad_1</defName>
+                            <appliedOnFixedBodyParts>
+                            <li>BodyCavity1</li>
+                            </appliedOnFixedBodyParts>
+                        </RecipeDef>
+                        <RecipeDef ParentName="EVOR_Surgery_Abstract_Rad">
+                            <defName>EVOR_Surgery_Abd_Rad_2</defName>
+                            <appliedOnFixedBodyParts>
+                            <li>BodyCavity2</li>
+                            </appliedOnFixedBodyParts>
+                        </RecipeDef>
+                        <RecipeDef ParentName="EVOR_Surgery_Abstract_Rad">
+                            <defName>EVOR_Surgery_Abd_Rad_A</defName>
+                            <appliedOnFixedBodyParts>
+                            <li>BodyCavityA</li>
+                            </appliedOnFixedBodyParts>
+                        </RecipeDef>
+
+					</value>
+					<success>Always</success>
+				</li>
+
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Elite Bionics Framework</li>
+					</mods>
+					<match Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/HediffDef[defName="EVOR_Hediff_Abd_Rad"]</xpath>
+								<value>
+									<comps>
+									<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+										<linearAdjustment>5</linearAdjustment>
+									</li>
+									</comps>
+								</value>
+								<success>Always</success>
+							</li>
+						</operations>
+					</match>
+				</li>
+
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Questionable Ethics Enhanced</li>
+					</mods>
+					<match Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationRemove">
+            					<xpath>/Defs/ThingDef[defName="EVOR_Item_Abd_Rad"]/recipeMaker</xpath>
+        					</li>
+							<li Class="PatchOperationRemove">
+            					<xpath>/Defs/ThingDef[defName="EVOR_Item_Abd_Rad"]/costList</xpath>
+        					</li>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs</xpath>
+								<value>
+									<RecipeDef ParentName="EVOR_Grower_Recipe_Medium">
+										<defName>EVOR_QEE_Abd_Rad</defName>
+										<label>&lt;color=#00FFF7&gt;radiation suppressor&lt;/color&gt;</label>
+										<products>
+											<EVOR_Item_Abd_Rad>1</EVOR_Item_Abd_Rad>
+										</products>
+										<researchPrerequisite>EVOR_Research_Organs3</researchPrerequisite>
+									</RecipeDef>
+								</value>
+							</li>
+						</operations>
+					</match>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>
+
+
+
+
