@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ResearchTabDef>
+    <defName>EVOR_EvolvedOrgansResearchTab</defName>
+    <label>Evolved Organs</label>
+  </ResearchTabDef>
+
+  <ResearchProjectDef>
+    <defName>EVOR_Research_Start1</defName>
+    <!--Unlocks the way to make protein sludge-->
+    <tab>EVOR_EvolvedOrgansResearchTab</tab>
+    <label>Raw Protein Extraction</label>
+    <description>With our knowledge of biology, we can extract the raw building blocks out of already differeniated matter.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>Fabrication</li>
+      <li>VitalsMonitor</li>
+      <li>Bionics</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>EVOR_Research_Start2</defName>
+    <!--Unlocks the way to make mechanite cells-->
+    <tab>EVOR_EvolvedOrgansResearchTab</tab>
+    <label>Nano-Scale Cellular Engineering</label>
+    <description>By combining our knowledge of biology and bionics, we can engineer nanites that can mold raw biological materials into cells of our choosing.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>EVOR_Research_Start1</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>EVOR_Research_Start3</defName>
+    <!--Unlocks the crafting benches and stuff-->
+    <tab>EVOR_EvolvedOrgansResearchTab</tab>
+    <label>Bio-Mechanical Tissue Application</label>
+    <description>Through the selective processes of germinating and stimulating stem cells at the nano-scale with mechanites, it is possible to create simple biological frameworks.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>EVOR_Research_Start2</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>2</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>EVOR_Research_Organs1</defName>
+    <!--Unlocks normal pre-existing organs, primary ones-->
+    <tab>EVOR_EvolvedOrgansResearchTab</tab>
+    <label>Basic Organ Application</label>
+    <description>The continued understand of stem cells and mechanite integration has allowed the development of advanced cellular structures which can be utilized to create advanced internal organs.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>EVOR_Research_Start3</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>3</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>EVOR_Research_Organs2</defName>
+    <!--Unlocks normal pre-existing organs, secondary ones like eyes and ears, reproductive, etc-->
+    <tab>EVOR_EvolvedOrgansResearchTab</tab>
+    <label>Complex Organ Application</label>
+    <description>Further research into organ creation would allow us to design more efficient versions of all our pre-existing organs.</description>
+    <baseCost>3000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>EVOR_Research_Organs1</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>4</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>EVOR_Research_Organs3</defName>
+    <!--Unlocks all abdomen organs etc-->
+    <tab>EVOR_EvolvedOrgansResearchTab</tab>
+    <label>Advanced Organ Application</label>
+    <description>The understanding of the most difficult bodily structures which would unlock the capacity to engineer the most complex organs and beyond.</description>
+    <baseCost>3000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>EVOR_Research_Organs2</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>5</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>EVOR_Research_Brain1</defName>
+    <!--Unlocks all brain stuff etc-->
+    <tab>EVOR_EvolvedOrgansResearchTab</tab>
+    <label>Neural Re-Engineering</label>
+    <description>By understanding how our vast intellect is driven by our brains, we can enchance our mental capabilities to untold heights.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>EVOR_Research_Organs2</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>5</researchViewX>
+    <researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>EVOR_Research_Psychic1</defName>
+    <!--Unlocks all psychic stuff etc-->
+    <tab>EVOR_EvolvedOrgansResearchTab</tab>
+    <label>Psychic Synapse Network</label>
+    <description>With our extensive knowledge of the mind, we can find out ways to influence people's thoughts and mood from a distance.</description>
+    <baseCost>4500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>EVOR_Research_Organs3</li>
+      <li>EVOR_Research_Brain1</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>6</researchViewX>
+    <researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>EVOR_Research_Outer1</defName>
+    <tab>EVOR_EvolvedOrgansResearchTab</tab>
+    <label>Resilient Tissue Framework</label>
+    <description>Restructuring our tissue frameworks to survive the stress of being outside the body is crucial to creating defensive adaptations.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>EVOR_Research_Organs1</li>      
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>4</researchViewX>
+    <researchViewY>2</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>EVOR_Research_Other1</defName>
+    <tab>EVOR_EvolvedOrgansResearchTab</tab>
+    <label>Partial Body Structure Reconfiguration</label>
+    <description>Expaning upon our ability to create new load-bearing bioforms, we can create radical new bodies types.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>EVOR_Research_Limbs3</li>      
+      <li>EVOR_Research_Outer1</li> 
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>6</researchViewX>
+    <researchViewY>2</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>EVOR_Research_Limbs1</defName>
+    <!-- This unlocks moderately normal limbs, for only the 4 normal limbs -->
+    <tab>EVOR_EvolvedOrgansResearchTab</tab>
+    <label>Biological Framework Application</label>
+    <description>To create bones and musculature we must first understand how to propogate the cells and mechanites in load bearing configurations.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>EVOR_Research_Start3</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>3</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>EVOR_Research_Limbs2</defName>
+    <!-- This unlocks all non ranged limbs, for only the 4 normal limbs -->
+    <tab>EVOR_EvolvedOrgansResearchTab</tab>
+    <label>Advanced Limb Structures</label>
+    <description>The capability to create simple load-bearing structures has been understood, now we must scale up the technology to apply and test it.</description>
+    <baseCost>3000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>EVOR_Research_Limbs1</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>4</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>EVOR_Research_Limbs3</defName>
+    <!-- This unlocks all non ranged limbs, for secondary legs + wings -->
+    <tab>EVOR_EvolvedOrgansResearchTab</tab>
+    <label>Limb-Torso Support Structures</label>
+    <description>Why limit ourselves to only the number of limbs given to us? By researching how our bodies control and and structure our limbs, we can graft more limbs onto our bodies.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>EVOR_Research_Limbs2</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>5</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>EVOR_Research_Limbs4</defName>
+    <!-- This unlocks all ranged limbs -->
+    <tab>EVOR_EvolvedOrgansResearchTab</tab>
+    <label>Bio-weapon Symbiosis</label>
+    <description>By creating specialized organisms to live in our limbs, we can create bio-weapons utilizing them that are part of our very own bodies.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>EVOR_Research_Limbs3</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>6</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+
+
+
+
+<!--
+  <ResearchProjectDef>
+    <defName>EvolvedOrgansResearchAdvanced1</defName>
+    <tab>EVO_EvolvedOrgansResearchTab</tab>
+    <label>True Bio-Mechanical Integration NYI</label>
+    <description>Can we put a powerplant in a humanoid?  Not yet implemented just enjoy the thought</description>
+    <baseCost>10000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>EVOR_Research_Organs2</li>
+      <li>EVOR_Research_Limbs3</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>6</researchViewX>
+    <researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>EvolvedOrgansResearchAdvanced2</defName>
+    <tab>EVO_EvolvedOrgansResearchTab</tab>
+    <label>Advanced Bio-Mechanical Integration NYI</label>
+    <description>K we can, but now what? We get to finally coding in blaster weapons that you can mount on your arms for the arm god thats what, but thats not in yet so... wait patiently I guess.</description>
+    <baseCost>20000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>EvolvedOrgansResearchAdvanced1</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>7</researchViewX>
+    <researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+  -->
+</Defs>

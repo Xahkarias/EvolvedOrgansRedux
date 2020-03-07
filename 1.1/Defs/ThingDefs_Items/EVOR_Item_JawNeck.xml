@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Jaw_Distend</defName>
+    <label>distendable jaw</label>
+    <description>By allowing the jaw to detaach from the skull while still delivering a powerful bite, this jaw allows the host to consume food at a rapid rate.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Organs2</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>120</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>2</EVOR_Resource_Mechanites>
+    </costList>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Jaw_Distend</RecipeDef></descriptionHyperlinks>
+  </ThingDef>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Jaw_Venom</defName>
+    <label>venomous fangs</label>
+    <description>By producing a deadly venom and injecting into the enemy, our colonists can have a hidden weapon for any situation.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Organs2</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>120</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>2</EVOR_Resource_Mechanites>
+    </costList>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Jaw_Venom</RecipeDef></descriptionHyperlinks>
+  </ThingDef>
+
+</Defs>

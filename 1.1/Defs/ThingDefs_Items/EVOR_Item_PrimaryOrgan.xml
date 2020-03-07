@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Heart</defName>
+    <label>triwoven primary heart</label>
+    <description>By weaving musculature in three different directions instead of one, the heart has not only more control and volume of blood flow, but increased efficiently due to the extra muscle.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Organs1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>120</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>2</EVOR_Resource_Mechanites>
+    </costList>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Heart</RecipeDef></descriptionHyperlinks>
+  </ThingDef>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Kidney</defName>
+    <label>triple filter pass kidney</label>
+    <description>By creating an ingenious system in which blood is filtered three times without drop in other performance parameters, the kidney's performance is drastically increased.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Organs1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>120</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>2</EVOR_Resource_Mechanites>
+    </costList>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Kidney</RecipeDef></descriptionHyperlinks>
+  </ThingDef>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Lung</defName>
+    <label>nano-alveoli lung</label>
+    <description>By decreasing the size of the alveoli to sizes unheard of, the internal gas transfer area of the lungs is drastically increased, as well as making it more diffucult for airborne toxins to enter the blood.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Organs1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>120</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>2</EVOR_Resource_Mechanites>
+    </costList>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Lung</RecipeDef></descriptionHyperlinks>
+  </ThingDef>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Stomach</defName>
+    <label>multichamber stomach</label>
+    <description>By seperating digestion into seperate specialized chambers, the amount of nutrients gathered from food is drastically increased, as well as digestion speed, as seperating the steps increases the speed of digestion.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Organs1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>120</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>2</EVOR_Resource_Mechanites>
+    </costList>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Stomach</RecipeDef></descriptionHyperlinks>
+  </ThingDef>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Liver</defName>
+    <label>quadlobe liver</label>
+    <description>By increasing liver cell density by a factor of two, the liver can be expanded to include twice as many independently acting lobes, increasing its functionality.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Organs1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>120</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>2</EVOR_Resource_Mechanites>
+    </costList>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Liver</RecipeDef></descriptionHyperlinks>
+  </ThingDef>
+
+</Defs>

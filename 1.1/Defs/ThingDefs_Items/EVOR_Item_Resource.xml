@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>EVOR_Resource_Protein</defName>
+    <label>protein slag</label>
+    <description>A vial of animal proteins ready to be synthesized with mechanites and formed into a specialized appendage or organ.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/EVOR_Texture_Protein</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>10</MarketValue>
+      <Mass>0.01</Mass>
+      <Flammability>.8</Flammability>
+      <DeteriorationRate>5.0</DeteriorationRate>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>14</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <tickerType>Rare</tickerType>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>EVOR_Resource_Mechanites</defName>
+    <label>nano mechanites</label>
+    <description>A vial of nanomachines ready to be used to modify a mass of cells into a large, complex organ.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/EVOR_Texture_Mechanite</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>30</MarketValue>
+      <Mass>0.01</Mass>
+      <Flammability>.8</Flammability>
+      <DeteriorationRate>5.0</DeteriorationRate>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>14</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <tickerType>Rare</tickerType>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+
+</Defs>

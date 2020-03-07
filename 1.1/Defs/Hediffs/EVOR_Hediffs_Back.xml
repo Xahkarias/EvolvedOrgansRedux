@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Back_Wing</defName>
+		<label>feathered wings</label>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<labelNoun>feathered wings</labelNoun>
+		<spawnThingOnRemoved>EVOR_Item_Back_Wing</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.0</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.6</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<description>By creating wings that are powerful enough to keep one aloft, but small enough to not intrude upon daily life, we have created a way to rapidly increase our speed.</description>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_Back_Wing</ThingDef></descriptionHyperlinks>
+	</HediffDef>
+
+  	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Back_Hand</defName>
+		<label>tentacle cluster</label>
+		<labelNoun>a tentacle cluster</labelNoun>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<spawnThingOnRemoved>EVOR_Item_Back_Hand</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.00</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.25</offset>
+					</li>
+				</capMods>
+			</li>	
+		</stages>
+		<description>Adding a small amount of manipulator tentacles on our backs can increase our ability to work.</description>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_Back_Hand</ThingDef></descriptionHyperlinks>
+	</HediffDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Back_Muscle</defName>
+		<label>musculature braces</label>
+		<labelNoun>musculature braces</labelNoun>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<spawnThingOnRemoved>EVOR_Item_Back_Muscle</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.00</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+                <statOffsets>
+                    <CarryingCapacity>15</CarryingCapacity>
+					<MeleeWeapon_DamageMultiplier>0.1</MeleeWeapon_DamageMultiplier>
+                </statOffsets>		
+            </li>	
+		</stages>
+		<description>Adding extra bands of muscle, as well as supporting bone to connect to, allows the host to hit harder and carry more.</description>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_Back_Muscle</ThingDef></descriptionHyperlinks>
+	</HediffDef>
+
+
+
+
+
+
+
+
+
+
+
+</Defs>

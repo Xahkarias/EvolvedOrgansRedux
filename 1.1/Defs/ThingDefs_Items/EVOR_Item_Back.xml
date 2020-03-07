@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Back_Wing</defName>
+    <label>feathered wings</label>
+    <description>By creating wings that are powerful enough to keep one aloft, but small enough to not intrude upon daily life, we have created a way to rapidly increase our speed.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Other1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>150</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>2</EVOR_Resource_Mechanites>
+    </costList>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Back_Wing</RecipeDef></descriptionHyperlinks>
+  </ThingDef>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Back_Hand</defName>
+    <label>tentacle cluster</label>
+    <description>Adding a small amount of manipulator tentacles on our backs can increase our ability to work.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Limbs3</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>150</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>2</EVOR_Resource_Mechanites>
+    </costList>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Back_Hand</RecipeDef></descriptionHyperlinks>
+  </ThingDef>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Back_Muscle</defName>
+    <label>musculature braces</label>
+    <description>Adding extra bands of muscle, as well as supporting bone to connect to, allows the host to hit harder and carry more.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Other1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>150</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>2</EVOR_Resource_Mechanites>
+    </costList>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Back_Muscle</RecipeDef></descriptionHyperlinks>
+  </ThingDef>
+</Defs>

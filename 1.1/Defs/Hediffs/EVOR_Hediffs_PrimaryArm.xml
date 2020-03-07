@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Arm -->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Primary_NormalArm</defName>
+		<label>extradextrous arm</label>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<labelNoun>an extradextrous arm</labelNoun>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>12</power>
+						<cooldownTime>2</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>EVOR_Item_NormalArm</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.0</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeWeapon_CooldownMultiplier>-.05</MeleeWeapon_CooldownMultiplier>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.5</offset>
+					</li>
+				</capMods>
+			</li>	
+		</stages>
+		<description>By strengthening the muscles in the entire arm, as well as increasing fine nervous control, the entire performance of the arm is increased.</description>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_NormalArm</ThingDef></descriptionHyperlinks>
+	</HediffDef>
+
+  	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Primary_BoneSaber</defName>
+		<label>ossified bone saber</label>
+		<labelNoun>an ossified bone saber</labelNoun>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<capacities>
+							<li>Stab</li>
+							<li>Cut</li>
+						</capacities>
+						<power>30.0</power>
+						<cooldownTime>2.2</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<armorPenetration>0.1</armorPenetration>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>EVOR_Item_BoneSaber</spawnThingOnRemoved>
+		<addedPartProps>
+			<isGoodWeapon>true</isGoodWeapon>
+			<solid>true</solid>
+			<partEfficiency>1.00</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeWeapon_CooldownMultiplier>-.05</MeleeWeapon_CooldownMultiplier>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.3</offset>
+					</li>
+				</capMods>
+			</li>	
+		</stages>
+		<description>By creating sharp bone growths that naturally keep themselves unnaturally sharp, we can create an appendage more lethal than any sword.</description>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_BoneSaber</ThingDef></descriptionHyperlinks>
+	</HediffDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Primary_HighPincer</defName>
+		<label>high pressure pincer</label>
+		<labelNoun>a high pressure pincer</labelNoun>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>23.0</power>
+						<cooldownTime>3.2</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<armorPenetration>0.4</armorPenetration>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>EVOR_Item_HighPincer</spawnThingOnRemoved>
+		<addedPartProps>
+			<isGoodWeapon>true</isGoodWeapon>
+			<solid>true</solid>
+			<partEfficiency>1.00</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeWeapon_CooldownMultiplier>-.05</MeleeWeapon_CooldownMultiplier>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>	
+		</stages>
+		<description>The claws on this limb are made of the toughest chitin, as well as being backed by muscles stronger than most animal jaws. The end result is a pincer that can wrench though any metal to destroy what lies inside.</description>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_HighPincer</ThingDef></descriptionHyperlinks>
+	</HediffDef>
+
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Primary_SonicMace</defName>
+		<label>sonic impact mace</label>
+		<labelNoun>a sonic impact mace</labelNoun>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<capacities>
+							<li>Blunt</li>
+							<li>EVOR_Cap_Sonic</li>
+						</capacities>
+						<power>10.0</power>
+						<cooldownTime>3.2</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<armorPenetration>0.1</armorPenetration>
+						<surpriseAttack>
+							<extraMeleeDamages>
+								<li>
+									<def>Stun</def>
+									<amount>35</amount>
+								</li>
+							</extraMeleeDamages>
+						</surpriseAttack>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>EVOR_Item_SonicMace</spawnThingOnRemoved>
+		<addedPartProps>
+			<isGoodWeapon>true</isGoodWeapon>
+			<solid>true</solid>
+			<partEfficiency>1.00</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeWeapon_CooldownMultiplier>-.05</MeleeWeapon_CooldownMultiplier>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.3</offset>
+					</li>
+				</capMods>
+			</li>	
+		</stages>
+		<description>This limb is created out of a mass of strengthened bone, with an intricate series of holes that serves to amplify sound. The result: a mace that creates a large disorienting sound wave on impact.</description>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_SonicMace</ThingDef></descriptionHyperlinks>
+	</HediffDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Primary_PlatedLimb</defName>
+		<label>tri-plated limb</label>
+		<labelNoun>a tri-plated limbs</labelNoun>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>12</power>
+						<cooldownTime>2</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>EVOR_Item_PlatedLimb</spawnThingOnRemoved>
+		<addedPartProps>
+			<isGoodWeapon>true</isGoodWeapon>
+			<solid>true</solid>
+			<partEfficiency>1.00</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeWeapon_CooldownMultiplier>-.05</MeleeWeapon_CooldownMultiplier>
+					<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+					<ArmorRating_Heat>0.025</ArmorRating_Heat>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.2</offset>
+					</li>
+				</capMods>
+			</li>	
+		</stages>
+		<description>In exchange for reducing the manipulative ability of the limb, large amounts of chitin plating are added, allowing the user to parry otherwise deadly blows.</description>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_PlatedLimb</ThingDef></descriptionHyperlinks>
+	</HediffDef>
+
+	<!--
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Primary_ShockTentacle</defName>
+		<label>electroshock tentacle</label>
+		<labelNoun>an electroshock tentacle</labelNoun>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<capacities>
+							<li>Blunt</li>
+							<li>EVOR_Cap_Shock</li>
+						</capacities>
+						<power>3.0</power>
+						<cooldownTime>3.2</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<armorPenetration>1.0</armorPenetration>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>EVOR_Item_ShockTentacle</spawnThingOnRemoved>
+		<addedPartProps>
+			<isGoodWeapon>true</isGoodWeapon>
+			<solid>true</solid>
+			<partEfficiency>1.00</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeWeapon_CooldownMultiplier>-.05</MeleeWeapon_CooldownMultiplier>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef> -->
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Primary_RendingClaw</defName>
+		<label>rending claws</label>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<labelNoun>a rending claw</labelNoun>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<capacities>
+							<li>Stab</li>
+						</capacities>
+						<power>18</power>
+						<cooldownTime>2</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>EVOR_Item_RendingClaw</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.0</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeWeapon_CooldownMultiplier>-.05</MeleeWeapon_CooldownMultiplier>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.3</offset>
+					</li>
+				</capMods>
+			</li>	
+		</stages>
+		<description>While increasing the range of dexterity less than the extradextrous arm, the sharp talons also increase the user's ability to fight back.</description>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_RendingClaw</ThingDef></descriptionHyperlinks>
+	</HediffDef>
+
+
+
+
+
+</Defs>

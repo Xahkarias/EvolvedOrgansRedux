@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Leg_Normal</defName>
+    <label>reinforced leg</label>
+    <description>By strengthening the muscles and bones, we can create legs that allow for more weight capacity and speed.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Limbs1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>140</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>2</EVOR_Resource_Mechanites>
+    </costList>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Leg_Normal</RecipeDef></descriptionHyperlinks>
+  </ThingDef>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Leg_Hand</defName>
+    <label>grasping leg</label>
+    <description>By imitating our genetic relatives, we can create a limb that functions as both a leg and an arm.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Limbs2</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>140</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>2</EVOR_Resource_Mechanites>
+    </costList>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Leg_Hand</RecipeDef></descriptionHyperlinks>
+  </ThingDef>
+
+</Defs>

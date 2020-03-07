@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>EVOR_Surgery_Skin_Plating</defName>
+    <label>&lt;color=#00FFF7&gt;implant multilayered dermal plating&lt;/color&gt;</label>
+    <description>Implant multilayered dermal plating.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Implanting multilayered dermal plating.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EVOR_Item_Skin_Plating</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>EVOR_Item_Skin_Plating</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EVOR_Hediff_Skin_Plating</addsHediff>
+    <descriptionHyperlinks><ThingDef>EVOR_Item_Skin_Plating</ThingDef></descriptionHyperlinks>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>EVOR_Surgery_Skin_Flame</defName>
+    <label>&lt;color=#00FFF7&gt;implant flame retardant skin&lt;/color&gt;</label>
+    <description>Implant flame retardant skin.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Implanting flame retardant skin.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EVOR_Item_Skin_Flame</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>EVOR_Item_Skin_Flame</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EVOR_Hediff_Skin_Flame</addsHediff>
+    <descriptionHyperlinks><ThingDef>EVOR_Item_Skin_Flame</ThingDef></descriptionHyperlinks>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>EVOR_Surgery_Skin_Insulation</defName>
+    <label>&lt;color=#00FFF7&gt;implant variable insulation skin&lt;/color&gt;</label>
+    <description>Implant variable insulation skin.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Implanting variable insulation skin.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EVOR_Item_Skin_Insulation</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>EVOR_Item_Skin_Insulation</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EVOR_Hediff_Skin_Insulation</addsHediff>
+    <descriptionHyperlinks><ThingDef>EVOR_Item_Skin_Insulation</ThingDef></descriptionHyperlinks>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>EVOR_Surgery_Ribcage</defName>
+    <label>&lt;color=#00FFF7&gt;implant calcium-alloy ribcage&lt;/color&gt;</label>
+    <description>Implant calcium-alloy ribcage.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Implanting calcium-alloy ribcage.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EVOR_Item_Ribcage</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>EVOR_Item_Ribcage</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Ribcage</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EVOR_Hediff_Ribcage</addsHediff>
+    <descriptionHyperlinks><ThingDef>EVOR_Item_Ribcage</ThingDef></descriptionHyperlinks>
+  </RecipeDef>
+
+</Defs>

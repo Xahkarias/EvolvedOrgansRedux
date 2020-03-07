@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <ToolCapacityDef>
+    <defName>EVOR_Cap_Toxic</defName>
+  </ToolCapacityDef>
+
+  <ToolCapacityDef>
+    <defName>EVOR_Cap_Sonic</defName>
+  </ToolCapacityDef>
+
+  <!--
+  <ToolCapacityDef>
+    <defName>EVOR_Cap_Shock</defName>
+  </ToolCapacityDef>
+  -->
+
+  
+</Defs>

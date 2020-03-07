@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Tail_Blade</defName>
+    <label>serrated stinger tail</label>
+    <description>By applying the same principles of creating a bone saber to a new limb, we can create a tail extremeity that is just as deadly.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Limbs3</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>150</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>2</EVOR_Resource_Mechanites>
+    </costList>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Tail_Blade</RecipeDef></descriptionHyperlinks>
+  </ThingDef>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Tail_Hand</defName>
+    <label>manipulator tail</label>
+    <description>A large bundle of nerves and muscles that are just as dextrous as a normal hand, this tail allows the host to have more options when doing manual labor.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Limbs3</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>150</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>2</EVOR_Resource_Mechanites>
+    </costList>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Tail_Hand</RecipeDef></descriptionHyperlinks>
+  </ThingDef>
+
+</Defs>

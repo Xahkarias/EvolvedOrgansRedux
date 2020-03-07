@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Abd_ThirdLung</defName>
+		<label>extra nano-filter lung</label>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<labelNoun>an extra nano-filter lung</labelNoun>
+		<spawnThingOnRemoved>EVOR_Item_Abd_ThirdLung</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.0</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ToxicSensitivity>-0.5</ToxicSensitivity>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>0.6</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<description>While only being marginally more efficient than a normal lung, this lung is equipped with a series of filters, able to process out a large proportion of airborne toxins.</description>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_Abd_ThirdLung</ThingDef></descriptionHyperlinks>
+	</HediffDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Abd_SecondHeart</defName>
+		<label>auxilary heart</label>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<labelNoun>an auxilary heart</labelNoun>
+		<spawnThingOnRemoved>EVOR_Item_Abd_SecondHeart</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.0</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<capMods>
+				<li>
+					<capacity>BloodPumping</capacity>
+					<offset>0.5</offset>
+				</li>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>0.15</offset>
+				</li>
+				</capMods>
+			</li>
+		</stages>
+		<description>This auxilary heart increases the amount of oxygen going though the person's body, allowing them to do work more efficiently.</description>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_Abd_SecondHeart</ThingDef></descriptionHyperlinks>
+	</HediffDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Abd_Combat</defName>
+		<label>combat serum gland</label>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<labelNoun>a combat serum gland</labelNoun>
+		<spawnThingOnRemoved>EVOR_Item_Abd_Combat</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.0</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeDodgeChance>2</MeleeDodgeChance>
+					<MeleeHitChance>2</MeleeHitChance>
+					<MeleeWeapon_CooldownMultiplier>-.1</MeleeWeapon_CooldownMultiplier>
+				</statOffsets>
+				<painFactor>0.75</painFactor>
+			</li>
+		</stages>
+		<description>This gland injects a potent brew of combat drugs into the body, significantly increasing close combat capabilities.</description>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_Abd_Combat</ThingDef></descriptionHyperlinks>
+	</HediffDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Abd_Hormone</defName>
+		<label>hormone regulator</label>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<labelNoun>a hormone regulator</labelNoun>
+		<spawnThingOnRemoved>EVOR_Item_Abd_Hormone</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.0</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MentalBreakThreshold>-0.2</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</stages>
+		<description>This gland regulates the mood of the host, making it much harder for their mind to snap.</description>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_Abd_Hormone</ThingDef></descriptionHyperlinks>
+	</HediffDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Abd_Lymph</defName>
+		<label>lymphatic proliferator</label>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<labelNoun>a lymphatic proliferator</labelNoun>
+		<spawnThingOnRemoved>EVOR_Item_Abd_Lymph</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.0</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<makeImmuneTo>
+					<li>WoundInfection</li>
+					<li>Flu</li>
+					<li>Plague</li>
+					<li>Malaria</li>
+					<li>SleepingSickness</li>
+				</makeImmuneTo>
+				<statOffsets>
+					<ImmunityGainSpeed>0.4</ImmunityGainSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+		<description>This gland significantly boosts it's host's immunizing capability, rendering them immune to most normal infectious agents.</description>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_Abd_Lymph</ThingDef></descriptionHyperlinks>
+	</HediffDef>
+
+	<!--
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Abd_Cultivate</defName>
+		<label>microbiome cultivator</label>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<labelNoun>a microbiome cultivator</labelNoun>
+		<spawnThingOnRemoved>EVOR_Item_Abd_Cultivate</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.0</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<hungerRateFactor>1.25</hungerRateFactor>
+				<statOffsets>
+					<RangedWeapon_Cooldown>-0.85</RangedWeapon_Cooldown>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	-->
+
+</Defs>

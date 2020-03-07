@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Skull_Shielding</defName>
+    <label>interference shielding</label>
+    <description>By utilizing a material resistant to psychic effects, we can create a Faraday cage around the brain, allowing the host to withstand any psychic assault.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Outer1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>120</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>2</EVOR_Resource_Mechanites>
+    </costList>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Skull_Shielding</RecipeDef></descriptionHyperlinks>
+  </ThingDef>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Skull_Plating</defName>
+    <label>cranial plating</label>
+    <description>By increasing the resilience of the skull, it becomes much more difficult to damage the brain.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Outer1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>90</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>1</EVOR_Resource_Mechanites>
+    </costList>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Skull_Plating</RecipeDef></descriptionHyperlinks>
+  </ThingDef>
+</Defs>

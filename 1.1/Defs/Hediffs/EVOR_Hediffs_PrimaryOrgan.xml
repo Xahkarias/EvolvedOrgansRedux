@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <!-- Primary Heart -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>EVOR_Hediff_Heart</defName>
+    <label>triwoven primary heart</label>
+    <defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+    <labelNoun>a triwoven primary heart</labelNoun>
+    <spawnThingOnRemoved>EVOR_Item_Heart</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>2.0</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <description>By weaving musculature in three different directions instead of one, the heart has not only more control and volume of blood flow, but increased efficiently due to the extra muscle.</description>
+    <descriptionHyperlinks><ThingDef>EVOR_Item_Heart</ThingDef></descriptionHyperlinks>
+  </HediffDef>
+
+  <!-- Kidney -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>EVOR_Hediff_Kidney</defName>
+    <label>triple filter pass kidney</label>
+    <defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+    <labelNoun>a triple filter pass kidney</labelNoun>
+    <spawnThingOnRemoved>EVOR_Item_Kidney</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>     
+      <partEfficiency>1.8</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ToxicSensitivity>-0.15</ToxicSensitivity>
+        </statOffsets>
+      </li>
+    </stages>
+    <description>By creating an ingenious system in which blood is filtered three times without drop in other performance parameters, the kidney's performance is drastically increased.</description>
+    <descriptionHyperlinks><ThingDef>EVOR_Item_Kidney</ThingDef></descriptionHyperlinks>
+  </HediffDef>
+
+  <!-- Lung -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>EVOR_Hediff_Lung</defName>
+    <label>nano-alveoli lung</label>
+    <defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+    <labelNoun>a nano-alveoli lung</labelNoun>
+    <spawnThingOnRemoved>EVOR_Item_Lung</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.8</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+     <stages>
+      <li>
+        <statOffsets>
+          <ToxicSensitivity>-0.1</ToxicSensitivity>
+        </statOffsets>
+      </li>
+    </stages>
+    <description>By decreasing the size of the alveoli to sizes unheard of, the internal gas transfer area of the lungs is drastically increased, as well as making it more diffucult for airborne toxins to enter the blood.</description>
+    <descriptionHyperlinks><ThingDef>EVOR_Item_Lung</ThingDef></descriptionHyperlinks>
+  </HediffDef>
+
+  <!-- Stomach -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>EVOR_Hediff_Stomach</defName>
+    <label>multichamber stomach</label>
+    <defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+    <labelNoun>a multichamber stomach</labelNoun>
+    <spawnThingOnRemoved>EVOR_Item_Stomach</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.8</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <stages>
+      <li>
+        <!--<makeImmuneTo>
+          <li>FoodPoisoning</li>
+        </makeImmuneTo>-->
+        <statOffsets>
+          <FoodPoisonChance>-1.00</FoodPoisonChance>
+        </statOffsets>
+        <hungerRateFactor>0.80</hungerRateFactor>
+      </li>
+    </stages>
+    <description>By seperating digestion into seperate specialized chambers, the amount of nutrients gathered from food is drastically increased, as well as digestion speed, as seperating the steps increases the speed of digestion.</description>
+    <descriptionHyperlinks><ThingDef>EVOR_Item_Stomach</ThingDef></descriptionHyperlinks>
+  </HediffDef>
+
+  <!-- Liver -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>EVOR_Hediff_Liver</defName>
+    <label>quadlobe liver</label>
+    <defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+    <labelNoun>a quadlobe liver</labelNoun>
+    <spawnThingOnRemoved>EVOR_Item_Liver</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.8</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ImmunityGainSpeed>0.1</ImmunityGainSpeed>
+        </statOffsets>
+        <restFallFactor>0.90</restFallFactor>
+      </li>
+    </stages>
+    <description>By increasing liver cell density by a factor of two, the liver can be expanded to include twice as many independently acting lobes, increasing its functionality.</description>
+    <descriptionHyperlinks><ThingDef>EVOR_Item_Liver</ThingDef></descriptionHyperlinks>
+  </HediffDef>
+
+</Defs>

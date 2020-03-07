@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>EVOR_Hediff_Tail_Blade</defName>
+    <label>serrated stinger tail</label>
+    <defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+    <labelNoun>a serrated stinger tail</labelNoun>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <capacities>
+              <li>Stab</li>
+              <li>Cut</li>
+            </capacities>
+            <power>25.0</power>
+            <cooldownTime>3</cooldownTime>
+            <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>EVOR_Item_Tail_Blade</spawnThingOnRemoved>
+    <addedPartProps>
+      <isGoodWeapon>true</isGoodWeapon>
+      <solid>true</solid>
+      <partEfficiency>1.2</partEfficiency>
+    </addedPartProps>
+    <description>By applying the same principles of creating a bone saber to a new limb, we can create a tail extremeity that is just as deadly.</description>
+    <descriptionHyperlinks><ThingDef>EVOR_Item_Tail_Blade</ThingDef></descriptionHyperlinks>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>EVOR_Hediff_Tail_Hand</defName>
+    <label>manipulator tail</label>
+    <defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+    <labelNoun>a manipulator tail</labelNoun>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>12</power>
+						<cooldownTime>2</cooldownTime>
+					</li>
+				</tools>
+			</li>
+    </comps>
+    <spawnThingOnRemoved>EVOR_Item_Tail_Hand</spawnThingOnRemoved>
+    <addedPartProps>
+      <isGoodWeapon>true</isGoodWeapon>
+      <solid>true</solid>
+      <partEfficiency>1.2</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.45</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <description>A large bundle of nerves and muscles that are just as dextrous as a normal hand, this tail allows the host to have more options when doing manual labor.</description>
+    <descriptionHyperlinks><ThingDef>EVOR_Item_Tail_Hand</ThingDef></descriptionHyperlinks>
+  </HediffDef>
+
+</Defs>
