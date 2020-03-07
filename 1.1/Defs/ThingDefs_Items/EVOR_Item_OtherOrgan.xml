@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Eye</defName>
+    <label>multispectrum eye</label>
+    <description>By integrating cells that allow for collection of light in the ultraviolent and infrared spectrum, these eyes allow for much more spacial awareness for their host.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Organs2</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>90</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>1</EVOR_Resource_Mechanites>
+    </costList>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Eye</RecipeDef></descriptionHyperlinks>
+  </ThingDef>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Nose</defName>
+    <label>micro-analyzer nose</label>
+    <description>Increasing the amount of cells deticated to analyzing specific important molecules, specific scents can be more easily parsed from a blowing wind.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Organs2</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>90</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>1</EVOR_Resource_Mechanites>
+    </costList>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Nose</RecipeDef></descriptionHyperlinks>
+  </ThingDef>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Nose_Pheromones</defName>
+    <label>pheromone releaser nose</label>
+    <description>By adding special pheromone glands to the base of the nose, the host can slightly alter the disposition of those they are communicating with.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Organs2</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>90</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>1</EVOR_Resource_Mechanites>
+    </costList>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Nose_Pheromones</RecipeDef></descriptionHyperlinks>
+  </ThingDef>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Ear</defName>
+    <label>multifrequency ear</label>
+    <description>By increasing the spectrum of frequencies able to be heard, as well as allowing the host to temporarily focus on one frequency, these ears allow the host complete knowledge of the sounds around him.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Organs2</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>90</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>1</EVOR_Resource_Mechanites>
+    </costList>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Ear</RecipeDef></descriptionHyperlinks>
+  </ThingDef>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Spine</defName>
+    <label>neuro-accelerated spine</label>
+    <description>While the gila coating increases signal transmission speeds by an order of magnitude, more significant is the secondary processing nodules, which allow the spinal cord to process lower urgency signals on its own, lowering the load on the brain.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Organs1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>120</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>3</EVOR_Resource_Mechanites>
+    </costList>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Spine</RecipeDef></descriptionHyperlinks>
+  </ThingDef>
+
+
+</Defs>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>EVOR_Surgery_Skull_Shielding</defName>
+    <label>&lt;color=#00FFF7&gt;implant interference shielding&lt;/color&gt;</label>
+    <description>Implant interference shielding.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Implanting interference shielding.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EVOR_Item_Skull_Shielding</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>EVOR_Item_Skull_Shielding</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Skull</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EVOR_Hediff_Skull_Shielding</addsHediff>
+    <descriptionHyperlinks><ThingDef>EVOR_Item_Skull_Shielding</ThingDef></descriptionHyperlinks>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>EVOR_Surgery_Skull_Plating</defName>
+    <label>&lt;color=#00FFF7&gt;implant cranial plating&lt;/color&gt;</label>
+    <description>Implant cranial plating.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Implanting cranial plating.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EVOR_Item_Skull_Plating</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>EVOR_Item_Skull_Plating</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Skull</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EVOR_Hediff_Skull_Plating</addsHediff>
+    <descriptionHyperlinks><ThingDef>EVOR_Item_Skull_Plating</ThingDef></descriptionHyperlinks>
+  </RecipeDef>
+
+</Defs>

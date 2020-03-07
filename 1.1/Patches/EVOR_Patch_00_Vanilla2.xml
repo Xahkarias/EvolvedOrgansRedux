@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+        <success>Always</success>
+		<operations>
+            
+			<li Class="PatchOperationTest">
+				<xpath>Defs/BodyDef[defName="Human"]/corePart/parts/li/def[text()="Tail"]</xpath>
+				<success>Invert</success>
+			</li>
+            <li Class="PatchOperationInsert">
+				<xpath>/Defs/BodyDef[defName="Human"]/corePart/parts/li[customLabel="right leg"]</xpath>
+				<order>Append</order>
+				<value>
+                    <li>	
+                        <def>Tail</def>
+                        <customLabel>tail bone</customLabel>
+                        <coverage>0.002</coverage>
+                        <depth>Outside</depth>
+                        <groups>
+                            <li>Torso</li>
+                        </groups>
+                    </li>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+
+</Patch>
+

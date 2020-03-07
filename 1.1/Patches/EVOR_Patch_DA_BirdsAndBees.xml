@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<success>Always</success>
+		<mods>
+			<li>The Birds and the Bees</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<!--ADDING HEDIFF-->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<HediffDef ParentName="AddedBodyPartBase">
+							<defName>EVOR_Hediff_ReproductiveOrgans</defName>
+							<label>efficient copulation extremity</label>
+							<spawnThingOnRemoved>EVOR_Item_ReproductiveOrgans</spawnThingOnRemoved>
+							<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+							<addedPartProps>
+								<solid>true</solid>
+								<partEfficiency>2.0</partEfficiency>
+								<betterThanNatural>true</betterThanNatural>
+							</addedPartProps>
+							<description>I cannot imagine what "features" this has to make it so much better than what nature gave you.</description>
+							<descriptionHyperlinks><ThingDef>EVOR_Item_ReproductiveOrgans</ThingDef></descriptionHyperlinks>
+						</HediffDef>
+					</value>
+					<success>Always</success>
+				</li>
+
+				<!--ADDING ITEM-->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<ThingDef ParentName="EVOR_OrgBase">
+							<defName>EVOR_Item_ReproductiveOrgans</defName>
+							<label>efficient copulation extremity</label>
+							<description>I cannot imagine what "features" this has to make it so much better than what nature gave you.</description>
+							<recipeMaker>
+      							<researchPrerequisite>EVOR_Research_Organs2</researchPrerequisite>
+    						</recipeMaker>
+							<costList>
+								<EVOR_Resource_Protein>90</EVOR_Resource_Protein>
+      							<EVOR_Resource_Mechanites>1</EVOR_Resource_Mechanites>
+							</costList>
+						</ThingDef>
+						<descriptionHyperlinks><RecipeDef>EVOR_Surgery_ReproductiveOrgans</RecipeDef></descriptionHyperlinks>
+					</value>
+					<success>Always</success>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<RecipeDef ParentName="SurgeryFlesh">
+							<defName>EVOR_Surgery_ReproductiveOrgans</defName>
+							<label>&lt;color=#00FFF7&gt;implant efficient copulation extremity&lt;/color&gt;</label>
+							<description>Implant an efficient copulation extremity.</description>
+							<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+							<jobString>Implanting efficient copulation extremity.</jobString>
+							<workAmount>3000</workAmount>
+							<skillRequirements>
+								<Medicine>10</Medicine>
+							</skillRequirements>
+							<recipeUsers>
+								<li>Human</li>
+							</recipeUsers>
+							<ingredients>
+								<li>
+									<filter>
+										<categories>
+											<li>Medicine</li>
+										</categories>
+									</filter>
+									<count>2</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>EVOR_Item_ReproductiveOrgans</li>
+										</thingDefs>
+									</filter>
+									<count>1</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<categories>
+									<li>Medicine</li>
+								</categories>
+								<thingDefs>
+									<li>EVOR_Item_ReproductiveOrgans</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<appliedOnFixedBodyParts>
+								<li>ReproductiveOrgans</li>
+							</appliedOnFixedBodyParts>
+							<addsHediff>EVOR_Hediff_ReproductiveOrgans</addsHediff>
+							<descriptionHyperlinks><ThingDef>EVOR_Item_ReproductiveOrgans</ThingDef></descriptionHyperlinks>
+						</RecipeDef>
+					</value>
+					<success>Always</success>
+				</li>
+
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Elite Bionics Framework</li>
+					</mods>
+					<match Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/HediffDef[defName="EVOR_Hediff_ReproductiveOrgans"]</xpath>
+								<value>
+									<comps>
+									<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+										<linearAdjustment>5</linearAdjustment>
+									</li>
+									</comps>
+								</value>
+								<success>Always</success>
+							</li>
+						</operations>
+					</match>
+				</li>
+
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Questionable Ethics Enhanced</li>
+					</mods>
+					<match Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationRemove">
+            					<xpath>/Defs/ThingDef[defName="EVOR_Item_ReproductiveOrgans"]/recipeMaker</xpath>
+        					</li>
+							<li Class="PatchOperationRemove">
+            					<xpath>/Defs/ThingDef[defName="EVOR_Item_ReproductiveOrgans"]/costList</xpath>
+        					</li>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs</xpath>
+								<value>
+									<RecipeDef ParentName="EVOR_Grower_Recipe_Small">
+										<defName>EVOR_QEE_ReproductiveOrgans</defName>
+										<label>&lt;color=#00FFF7&gt;efficient copulation extremity&lt;/color&gt;</label>
+										<products>
+											<EVOR_Item_ReproductiveOrgans>1</EVOR_Item_ReproductiveOrgans>
+										</products>
+										<researchPrerequisite>EVOR_Research_Organs2</researchPrerequisite>
+									</RecipeDef>
+								</value>
+							</li>
+						</operations>
+					</match>
+				</li>
+			</operations>
+			<!--NEED ELITE BIONICS PATCH-->
+		</match>
+	</Operation>
+
+</Patch>
+
+
+
+

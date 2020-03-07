@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Skin_Plating</defName>
+    <label>multilayered dermal plating</label>
+    <description>By layering chitin plates under the skin and binding cracks with rubbery flesh, resistance to small arms fire is radically increased.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Outer1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>140</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>2</EVOR_Resource_Mechanites>
+    </costList>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Skin_Plating</RecipeDef></descriptionHyperlinks>
+  </ThingDef>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Skin_Flame</defName>
+    <label>flame retardant skin</label>
+    <description>By lining the skin with glands that can quickly release flame retardant slime on the body as well as disspating heat, the user becomes extremely resistant to heat and flame.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Outer1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>140</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>2</EVOR_Resource_Mechanites>
+    </costList>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Skin_Flame</RecipeDef></descriptionHyperlinks>
+  </ThingDef>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Skin_Insulation</defName>
+    <label>variable insulation skin</label>
+    <description>By creating skin with both high-volume sweat glands and hairs that can either retain or release heat, the user becomes comfortable in a massive range of temperatures.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Outer1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>140</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>2</EVOR_Resource_Mechanites>
+    </costList>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Skin_Insulation</RecipeDef></descriptionHyperlinks>
+  </ThingDef>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Ribcage</defName>
+    <label>calcium-alloy ribcage</label>
+    <description>By altering the composition of the ribcage into a calcium / metal alloy and encasing the upper body in an organic rubber analogue, the durability of the upper body is immensely increased.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Outer1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>140</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>2</EVOR_Resource_Mechanites>
+    </costList>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Ribcage</RecipeDef></descriptionHyperlinks>
+  </ThingDef>
+
+
+</Defs>

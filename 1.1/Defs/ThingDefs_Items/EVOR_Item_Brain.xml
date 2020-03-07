@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Brain_Rest</defName>
+    <label>hibernation module</label>
+    <description>By carefully regulating the energy consumption of the brain and altering sleep routines, the host stays rested for much longer.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>170</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>4</EVOR_Resource_Mechanites>
+    </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Brain_Physics</defName>
+    <label>physics processing cortex</label>
+    <description>By adding a lobe deticated to processing the trajectory of projectiles, as well as the stability of buildings and other structures, performance in these areas in increased radically.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>170</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>4</EVOR_Resource_Mechanites>
+    </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Brain_Diplo</defName>
+    <label>interbeing relations cortex</label>
+    <description>The host of this brain modification gains the ability to read into the depths of a person's psyche with but a few interactions, allowing them to navigate social situations with ease.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>170</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>4</EVOR_Resource_Mechanites>
+    </costList>
+  </ThingDef>
+  -->
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Brain_Hyper</defName>
+    <label>neural hyperthreader</label>
+    <description>Via a radical cranial redesign, the host can now have multiple thoughts fly though their brain, while focusing on all of them at the same time, increasing their abilities greatly.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>170</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>4</EVOR_Resource_Mechanites>
+    </costList>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Brain_Hyper</RecipeDef></descriptionHyperlinks>
+  </ThingDef>
+
+  <!--
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Brain_Logic</defName>
+    <label>logical reasoning cortex</label>
+    <description>A deticated part of the brain deticated to logical reasoning helps increase the speed of knowledge acquisition</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>170</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>4</EVOR_Resource_Mechanites>
+    </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Brain_Bio</defName>
+    <label>biological processing cortex</label>
+    <description>The host can, thanks to their encyclopedic knowledge of biology, more efficiently tend to other people, as well as performing any task involving biological matter.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>170</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>4</EVOR_Resource_Mechanites>
+    </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Brain_Chem</defName>
+    <label>chemical processing cortex</label>
+    <description>By being able to understand the chemical structure of most materials, the host can quickly create items without sacrificing quality.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>170</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>4</EVOR_Resource_Mechanites>
+    </costList>
+  </ThingDef>
+  -->
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Brain_Nails</defName>
+    <label>butcher's nails</label>
+    <description>These imperfect organs are made to enhance the latent aggression of a being, turning them into a force of nature on the battlefield. However. their &lt;color=#EB4034&gt;constant desire to shed blood&lt;/color&gt; makes them highly likely to run mad. &lt;color=#EB4034&gt;Use with caution.&lt;/color&gt;</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>170</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>3</EVOR_Resource_Mechanites>
+    </costList>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Brain_Nails</RecipeDef></descriptionHyperlinks>
+  </ThingDef>
+
+</Defs>

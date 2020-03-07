@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <RecipeDef ParentName="SurgeryFlesh">
+        <defName>EVOR_Surgery_Back_Wing</defName>
+        <label>&lt;color=#00FFF7&gt;implant feathered wings&lt;/color&gt;</label>
+        <description>Implant a feathered wings.</description>
+        <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+        <jobString>Implanting feathered wings.</jobString>
+        <workAmount>3000</workAmount>
+        <skillRequirements>
+            <Medicine>10</Medicine>
+        </skillRequirements>
+        <recipeUsers>
+            <li>Human</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Medicine</li>
+                    </categories>
+                </filter>
+                <count>2</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>EVOR_Item_Back_Wing</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>Medicine</li>
+            </categories>
+            <thingDefs>
+                <li>EVOR_Item_Back_Wing</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Back</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>EVOR_Hediff_Back_Wing</addsHediff>
+        <descriptionHyperlinks><ThingDef>EVOR_Item_Abd_ThirdLung</ThingDef></descriptionHyperlinks>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryFlesh">
+        <defName>EVOR_Surgery_Back_Hand</defName>
+        <label>&lt;color=#00FFF7&gt;implant tentacle cluster&lt;/color&gt;</label>
+        <description>Implant a tentacle cluster.</description>
+        <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+        <jobString>Implanting tentacle cluster.</jobString>
+        <workAmount>3000</workAmount>
+        <skillRequirements>
+            <Medicine>10</Medicine>
+        </skillRequirements>
+        <recipeUsers>
+            <li>Human</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Medicine</li>
+                    </categories>
+                </filter>
+                <count>2</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>EVOR_Item_Back_Hand</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>Medicine</li>
+            </categories>
+            <thingDefs>
+                <li>EVOR_Item_Back_Hand</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Back</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>EVOR_Hediff_Back_Hand</addsHediff>
+        <descriptionHyperlinks><ThingDef>EVOR_Item_Back_Hand</ThingDef></descriptionHyperlinks>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryFlesh">
+        <defName>EVOR_Surgery_Back_Muscle</defName>
+        <label>&lt;color=#00FFF7&gt;implant musculature braces&lt;/color&gt;</label>
+        <description>Implant musculature braces.</description>
+        <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+        <jobString>Implanting musculature braces.</jobString>
+        <workAmount>3000</workAmount>
+        <skillRequirements>
+            <Medicine>10</Medicine>
+        </skillRequirements>
+        <recipeUsers>
+            <li>Human</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Medicine</li>
+                    </categories>
+                </filter>
+                <count>2</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>EVOR_Item_Back_Muscle</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>Medicine</li>
+            </categories>
+            <thingDefs>
+                <li>EVOR_Item_Back_Muscle</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Back</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>EVOR_Hediff_Back_Muscle</addsHediff>
+        <descriptionHyperlinks><ThingDef>EVOR_Item_Back_Muscle</ThingDef></descriptionHyperlinks>
+    </RecipeDef>
+</Defs>

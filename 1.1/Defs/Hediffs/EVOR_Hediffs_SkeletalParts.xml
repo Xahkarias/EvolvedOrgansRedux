@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef ParentName="ImplantHediffBase">
+		<defName>EVOR_Hediff_Skin_Plating</defName>
+		<label>multilayered dermal plating</label>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<labelNoun>multilayered dermal plating</labelNoun>
+		<spawnThingOnRemoved>EVOR_Item_Skin_Plating</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.0</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+                <statOffsets>
+                    <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+					<ArmorRating_Heat>0.20</ArmorRating_Heat>
+					<ComfyTemperatureMin>-5</ComfyTemperatureMin>
+          			<ComfyTemperatureMax>10</ComfyTemperatureMax>
+                </statOffsets>
+            </li>
+		</stages>
+		<description>By layering chitin plates under the skin and binding cracks with rubbery flesh, resistance to small arms fire is radically increased.</description>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_Skin_Plating</ThingDef></descriptionHyperlinks>
+	</HediffDef>
+
+	<HediffDef ParentName="ImplantHediffBase">
+		<defName>EVOR_Hediff_Skin_Flame</defName>
+		<label>flame retardant skin</label>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<labelNoun>flame retardant skin</labelNoun>
+		<spawnThingOnRemoved>EVOR_Item_Skin_Flame</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.0</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+                <statOffsets>
+					<ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+					<ArmorRating_Heat>0.20</ArmorRating_Heat>
+          			<ComfyTemperatureMax>60</ComfyTemperatureMax>
+					<Flammability>-.85</Flammability>
+                </statOffsets>
+            </li>
+		</stages>
+		<description>By lining the skin with glands that can quickly release flame retardant slime on the body as well as disspating heat, the user becomes extremely resistant to heat and flame.</description>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_Skin_Flame</ThingDef></descriptionHyperlinks>
+	</HediffDef>
+ 
+	<HediffDef ParentName="ImplantHediffBase">
+		<defName>EVOR_Hediff_Skin_Insulation</defName>
+		<label>variable insulation skin</label>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<labelNoun>variable insulation skin</labelNoun>
+		<spawnThingOnRemoved>EVOR_Item_Skin_Insulation</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.0</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+                <statOffsets>
+					<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+					<ArmorRating_Heat>0.10</ArmorRating_Heat>
+          			<ComfyTemperatureMin>-35</ComfyTemperatureMin>
+          			<ComfyTemperatureMax>30</ComfyTemperatureMax>
+                </statOffsets>
+            </li>
+		</stages>
+		<description>By creating skin with both high-volume sweat glands and hairs that can either retain or release heat, the user becomes comfortable in a massive range of temperatures.</description>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_Skin_Insulation</ThingDef></descriptionHyperlinks>
+	</HediffDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Ribcage</defName>
+		<label>calcium-alloy ribcage</label>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<labelNoun>calcium-alloy ribcage</labelNoun>
+		<spawnThingOnRemoved>EVOR_Item_Ribcage</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.0</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+                <statOffsets>
+                    <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.70</ArmorRating_Sharp>
+					<ArmorRating_Heat>0.20</ArmorRating_Heat>
+                </statOffsets>
+            </li>
+		</stages>
+		<description>By altering the composition of the ribcage into a calcium / metal alloy and encasing the upper body in an organic rubber analogue, the durability of the upper body is immensely increased.</description>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_Ribcage</ThingDef></descriptionHyperlinks>
+	</HediffDef>
+
+
+
+
+
+
+
+
+
+</Defs>

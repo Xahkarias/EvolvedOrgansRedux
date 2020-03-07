@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DamageDef ParentName="Bite">
+    <defName>EVOR_Damage_Toxic</defName>
+    <label>venomous bite</label>
+    <additionalHediffs>
+      <li>
+        <hediff>ToxicBuildup</hediff>
+        <severityPerDamageDealt>0.005</severityPerDamageDealt>
+        <victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+      </li>
+    </additionalHediffs>
+  </DamageDef>
+
+  <DamageDef ParentName="BluntBase">
+    <defName>EVOR_Damage_Sonic</defName>
+    <label>sonic strike</label>
+    <additionalHediffs>
+      <li>
+        <hediff>EVOR_Hediff_Damage_Sonic</hediff>
+        <severityPerDamageDealt>0.05</severityPerDamageDealt>
+      </li>
+    </additionalHediffs>
+  </DamageDef>
+
+  <!-->
+  <DamageDef ParentName="BluntBase">
+    <defName>EVOR_Damage_Shock</defName>
+    <label>electrocution</label>
+    <additionalHediffs>
+      <li>
+        <hediff>EVOR_Hediff_Damage_Shock</hediff>
+        <severityPerDamageDealt>0.4</severityPerDamageDealt>
+      </li>
+    </additionalHediffs>
+  </DamageDef>
+  -->
+
+</Defs>

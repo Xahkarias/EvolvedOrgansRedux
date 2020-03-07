@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+            
+            <li Class="PatchOperationInsert">
+                <xpath>Defs/BodyDef[defName="Human"]/corePart/parts/li[def="Waist"]</xpath>
+                <order>Prepend</order>
+                <!--Note: These defs are applied in reverse order, so the backs will be below the body cavities-->
+                <value>
+                    <li>	
+						<def>Back</def>
+						<customLabel>lower back</customLabel>
+						<coverage>0.020</coverage>
+						<depth>Inside</depth>
+						<groups>
+							<li>Torso</li>
+						</groups>
+					</li>
+                    <li>	
+						<def>Back</def>
+						<customLabel>upper back</customLabel>
+						<coverage>0.020</coverage>
+						<depth>Inside</depth>
+						<groups>
+							<li>Torso</li>
+						</groups>
+					</li>
+                    <li>
+						<def>BodyCavityA</def>
+						<customLabel>right abdominal cavity</customLabel>
+						<coverage>0.010</coverage>
+						<depth>Inside</depth>
+						<groups>
+							<li>Torso</li>
+						</groups>
+					</li>
+                    <li>
+						<def>BodyCavityA</def>
+						<customLabel>left abdominal cavity</customLabel>
+						<coverage>0.010</coverage>
+						<depth>Inside</depth>
+						<groups>
+							<li>Torso</li>
+						</groups>
+					</li>
+                    <li>
+						<def>BodyCavity2</def>
+						<customLabel>right chest cavity</customLabel>
+						<coverage>0.010</coverage>
+						<depth>Inside</depth>
+						<groups>
+							<li>Torso</li>
+						</groups>
+					</li>
+                    <li>
+						<def>BodyCavity1</def>
+						<customLabel>left chest cavity</customLabel>
+						<coverage>0.010</coverage>
+						<depth>Inside</depth>
+						<groups>
+							<li>Torso</li>
+						</groups>
+					</li>
+                    <li>
+						<def>LowerShoulder</def>
+						<customLabel>right lower shoulder</customLabel>
+						<coverage>0.00</coverage>
+						<groups>
+							<li>Torso</li>
+						</groups>
+					</li>
+                    <li>
+						<def>LowerShoulder</def>
+						<customLabel>left lower shoulder</customLabel>
+						<coverage>0.00</coverage>
+						<groups>
+							<li>Torso</li>
+						</groups>
+					</li>
+                </value>
+            </li>
+
+
+		</operations>
+	</Operation>
+
+</Patch>
+

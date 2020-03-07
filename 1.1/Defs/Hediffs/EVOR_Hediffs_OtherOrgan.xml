@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Eyes -->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Eye</defName>
+		<label>multispectrum eye</label>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<labelNoun>a multispectrum eye</labelNoun>
+		<spawnThingOnRemoved>EVOR_Item_Eye</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.8</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<AimingDelayFactor>-0.10</AimingDelayFactor>
+					<ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+				</statOffsets>
+			</li>
+		</stages>
+		<description>By integrating cells that allow for collection of light in the ultraviolent and infrared spectrum, these eyes allow for much more spacial awareness for their host.</description>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_Eye</ThingDef></descriptionHyperlinks>
+	</HediffDef>
+
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Nose</defName>
+		<label>micro-analyzer nose</label>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<labelNoun>a micro-analyzer nose</labelNoun>
+		<spawnThingOnRemoved>EVOR_Item_Nose</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.8</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<PlantWorkSpeed>0.3</PlantWorkSpeed>
+					<TameAnimalChance>0.2</TameAnimalChance>
+					<TrainAnimalChance>0.4</TrainAnimalChance>
+				</statOffsets>
+			</li>
+		</stages>
+		<description>Increasing the amount of cells deticated to analyzing specific important molecules, specific scents can be more easily parsed from a blowing wind.</description>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_Nose</ThingDef></descriptionHyperlinks>
+	</HediffDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Nose_Pheromones</defName>
+		<label>pheromone releaser nose</label>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<labelNoun>a pheromone releaser nose</labelNoun>
+		<spawnThingOnRemoved>EVOR_Item_Nose_Pheromones</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.8</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<NegotiationAbility>0.3</NegotiationAbility>
+					<TradePriceImprovement>0.2</TradePriceImprovement>
+					<SocialImpact>0.4</SocialImpact>
+				</statOffsets>
+			</li>
+		</stages>
+		<description>By adding special pheromone glands to the base of the nose, the host can slightly alter the disposition of those they are communicating with.</description>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_Nose_Pheromones</ThingDef></descriptionHyperlinks>
+	</HediffDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Ear</defName>
+		<label>multifrequency ear</label>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<labelNoun>a multifrequency ear</labelNoun>
+		<spawnThingOnRemoved>EVOR_Item_Ear</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.8</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeDodgeChance>2</MeleeDodgeChance>
+				</statOffsets>
+			</li>
+		</stages>
+		<description>By increasing the spectrum of frequencies able to be heard, as well as allowing the host to temporarily focus on one frequency, these ears allow the host complete knowledge of the sounds around him.</description>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_Ear</ThingDef></descriptionHyperlinks>
+	</HediffDef>
+
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Spine</defName>
+		<label>neuro-accelerated spine</label>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<labelNoun>a neuro-accelerated spine</labelNoun>
+		<spawnThingOnRemoved>EVOR_Item_Spine</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.0</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+				</statOffsets>
+			</li>
+		</stages>
+		<description>While the gila coating increases signal transmission speeds by an order of magnitude, more significant is the secondary processing nodules, which allow the spinal cord to process lower urgency signals on its own, lowering the load on the brain.</description>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_Spine</ThingDef></descriptionHyperlinks>
+	</HediffDef>
+
+
+
+
+
+</Defs>
