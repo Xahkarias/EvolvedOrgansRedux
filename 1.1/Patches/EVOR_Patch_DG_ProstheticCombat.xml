@@ -102,7 +102,7 @@
 											<accuracyLong>0.90</accuracyLong>
 											<hasStandardCommand>true</hasStandardCommand>
 											<defaultProjectile>EVOR_Bullet_VenomCrystal</defaultProjectile>
-											<warmupTime>3.00</warmupTime>
+											<warmupTime>4.00</warmupTime>
 											<range>45.0</range>
 											<soundCast>Pawn_Megascarab_Angry</soundCast>
 											<soundCastTail>GunTail_Medium</soundCastTail>
@@ -226,7 +226,7 @@
 											<accuracyLong>0.90</accuracyLong>
 											<hasStandardCommand>true</hasStandardCommand>
 											<defaultProjectile>EVOR_Bullet_VenomCrystal</defaultProjectile>
-											<warmupTime>3.00</warmupTime>
+											<warmupTime>4.00</warmupTime>
 											<range>45.0</range>
 											<soundCast>Pawn_Megascarab_Angry</soundCast>
 											<soundCastTail>GunTail_Medium</soundCastTail>
