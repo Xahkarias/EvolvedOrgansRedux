@@ -9,6 +9,9 @@
 			<Mass>0.3</Mass>
 			<WorkToMake>5000</WorkToMake>
 		</statBases>
+		<thingCategories>
+      		<li>EVOR_BodyParts</li>
+   		</thingCategories>
 		<recipeMaker>
 			<skillRequirements>
 				<Crafting>10</Crafting>

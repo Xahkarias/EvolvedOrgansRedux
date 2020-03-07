@@ -26,7 +26,7 @@
       <EVOR_Resource_Protein>140</EVOR_Resource_Protein>
       <EVOR_Resource_Mechanites>2</EVOR_Resource_Mechanites>
     </costList>
-    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Primary_BoneSaber</RecipeDef></descriptionHyperlinks>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Primary_BoneSaber</RecipeDef><RecipeDef>EVOR_Surgery_Leg_Blade</RecipeDef></descriptionHyperlinks>
   </ThingDef>
 
   <ThingDef ParentName="EVOR_OrgBase">

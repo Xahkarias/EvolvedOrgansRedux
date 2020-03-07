@@ -48,6 +48,45 @@
 		<descriptionHyperlinks><ThingDef>EVOR_Item_Leg_Hand</ThingDef></descriptionHyperlinks>
 	</HediffDef>
 
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Leg_Blade</defName>
+		<label>ossified bone saber leg</label>
+		<labelNoun>a ossified bone saber leg</labelNoun>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<spawnThingOnRemoved>EVOR_Item_BoneSaber</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.00</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<capacities>
+							<li>Stab</li>
+							<li>Cut</li>
+						</capacities>
+						<power>25</power>
+						<cooldownTime>2.5</cooldownTime>
+						<armorPenetration>0.1</armorPenetration>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.2</offset>
+					</li>
+				</capMods>
+			</li>	
+		</stages>
+		<description>By replicating a bone saber but attaching it to the legs, as well as creating extra nerve clusters to help with walking, we can create a blade leg that is only slightly inferior to the arm version.</description>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_BoneSaber</ThingDef></descriptionHyperlinks>
+	</HediffDef>
 
 
 
