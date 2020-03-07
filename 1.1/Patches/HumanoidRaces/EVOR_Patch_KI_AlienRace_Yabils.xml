@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<success>Always</success>
+		<mods>
+			<li>Yabils: Space Gremlins</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Questionable Ethics Enhanced</li>
+					</mods>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/RecipeDef[defName="EVOR_Production_Protein_Humie"]/fixedIngredientFilter/thingDefs</xpath>
+						<value>
+							<li>Meat_Alien_Yabil</li>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>/Defs/RecipeDef[defName="EVOR_QEE_Production_Protein_Humie"]/fixedIngredientFilter/thingDefs</xpath>
+						<value>
+							<li>Meat_Alien_Yabil</li>
+						</value>
+					</match>
+				</li>
+
+
+
+				<!-- No unique body def used, just inherits body from humanlike thus all normal EVOparts default just fine-->
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+
