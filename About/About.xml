@@ -11,6 +11,7 @@
     <li>1.1</li>
   </supportedVersions>
   
+  <!--
   <loadAfterByVersion>
     <v1.1>
       <li>
@@ -19,7 +20,7 @@
         <steamWorkshopUrl>steam://url/CommunityFilePage/1665403571</steamWorkshopUrl>
       </li>
       <li>
-        <packageId>Rah.RBSE<</packageId>
+        <packageId>Rah.RBSE</packageId>
         <displayName>Rah's Bionics and Surgery Expansion</displayName>
         <steamWorkshopUrl>steam://url/CommunityFilePage/850429707</steamWorkshopUrl>
       </li>
@@ -40,6 +41,7 @@
       </li>
     </v1.1>
   </loadAfterByVersion>
+  -->
 
       <!--<li>[1.0]SwimmingKit</li>
         <li>NightVision</li>
