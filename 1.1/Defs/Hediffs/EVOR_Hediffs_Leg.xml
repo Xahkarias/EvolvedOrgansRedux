@@ -50,8 +50,8 @@
 
 	<HediffDef ParentName="AddedBodyPartBase">
 		<defName>EVOR_Hediff_Leg_Blade</defName>
-		<label>ossified bone saber leg</label>
-		<labelNoun>a ossified bone saber leg</labelNoun>
+		<label>ossified bone blade leg</label>
+		<labelNoun>a ossified bone blade leg</labelNoun>
 		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
 		<spawnThingOnRemoved>EVOR_Item_BoneSaber</spawnThingOnRemoved>
 		<addedPartProps>
