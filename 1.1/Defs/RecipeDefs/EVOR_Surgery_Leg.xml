@@ -46,7 +46,6 @@
     <descriptionHyperlinks><ThingDef>EVOR_Item_Leg_Normal</ThingDef></descriptionHyperlinks>
   </RecipeDef>
 
-
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Leg_Hand</defName>
     <label>&lt;color=#00FFF7&gt;implant grasping leg&lt;/color&gt;</label>
@@ -91,5 +90,52 @@
     </appliedOnFixedBodyParts>
     <addsHediff>EVOR_Hediff_Leg_Hand</addsHediff>
     <descriptionHyperlinks><ThingDef>EVOR_Item_Leg_Hand</ThingDef></descriptionHyperlinks>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>EVOR_Surgery_Leg_Blade</defName>
+    <label>&lt;color=#00FFF7&gt;implant bone saber leg&lt;/color&gt;</label>
+    <description>Implant a bone saber leg.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Implanting bone saber leg.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EVOR_Item_BoneSaber</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>EVOR_Item_BoneSaber</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Leg</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EVOR_Hediff_Leg_Blade</addsHediff>
+    <researchPrerequisite>EVOR_Research_Limbs2</researchPrerequisite>
+    <descriptionHyperlinks><ThingDef>EVOR_Item_BoneSaber</ThingDef></descriptionHyperlinks>
   </RecipeDef>
 </Defs>
