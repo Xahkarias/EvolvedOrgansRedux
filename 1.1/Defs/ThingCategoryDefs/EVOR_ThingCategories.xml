@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+      <ThingCategoryDef>
+        <defName>EVOR_BodyParts</defName>
+        <label>evolved body parts</label>
+        <parent>BodyParts</parent>
+      </ThingCategoryDef>
+
+</Defs>
