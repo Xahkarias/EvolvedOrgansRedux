@@ -81,9 +81,7 @@
         <!--<makeImmuneTo>
           <li>FoodPoisoning</li>
         </makeImmuneTo>-->
-        <statOffsets>
-          <FoodPoisonChance>-1.00</FoodPoisonChance>
-        </statOffsets>
+        <foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
         <hungerRateFactor>0.80</hungerRateFactor>
       </li>
     </stages>
