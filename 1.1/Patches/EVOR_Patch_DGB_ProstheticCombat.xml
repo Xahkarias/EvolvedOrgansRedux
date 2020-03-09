@@ -53,6 +53,20 @@
 							</costList>
 							<descriptionHyperlinks><RecipeDef>EVOR_Surgery_Primary_CryoSlime</RecipeDef></descriptionHyperlinks>
 						</ThingDef>
+
+						<ThingDef ParentName="EVOR_OrgBase">
+							<defName>EVOR_Item_ImpulseShock</defName>
+							<label>impulse shock blaster</label>
+							<description>Instead of being tuned to be a lethal shock, the electrified rods fired by this limb are tuned to incapacitate, working equally well on organic and mechanical targets</description>
+							<recipeMaker>
+								<researchPrerequisite>EVOR_Research_Limbs4</researchPrerequisite>
+							</recipeMaker>
+							<costList>
+								<EVOR_Resource_Protein>140</EVOR_Resource_Protein>
+								<EVOR_Resource_Mechanites>3</EVOR_Resource_Mechanites>
+							</costList>
+							<descriptionHyperlinks><RecipeDef>EVOR_Surgery_Primary_ImpulseShock</RecipeDef></descriptionHyperlinks>
+						</ThingDef>
 					</value>
 					<success>Always</success>
 				</li>
@@ -118,6 +132,24 @@
 								</value>
 								<success>Always</success>
 							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_ImpulseShock"]/comps</xpath>
+								<value>
+									<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+										<linearAdjustment>15</linearAdjustment>
+									</li>
+								</value>
+								<success>Always</success>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_ImpulseShock"]/comps</xpath>
+								<value>
+									<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+										<linearAdjustment>15</linearAdjustment>
+									</li>
+								</value>
+								<success>Always</success>
+							</li>
 						</operations>
 					</match>
 				</li>
@@ -139,6 +171,18 @@
 							</li>
 							<li Class="PatchOperationRemove">
 								<xpath>/Defs/ThingDef[defName="EVOR_Item_VenomCrystal"]/costList</xpath>
+							</li>
+							<li Class="PatchOperationRemove">
+								<xpath>/Defs/ThingDef[defName="EVOR_Item_CryoSlime"]/recipeMaker</xpath>
+							</li>
+							<li Class="PatchOperationRemove">
+								<xpath>/Defs/ThingDef[defName="EVOR_Item_CryoSlime"]/costList</xpath>
+							</li>
+							<li Class="PatchOperationRemove">
+								<xpath>/Defs/ThingDef[defName="EVOR_Item_ImpulseShock"]/recipeMaker</xpath>
+							</li>
+							<li Class="PatchOperationRemove">
+								<xpath>/Defs/ThingDef[defName="EVOR_Item_ImpulseShock"]/costList</xpath>
 							</li>
 							<li Class="PatchOperationAdd">
 								<xpath>/Defs</xpath>
@@ -166,6 +210,15 @@
 										<label>&lt;color=#00FFF7&gt;cryogenic slime cannon&lt;/color&gt;</label>
 										<products>
 											<EVOR_Item_CryoSlime>1</EVOR_Item_CryoSlime>
+										</products>
+										<researchPrerequisite>EVOR_Research_Limbs4</researchPrerequisite>
+									</RecipeDef>
+
+									<RecipeDef ParentName="EVOR_Grower_Recipe_LimbMech">
+										<defName>EVOR_QEE_ImpulseShock</defName>
+										<label>&lt;color=#00FFF7&gt;impulse shock blaster&lt;/color&gt;</label>
+										<products>
+											<EVOR_Item_ImpulseShock>1</EVOR_Item_ImpulseShock>
 										</products>
 										<researchPrerequisite>EVOR_Research_Limbs4</researchPrerequisite>
 									</RecipeDef>

@@ -382,6 +382,127 @@
 							<description>This limb fires a carefully cooled bodily fluid that rapidly cools the target upon impact, in some cases chilling the enemy to the bone</description>
 							<descriptionHyperlinks><ThingDef>EVOR_Item_CryoSlime</ThingDef></descriptionHyperlinks>
 						</HediffDef>
+
+						<!--ImpulseShock-->
+						<HediffDef ParentName="AddedBodyPartBase">
+							<defName>EVOR_Hediff_Primary_ImpulseShock</defName>
+							<label>impulse shock blaster</label>
+							<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+							<labelNoun>an impulse shock blaster</labelNoun>
+							<spawnThingOnRemoved>EVOR_Item_ImpulseShock</spawnThingOnRemoved>
+							<addedPartProps>
+								<solid>true</solid>     
+								<partEfficiency>1.0</partEfficiency>
+								<betterThanNatural>true</betterThanNatural>
+							</addedPartProps>
+							<comps>
+								<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
+									<toggleLabel>Impulse Shock Blaster</toggleLabel>
+									<toggleDescription>Impulse Shock Blaster.</toggleDescription>
+									<toggleIconPath>UI/Widgets/Organs/EVOR_Texture_BBlaster</toggleIconPath>
+									<toggleIconAngle>-45.0</toggleIconAngle>
+									<verbs>
+										<li>
+											<label>impulse shock blaster</label>
+											<verbClass>Verb_Shoot</verbClass>
+											<accuracyTouch>0.60</accuracyTouch>
+											<accuracyShort>0.65</accuracyShort>
+											<accuracyMedium>0.66</accuracyMedium>
+											<accuracyLong>0.60</accuracyLong>
+											<hasStandardCommand>true</hasStandardCommand>
+											<defaultProjectile>EVOR_Bullet_ImpulseShock</defaultProjectile>
+											<warmupTime>3.00</warmupTime>
+											<range>34.0</range>
+											<soundCast>Pawn_Spelopede_Angry</soundCast>
+											<soundCastTail>GunTail_Medium</soundCastTail>
+											<muzzleFlashScale>6</muzzleFlashScale>
+										</li>
+									</verbs>
+									<verbsProperties>
+										<li>
+											<label>impulse shock blaster</label>
+											<description>Impulse Shock Blaster</description>
+											<uiIconPath>Things/Projectile/EVOR_Texture_ImpulseShock</uiIconPath>
+										</li>			
+									</verbsProperties>
+								</li>
+							</comps>
+							<stages>
+								<li>
+									<capMods>
+										<li>
+											<capacity>Manipulation</capacity>
+											<offset>-0.4</offset>
+										</li>
+									</capMods>
+									<statOffsets>
+										<RangedWeapon_Cooldown>0.45</RangedWeapon_Cooldown>
+									</statOffsets>
+								</li>	
+							</stages>
+							<description>Instead of being tuned to be a lethal shock, the electrified rods fired by this limb are tuned to incapacitate, working equally well on organic and mechanical targets</description>
+							<descriptionHyperlinks><ThingDef>EVOR_Item_ImpulseShock</ThingDef></descriptionHyperlinks>
+						</HediffDef>
+
+						<HediffDef ParentName="AddedBodyPartBase">
+							<defName>EVOR_Hediff_Secondary_ImpulseShock</defName>
+							<label>impulse shock blaster</label>
+							<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+							<labelNoun>an impulse shock blaster</labelNoun>
+							<spawnThingOnRemoved>EVOR_Item_ImpulseShock</spawnThingOnRemoved>
+							<addedPartProps>
+								<solid>true</solid>     
+								<partEfficiency>1.0</partEfficiency>
+								<betterThanNatural>true</betterThanNatural>
+							</addedPartProps>
+							<comps>
+								<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
+									<toggleLabel>Impulse Shock Blaster</toggleLabel>
+									<toggleDescription>Impulse Shock Blaster.</toggleDescription>
+									<toggleIconPath>UI/Widgets/Organs/EVOR_Texture_BBlaster</toggleIconPath>
+									<toggleIconAngle>-45.0</toggleIconAngle>
+									<verbs>
+										<li>
+											<label>impulse shock blaster</label>
+											<verbClass>Verb_Shoot</verbClass>
+											<accuracyTouch>0.60</accuracyTouch>
+											<accuracyShort>0.65</accuracyShort>
+											<accuracyMedium>0.66</accuracyMedium>
+											<accuracyLong>0.60</accuracyLong>
+											<hasStandardCommand>true</hasStandardCommand>
+											<defaultProjectile>EVOR_Bullet_ImpulseShock</defaultProjectile>
+											<warmupTime>3.00</warmupTime>
+											<range>34.0</range>
+											<soundCast>Pawn_Spelopede_Angry</soundCast>
+											<soundCastTail>GunTail_Medium</soundCastTail>
+											<muzzleFlashScale>6</muzzleFlashScale>
+										</li>
+									</verbs>
+									<verbsProperties>
+										<li>
+											<label>impulse shock blaster</label>
+											<description>Impulse Shock Blaster</description>
+											<uiIconPath>Things/Projectile/EVOR_Texture_ImpulseShock</uiIconPath>
+										</li>			
+									</verbsProperties>
+								</li>
+							</comps>
+							<stages>
+								<li>
+									<capMods>
+										<li>
+											<capacity>Manipulation</capacity>
+											<offset>0.1</offset>
+										</li>
+									</capMods>
+									<statOffsets>
+										<RangedWeapon_Cooldown>0.45</RangedWeapon_Cooldown>
+									</statOffsets>
+								</li>	
+							</stages>
+							<description>Instead of being tuned to be a lethal shock, the electrified rods fired by this limb are tuned to incapacitate, working equally well on organic and mechanical targets</description>
+							<descriptionHyperlinks><ThingDef>EVOR_Item_ImpulseShock</ThingDef></descriptionHyperlinks>
+						</HediffDef>
 					</value>
 					<success>Always</success>
 				</li>
