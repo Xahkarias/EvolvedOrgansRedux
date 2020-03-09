@@ -39,6 +39,20 @@
 							</costList>
 							<descriptionHyperlinks><RecipeDef>EVOR_Surgery_Primary_VenomCrystal</RecipeDef></descriptionHyperlinks>
 						</ThingDef>
+
+						<ThingDef ParentName="EVOR_OrgBase">
+							<defName>EVOR_Item_CryoSlime</defName>
+							<label>cryogenic slime cannon</label>
+							<description>This limb fires a carefully cooled bodily fluid that rapidly cools the target upon impact, in some cases chilling the enemy to the bone</description>
+							<recipeMaker>
+								<researchPrerequisite>EVOR_Research_Limbs4</researchPrerequisite>
+							</recipeMaker>
+							<costList>
+								<EVOR_Resource_Protein>140</EVOR_Resource_Protein>
+								<EVOR_Resource_Mechanites>3</EVOR_Resource_Mechanites>
+							</costList>
+							<descriptionHyperlinks><RecipeDef>EVOR_Surgery_Primary_CryoSlime</RecipeDef></descriptionHyperlinks>
+						</ThingDef>
 					</value>
 					<success>Always</success>
 				</li>
@@ -86,7 +100,24 @@
 								</value>
 								<success>Always</success>
 							</li>
-
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_CryoSlime"]/comps</xpath>
+								<value>
+									<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+										<linearAdjustment>15</linearAdjustment>
+									</li>
+								</value>
+								<success>Always</success>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_CryoSlime"]/comps</xpath>
+								<value>
+									<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+										<linearAdjustment>15</linearAdjustment>
+									</li>
+								</value>
+								<success>Always</success>
+							</li>
 						</operations>
 					</match>
 				</li>
@@ -126,6 +157,15 @@
 										<label>&lt;color=#00FFF7&gt;venom crystal cannon&lt;/color&gt;</label>
 										<products>
 											<EVOR_Item_VenomCrystal>1</EVOR_Item_VenomCrystal>
+										</products>
+										<researchPrerequisite>EVOR_Research_Limbs4</researchPrerequisite>
+									</RecipeDef>
+
+									<RecipeDef ParentName="EVOR_Grower_Recipe_LimbMech">
+										<defName>EVOR_QEE_CryoSlime</defName>
+										<label>&lt;color=#00FFF7&gt;cryogenic slime cannon&lt;/color&gt;</label>
+										<products>
+											<EVOR_Item_CryoSlime>1</EVOR_Item_CryoSlime>
 										</products>
 										<researchPrerequisite>EVOR_Research_Limbs4</researchPrerequisite>
 									</RecipeDef>

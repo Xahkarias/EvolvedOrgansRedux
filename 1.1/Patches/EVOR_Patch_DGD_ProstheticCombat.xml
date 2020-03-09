@@ -42,6 +42,23 @@
 								<speed>65</speed>
 							</projectile>
 						</ThingDef>
+
+						<ThingDef ParentName="BaseBullet">
+							<defName>EVOR_Bullet_CryoSlime</defName>
+							<label>cryogenic slime</label>
+							<graphicData>
+								<texPath>Things/Projectile/EVOR_Texture_CryoSlime</texPath>
+								<graphicClass>Graphic_Single</graphicClass>
+							</graphicData>
+							<projectile>
+								<damageDef>Frostbite</damageDef>
+								<damageAmountBase>23</damageAmountBase>
+								<speed>44</speed>
+								<stoppingPower>4</stoppingPower>
+								<armorPenetrationBase>0.15</armorPenetrationBase>
+							</projectile>
+						</ThingDef>
+
 					</value>
 					<success>Always</success>
 				</li>

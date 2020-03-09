@@ -59,54 +59,6 @@
 							<descriptionHyperlinks><ThingDef>EVOR_Item_MaggotBolter</ThingDef></descriptionHyperlinks>
 						</RecipeDef>
 
-						<!--Venomcrystal-->
-						<RecipeDef ParentName="SurgeryFlesh">
-							<defName>EVOR_Surgery_Primary_VenomCrystal</defName>
-							<label>&lt;color=#00FFF7&gt;implant venom crystal cannon&lt;/color&gt;</label>
-							<description>Implant a venom crystal cannon.</description>
-							<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-							<jobString>Implanting venom crystal cannon.</jobString>
-							<workAmount>3000</workAmount>
-							<skillRequirements>
-								<Medicine>10</Medicine>
-							</skillRequirements>
-							<recipeUsers>
-								<li>Human</li>
-							</recipeUsers>
-							<ingredients>
-								<li>
-									<filter>
-										<categories>
-											<li>Medicine</li>
-										</categories>
-									</filter>
-									<count>2</count>
-								</li>
-								<li>
-									<filter>
-										<thingDefs>
-											<li>EVOR_Item_VenomCrystal</li>
-										</thingDefs>
-									</filter>
-									<count>1</count>
-								</li>
-							</ingredients>
-							<fixedIngredientFilter>
-								<categories>
-									<li>Medicine</li>
-								</categories>
-								<thingDefs>
-									<li>EVOR_Item_VenomCrystal</li>
-								</thingDefs>
-							</fixedIngredientFilter>
-							<appliedOnFixedBodyParts>
-								<li>Shoulder</li>
-							</appliedOnFixedBodyParts>
-							<addsHediff>EVOR_Hediff_Primary_VenomCrystal</addsHediff>
-							<descriptionHyperlinks><ThingDef>EVOR_Item_VenomCrystal</ThingDef></descriptionHyperlinks>
-						</RecipeDef>
-
-						<!--Maggot Bolter-->
 						<RecipeDef ParentName="SurgeryFlesh">
 							<defName>EVOR_Surgery_Secondary_MaggotBolter</defName>
 							<label>&lt;color=#00FFF7&gt;implant voracious maggot bolter&lt;/color&gt;</label>
@@ -154,7 +106,53 @@
 							<descriptionHyperlinks><ThingDef>EVOR_Item_MaggotBolter</ThingDef></descriptionHyperlinks>
 						</RecipeDef>
 
-						<!--venomcrystal-->
+						<!--Venomcrystal-->
+						<RecipeDef ParentName="SurgeryFlesh">
+							<defName>EVOR_Surgery_Primary_VenomCrystal</defName>
+							<label>&lt;color=#00FFF7&gt;implant venom crystal cannon&lt;/color&gt;</label>
+							<description>Implant a venom crystal cannon.</description>
+							<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+							<jobString>Implanting venom crystal cannon.</jobString>
+							<workAmount>3000</workAmount>
+							<skillRequirements>
+								<Medicine>10</Medicine>
+							</skillRequirements>
+							<recipeUsers>
+								<li>Human</li>
+							</recipeUsers>
+							<ingredients>
+								<li>
+									<filter>
+										<categories>
+											<li>Medicine</li>
+										</categories>
+									</filter>
+									<count>2</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>EVOR_Item_VenomCrystal</li>
+										</thingDefs>
+									</filter>
+									<count>1</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<categories>
+									<li>Medicine</li>
+								</categories>
+								<thingDefs>
+									<li>EVOR_Item_VenomCrystal</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<appliedOnFixedBodyParts>
+								<li>Shoulder</li>
+							</appliedOnFixedBodyParts>
+							<addsHediff>EVOR_Hediff_Primary_VenomCrystal</addsHediff>
+							<descriptionHyperlinks><ThingDef>EVOR_Item_VenomCrystal</ThingDef></descriptionHyperlinks>
+						</RecipeDef>
+
 						<RecipeDef ParentName="SurgeryFlesh">
 							<defName>EVOR_Surgery_Secondary_VenomCrystal</defName>
 							<label>&lt;color=#00FFF7&gt;implant venom crystal cannon&lt;/color&gt;</label>
@@ -200,6 +198,100 @@
 							<addsHediff>EVOR_Hediff_Secondary_VenomCrystal</addsHediff>
 							<researchPrerequisite>EVOR_Research_Limbs3</researchPrerequisite>
 							<descriptionHyperlinks><ThingDef>EVOR_Item_VenomCrystal</ThingDef></descriptionHyperlinks>
+						</RecipeDef>
+
+						<!--cryoslime-->
+						<RecipeDef ParentName="SurgeryFlesh">
+							<defName>EVOR_Surgery_Primary_CryoSlime</defName>
+							<label>&lt;color=#00FFF7&gt;implant cryogenic slime cannon&lt;/color&gt;</label>
+							<description>Implant a cryogenic slime cannon.</description>
+							<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+							<jobString>Implanting cryogenic slime cannon.</jobString>
+							<workAmount>3000</workAmount>
+							<skillRequirements>
+								<Medicine>10</Medicine>
+							</skillRequirements>
+							<recipeUsers>
+								<li>Human</li>
+							</recipeUsers>
+							<ingredients>
+								<li>
+									<filter>
+										<categories>
+											<li>Medicine</li>
+										</categories>
+									</filter>
+									<count>2</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>EVOR_Item_CryoSlime</li>
+										</thingDefs>
+									</filter>
+									<count>1</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<categories>
+									<li>Medicine</li>
+								</categories>
+								<thingDefs>
+									<li>EVOR_Item_CryoSlime</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<appliedOnFixedBodyParts>
+								<li>Shoulder</li>
+							</appliedOnFixedBodyParts>
+							<addsHediff>EVOR_Hediff_Primary_CryoSlime</addsHediff>
+							<descriptionHyperlinks><ThingDef>EVOR_Item_CryoSlime</ThingDef></descriptionHyperlinks>
+						</RecipeDef>
+
+						<RecipeDef ParentName="SurgeryFlesh">
+							<defName>EVOR_Surgery_Secondary_CryoSlime</defName>
+							<label>&lt;color=#00FFF7&gt;implant cryogenic slime cannon&lt;/color&gt;</label>
+							<description>Implant a cryogenic slime cannon.</description>
+							<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+							<jobString>Implanting cryogenic slime cannon.</jobString>
+							<workAmount>3000</workAmount>
+							<skillRequirements>
+								<Medicine>10</Medicine>
+							</skillRequirements>
+							<recipeUsers>
+								<li>Human</li>
+							</recipeUsers>
+							<ingredients>
+								<li>
+									<filter>
+										<categories>
+											<li>Medicine</li>
+										</categories>
+									</filter>
+									<count>2</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>EVOR_Item_CryoSlime</li>
+										</thingDefs>
+									</filter>
+									<count>1</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<categories>
+									<li>Medicine</li>
+								</categories>
+								<thingDefs>
+									<li>EVOR_Item_CryoSlime</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<appliedOnFixedBodyParts>
+								<li>LowerShoulder</li>
+							</appliedOnFixedBodyParts>
+							<addsHediff>EVOR_Hediff_Secondary_CryoSlime</addsHediff>
+							<researchPrerequisite>EVOR_Research_Limbs3</researchPrerequisite>
+							<descriptionHyperlinks><ThingDef>EVOR_Item_CryoSlime</ThingDef></descriptionHyperlinks>
 						</RecipeDef>
 
 					</value>

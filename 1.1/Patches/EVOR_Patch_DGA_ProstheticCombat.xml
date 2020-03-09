@@ -7,7 +7,7 @@
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
-				
+
 				<!--ADDING HEDIFF-->
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
@@ -76,68 +76,6 @@
 						</HediffDef>
 
 						<HediffDef ParentName="AddedBodyPartBase">
-							<defName>EVOR_Hediff_Primary_VenomCrystal</defName>
-							<label>venom crystal cannon</label>
-							<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
-							<labelNoun>a venom crystal cannon</labelNoun>
-							<spawnThingOnRemoved>EVOR_Item_VenomCrystal</spawnThingOnRemoved>
-							<addedPartProps>
-								<solid>true</solid>     
-								<partEfficiency>1.0</partEfficiency>
-								<betterThanNatural>true</betterThanNatural>
-							</addedPartProps>
-							<comps>
-								<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
-									<toggleLabel>Venom Crystal Cannon</toggleLabel>
-									<toggleDescription>Venom Crystal Cannon.</toggleDescription>
-									<toggleIconPath>UI/Widgets/Organs/EVOR_Texture_Cannon</toggleIconPath>
-									<toggleIconAngle>-45.0</toggleIconAngle>
-									<verbs>
-										<li>
-											<label>venom crystal cannon</label>
-											<verbClass>Verb_Shoot</verbClass>
-											<accuracyTouch>0.50</accuracyTouch>
-											<accuracyShort>0.70</accuracyShort>
-											<accuracyMedium>0.86</accuracyMedium>
-											<accuracyLong>0.90</accuracyLong>
-											<hasStandardCommand>true</hasStandardCommand>
-											<defaultProjectile>EVOR_Bullet_VenomCrystal</defaultProjectile>
-											<warmupTime>4.00</warmupTime>
-											<range>45.0</range>
-											<soundCast>Pawn_Megascarab_Angry</soundCast>
-											<soundCastTail>GunTail_Medium</soundCastTail>
-											<muzzleFlashScale>6</muzzleFlashScale>
-										</li>
-									</verbs>
-									<verbsProperties>
-										<li>
-											<label>venom crystal cannon</label>
-											<description>Venom Crystal Cannon</description>
-											<uiIconPath>Things/Projectile/EVOR_Texture_VenomCrystal</uiIconPath>
-										</li>			
-									</verbsProperties>
-								</li>
-							</comps>
-							<stages>
-								<li>
-									<capMods>
-										<li>
-											<capacity>Manipulation</capacity>
-											<offset>-0.4</offset>
-										</li>
-									</capMods>
-									<statOffsets>
-										<RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
-									</statOffsets>
-								</li>	
-							</stages>
-							<description>The crystals fired from this cannon are made of a durable chunk of solid venom, able to punch through the strongest armor and then eat though anything underneath.</description>
-							<descriptionHyperlinks><ThingDef>EVOR_Item_VenomCrystal</ThingDef></descriptionHyperlinks>
-						</HediffDef>
-
-
-						<!--EVOR_Bullet_Maggot-->
-						<HediffDef ParentName="AddedBodyPartBase">
 							<defName>EVOR_Hediff_Secondary_MaggotBolter</defName>
 							<label>voracious maggot bolter</label>
 							<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
@@ -197,6 +135,67 @@
 							</stages>
 							<description>By creating a rapidly growing strain of maggots and adapting them to life in our bodies, we can use them as bullet-like ammunition in our bio-weapons.</description>
 							<descriptionHyperlinks><ThingDef>EVOR_Item_MaggotBolter</ThingDef></descriptionHyperlinks>
+						</HediffDef>
+
+						<!--Venom crystal-->
+						<HediffDef ParentName="AddedBodyPartBase">
+							<defName>EVOR_Hediff_Primary_VenomCrystal</defName>
+							<label>venom crystal cannon</label>
+							<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+							<labelNoun>a venom crystal cannon</labelNoun>
+							<spawnThingOnRemoved>EVOR_Item_VenomCrystal</spawnThingOnRemoved>
+							<addedPartProps>
+								<solid>true</solid>     
+								<partEfficiency>1.0</partEfficiency>
+								<betterThanNatural>true</betterThanNatural>
+							</addedPartProps>
+							<comps>
+								<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
+									<toggleLabel>Venom Crystal Cannon</toggleLabel>
+									<toggleDescription>Venom Crystal Cannon.</toggleDescription>
+									<toggleIconPath>UI/Widgets/Organs/EVOR_Texture_Cannon</toggleIconPath>
+									<toggleIconAngle>-45.0</toggleIconAngle>
+									<verbs>
+										<li>
+											<label>venom crystal cannon</label>
+											<verbClass>Verb_Shoot</verbClass>
+											<accuracyTouch>0.50</accuracyTouch>
+											<accuracyShort>0.70</accuracyShort>
+											<accuracyMedium>0.86</accuracyMedium>
+											<accuracyLong>0.90</accuracyLong>
+											<hasStandardCommand>true</hasStandardCommand>
+											<defaultProjectile>EVOR_Bullet_VenomCrystal</defaultProjectile>
+											<warmupTime>4.00</warmupTime>
+											<range>45.0</range>
+											<soundCast>Pawn_Megascarab_Angry</soundCast>
+											<soundCastTail>GunTail_Medium</soundCastTail>
+											<muzzleFlashScale>6</muzzleFlashScale>
+										</li>
+									</verbs>
+									<verbsProperties>
+										<li>
+											<label>venom crystal cannon</label>
+											<description>Venom Crystal Cannon</description>
+											<uiIconPath>Things/Projectile/EVOR_Texture_VenomCrystal</uiIconPath>
+										</li>			
+									</verbsProperties>
+								</li>
+							</comps>
+							<stages>
+								<li>
+									<capMods>
+										<li>
+											<capacity>Manipulation</capacity>
+											<offset>-0.4</offset>
+										</li>
+									</capMods>
+									<statOffsets>
+										<RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
+									</statOffsets>
+								</li>	
+							</stages>
+							<description>The crystals fired from this cannon are made of a durable chunk of solid venom, able to punch through the strongest armor and then eat though anything underneath.</description>
+							<descriptionHyperlinks><ThingDef>EVOR_Item_VenomCrystal</ThingDef></descriptionHyperlinks>
 						</HediffDef>
 
 						<HediffDef ParentName="AddedBodyPartBase">
@@ -259,6 +258,130 @@
 							<descriptionHyperlinks><ThingDef>EVOR_Item_VenomCrystal</ThingDef></descriptionHyperlinks>
 						</HediffDef>
 
+						<!--CryoSlime-->
+						<HediffDef ParentName="AddedBodyPartBase">
+							<defName>EVOR_Hediff_Primary_CryoSlime</defName>
+							<label>cryogenic slime cannon</label>
+							<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+							<labelNoun>a cryogenic slime cannon</labelNoun>
+							<spawnThingOnRemoved>EVOR_Item_CryoSlime</spawnThingOnRemoved>
+							<addedPartProps>
+								<solid>true</solid>     
+								<partEfficiency>1.0</partEfficiency>
+								<betterThanNatural>true</betterThanNatural>
+							</addedPartProps>
+							<comps>
+								<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
+									<toggleLabel>Cryogenic Slime Cannon</toggleLabel>
+									<toggleDescription>Cryogenic Slime Cannon.</toggleDescription>
+									<toggleIconPath>UI/Widgets/Organs/EVOR_Texture_BCannon</toggleIconPath>
+									<toggleIconAngle>-45.0</toggleIconAngle>
+									<verbs>
+										<li>
+											<label>cryogenic slime cannon</label>
+											<verbClass>Verb_Shoot</verbClass>
+											<accuracyTouch>0.50</accuracyTouch>
+											<accuracyShort>0.65</accuracyShort>
+											<accuracyMedium>0.76</accuracyMedium>
+											<accuracyLong>0.70</accuracyLong>
+											<hasStandardCommand>true</hasStandardCommand>
+											<defaultProjectile>EVOR_Bullet_CryoSlime</defaultProjectile>
+											<warmupTime>3.00</warmupTime>
+											<range>32.0</range>
+											<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+											<burstShotCount>2</burstShotCount>
+											<soundCast>Pawn_Megascarab_Angry</soundCast>
+											<soundCastTail>GunTail_Medium</soundCastTail>
+											<muzzleFlashScale>6</muzzleFlashScale>
+										</li>
+									</verbs>
+									<verbsProperties>
+										<li>
+											<label>cryogenic slime cannon</label>
+											<description>Cryogenic Slime Cannon</description>
+											<uiIconPath>Things/Projectile/EVOR_Texture_CryoSlime</uiIconPath>
+										</li>			
+									</verbsProperties>
+								</li>
+							</comps>
+							<stages>
+								<li>
+									<capMods>
+										<li>
+											<capacity>Manipulation</capacity>
+											<offset>-0.4</offset>
+										</li>
+									</capMods>
+									<statOffsets>
+										<RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
+									</statOffsets>
+								</li>	
+							</stages>
+							<description>This limb fires a carefully cooled bodily fluid that rapidly cools the target upon impact, in some cases chilling the enemy to the bone</description>
+							<descriptionHyperlinks><ThingDef>EVOR_Item_CryoSlime</ThingDef></descriptionHyperlinks>
+						</HediffDef>
+
+						<HediffDef ParentName="AddedBodyPartBase">
+							<defName>EVOR_Hediff_Secondary_CryoSlime</defName>
+							<label>cryogenic slime cannon</label>
+							<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+							<labelNoun>a cryogenic slime cannon</labelNoun>
+							<spawnThingOnRemoved>EVOR_Item_CryoSlime</spawnThingOnRemoved>
+							<addedPartProps>
+								<solid>true</solid>     
+								<partEfficiency>1.0</partEfficiency>
+								<betterThanNatural>true</betterThanNatural>
+							</addedPartProps>
+							<comps>
+								<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
+									<toggleLabel>Cryogenic Slime Cannon</toggleLabel>
+									<toggleDescription>Cryogenic Slime Cannon.</toggleDescription>
+									<toggleIconPath>UI/Widgets/Organs/EVOR_Texture_BCannon</toggleIconPath>
+									<toggleIconAngle>-45.0</toggleIconAngle>
+									<verbs>
+										<li>
+											<label>cryogenic slime cannon</label>
+											<verbClass>Verb_Shoot</verbClass>
+											<accuracyTouch>0.50</accuracyTouch>
+											<accuracyShort>0.65</accuracyShort>
+											<accuracyMedium>0.76</accuracyMedium>
+											<accuracyLong>0.70</accuracyLong>
+											<hasStandardCommand>true</hasStandardCommand>
+											<defaultProjectile>EVOR_Bullet_CryoSlime</defaultProjectile>
+											<warmupTime>3.00</warmupTime>
+											<range>32.0</range>
+											<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+											<burstShotCount>2</burstShotCount>
+											<soundCast>Pawn_Megascarab_Angry</soundCast>
+											<soundCastTail>GunTail_Medium</soundCastTail>
+											<muzzleFlashScale>6</muzzleFlashScale>
+										</li>
+									</verbs>
+									<verbsProperties>
+										<li>
+											<label>cryogenic slime cannon</label>
+											<description>Cryogenic Slime Cannon</description>
+											<uiIconPath>Things/Projectile/EVOR_Texture_CryoSlime</uiIconPath>
+										</li>			
+									</verbsProperties>
+								</li>
+							</comps>
+							<stages>
+								<li>
+									<capMods>
+										<li>
+											<capacity>Manipulation</capacity>
+											<offset>0.1</offset>
+										</li>
+									</capMods>
+									<statOffsets>
+										<RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
+									</statOffsets>
+								</li>	
+							</stages>
+							<description>This limb fires a carefully cooled bodily fluid that rapidly cools the target upon impact, in some cases chilling the enemy to the bone</description>
+							<descriptionHyperlinks><ThingDef>EVOR_Item_CryoSlime</ThingDef></descriptionHyperlinks>
+						</HediffDef>
 					</value>
 					<success>Always</success>
 				</li>
