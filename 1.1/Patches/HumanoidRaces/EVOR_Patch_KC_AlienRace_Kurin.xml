@@ -7,27 +7,9 @@
 
 		<match Class="PatchOperationSequence">
 			<operations>
-				
-				<li Class="PatchOperationFindMod">
-					<mods>
-						<li>Questionable Ethics Enhanced</li>
-					</mods>
-					<nomatch Class="PatchOperationAdd">
-						<xpath>/Defs/RecipeDef[defName="EVOR_Production_Protein_Humie"]/fixedIngredientFilter/thingDefs</xpath>
-						<value>
-							<li>Meat_DRNTF_Race</li>
-						</value>
-					</nomatch>
-					<match Class="PatchOperationAdd">
-						<xpath>/Defs/RecipeDef[defName="EVOR_QEE_Production_Protein_Humie"]/fixedIngredientFilter/thingDefs</xpath>
-						<value>
-							<li>Meat_DRNTF_Race</li>
-						</value>
-					</match>
-				</li>
 
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/BodyDef[defName="DRNTF_Body"]/corePart/parts</xpath>
+					<xpath>/Defs/BodyDef[defName="Kurin"]/corePart/parts</xpath>
 					<value>
 
 						<li>
@@ -104,6 +86,12 @@
 					</value>
 				</li>
 
+				<li Class ="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[contains(defName, "EVOR_Surgery")]/recipeUsers</xpath>
+					<value>
+						<li>Kurin</li>
+					</value>
+				</li>
 
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
@@ -120,7 +108,7 @@
 								<Medicine>10</Medicine>
 							</skillRequirements>
 							<recipeUsers>
-								<li>DRNTF_Race</li>
+								<li>Kurin</li>
 							</recipeUsers>
 							<ingredients>
 								<li>
@@ -149,7 +137,7 @@
 								</thingDefs>
 							</fixedIngredientFilter>
 							<appliedOnFixedBodyParts>
-								<li>DRNTF_Tail</li>
+								<li>Kurin_Tail</li>
 							</appliedOnFixedBodyParts>
 							<addsHediff>EVOR_Hediff_Tail_Blade</addsHediff>
 						</RecipeDef>
@@ -166,7 +154,7 @@
 								<Medicine>10</Medicine>
 							</skillRequirements>
 							<recipeUsers>
-								<li>DRNTF_Race</li>
+								<li>Kurin</li>
 							</recipeUsers>
 							<ingredients>
 								<li>
@@ -195,7 +183,7 @@
 								</thingDefs>
 							</fixedIngredientFilter>
 							<appliedOnFixedBodyParts>
-								<li>DRNTF_Tail</li>
+								<li>Kurin_Tail</li>
 							</appliedOnFixedBodyParts>
 							<addsHediff>EVOR_Hediff_Tail_Hand</addsHediff>
 						</RecipeDef>
@@ -211,7 +199,7 @@
 								<Medicine>10</Medicine>
 							</skillRequirements>
 							<recipeUsers>
-								<li>DRNTF_Race</li>
+								<li>Kurin</li>
 							</recipeUsers>
 							<ingredients>
 								<li>
@@ -240,7 +228,7 @@
 								</thingDefs>
 							</fixedIngredientFilter>
 							<appliedOnFixedBodyParts>
-								<li>DRNTF_Ear</li>
+								<li>Kurin_Ear</li>
 							</appliedOnFixedBodyParts>
 							<addsHediff>EVOR_Hediff_Ear</addsHediff>
 						</RecipeDef>

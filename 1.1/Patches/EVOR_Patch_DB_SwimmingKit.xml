@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<success>Always</success>
+		<mods>
+			<li>SwimmingKit</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<!--ADDING HEDIFF-->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<HediffDef ParentName="AddedBodyPartBase">
+							<defName>EVOR_Hediff_Leg_Swim</defName>
+							<label>hydrophobic webbed leg</label>
+							<spawnThingOnRemoved>EVOR_Item_Leg_Swim</spawnThingOnRemoved>
+							<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+							<addedPartProps>
+								<solid>true</solid>
+								<partEfficiency>1.2</partEfficiency>
+								<betterThanNatural>true</betterThanNatural>
+							</addedPartProps>
+							<stages>
+								<li>
+									<statOffsets>
+										<SwimSpeed>4.5</SwimSpeed>
+									</statOffsets>
+								</li>	
+							</stages>
+							<description>By creating a new cellular mesh that is both light and durable, we can create a mesh that allows for leg mounted webbing that doesnt tear easily.</description>
+							<descriptionHyperlinks><ThingDef>EVOR_Item_Leg_Swim</ThingDef></descriptionHyperlinks>
+						</HediffDef>
+					</value>
+					<success>Always</success>
+				</li>
+
+				<!--ADDING ITEM-->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<ThingDef ParentName="EVOR_OrgBase">
+							<defName>EVOR_Item_Leg_Swim</defName>
+							<label>hydrophobic webbed leg</label>
+							<description>By creating a new cellular mesh that is both light and durable, we can create a mesh that allows for leg mounted webbing that doesnt tear easily.</description>
+							<recipeMaker>
+      							<researchPrerequisite>EVOR_Research_Limbs2</researchPrerequisite>
+    						</recipeMaker>
+							<costList>
+								<EVOR_Resource_Protein>140</EVOR_Resource_Protein>
+      							<EVOR_Resource_Mechanites>2</EVOR_Resource_Mechanites>
+							</costList>
+							<descriptionHyperlinks><RecipeDef>EVOR_Surgery_Leg_Swim</RecipeDef></descriptionHyperlinks>
+						</ThingDef>
+					</value>
+					<success>Always</success>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<RecipeDef ParentName="SurgeryFlesh">
+							<defName>EVOR_Surgery_Leg_Swim</defName>
+							<label>&lt;color=#00FFF7&gt;implant hydrophobic webbed leg&lt;/color&gt;</label>
+							<description>Implant a hydrophobic webbed leg.</description>
+							<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+							<jobString>Implanting hydrophobic webbed leg.</jobString>
+							<workAmount>3000</workAmount>
+							<skillRequirements>
+								<Medicine>10</Medicine>
+							</skillRequirements>
+							<recipeUsers>
+								<li>Human</li>
+							</recipeUsers>
+							<ingredients>
+								<li>
+									<filter>
+										<categories>
+											<li>Medicine</li>
+										</categories>
+									</filter>
+									<count>2</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>EVOR_Item_Leg_Swim</li>
+										</thingDefs>
+									</filter>
+									<count>1</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<categories>
+									<li>Medicine</li>
+								</categories>
+								<thingDefs>
+									<li>EVOR_Item_Leg_Swim</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<appliedOnFixedBodyParts>
+								<li>Leg</li>
+							</appliedOnFixedBodyParts>
+							<addsHediff>EVOR_Hediff_Leg_Swim</addsHediff>
+							<descriptionHyperlinks><ThingDef>EVOR_Item_Leg_Swim</ThingDef></descriptionHyperlinks>
+						</RecipeDef>
+					</value>
+					<success>Always</success>
+				</li>
+
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Elite Bionics Framework</li>
+					</mods>
+					<match Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/HediffDef[defName="EVOR_Hediff_Leg_Swim"]</xpath>
+								<value>
+									<comps>
+									<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+										<linearAdjustment>20</linearAdjustment>
+									</li>
+									</comps>
+								</value>
+								<success>Always</success>
+							</li>
+						</operations>
+					</match>
+				</li>
+
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Questionable Ethics Enhanced</li>
+					</mods>
+					<match Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationRemove">
+            					<xpath>/Defs/ThingDef[defName="EVOR_Item_Leg_Swim"]/recipeMaker</xpath>
+        					</li>
+							<li Class="PatchOperationRemove">
+            					<xpath>/Defs/ThingDef[defName="EVOR_Item_Leg_Swim"]/costList</xpath>
+        					</li>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs</xpath>
+								<value>
+									<RecipeDef ParentName="EVOR_Grower_Recipe_Limb">
+										<defName>EVOR_QEE_Leg_Swim</defName>
+										<label>&lt;color=#00FFF7&gt;hydrophobic webbed leg&lt;/color&gt;</label>
+										<products>
+											<EVOR_Item_Leg_Swim>1</EVOR_Item_Leg_Swim>
+										</products>
+										<researchPrerequisite>EVOR_Research_Limbs2</researchPrerequisite>
+									</RecipeDef>
+								</value>
+							</li>
+						</operations>
+					</match>
+				</li>
+			</operations>
+			<!--NEED ELITE BIONICS PATCH-->
+		</match>
+	</Operation>
+
+</Patch>
+
+
+
+

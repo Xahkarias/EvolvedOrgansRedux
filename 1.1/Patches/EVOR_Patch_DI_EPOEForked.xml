@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Expanded Prosthetics and Organ Engineering</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/RecipeDef[defName="EVOR_Surgery_Brain_Hyper"]/researchPrerequisite</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/RecipeDef[defName="EVOR_Surgery_Brain_Nails"]/researchPrerequisite</xpath>
+                </li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>
+

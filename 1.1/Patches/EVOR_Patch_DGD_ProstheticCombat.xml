@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<success>Always</success>
+		<mods>
+			<li>Prosthetic Combat Framework</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<!--ADDING PROJECTILES-->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<ThingDef ParentName="BaseBullet">
+							<defName>EVOR_Bullet_Maggot</defName>
+							<label>voracious maggot</label>
+							<graphicData>
+								<texPath>Things/Projectile/EVOR_Texture_Maggot</texPath>
+								<graphicClass>Graphic_Single</graphicClass>
+							</graphicData>
+							<projectile>
+								<damageDef>Bullet</damageDef>
+								<damageAmountBase>8</damageAmountBase>
+								<stoppingPower>1</stoppingPower>
+								<speed>46</speed>
+							</projectile>
+						</ThingDef>
+
+						<ThingDef ParentName="BaseBullet">
+							<defName>EVOR_Bullet_VenomCrystal</defName>
+							<label>venom crystal</label>
+							<graphicData>
+								<texPath>Things/Projectile/EVOR_Texture_VenomCrystal</texPath>
+								<graphicClass>Graphic_Single</graphicClass>
+							</graphicData>
+							<projectile>
+								<damageDef>Bullet</damageDef>
+								<damageAmountBase>30</damageAmountBase>
+								<stoppingPower>4</stoppingPower>
+								<armorPenetrationBase>0.45</armorPenetrationBase>
+								<speed>65</speed>
+							</projectile>
+						</ThingDef>
+
+						<ThingDef ParentName="BaseBullet">
+							<defName>EVOR_Bullet_CryoSlime</defName>
+							<label>cryogenic slime</label>
+							<graphicData>
+								<texPath>Things/Projectile/EVOR_Texture_CryoSlime</texPath>
+								<graphicClass>Graphic_Single</graphicClass>
+							</graphicData>
+							<projectile>
+								<damageDef>Frostbite</damageDef>
+								<damageAmountBase>23</damageAmountBase>
+								<speed>44</speed>
+								<stoppingPower>4</stoppingPower>
+								<armorPenetrationBase>0.15</armorPenetrationBase>
+							</projectile>
+						</ThingDef>
+
+						<ThingDef ParentName="BaseBullet">
+							<defName>EVOR_Bullet_ImpulseShock</defName>
+							<label>impulse shock</label>
+							<graphicData>
+								<texPath>Things/Projectile/EVOR_Texture_ImpulseShock</texPath>
+								<graphicClass>Graphic_Single</graphicClass>
+							</graphicData>
+							<projectile>
+								<damageDef>Stun</damageDef>
+								<damageAmountBase>5</damageAmountBase>
+								<speed>60</speed>
+								<stoppingPower>4</stoppingPower>
+								<armorPenetrationBase>0.15</armorPenetrationBase>
+							</projectile>
+						</ThingDef>
+
+					</value>
+					<success>Always</success>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>
+
+
+
+
