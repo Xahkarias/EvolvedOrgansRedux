@@ -372,7 +372,7 @@
 				</li>
 
 				<li Class ="PatchOperationAddModExtension">
-					<xpath>Defs/HediffDef[contains(defName, "EVOR_Hediff") and not(contains(defName, "EVOR_Hediff_Damage_"))]</xpath>
+					<xpath>Defs/HediffDef[contains(defName, "EVOR_Hediff") and not(contains(defName, "EVOR_Hediff_Damage_")) and not(contains(defName, "EVOR_Hediff_Artifact_"))]</xpath>
 					<value>
 						<li Class="QEthics.HediffTemplateProperties">
 							<includeInGenomeTemplate>true</includeInGenomeTemplate>

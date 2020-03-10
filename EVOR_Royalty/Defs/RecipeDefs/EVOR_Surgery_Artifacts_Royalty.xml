@@ -8,7 +8,7 @@
     <jobString>Implanting the Norn Crown.</jobString>
     <workAmount>3000</workAmount>
     <skillRequirements>
-      <Medicine>10</Medicine>
+      <Medicine>13</Medicine>
     </skillRequirements>
     <recipeUsers>
       <li>Human</li>
@@ -46,4 +46,49 @@
     <descriptionHyperlinks><ThingDef>EVOR_Item_Artifact_Royalty_NornCrown</ThingDef></descriptionHyperlinks>
   </RecipeDef>
 
+  <!-- <RecipeDef ParentName="SurgeryFlesh">
+    <defName>EVOR_Surgery_Artifact_Royalty_ReactiveWorms</defName>
+    <label>&lt;color=#00FFF7&gt;implant reactive shimmerworms&lt;/color&gt;</label>
+    <description>Implant reactive shimmerworms.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Implanting reactive shimmerworms.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>13</Medicine>
+    </skillRequirements>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EVOR_Item_Artifact_Royalty_ReactiveWorms</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>EVOR_Item_Artifact_Royalty_ReactiveWorms</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Sternum</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EVOR_Hediff_Artifact_Royalty_ReactiveWorms</addsHediff>
+    <descriptionHyperlinks><ThingDef>EVOR_Item_Artifact_Royalty_ReactiveWorms</ThingDef></descriptionHyperlinks>
+  </RecipeDef> -->
 </Defs>

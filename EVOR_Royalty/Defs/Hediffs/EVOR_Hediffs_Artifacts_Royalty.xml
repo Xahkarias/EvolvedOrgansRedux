@@ -22,14 +22,24 @@
 		<descriptionHyperlinks><ThingDef>EVOR_Item_Artifact_Royalty_NornCrown</ThingDef></descriptionHyperlinks>
 	</HediffDef>
 
-
-
-
-
-
-
-
-
-
+	<!-- <HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Artifact_Royalty_ReactiveWorms</defName>
+		<label>reactive shimmerworms</label>
+		<labelNoun>reactive shimmerworms</labelNoun>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<spawnThingOnRemoved>EVOR_Item_Artifact_Royalty_ReactiveWorms</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.00</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_ReactOnDamage">
+        		<createHediff>EVOR_Other_PsychicInvisibility</createHediff>
+      		</li>
+		</comps>
+		<description>Once these worms feel pain, they immediately make themselves psychically invisible to anyone around them. By melding their nervous system with the host, the worms now cause the host to be invisible whenever the host feels pain. We have tried but cannot replicate this advanced symbiote ourselves.</description>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_Artifact_Royalty_ReactiveWorms</ThingDef></descriptionHyperlinks>
+	</HediffDef> -->
 
 </Defs>
