@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="EVOR_OrgBase_Artifact">
+    <defName>EVOR_Item_Artifact_Royalty_NornCrown</defName>
+    <label>the Norn Crown</label>
+    <description>Despite the name, the Norn Crown is actually a writing mass of psychicaly tuned flesh. Implanted in the sternum, it allows the user to change the moods of beings around them. We have tried but cannot replicate this advanced symbiote ourselves.</description>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Artifact_Royalty_NornCrown</RecipeDef></descriptionHyperlinks>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+    </thingSetMakerTags>
+  </ThingDef>
+
+</Defs>
