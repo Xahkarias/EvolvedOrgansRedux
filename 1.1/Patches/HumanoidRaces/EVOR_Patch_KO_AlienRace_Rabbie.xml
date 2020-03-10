@@ -2,7 +2,7 @@
 <Patch>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Rabbie The Moonrabbit</li>
+			<li>Rabbie The Moonrabbit race</li>
 		</mods>
 
 		<match Class="PatchOperationSequence">
@@ -103,7 +103,6 @@
 
 					</value>
 				</li>
-
 
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
