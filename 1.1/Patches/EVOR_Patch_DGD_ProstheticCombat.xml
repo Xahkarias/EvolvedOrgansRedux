@@ -52,7 +52,7 @@
 							</graphicData>
 							<projectile>
 								<damageDef>Frostbite</damageDef>
-								<damageAmountBase>23</damageAmountBase>
+								<damageAmountBase>17</damageAmountBase>
 								<speed>44</speed>
 								<stoppingPower>4</stoppingPower>
 								<armorPenetrationBase>0.15</armorPenetrationBase>
