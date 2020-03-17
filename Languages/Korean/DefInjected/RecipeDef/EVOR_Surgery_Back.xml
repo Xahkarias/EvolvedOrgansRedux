@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <EVOR_Surgery_Back_Wing.label>&lt;color=#00FFF7&gt;깃털 날개 이식하기&lt;/color&gt;</EVOR_Surgery_Back_Wing.label>
+  <EVOR_Surgery_Back_Wing.description>깃털 날개를 이식합니다.</EVOR_Surgery_Back_Wing.description>
+  <EVOR_Surgery_Back_Wing.jobString>깃털 날개 이식하기</EVOR_Surgery_Back_Wing.jobString>
+
+  <EVOR_Surgery_Back_Hand.label>&lt;color=#00FFF7&gt;촉수 군집 이식하기&lt;/color&gt;</EVOR_Surgery_Back_Hand.label>
+  <EVOR_Surgery_Back_Hand.description>촉수 군집을 이식합니다.</EVOR_Surgery_Back_Hand.description>
+  <EVOR_Surgery_Back_Hand.jobString>촉수 군집 이식하기</EVOR_Surgery_Back_Hand.jobString>
+
+  <EVOR_Surgery_Back_Muscle.label>&lt;color=#00FFF7&gt;근육 교정기 이식하기&lt;/color&gt;</EVOR_Surgery_Back_Muscle.label>
+  <EVOR_Surgery_Back_Muscle.description>근육 교정기를 이식합니다.</EVOR_Surgery_Back_Muscle.description>
+  <EVOR_Surgery_Back_Muscle.jobString>근육 교정기 이식하기</EVOR_Surgery_Back_Muscle.jobString>
+
+
+</LanguageData>

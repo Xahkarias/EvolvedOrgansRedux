@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <EVOR_Resource_Protein.label>단백질 슬러그</EVOR_Resource_Protein.label>
+  <EVOR_Resource_Protein.description>메카나이트와 합성될 준비가 된 동물성 단백질이며 부속기관이나 장기로 형성됩니다.</EVOR_Resource_Protein.description>
+
+  <EVOR_Resource_Mechanites.label>나노 메카나이트</EVOR_Resource_Mechanites.label>
+  <EVOR_Resource_Mechanites.description>세포 덩어리를 크고 복잡한 기관으로 변형시킬 준비가 된 메카나이트입니다.</EVOR_Resource_Mechanites.description>
+
+
+</LanguageData>

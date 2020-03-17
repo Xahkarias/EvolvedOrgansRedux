@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData> <!-- Normal ARM --> <EVOR_Surgery_Secondary_NormalArm.label>&lt;color=#00FFF7&gt;추가 팔 이식하기&lt;/color&gt;</EVOR_Surgery_Secondary_NormalArm.label>
+  <EVOR_Surgery_Secondary_NormalArm.description>추가 팔을 이식합니다.</EVOR_Surgery_Secondary_NormalArm.description>
+  <EVOR_Surgery_Secondary_NormalArm.jobString>추가 팔 이식하기</EVOR_Surgery_Secondary_NormalArm.jobString> <!-- Saber --> <EVOR_Surgery_Secondary_BoneSaber.label>&lt;color=#00FFF7&gt;골화된 칼날 팔 이식하기&lt;/color&gt;</EVOR_Surgery_Secondary_BoneSaber.label>
+  <EVOR_Surgery_Secondary_BoneSaber.description>골화된 칼날 팔을 이식합니다.</EVOR_Surgery_Secondary_BoneSaber.description>
+  <EVOR_Surgery_Secondary_BoneSaber.jobString>골화된 칼날 팔 이식하기</EVOR_Surgery_Secondary_BoneSaber.jobString>
+
+  <EVOR_Surgery_Secondary_HighPincer.label>&lt;color=#00FFF7&gt;고압 집게 이식하기&lt;/color&gt;</EVOR_Surgery_Secondary_HighPincer.label>
+  <EVOR_Surgery_Secondary_HighPincer.description>고압 집게를 이식합니다.</EVOR_Surgery_Secondary_HighPincer.description>
+  <EVOR_Surgery_Secondary_HighPincer.jobString>고압 집게 이식하기</EVOR_Surgery_Secondary_HighPincer.jobString>
+
+  <EVOR_Surgery_Secondary_SonicMace.label>&lt;color=#00FFF7&gt;음파 충격 메이스 이식하기&lt;/color&gt;</EVOR_Surgery_Secondary_SonicMace.label>
+  <EVOR_Surgery_Secondary_SonicMace.description>음파 충격 메이스를 이식합니다.</EVOR_Surgery_Secondary_SonicMace.description>
+  <EVOR_Surgery_Secondary_SonicMace.jobString>음파 충격 메이스 이식하기</EVOR_Surgery_Secondary_SonicMace.jobString>
+
+  <EVOR_Surgery_Secondary_PlatedLimb.label>&lt;color=#00FFF7&gt;삼중 강판 팔 이식하기&lt;/color&gt;</EVOR_Surgery_Secondary_PlatedLimb.label>
+  <EVOR_Surgery_Secondary_PlatedLimb.description>삼중 강판 팔을 이식합니다.</EVOR_Surgery_Secondary_PlatedLimb.description>
+  <EVOR_Surgery_Secondary_PlatedLimb.jobString>삼중 강판 팔 이식하기</EVOR_Surgery_Secondary_PlatedLimb.jobString> <!-- <RecipeDef ParentName="SurgeryFlesh">
+    <defName>EVOR_Surgery_Secondary_ShockTentacle</defName>
+    <label>&lt;color=#00FFF7&gt;implant electroshock tentacle&lt;/color&gt;</label>
+    <description>Implant a electroshock tentacle.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Implanting electroshock tentacle.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EVOR_Item_ShockTentacle</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>EVOR_Item_ShockTentacle</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>LowerShoulder</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EVOR_Hediff_Secondary_ShockTentacle</addsHediff>
+    <researchPrerequisite>EVOR_Research_Limbs3</researchPrerequisite>
+  </RecipeDef> --> <EVOR_Surgery_Secondary_RendingClaw.label>&lt;color=#00FFF7&gt;날카로운 손톱 이식하기&lt;/color&gt;</EVOR_Surgery_Secondary_RendingClaw.label>
+  <EVOR_Surgery_Secondary_RendingClaw.description>날카로운 손톱을 이식합니다.</EVOR_Surgery_Secondary_RendingClaw.description>
+  <EVOR_Surgery_Secondary_RendingClaw.jobString>날카로운 손톱 이식하기</EVOR_Surgery_Secondary_RendingClaw.jobString>
+
+
+</LanguageData>

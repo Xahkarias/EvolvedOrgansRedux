@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <EVOR_Surgery_Skin_Plating.label>&lt;color=#00FFF7&gt;다중 피부 강판 이식하기&lt;/color&gt;</EVOR_Surgery_Skin_Plating.label>
+  <EVOR_Surgery_Skin_Plating.description>다중 피부 강판을 이식합니다.</EVOR_Surgery_Skin_Plating.description>
+  <EVOR_Surgery_Skin_Plating.jobString>다중 피부 강판 이식하기</EVOR_Surgery_Skin_Plating.jobString>
+
+  <EVOR_Surgery_Skin_Flame.label>&lt;color=#00FFF7&gt;내화성 피부 이식하기&lt;/color&gt;</EVOR_Surgery_Skin_Flame.label>
+  <EVOR_Surgery_Skin_Flame.description>내화성 피부를 이식합니다.</EVOR_Surgery_Skin_Flame.description>
+  <EVOR_Surgery_Skin_Flame.jobString>내화성 피부 이식하기</EVOR_Surgery_Skin_Flame.jobString>
+
+  <EVOR_Surgery_Skin_Insulation.label>&lt;color=#00FFF7&gt;가변형 단열 피부 이식하기&lt;/color&gt;</EVOR_Surgery_Skin_Insulation.label>
+  <EVOR_Surgery_Skin_Insulation.description>가병형 단열 피부를 이식합니다.</EVOR_Surgery_Skin_Insulation.description>
+  <EVOR_Surgery_Skin_Insulation.jobString>가변형 단열 피부 이식하기</EVOR_Surgery_Skin_Insulation.jobString>
+
+  <EVOR_Surgery_Ribcage.label>&lt;color=#00FFF7&gt;칼슘 합금 갈비뼈 이식하기&lt;/color&gt;</EVOR_Surgery_Ribcage.label>
+  <EVOR_Surgery_Ribcage.description>칼슘 합금 갈비뼈를 이식합니다.</EVOR_Surgery_Ribcage.description>
+  <EVOR_Surgery_Ribcage.jobString>칼슘 합금 갈비뼈 이식하기</EVOR_Surgery_Ribcage.jobString>
+
+
+</LanguageData>

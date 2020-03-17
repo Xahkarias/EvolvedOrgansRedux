@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData> <!-- <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Brain_Rest</defName>
+    <label>hibernation module</label>
+    <description>By carefully regulating the energy consumption of the brain and altering sleep routines, the host stays rested for much longer.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>170</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>4</EVOR_Resource_Mechanites>
+    </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Brain_Physics</defName>
+    <label>physics processing cortex</label>
+    <description>By adding a lobe deticated to processing the trajectory of projectiles, as well as the stability of buildings and other structures, performance in these areas in increased radically.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>170</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>4</EVOR_Resource_Mechanites>
+    </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Brain_Diplo</defName>
+    <label>interbeing relations cortex</label>
+    <description>The host of this brain modification gains the ability to read into the depths of a person's psyche with but a few interactions, allowing them to navigate social situations with ease.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>170</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>4</EVOR_Resource_Mechanites>
+    </costList>
+  </ThingDef> --> <EVOR_Item_Brain_Hyper.label>신경 하이퍼스레더</EVOR_Item_Brain_Hyper.label>
+  <EVOR_Item_Brain_Hyper.description>극단적인 두개골 재설계를 통해 피시술자는 모든 것에 집중하는 동시에 복합적인 생각을 할 수 있으며, 능력을 크게 향상시킵니다.</EVOR_Item_Brain_Hyper.description> <!-- <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Brain_Logic</defName>
+    <label>logical reasoning cortex</label>
+    <description>A deticated part of the brain deticated to logical reasoning helps increase the speed of knowledge acquisition</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>170</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>4</EVOR_Resource_Mechanites>
+    </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Brain_Bio</defName>
+    <label>biological processing cortex</label>
+    <description>The host can, thanks to their encyclopedic knowledge of biology, more efficiently tend to other people, as well as performing any task involving biological matter.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>170</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>4</EVOR_Resource_Mechanites>
+    </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Brain_Chem</defName>
+    <label>chemical processing cortex</label>
+    <description>By being able to understand the chemical structure of most materials, the host can quickly create items without sacrificing quality.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Brain1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>170</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>4</EVOR_Resource_Mechanites>
+    </costList>
+  </ThingDef> --> <EVOR_Item_Brain_Nails.label>도살자의 손톱</EVOR_Item_Brain_Nails.label>
+  <EVOR_Item_Brain_Nails.description>이 불완전한 장기는 피시술자의 잠재된 공격성을 강화해 전장에서 본래의 힘이 되도록 강제합니다.  하지만, 그들의&lt;color=#EB4034&gt;끊임없는 피의 갈망은 &lt;/color&gt; 그들을 매우 난폭하게 만듭니다. &lt;color=#EB4034&gt;사용에 큰 주의가 필요합니다.&lt;/color&gt;</EVOR_Item_Brain_Nails.description>
+
+
+</LanguageData>

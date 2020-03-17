@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <EVOR_Item_Skin_Plating.label>다층 피부 강판</EVOR_Item_Skin_Plating.label>
+  <EVOR_Item_Skin_Plating.description>피부 밑에 키틴질 층을 두르고 그 사이를 고무와 같은 살덩이로 묶어 소화기에 대한 저항력을 급격히 증가하게 만듭니다.</EVOR_Item_Skin_Plating.description>
+
+  <EVOR_Item_Skin_Flame.label>내화성 피부</EVOR_Item_Skin_Flame.label>
+  <EVOR_Item_Skin_Flame.description>열을 발산하는 것뿐만 아니라 화염 지연성 점액을 분비하는 분비선을 피부에 둘러 열과 화염에 대한 저항력을 높입니다.</EVOR_Item_Skin_Flame.description>
+
+  <EVOR_Item_Skin_Insulation.label>가변형 단열 피부</EVOR_Item_Skin_Insulation.label>
+  <EVOR_Item_Skin_Insulation.description>많은 양의 땀샘과 체온을 유지하거나 방출할수 있는 털로 피부를 만들어 피시술자가 엄청난 범위 내의 온도에서 편안함을 느끼게 해줍니다.</EVOR_Item_Skin_Insulation.description>
+
+  <EVOR_Item_Ribcage.label>칼슘 합금 갈비뼈</EVOR_Item_Ribcage.label>
+  <EVOR_Item_Ribcage.description>갈비뼈의 성분을 칼슘/금속 합금으로 바꾸고 유기질 고무로 상체를 감싸줌으로써 상체의 내구성을 엄청나게 올려줍니다.</EVOR_Item_Ribcage.description>
+
+
+</LanguageData>

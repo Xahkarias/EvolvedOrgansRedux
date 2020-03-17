@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <EVOR_Hediff_Damage_Sonic.label>음파 피해</EVOR_Hediff_Damage_Sonic.label>
+  <EVOR_Hediff_Damage_Sonic.description>큰 소리로 인한 방향감 상실</EVOR_Hediff_Damage_Sonic.description>
+  <EVOR_Hediff_Damage_Sonic.stages.0.label>초기</EVOR_Hediff_Damage_Sonic.stages.0.label>
+  <EVOR_Hediff_Damage_Sonic.stages.1.label>초기</EVOR_Hediff_Damage_Sonic.stages.1.label>
+  <EVOR_Hediff_Damage_Sonic.stages.2.label>경미함</EVOR_Hediff_Damage_Sonic.stages.2.label>
+  <EVOR_Hediff_Damage_Sonic.stages.3.label>중간</EVOR_Hediff_Damage_Sonic.stages.3.label>
+  <EVOR_Hediff_Damage_Sonic.stages.4.label>높음</EVOR_Hediff_Damage_Sonic.stages.4.label>
+
+
+</LanguageData>

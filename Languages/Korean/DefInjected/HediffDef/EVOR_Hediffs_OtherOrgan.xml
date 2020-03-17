@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData> <!-- Eyes --> <EVOR_Hediff_Eye.label>다중 스펙트럼 눈</EVOR_Hediff_Eye.label>
+  <EVOR_Hediff_Eye.description>자외선 및 적외선 스펙트럼의 빛을 수집하는 세포를 통합함으로써, 이 눈은 피시술자에게 훨씬 더 넓은 공간 인식을 가능하게합니다.</EVOR_Hediff_Eye.description>
+  <EVOR_Hediff_Eye.labelNoun>다중 스펙트럼 눈입니다.</EVOR_Hediff_Eye.labelNoun>
+
+  <EVOR_Hediff_Nose.label>미세분석 코</EVOR_Hediff_Nose.label>
+  <EVOR_Hediff_Nose.description>특정 중요한 분자를 분별하기 위한 세포의 양을 늘려 냄새를 쉽게 맡을  수 있게 합니다.</EVOR_Hediff_Nose.description>
+  <EVOR_Hediff_Nose.labelNoun>미세분석 코입니다.</EVOR_Hediff_Nose.labelNoun>
+
+  <EVOR_Hediff_Nose_Pheromones.label>페로몬 방출 코</EVOR_Hediff_Nose_Pheromones.label>
+  <EVOR_Hediff_Nose_Pheromones.description>코의 기저부에 특수 페로몬 샘을 추가함으로써, 피시술자는  대화상대의 성향을 약간 바꿀 수 있습니다.</EVOR_Hediff_Nose_Pheromones.description>
+  <EVOR_Hediff_Nose_Pheromones.labelNoun>페로몬 방출 코</EVOR_Hediff_Nose_Pheromones.labelNoun>
+
+  <EVOR_Hediff_Ear.label>다주파 귀</EVOR_Hediff_Ear.label>
+  <EVOR_Hediff_Ear.description>피시술자가 들을 수 있는 주파수의 범위를 늘리고 일시적으로 하나의 주파수에 집중할 수 있게합니다. 이러한 귀는 피시술자가 주변의 소리에 대해 완전한 지식을 갖게합니다.</EVOR_Hediff_Ear.description>
+  <EVOR_Hediff_Ear.labelNoun>다주파 귀입니다.</EVOR_Hediff_Ear.labelNoun>
+
+  <EVOR_Hediff_Spine.label>신경 가속 척추</EVOR_Hediff_Spine.label>
+  <EVOR_Hediff_Spine.description>길라 코팅은 신호 전송 속도를 몇 배나 증가시키고, 2 차 처리 결절은 척수가 자체적으로 낮은 긴급 신호를 처리하게 만들어 뇌의 과부하를 낮춥니다.</EVOR_Hediff_Spine.description>
+  <EVOR_Hediff_Spine.labelNoun>신경 가속 척추입니다.</EVOR_Hediff_Spine.labelNoun>
+
+
+</LanguageData>

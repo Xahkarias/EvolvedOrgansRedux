@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData> <!-- Aux Lung - 1
+    Aux Heart - 2
+    Combat - A
+    Cultivator - A 
+    Hormone - A 1 2
+    Lymph - A 1 2 --> <EVOR_Surgery_Abd_ThirdLung.label>&lt;color=#00FFF7&gt;추가 나노필터 폐 이식하기&lt;/color&gt;</EVOR_Surgery_Abd_ThirdLung.label>
+  <EVOR_Surgery_Abd_ThirdLung.description>추가 나노필터 폐를 이식합니다.</EVOR_Surgery_Abd_ThirdLung.description>
+  <EVOR_Surgery_Abd_ThirdLung.jobString>추가 나노필터 폐 이식하기</EVOR_Surgery_Abd_ThirdLung.jobString>
+
+  <EVOR_Surgery_Abd_SecondHeart.label>&lt;color=#00FFF7&gt;보조 심장 이식하기&lt;/color&gt;</EVOR_Surgery_Abd_SecondHeart.label>
+  <EVOR_Surgery_Abd_SecondHeart.description>보조 심장을 이식합니다.</EVOR_Surgery_Abd_SecondHeart.description>
+  <EVOR_Surgery_Abd_SecondHeart.jobString>보조 심장 이식하기</EVOR_Surgery_Abd_SecondHeart.jobString>
+
+  <EVOR_Surgery_Abd_Combat.label>&lt;color=#00FFF7&gt;전투 혈청 분비선 이식하기&lt;/color&gt;</EVOR_Surgery_Abd_Combat.label>
+  <EVOR_Surgery_Abd_Combat.description>전투 혈청 분비선을 이식합니다.</EVOR_Surgery_Abd_Combat.description>
+  <EVOR_Surgery_Abd_Combat.jobString>전투 혈청 분비선 이식하기</EVOR_Surgery_Abd_Combat.jobString> <!-- Hormone Surgeries --> <EVOR_Surgery_Abd_Hormone_1.label>&lt;color=#00FFF7&gt;호르몬 조절기 이식하기&lt;/color&gt;</EVOR_Surgery_Abd_Hormone_1.label>
+  <EVOR_Surgery_Abd_Hormone_1.description>호르몬 조절기를 이식합니다.</EVOR_Surgery_Abd_Hormone_1.description>
+  <EVOR_Surgery_Abd_Hormone_1.jobString>호르몬 조절기 이식하기</EVOR_Surgery_Abd_Hormone_1.jobString>
+
+  <EVOR_Surgery_Abd_Hormone_2.label>&lt;color=#00FFF7&gt;호르몬 조절기 이식하기&lt;/color&gt;</EVOR_Surgery_Abd_Hormone_2.label>
+  <EVOR_Surgery_Abd_Hormone_2.description>호르몬 조절기를 이식합니다.</EVOR_Surgery_Abd_Hormone_2.description>
+  <EVOR_Surgery_Abd_Hormone_2.jobString>호르몬 조절기 이식하기</EVOR_Surgery_Abd_Hormone_2.jobString>
+
+  <EVOR_Surgery_Abd_Hormone_A.label>&lt;color=#00FFF7&gt;호르몬 조절기 이식하기&lt;/color&gt;</EVOR_Surgery_Abd_Hormone_A.label>
+  <EVOR_Surgery_Abd_Hormone_A.description>호르몬 조절기를 이식합니다.</EVOR_Surgery_Abd_Hormone_A.description>
+  <EVOR_Surgery_Abd_Hormone_A.jobString>호르몬 조절기 이식하기</EVOR_Surgery_Abd_Hormone_A.jobString> <!-- Lymph Surgeries --> <EVOR_Surgery_Abd_Lymph_1.label>&lt;color=#00FFF7&gt;림프구 증식기 이식하기&lt;/color&gt;</EVOR_Surgery_Abd_Lymph_1.label>
+  <EVOR_Surgery_Abd_Lymph_1.description>림프구 증식기를 이식합니다.</EVOR_Surgery_Abd_Lymph_1.description>
+  <EVOR_Surgery_Abd_Lymph_1.jobString>림프구 증식기 이식하기</EVOR_Surgery_Abd_Lymph_1.jobString>
+
+  <EVOR_Surgery_Abd_Lymph_2.label>&lt;color=#00FFF7&gt;림프구 증식기 이식하기&lt;/color&gt;</EVOR_Surgery_Abd_Lymph_2.label>
+  <EVOR_Surgery_Abd_Lymph_2.description>림프구 증식기를 이식합니다.</EVOR_Surgery_Abd_Lymph_2.description>
+  <EVOR_Surgery_Abd_Lymph_2.jobString>림프구 증식기 이식하기</EVOR_Surgery_Abd_Lymph_2.jobString>
+
+  <EVOR_Surgery_Abd_Lymph_A.label>&lt;color=#00FFF7&gt;림프구 증식기 이식하기&lt;/color&gt;</EVOR_Surgery_Abd_Lymph_A.label>
+  <EVOR_Surgery_Abd_Lymph_A.description>림프구 증식기를 이식합니다.</EVOR_Surgery_Abd_Lymph_A.description>
+  <EVOR_Surgery_Abd_Lymph_A.jobString>림프구 증식기 이식하기</EVOR_Surgery_Abd_Lymph_A.jobString>
+
+
+</LanguageData>

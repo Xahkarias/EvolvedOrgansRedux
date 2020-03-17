@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <EVOR_Surgery_Tail_Blade.label>&lt;color=#00FFF7&gt;톱니형 쐐기 꼬리 이식하기&lt;/color&gt;</EVOR_Surgery_Tail_Blade.label>
+  <EVOR_Surgery_Tail_Blade.description>톱니형 쐐기 꼬리를 이식합니다.</EVOR_Surgery_Tail_Blade.description>
+  <EVOR_Surgery_Tail_Blade.jobString>톱니형 쐐기 꼬리 이식하기</EVOR_Surgery_Tail_Blade.jobString>
+
+  <EVOR_Surgery_Tail_Hand.label>&lt;color=#00FFF7&gt;조작 꼬리 이식하기&lt;/color&gt;</EVOR_Surgery_Tail_Hand.label>
+  <EVOR_Surgery_Tail_Hand.description>조작 꼬리를 이식합니다.</EVOR_Surgery_Tail_Hand.description>
+  <EVOR_Surgery_Tail_Hand.jobString>조작 꼬리 이식하기</EVOR_Surgery_Tail_Hand.jobString>
+
+
+</LanguageData>
