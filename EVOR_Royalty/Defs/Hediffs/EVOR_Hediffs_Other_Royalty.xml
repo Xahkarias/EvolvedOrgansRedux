@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!-- <HediffDef>
+	<HediffDef>
         <defName>EVOR_Other_PsychicInvisibility</defName>
         <label>psychic invisibility</label>
         <hediffClass>HediffWithComps</hediffClass>
@@ -15,6 +15,6 @@
                 <compClass>HediffComp_Invisibility</compClass>
             </li>
         </comps>
-    </HediffDef> -->
+    </HediffDef>
 
 </Defs>

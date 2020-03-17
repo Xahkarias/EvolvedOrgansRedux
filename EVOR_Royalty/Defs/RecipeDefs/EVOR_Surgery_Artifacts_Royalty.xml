@@ -46,7 +46,7 @@
     <descriptionHyperlinks><ThingDef>EVOR_Item_Artifact_Royalty_NornCrown</ThingDef></descriptionHyperlinks>
   </RecipeDef>
 
-  <!-- <RecipeDef ParentName="SurgeryFlesh">
+  <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Artifact_Royalty_ReactiveWorms</defName>
     <label>&lt;color=#00FFF7&gt;implant reactive shimmerworms&lt;/color&gt;</label>
     <description>Implant reactive shimmerworms.</description>
@@ -90,5 +90,5 @@
     </appliedOnFixedBodyParts>
     <addsHediff>EVOR_Hediff_Artifact_Royalty_ReactiveWorms</addsHediff>
     <descriptionHyperlinks><ThingDef>EVOR_Item_Artifact_Royalty_ReactiveWorms</ThingDef></descriptionHyperlinks>
-  </RecipeDef> -->
+  </RecipeDef>
 </Defs>

@@ -19,7 +19,7 @@
 			    </value>
 			    <success>Always</success>
 		    </li>
-        <!-- <li Class="PatchOperationAdd">
+        <li Class="PatchOperationAdd">
           <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Artifact_Royalty_ReactiveWorms"]</xpath>
           <value>
             <comps>
@@ -29,7 +29,7 @@
             </comps>
 			    </value>
 			    <success>Always</success>
-		    </li> -->
+		    </li>
         
       </operations>
     </match>

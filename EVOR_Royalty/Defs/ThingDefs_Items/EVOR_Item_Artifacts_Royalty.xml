@@ -14,7 +14,7 @@
     </thingSetMakerTags>
   </ThingDef>
 
-  <!-- <ThingDef ParentName="EVOR_OrgBase_Artifact">
+  <ThingDef ParentName="EVOR_OrgBase_Artifact">
     <defName>EVOR_Item_Artifact_Royalty_ReactiveWorms</defName>
     <label>reactive shimmerworms</label>
     <description>Once these worms feel pain, they immediately make themselves psychically invisible to anyone around them. By melding their nervous system with the host, the worms now cause the host to be invisible whenever the host feels pain. We have tried but cannot replicate this advanced symbiote ourselves.</description><descriptionHyperlinks><RecipeDef>EVOR_Surgery_Artifact_Royalty_NornCrown</RecipeDef></descriptionHyperlinks>
@@ -24,5 +24,5 @@
     <thingSetMakerTags>
       <li>RewardStandardLowFreq</li>
     </thingSetMakerTags>
-  </ThingDef> -->
+  </ThingDef>
 </Defs>
