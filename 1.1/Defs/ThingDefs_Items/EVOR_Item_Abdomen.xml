@@ -86,4 +86,18 @@
   </ThingDef>
   -->
   
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Abd_NoAge</defName>
+    <label>Ra's vacoule</label>
+    <description>This gland inhibits the affects of aging. While it won't cure anything that already exists, it will stop the host from degrading further due to old age.</description>
+		<recipeMaker>
+      <researchPrerequisite>EVOR_Research_Organs3</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>90</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>1</EVOR_Resource_Mechanites>
+    </costList>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Abd_NoAge</RecipeDef></descriptionHyperlinks>
+  </ThingDef>
+
 </Defs>

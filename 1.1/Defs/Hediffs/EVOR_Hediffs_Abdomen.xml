@@ -157,4 +157,18 @@
 	</HediffDef>
 	-->
 
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Abd_NoAge</defName>
+		<label>Ra's vacoule</label>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<labelNoun>Ra's vacoule</labelNoun>
+		<spawnThingOnRemoved>EVOR_Item_Abd_NoAge</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.0</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<description>This gland inhibits the affects of aging. While it won't cure anything that already exists, it will stop the host from degrading further due to old age.</description>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_Abd_NoAge</ThingDef></descriptionHyperlinks>
+	</HediffDef>
 </Defs>

@@ -752,7 +752,15 @@
 							</products>
 							<researchPrerequisite>EVOR_Research_Limbs1</researchPrerequisite>
 						</RecipeDef>
-
+						
+						<RecipeDef ParentName="EVOR_Grower_Recipe_Small">
+							<defName>EVOR_QEE_Abd_NoAge</defName>
+							<label>&lt;color=#00FFF7&gt;Ra's vacoule&lt;/color&gt;</label>
+							<products>
+								<EVOR_Item_Abd_NoAge>1</EVOR_Item_Abd_NoAge>
+							</products>
+							<researchPrerequisite>EVOR_Research_Organs3</researchPrerequisite>
+						</RecipeDef>
 					</value>
 				</li>
 			</operations>
