@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <EVOR_Surgery_Leg_Normal.label>&lt;color=#00FFF7&gt;강화된 다리 이식하기&lt;/color&gt;</EVOR_Surgery_Leg_Normal.label>
+  <EVOR_Surgery_Leg_Normal.description>강화된 다리를 이식합니다.</EVOR_Surgery_Leg_Normal.description>
+  <EVOR_Surgery_Leg_Normal.jobString>강화된 다리 이식하기</EVOR_Surgery_Leg_Normal.jobString>
+
+  <EVOR_Surgery_Leg_Hand.label>&lt;color=#00FFF7&gt;집기 가능한 다리 이식하기&lt;/color&gt;</EVOR_Surgery_Leg_Hand.label>
+  <EVOR_Surgery_Leg_Hand.description>집기 가능한 다리를 이식합니다.</EVOR_Surgery_Leg_Hand.description>
+  <EVOR_Surgery_Leg_Hand.jobString>집기 가능한 다리 이식하기</EVOR_Surgery_Leg_Hand.jobString>
+
+  <EVOR_Surgery_Leg_Blade.label>&lt;color=#00FFF7&gt;골화된 칼날 다리 이식하기&lt;/color&gt;</EVOR_Surgery_Leg_Blade.label>
+  <EVOR_Surgery_Leg_Blade.description>골화된 칼날 다리를 이식합니다.</EVOR_Surgery_Leg_Blade.description>
+  <EVOR_Surgery_Leg_Blade.jobString>골화된 칼날 다리 이식하기</EVOR_Surgery_Leg_Blade.jobString>
+
+
+</LanguageData>

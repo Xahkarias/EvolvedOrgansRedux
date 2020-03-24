@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData> <!-- <NegotiationAbility>0.35</NegotiationAbility>
+          			<TradePriceImprovement>0.20</TradePriceImprovement>
+          			<SocialImpact>0.25</SocialImpact>
+					<TameAnimalChance>0.2</TameAnimalChance>
+					<TrainAnimalChance>0.2</TrainAnimalChance>
+					<ConstructSuccessChance>0.2</ConstructSuccessChance>
+					<MiningSpeed>0.5</MiningSpeed>
+					<MiningYield>0.5</MiningYield> --> <EVOR_Hediff_Brain_Hyper.label>신경 하이퍼스레더</EVOR_Hediff_Brain_Hyper.label>
+  <EVOR_Hediff_Brain_Hyper.description>극단적인 두개골 재설계를 통해 피시술자는 모든 것에 집중하는 동시에 복합적인 생각을 할 수 있으며, 능력을 크게 향상시킵니다.</EVOR_Hediff_Brain_Hyper.description>
+  <EVOR_Hediff_Brain_Hyper.labelNoun>신경 하이퍼스레더</EVOR_Hediff_Brain_Hyper.labelNoun>
+
+  <EVOR_Hediff_Brain_Nails.label>도살자의 손톱</EVOR_Hediff_Brain_Nails.label>
+  <EVOR_Hediff_Brain_Nails.description>이 불완전한 장기는 피시술자의 잠재된 공격성을 강화해 전장에서 본래의 힘이 되도록 강제합니다.  하지만, 그들의&lt;color=#EB4034&gt;끊임없는 피의 갈망은 &lt;/color&gt; 그들을 매우 난폭하게 만듭니다. &lt;color=#EB4034&gt;사용에 큰 주의가 필요합니다.&lt;/color&gt;</EVOR_Hediff_Brain_Nails.description>
+  <EVOR_Hediff_Brain_Nails.labelNoun>도살자의 손톱</EVOR_Hediff_Brain_Nails.labelNoun>
+
+
+</LanguageData>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <EVOR_Surgery_Brain_Hyper.label>&lt;color=#00FFF7&gt;신경 하이퍼스레더 이식하기&lt;/color&gt;</EVOR_Surgery_Brain_Hyper.label>
+  <EVOR_Surgery_Brain_Hyper.description>신경 하이퍼스레더를 이식합니다.</EVOR_Surgery_Brain_Hyper.description>
+  <EVOR_Surgery_Brain_Hyper.jobString>신경 하이퍼스레더 이식하기</EVOR_Surgery_Brain_Hyper.jobString>
+
+  <EVOR_Surgery_Brain_Nails.label>&lt;color=#00FFF7&gt;도살자의 손톱 이식하기&lt;/color&gt;</EVOR_Surgery_Brain_Nails.label>
+  <EVOR_Surgery_Brain_Nails.description>도살자의 손톱을 이식합니다.</EVOR_Surgery_Brain_Nails.description>
+  <EVOR_Surgery_Brain_Nails.jobString>도살자의 손톱 이식하기</EVOR_Surgery_Brain_Nails.jobString>
+
+
+</LanguageData>

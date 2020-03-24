@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <EVOR_Production_Mechanites.label>나노 메카나이트 만들기</EVOR_Production_Mechanites.label>
+  <EVOR_Production_Mechanites.description>재프로그래밍된 메카나이트로부터 나노 메카나이트를 만듭니다.</EVOR_Production_Mechanites.description>
+  <EVOR_Production_Mechanites.jobString>나노 메카나이트 만들기</EVOR_Production_Mechanites.jobString>
+
+  <EVOR_Production_Protein.label>동물 고기로 단백질 정제하기</EVOR_Production_Protein.label>
+  <EVOR_Production_Protein.description>도축된 동물 고기로 단백질을 정제합니다.</EVOR_Production_Protein.description>
+  <EVOR_Production_Protein.jobString>단백질 정제하기</EVOR_Production_Protein.jobString>
+
+  <EVOR_Production_Protein_Humie.label>인간 고기로 단백질 정제하기</EVOR_Production_Protein_Humie.label>
+  <EVOR_Production_Protein_Humie.description>도축된 인간 고기로 단백질을 정제합니다.</EVOR_Production_Protein_Humie.description>
+  <EVOR_Production_Protein_Humie.jobString>단백질 정제하기</EVOR_Production_Protein_Humie.jobString>
+
+
+</LanguageData>

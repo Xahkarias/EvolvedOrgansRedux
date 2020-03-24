@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <EVOR_Surgery_Heart.label>&lt;color=#00FFF7&gt;삼중 주 심장 이식하기&lt;/color&gt;</EVOR_Surgery_Heart.label>
+  <EVOR_Surgery_Heart.description>삼중 주 심장을 이식합니다.</EVOR_Surgery_Heart.description>
+  <EVOR_Surgery_Heart.jobString>삼중 주 심장 이식하기</EVOR_Surgery_Heart.jobString>
+
+  <EVOR_Surgery_Kidney.label>&lt;color=#00FFF7&gt;삼중 필터 신장 이식하기&lt;/color&gt;</EVOR_Surgery_Kidney.label>
+  <EVOR_Surgery_Kidney.description>삼중 필터 신장을 이식합니다.</EVOR_Surgery_Kidney.description>
+  <EVOR_Surgery_Kidney.jobString>삼충 필터 신장 이식하기</EVOR_Surgery_Kidney.jobString>
+
+  <EVOR_Surgery_Lung.label>&lt;color=#00FFF7&gt;나노 폐포 폐 이식하기&lt;/color&gt;</EVOR_Surgery_Lung.label>
+  <EVOR_Surgery_Lung.description>나노 폐포 폐를 이식합니다.</EVOR_Surgery_Lung.description>
+  <EVOR_Surgery_Lung.jobString>나노 폐포 폐 이식하기</EVOR_Surgery_Lung.jobString>
+
+  <EVOR_Surgery_Stomach.label>&lt;color=#00FFF7&gt;다중 위장 위 이식하기&lt;/color&gt;</EVOR_Surgery_Stomach.label>
+  <EVOR_Surgery_Stomach.description>다중 위장 위를 이식합니다.</EVOR_Surgery_Stomach.description>
+  <EVOR_Surgery_Stomach.jobString>다중 위장 위 이식하기</EVOR_Surgery_Stomach.jobString>
+
+  <EVOR_Surgery_Liver.label>&lt;color=#00FFF7&gt;사방형 간 이식하기&lt;/color&gt;</EVOR_Surgery_Liver.label>
+  <EVOR_Surgery_Liver.description>사방형 간을 이식합니다.</EVOR_Surgery_Liver.description>
+  <EVOR_Surgery_Liver.jobString>사방형 간 이식하기</EVOR_Surgery_Liver.jobString>
+
+
+</LanguageData>

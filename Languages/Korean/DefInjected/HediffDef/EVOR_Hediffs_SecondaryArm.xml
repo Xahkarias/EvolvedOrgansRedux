@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData> <!-- Arm --> <EVOR_Hediff_Secondary_NormalArm.label>추가 팔</EVOR_Hediff_Secondary_NormalArm.label>
+  <EVOR_Hediff_Secondary_NormalArm.description>팔 천체의 근육을 강화하고 미세한 신경 조작을 향상시킴으로써 팔 전체의 성능이 향상되게 합니다.</EVOR_Hediff_Secondary_NormalArm.description>
+  <EVOR_Hediff_Secondary_NormalArm.labelNoun>추가 팔</EVOR_Hediff_Secondary_NormalArm.labelNoun>
+
+  <EVOR_Hediff_Secondary_BoneSaber.label>골화된 칼날 팔</EVOR_Hediff_Secondary_BoneSaber.label>
+  <EVOR_Hediff_Secondary_BoneSaber.description>날카로운 칼날 뼈가 키워진 팔로, 일반적인 칼보다 치명적인 부속기관입니다.</EVOR_Hediff_Secondary_BoneSaber.description>
+  <EVOR_Hediff_Secondary_BoneSaber.labelNoun>골화된 칼날 팔입니다.</EVOR_Hediff_Secondary_BoneSaber.labelNoun>
+
+  <EVOR_Hediff_Secondary_HighPincer.label>고압 집게</EVOR_Hediff_Secondary_HighPincer.label>
+  <EVOR_Hediff_Secondary_HighPincer.description>이 팔의 손톱은 가장 단단한 키틴질로 이루어졌으며 대부분의 동물의 턱보다 강한 근육으로 뒷받침됩니다. 그 결과 내부에 있는 것을 파괴하기 위해 어떠한  금속이라도 비틀수 있는 집게가 됩니다.</EVOR_Hediff_Secondary_HighPincer.description>
+  <EVOR_Hediff_Secondary_HighPincer.labelNoun>고압 집게입니다.</EVOR_Hediff_Secondary_HighPincer.labelNoun>
+
+  <EVOR_Hediff_Secondary_SonicMace.label>음파 충격 메이스</EVOR_Hediff_Secondary_SonicMace.label>
+  <EVOR_Hediff_Secondary_SonicMace.description>이 팔은 소리를 증폭시켜주는 복잡하게 얽힌 구멍들과 강화된 뼈로 이루어졌습니다. 그 결과 이 메이스는 큰 혼란을 주는 음파를 만들 수 있게 되었습니다.</EVOR_Hediff_Secondary_SonicMace.description>
+  <EVOR_Hediff_Secondary_SonicMace.labelNoun>음파 충격 메이스</EVOR_Hediff_Secondary_SonicMace.labelNoun>
+
+  <EVOR_Hediff_Secondary_PlatedLimb.label>삼중 강판 팔</EVOR_Hediff_Secondary_PlatedLimb.label>
+  <EVOR_Hediff_Secondary_PlatedLimb.description>팔의 조작능력을 낮추는 대신 키틴질 강판을 씌어피시술자가 치명적인 타격을 막을 수 있게 합니다.</EVOR_Hediff_Secondary_PlatedLimb.description>
+  <EVOR_Hediff_Secondary_PlatedLimb.labelNoun>도금된 팔입니다.</EVOR_Hediff_Secondary_PlatedLimb.labelNoun> <!-- <HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Secondary_ShockTentacle</defName>
+		<label>electroshock tentacle</label>
+		<labelNoun>an electroshock tentacle</labelNoun>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<capacities>
+							<li>Blunt</li>
+							<li>EVOR_Cap_Shock</li>
+						</capacities>
+						<power>3.0</power>
+						<cooldownTime>3.2</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<armorPenetration>1.0</armorPenetration>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>EVOR_Item_ShockTentacle</spawnThingOnRemoved>
+		<addedPartProps>
+			<isGoodWeapon>true</isGoodWeapon>
+			<solid>true</solid>
+			<partEfficiency>1.00</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeWeapon_CooldownMultiplier>-.05</MeleeWeapon_CooldownMultiplier>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.5</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef> --> <EVOR_Hediff_Secondary_RendingClaw.label>날카로운 손톱</EVOR_Hediff_Secondary_RendingClaw.label>
+  <EVOR_Hediff_Secondary_RendingClaw.description>추가 팔보단 떨어지지만 조작능력을 향상시켜주는 손톱입니다. 또한 피시술자의 공격능력도 높입니다.</EVOR_Hediff_Secondary_RendingClaw.description>
+  <EVOR_Hediff_Secondary_RendingClaw.labelNoun>날카로운 손톱입니다.</EVOR_Hediff_Secondary_RendingClaw.labelNoun>
+
+
+</LanguageData>

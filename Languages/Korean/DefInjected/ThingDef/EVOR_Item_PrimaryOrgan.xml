@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <EVOR_Item_Heart.label>삼중 주 심장</EVOR_Item_Heart.label>
+  <EVOR_Item_Heart.description>한 방향대신 세 방향으로 근계를 만듬으로써 이 심장은 더 많은 혈량과 조절을 가지고  효율적이게 됩니다.</EVOR_Item_Heart.description>
+
+  <EVOR_Item_Kidney.label>삼중 필터 신장</EVOR_Item_Kidney.label>
+  <EVOR_Item_Kidney.description>이 신장은 다른 기능들을 떨어뜨리지 않고 혈액을 세번 걸러내는 독창적인 체계를 가졌으며 기존의 신장에 비해 극도로 효율적입니다.</EVOR_Item_Kidney.description>
+
+  <EVOR_Item_Lung.label>나노 폐포  폐</EVOR_Item_Lung.label>
+  <EVOR_Item_Lung.description>폐포의 크기를 줄임으로써 폐의 내부 가스 전달 면적을 넓힐뿐만 아니라 공기 중 독소가 혈액에 유입되는것을 막아줍니다.</EVOR_Item_Lung.description>
+
+  <EVOR_Item_Stomach.label>다중 위장 위</EVOR_Item_Stomach.label>
+  <EVOR_Item_Stomach.description>여러 전문화된 위장으로 소화를 분담함으로써 음식물의 소화 속도가 증가하고 모인 영양소의 양이 급격하게 증가하게 됩니다. </EVOR_Item_Stomach.description>
+
+  <EVOR_Item_Liver.label>사방형 간</EVOR_Item_Liver.label>
+  <EVOR_Item_Liver.description>간세포 밀도를 2배 높임으로써 독립적으로 활동하는 엽을 2배까지 확장할 수 있게 해 기능성을 높였습니다. </EVOR_Item_Liver.description>
+
+
+</LanguageData>

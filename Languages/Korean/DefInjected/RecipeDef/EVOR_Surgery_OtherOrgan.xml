@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <EVOR_Surgery_Eye.label>&lt;color=#00FFF7&gt;다중 스펙트럼 눈 이식하기&lt;/color&gt;</EVOR_Surgery_Eye.label>
+  <EVOR_Surgery_Eye.description>다중 스펙트럼 눈을 이식합니다.</EVOR_Surgery_Eye.description>
+  <EVOR_Surgery_Eye.jobString>다중 스펙트럼 눈 이식하기</EVOR_Surgery_Eye.jobString>
+
+  <EVOR_Surgery_Nose.label>&lt;color=#00FFF7&gt;미세분석 코 이식하기&lt;/color&gt;</EVOR_Surgery_Nose.label>
+  <EVOR_Surgery_Nose.description>미세분석 코를 이식합니다.</EVOR_Surgery_Nose.description>
+  <EVOR_Surgery_Nose.jobString>미세분석 코 이식하기</EVOR_Surgery_Nose.jobString>
+
+  <EVOR_Surgery_Nose_Pheromones.label>&lt;color=#00FFF7&gt;페로몬 방출 코 이식하기&lt;/color&gt;</EVOR_Surgery_Nose_Pheromones.label>
+  <EVOR_Surgery_Nose_Pheromones.description>페로몬 방출 코를 이식합니다.</EVOR_Surgery_Nose_Pheromones.description>
+  <EVOR_Surgery_Nose_Pheromones.jobString>페로몬 방출 코 이식하기</EVOR_Surgery_Nose_Pheromones.jobString>
+
+  <EVOR_Surgery_Ear.label>&lt;color=#00FFF7&gt;다주파 귀 이식하기&lt;/color&gt;</EVOR_Surgery_Ear.label>
+  <EVOR_Surgery_Ear.description>다주파 귀를 이식합니다.</EVOR_Surgery_Ear.description>
+  <EVOR_Surgery_Ear.jobString>다주파 귀 이식하기</EVOR_Surgery_Ear.jobString>
+
+  <EVOR_Surgery_Spine.label>&lt;color=#00FFF7&gt;신경 가속 척추 이식하기&lt;/color&gt;</EVOR_Surgery_Spine.label>
+  <EVOR_Surgery_Spine.description>신경 가속 척추를 이식합니다.</EVOR_Surgery_Spine.description>
+  <EVOR_Surgery_Spine.jobString>신경 가속 척추 이식하기</EVOR_Surgery_Spine.jobString>
+
+
+</LanguageData>

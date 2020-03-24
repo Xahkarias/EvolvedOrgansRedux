@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <EVOR_Surgery_Skull_Shielding.label>&lt;color=#00FFF7&gt;간섭 차폐막 이식하기&lt;/color&gt;</EVOR_Surgery_Skull_Shielding.label>
+  <EVOR_Surgery_Skull_Shielding.description>간섭 차폐막을 이식합니다.</EVOR_Surgery_Skull_Shielding.description>
+  <EVOR_Surgery_Skull_Shielding.jobString>간섭 차폐막 이식하기</EVOR_Surgery_Skull_Shielding.jobString>
+
+  <EVOR_Surgery_Skull_Plating.label>&lt;color=#00FFF7&gt;두개골 판 이식하기&lt;/color&gt;</EVOR_Surgery_Skull_Plating.label>
+  <EVOR_Surgery_Skull_Plating.description>두개골 판을 이식합니다.</EVOR_Surgery_Skull_Plating.description>
+  <EVOR_Surgery_Skull_Plating.jobString>두개골 판 이식하기</EVOR_Surgery_Skull_Plating.jobString>
+
+
+</LanguageData>

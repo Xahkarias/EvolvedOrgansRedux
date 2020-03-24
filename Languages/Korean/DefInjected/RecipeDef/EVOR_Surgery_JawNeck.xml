@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <EVOR_Surgery_Jaw_Distend.label>&lt;color=#00FFF7&gt;확장 가능한 턱 이식하기&lt;/color&gt;</EVOR_Surgery_Jaw_Distend.label>
+  <EVOR_Surgery_Jaw_Distend.description>확장 가능한 턱을 이식합니다.</EVOR_Surgery_Jaw_Distend.description>
+  <EVOR_Surgery_Jaw_Distend.jobString>확장 가능한 턱 이식하기</EVOR_Surgery_Jaw_Distend.jobString>
+
+  <EVOR_Surgery_Jaw_Venom.label>&lt;color=#00FFF7&gt;독 송곳니 이식하기&lt;/color&gt;</EVOR_Surgery_Jaw_Venom.label>
+  <EVOR_Surgery_Jaw_Venom.description>독 송곳니를 이식합니다.</EVOR_Surgery_Jaw_Venom.description>
+  <EVOR_Surgery_Jaw_Venom.jobString>독 송곳니 이식하기</EVOR_Surgery_Jaw_Venom.jobString>
+
+
+</LanguageData>
