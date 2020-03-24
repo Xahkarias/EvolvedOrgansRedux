@@ -59,6 +59,12 @@
                 <li Class="PatchOperationRemove">
 					<xpath>/Defs/RecipeDef[defName="EVOR_Production_Protein_Humie"]</xpath>
 				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/RecipeDef[defName="EVOR_Production_Protein_Bulk"]</xpath>
+				</li>
+                <li Class="PatchOperationRemove">
+					<xpath>/Defs/RecipeDef[defName="EVOR_Production_Protein_Humie_Bulk"]</xpath>
+				</li>
 
 				<!--Then we remove the organ growing bench -->
 				<li Class="PatchOperationRemove">
