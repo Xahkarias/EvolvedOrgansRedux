@@ -503,6 +503,64 @@
 							<description>Instead of being tuned to be a lethal shock, the electrified rods fired by this limb are tuned to incapacitate, working equally well on organic and mechanical targets</description>
 							<descriptionHyperlinks><ThingDef>EVOR_Item_ImpulseShock</ThingDef></descriptionHyperlinks>
 						</HediffDef>
+
+						<!--Spore Cannon-->
+						<HediffDef ParentName="AddedBodyPartBase">
+							<defName>EVOR_Hediff_Back_KaboomSpore</defName>
+							<label>volatile spore array</label>
+							<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+							<labelNoun>a volatile spore array</labelNoun>
+							<spawnThingOnRemoved>EVOR_Item_KaboomSpore</spawnThingOnRemoved>
+							<addedPartProps>
+								<solid>true</solid>     
+								<partEfficiency>1.0</partEfficiency>
+								<betterThanNatural>true</betterThanNatural>
+							</addedPartProps>
+							<comps>
+								<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
+									<toggleLabel>Volatile Spore Array</toggleLabel>
+									<toggleDescription>Volatile Spore Array.</toggleDescription>
+									<toggleIconPath>UI/Widgets/Organs/EVOR_Texture_Launcher</toggleIconPath>
+									<toggleIconAngle>-45.0</toggleIconAngle>
+									<verbs>
+										<li>
+											<label>volatile spore array</label>
+											<verbClass>Verb_Shoot</verbClass>
+											<accuracyTouch>0.50</accuracyTouch>
+											<accuracyShort>0.60</accuracyShort>
+											<accuracyMedium>0.65</accuracyMedium>
+											<accuracyLong>0.60</accuracyLong>
+											<hasStandardCommand>true</hasStandardCommand>
+											<forcedMissRadius>3.0</forcedMissRadius>
+											<defaultProjectile>EVOR_Bullet_KaboomSpore</defaultProjectile>
+											<warmupTime>18.00</warmupTime>
+											<range>50.0</range>
+											<soundCast>Pawn_Megascarab_Angry</soundCast>
+											<soundCastTail>GunTail_Medium</soundCastTail>
+											<muzzleFlashScale>6</muzzleFlashScale>
+											
+										</li>
+									</verbs>
+									<verbsProperties>
+										<li>
+											<label>volatile spore array</label>
+											<description>Volatile Spore Array</description>
+											<uiIconPath>Things/Projectile/EVOR_Texture_KaboomSpore</uiIconPath>
+										</li>			
+									</verbsProperties>
+								</li>
+							</comps>
+							<stages>
+								<li>
+									<statOffsets>
+										<RangedWeapon_Cooldown>0.75</RangedWeapon_Cooldown>
+									</statOffsets>
+								</li>	
+							</stages>
+							<description>These spores on the host's back can be launched in a certain direction, where they glide to the target and explode.</description>
+							<descriptionHyperlinks><ThingDef>EVOR_Item_KaboomSpore</ThingDef></descriptionHyperlinks>
+						</HediffDef>
+
 					</value>
 					<success>Always</success>
 				</li>

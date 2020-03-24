@@ -67,6 +67,21 @@
 							</costList>
 							<descriptionHyperlinks><RecipeDef>EVOR_Surgery_Primary_ImpulseShock</RecipeDef></descriptionHyperlinks>
 						</ThingDef>
+
+						<ThingDef ParentName="EVOR_OrgBase">
+							<defName>EVOR_Item_KaboomSpore</defName>
+							<label>volatile spore array</label>
+							<description>These spores on the host's back can be launched in a certain direction, where they glide to the target and explode.</description>
+							<recipeMaker>
+								<researchPrerequisite>EVOR_Research_Limbs4</researchPrerequisite>
+							</recipeMaker>
+							<costList>
+								<EVOR_Resource_Protein>140</EVOR_Resource_Protein>
+								<EVOR_Resource_Mechanites>3</EVOR_Resource_Mechanites>
+							</costList>
+							<descriptionHyperlinks><RecipeDef>EVOR_Surgery_Back_KaboomSpore</RecipeDef></descriptionHyperlinks>
+						</ThingDef>
+
 					</value>
 					<success>Always</success>
 				</li>
@@ -150,6 +165,16 @@
 								</value>
 								<success>Always</success>
 							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/HediffDef[defName="EVOR_Hediff_Back_KaboomSpore"]/comps</xpath>
+								<value>
+									<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+										<linearAdjustment>15</linearAdjustment>
+									</li>
+								</value>
+								<success>Always</success>
+							</li>
+							
 						</operations>
 					</match>
 				</li>
@@ -184,6 +209,13 @@
 							<li Class="PatchOperationRemove">
 								<xpath>/Defs/ThingDef[defName="EVOR_Item_ImpulseShock"]/costList</xpath>
 							</li>
+							<li Class="PatchOperationRemove">
+								<xpath>/Defs/ThingDef[defName="EVOR_Item_KaboomSpore"]/recipeMaker</xpath>
+							</li>
+							<li Class="PatchOperationRemove">
+								<xpath>/Defs/ThingDef[defName="EVOR_Item_KaboomSpore"]/costList</xpath>
+							</li>
+
 							<li Class="PatchOperationAdd">
 								<xpath>/Defs</xpath>
 								<value>
@@ -219,6 +251,15 @@
 										<label>&lt;color=#00FFF7&gt;impulse shock blaster&lt;/color&gt;</label>
 										<products>
 											<EVOR_Item_ImpulseShock>1</EVOR_Item_ImpulseShock>
+										</products>
+										<researchPrerequisite>EVOR_Research_Limbs4</researchPrerequisite>
+									</RecipeDef>
+
+									<RecipeDef ParentName="EVOR_Grower_Recipe_LimbMech">
+										<defName>EVOR_QEE_KaboomSpore</defName>
+										<label>&lt;color=#00FFF7&gt;volatile spore array&lt;/color&gt;</label>
+										<products>
+											<EVOR_Item_KaboomSpore>1</EVOR_Item_KaboomSpore>
 										</products>
 										<researchPrerequisite>EVOR_Research_Limbs4</researchPrerequisite>
 									</RecipeDef>

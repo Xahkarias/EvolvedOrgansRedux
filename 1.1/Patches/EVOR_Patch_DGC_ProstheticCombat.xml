@@ -388,6 +388,52 @@
 							<descriptionHyperlinks><ThingDef>EVOR_Item_ImpulseShock</ThingDef></descriptionHyperlinks>
 						</RecipeDef>
 
+						<!--Spore Launcher-->
+						<RecipeDef ParentName="SurgeryFlesh">
+							<defName>EVOR_Surgery_Back_KaboomSpore</defName>
+							<label>&lt;color=#00FFF7&gt;implant volatile spore array&lt;/color&gt;</label>
+							<description>Implant a volatile spore array.</description>
+							<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+							<jobString>Implanting volatile spore array.</jobString>
+							<workAmount>3000</workAmount>
+							<skillRequirements>
+								<Medicine>10</Medicine>
+							</skillRequirements>
+							<recipeUsers>
+								<li>Human</li>
+							</recipeUsers>
+							<ingredients>
+								<li>
+									<filter>
+										<categories>
+											<li>Medicine</li>
+										</categories>
+									</filter>
+									<count>2</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>EVOR_Item_KaboomSpore</li>
+										</thingDefs>
+									</filter>
+									<count>1</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<categories>
+									<li>Medicine</li>
+								</categories>
+								<thingDefs>
+									<li>EVOR_Item_KaboomSpore</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<appliedOnFixedBodyParts>
+								<li>Back</li>
+							</appliedOnFixedBodyParts>
+							<addsHediff>EVOR_Hediff_Back_KaboomSpore</addsHediff>
+							<descriptionHyperlinks><ThingDef>EVOR_Item_KaboomSpore</ThingDef></descriptionHyperlinks>
+						</RecipeDef>
 					</value>
 					<success>Always</success>
 				</li>
