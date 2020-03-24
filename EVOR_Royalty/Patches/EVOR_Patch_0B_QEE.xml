@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<success>Always</success>
+		<mods>
+			<li>Questionable Ethics Enhanced</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+			
+
+				<!--TODO add all organ to this-->
+				<!--NOTE: ALL PATCHES WHICH ADD STUFF HAVE TO DO THIS WHEN CHECKING FOR QEE-->
+				<!--adding the actual recipes -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+
+						<RecipeDef ParentName="EVOR_Grower_Recipe_Artifact">
+							<defName>EVOR_QEE_NornCrown</defName>
+							<label>&lt;color=#00FFF7&gt;The Norn Crown&lt;/color&gt;</label>
+							<products>
+								<EVOR_Item_Artifact_Royalty_NornCrown>1</EVOR_Item_Artifact_Royalty_NornCrown>
+							</products>
+							<researchPrerequisite>EVOR_Research_Artifact_NornCrown</researchPrerequisite>
+						</RecipeDef>
+
+						<RecipeDef ParentName="EVOR_Grower_Recipe_Artifact">
+							<defName>EVOR_QEE_ShimmerWorms</defName>
+							<label>&lt;color=#00FFF7&gt;reactive shimmerworms&lt;/color&gt;</label>
+							<products>
+								<EVOR_Item_Artifact_Royalty_ReactiveWorms>1</EVOR_Item_Artifact_Royalty_ReactiveWorms>
+							</products>
+							<researchPrerequisite>EVOR_Research_Artifact_ShimmerWorm</researchPrerequisite>
+						</RecipeDef>
+
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

@@ -18,7 +18,7 @@
 				<thought>EVOR_Thought_Royalty_NornCrown</thought>
 			</li>
 		</comps>
-		<description>Despite the name, the Norn Crown is actually a writing mass of psychicaly tuned flesh. Implanted in the sternum, it allows the user to change the moods of beings around them. We have tried but cannot replicate this advanced symbiote ourselves.</description>
+		<description>Despite the name, the Norn Crown is actually a writing mass of psychicaly tuned flesh. Implanted in the sternum, it allows the user to change the moods of beings around them.</description>
 		<descriptionHyperlinks><ThingDef>EVOR_Item_Artifact_Royalty_NornCrown</ThingDef></descriptionHyperlinks>
 	</HediffDef>
 
@@ -38,7 +38,7 @@
         		<createHediff>EVOR_Other_PsychicInvisibility</createHediff>
       		</li>
 		</comps>
-		<description>Once these worms feel pain, they immediately make themselves psychically invisible to anyone around them. By melding their nervous system with the host, the worms now cause the host to be invisible whenever the host feels pain. We have tried but cannot replicate this advanced symbiote ourselves.</description>
+		<description>Once these worms feel pain, they immediately make themselves psychically invisible to anyone around them. By melding their nervous system with the host, the worms now cause the host to be invisible whenever the host feels pain.</description>
 		<descriptionHyperlinks><ThingDef>EVOR_Item_Artifact_Royalty_ReactiveWorms</ThingDef></descriptionHyperlinks>
 	</HediffDef>
 

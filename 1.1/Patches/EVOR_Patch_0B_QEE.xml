@@ -368,8 +368,41 @@
 							</ingredients>
 						</RecipeDef>
 
+						<RecipeDef Name="EVOR_Grower_Recipe_Artifact" ParentName="EVOR_Grower_RecipeBase" Abstract="True">
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>QE_NutrientSolution</li>
+										</thingDefs>
+									</filter>
+									<count>500</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>QE_ProteinMash</li>
+										</thingDefs>
+									</filter>
+									<count>500</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>EVOR_Resource_Mechanites</li>
+										</thingDefs>
+									</filter>
+									<count>6</count>
+								</li>
+							</ingredients>
+						</RecipeDef>
+
+					</value>
+
 					</value>
 				</li>
+
+				
 
 				<li Class ="PatchOperationAddModExtension">
 					<xpath>Defs/HediffDef[contains(defName, "EVOR_Hediff") and not(contains(defName, "EVOR_Hediff_Damage_")) and not(contains(defName, "EVOR_Hediff_Artifact_"))]</xpath>
