@@ -21,7 +21,7 @@
     <techprintCommonality>1</techprintCommonality>
     <techprintMarketValue>3000</techprintMarketValue>
     <heldByFactionCategoryTags>
-		  <li>HumanFactionBase</li>
+		  <li>Outlander</li>
       <li>Empire</li>
 		</heldByFactionCategoryTags>
   </ResearchProjectDef>
@@ -47,7 +47,7 @@
     <techprintMarketValue>3000</techprintMarketValue>
     <heldByFactionCategoryTags>
       <li>Empire</li>
-      <li>HumanFactionBase</li>
+      <li>Outlander</li>
 		</heldByFactionCategoryTags>
   </ResearchProjectDef>
 
