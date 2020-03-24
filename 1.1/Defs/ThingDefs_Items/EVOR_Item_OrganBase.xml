@@ -28,4 +28,21 @@
 		</graphicData>
 	</ThingDef>
 
+	<ThingDef Name="EVOR_OrgBase_Artifact" ParentName="BodyPartBase" Abstract="True">
+		<defName>EVOR_OrgBase</defName>
+		<techLevel>Spacer</techLevel>
+		<statBases>
+			<MarketValue>2800</MarketValue>
+			<Mass>0.3</Mass>
+			<WorkToMake>5000</WorkToMake>
+		</statBases>
+		<thingCategories>
+      		<li>EVOR_BodyParts</li>
+   		</thingCategories>
+		<graphicData>
+			<texPath>Things/Item/Health/EVOR_Texture_OrganBox</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.80</drawSize>
+		</graphicData>
+	</ThingDef>
 </Defs>

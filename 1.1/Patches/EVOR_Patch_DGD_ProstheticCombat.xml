@@ -52,7 +52,7 @@
 							</graphicData>
 							<projectile>
 								<damageDef>Frostbite</damageDef>
-								<damageAmountBase>23</damageAmountBase>
+								<damageAmountBase>17</damageAmountBase>
 								<speed>44</speed>
 								<stoppingPower>4</stoppingPower>
 								<armorPenetrationBase>0.15</armorPenetrationBase>
@@ -75,6 +75,22 @@
 							</projectile>
 						</ThingDef>
 
+						<ThingDef ParentName="BaseBullet">
+							<defName>EVOR_Bullet_KaboomSpore</defName>
+							<label>volatile spore</label>
+							<graphicData>
+								<texPath>Things/Projectile/EVOR_Texture_KaboomSpore</texPath>
+								<graphicClass>Graphic_Single</graphicClass>
+								<shaderType>TransparentPostLight</shaderType>
+							</graphicData>
+							<thingClass>Projectile_Explosive</thingClass>
+							<projectile>
+								<damageDef>Bomb</damageDef>
+								<damageAmountBase>20</damageAmountBase>
+								<explosionRadius>2.3</explosionRadius>
+								<speed>35</speed>
+							</projectile>
+						</ThingDef>
 					</value>
 					<success>Always</success>
 				</li>

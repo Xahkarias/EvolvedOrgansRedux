@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-  <RecipeDef ParentName="SurgeryInstallImplantBase">
-    <defName>EVOR_Surgery_Brain_Hyper</defName>
-    <label>&lt;color=#00FFF7&gt;implant neural hyperthreader&lt;/color&gt;</label>
-    <description>Implant neural hyperthreader.</description>
-    <jobString>Implanting neural hyperthreader.</jobString>
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>EVOR_Surgery_Artifact_Royalty_NornCrown</defName>
+    <label>&lt;color=#00FFF7&gt;implant the Norn Crown&lt;/color&gt;</label>
+    <description>Implant the Norn Crown.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Implanting the Norn Crown.</jobString>
     <workAmount>3000</workAmount>
     <skillRequirements>
-      <Medicine>10</Medicine>
+      <Medicine>13</Medicine>
     </skillRequirements>
     <recipeUsers>
       <li>Human</li>
@@ -25,7 +25,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>EVOR_Item_Brain_Hyper</li>
+            <li>EVOR_Item_Artifact_Royalty_NornCrown</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -36,24 +36,25 @@
         <li>Medicine</li>
       </categories>
       <thingDefs>
-        <li>EVOR_Item_Brain_Hyper</li>
+        <li>EVOR_Item_Artifact_Royalty_NornCrown</li>
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>Brain</li>
+      <li>Sternum</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>EVOR_Hediff_Brain_Hyper</addsHediff>
-    <descriptionHyperlinks><ThingDef>EVOR_Item_Brain_Hyper</ThingDef></descriptionHyperlinks>
+    <addsHediff>EVOR_Hediff_Artifact_Royalty_NornCrown</addsHediff>
+    <descriptionHyperlinks><ThingDef>EVOR_Item_Artifact_Royalty_NornCrown</ThingDef></descriptionHyperlinks>
   </RecipeDef>
 
-  <RecipeDef ParentName="SurgeryInstallImplantBase">
-    <defName>EVOR_Surgery_Brain_Nails</defName>
-    <label>&lt;color=#00FFF7&gt;implant butcher's nails&lt;/color&gt;</label>
-    <description>Implant butcher's nails.</description>
-    <jobString>Implanting butcher's nails.</jobString>
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>EVOR_Surgery_Artifact_Royalty_ReactiveWorms</defName>
+    <label>&lt;color=#00FFF7&gt;implant reactive shimmerworms&lt;/color&gt;</label>
+    <description>Implant reactive shimmerworms.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Implanting reactive shimmerworms.</jobString>
     <workAmount>3000</workAmount>
     <skillRequirements>
-      <Medicine>10</Medicine>
+      <Medicine>13</Medicine>
     </skillRequirements>
     <recipeUsers>
       <li>Human</li>
@@ -70,7 +71,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>EVOR_Item_Brain_Nails</li>
+            <li>EVOR_Item_Artifact_Royalty_ReactiveWorms</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -81,15 +82,13 @@
         <li>Medicine</li>
       </categories>
       <thingDefs>
-        <li>EVOR_Item_Brain_Nails</li>
+        <li>EVOR_Item_Artifact_Royalty_ReactiveWorms</li>
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>Brain</li>
+      <li>Sternum</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>EVOR_Hediff_Brain_Nails</addsHediff>
-    <descriptionHyperlinks><ThingDef>EVOR_Item_Brain_Nails</ThingDef></descriptionHyperlinks>
+    <addsHediff>EVOR_Hediff_Artifact_Royalty_ReactiveWorms</addsHediff>
+    <descriptionHyperlinks><ThingDef>EVOR_Item_Artifact_Royalty_ReactiveWorms</ThingDef></descriptionHyperlinks>
   </RecipeDef>
-
-  
 </Defs>

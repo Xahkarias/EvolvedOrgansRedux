@@ -141,26 +141,6 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>EVOR_Research_Psychic1</defName>
-    <!--Unlocks all psychic stuff etc-->
-    <tab>EVOR_EvolvedOrgansResearchTab</tab>
-    <label>Psychic Synapse Network</label>
-    <description>With our extensive knowledge of the mind, we can find out ways to influence people's thoughts and mood from a distance.</description>
-    <baseCost>4500</baseCost>
-    <techLevel>Spacer</techLevel>
-    <prerequisites>
-      <li>EVOR_Research_Organs3</li>
-      <li>EVOR_Research_Brain1</li>
-    </prerequisites>
-    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-    <requiredResearchFacilities>
-      <li>MultiAnalyzer</li>
-    </requiredResearchFacilities>
-    <researchViewX>6</researchViewX>
-    <researchViewY>3</researchViewY>
-  </ResearchProjectDef>
-
-  <ResearchProjectDef>
     <defName>EVOR_Research_Outer1</defName>
     <tab>EVOR_EvolvedOrgansResearchTab</tab>
     <label>Resilient Tissue Framework</label>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThoughtDef>
+    <defName>EVOR_Thought_Royalty_NornCrown</defName>
+    <thoughtClass>Thought_PsychicHarmonizer</thoughtClass>
+    <effectMultiplyingStat>PsychicSensitivity</effectMultiplyingStat>
+    <stackLimit>100</stackLimit>
+    <stages>
+      <li>
+        <label>influence of the Norn Crown</label>
+        <description>I can feel a prescence at the back of my mind. It is strange, but it seems to reflect the mood of the Norn Crown.</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

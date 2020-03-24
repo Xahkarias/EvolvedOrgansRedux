@@ -8,6 +8,7 @@
     Cultivator - A 
     Hormone - A 1 2
     Lymph - A 1 2
+    NoAge - A
     
   -->
 
@@ -328,5 +329,49 @@
     </appliedOnFixedBodyParts>
   </RecipeDef>
 
-  
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>EVOR_Surgery_Abd_NoAge</defName>
+    <label>&lt;color=#00FFF7&gt;implant Ra's vacoule&lt;/color&gt;</label>
+    <description>Implant Ra's vacoule.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Implanting Ra's vacoule.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EVOR_Item_Abd_NoAge</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>EVOR_Item_Abd_NoAge</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>BodyCavityA</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EVOR_Hediff_Abd_NoAge</addsHediff>
+    <descriptionHyperlinks><ThingDef>EVOR_Item_Abd_NoAge</ThingDef></descriptionHyperlinks>
+  </RecipeDef>
 </Defs>

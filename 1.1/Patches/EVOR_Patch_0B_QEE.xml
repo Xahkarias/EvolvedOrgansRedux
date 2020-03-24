@@ -368,11 +368,42 @@
 							</ingredients>
 						</RecipeDef>
 
+						<RecipeDef Name="EVOR_Grower_Recipe_Artifact" ParentName="EVOR_Grower_RecipeBase" Abstract="True">
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>QE_NutrientSolution</li>
+										</thingDefs>
+									</filter>
+									<count>500</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>QE_ProteinMash</li>
+										</thingDefs>
+									</filter>
+									<count>500</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>EVOR_Resource_Mechanites</li>
+										</thingDefs>
+									</filter>
+									<count>6</count>
+								</li>
+							</ingredients>
+						</RecipeDef>
+
 					</value>
 				</li>
 
+				
+
 				<li Class ="PatchOperationAddModExtension">
-					<xpath>Defs/HediffDef[contains(defName, "EVOR_Hediff") and not(contains(defName, "EVOR_Hediff_Damage_"))]</xpath>
+					<xpath>Defs/HediffDef[contains(defName, "EVOR_Hediff") and not(contains(defName, "EVOR_Hediff_Damage_")) and not(contains(defName, "EVOR_Hediff_Artifact_"))]</xpath>
 					<value>
 						<li Class="QEthics.HediffTemplateProperties">
 							<includeInGenomeTemplate>true</includeInGenomeTemplate>
@@ -671,15 +702,15 @@
 						</RecipeDef>
 
 						<!--
-            <RecipeDef ParentName="EVOR_Grower_RecipeBase">
-                <defName>EVOR_QEE_PlatedLimb</defName>
-                <label>&lt;color=#00FFF7&gt;electroshock tentacle&lt;/color&gt;</label>
-                <products>
-                    <EVOR_Item_ShockTentacle>1</EVOR_Item_ShockTentacle>
-                </products>
-                <researchPrerequisite>EVOR_Research_Limbs2</researchPrerequisite>
-            </RecipeDef>
-            -->
+						<RecipeDef ParentName="EVOR_Grower_RecipeBase">
+							<defName>EVOR_QEE_PlatedLimb</defName>
+							<label>&lt;color=#00FFF7&gt;electroshock tentacle&lt;/color&gt;</label>
+							<products>
+								<EVOR_Item_ShockTentacle>1</EVOR_Item_ShockTentacle>
+							</products>
+							<researchPrerequisite>EVOR_Research_Limbs2</researchPrerequisite>
+						</RecipeDef>
+						-->
 
 						<RecipeDef ParentName="EVOR_Grower_Recipe_LimbMech">
 							<defName>EVOR_QEE_Back_Wing</defName>
@@ -752,7 +783,15 @@
 							</products>
 							<researchPrerequisite>EVOR_Research_Limbs1</researchPrerequisite>
 						</RecipeDef>
-
+						
+						<RecipeDef ParentName="EVOR_Grower_Recipe_Small">
+							<defName>EVOR_QEE_Abd_NoAge</defName>
+							<label>&lt;color=#00FFF7&gt;Ra's vacoule&lt;/color&gt;</label>
+							<products>
+								<EVOR_Item_Abd_NoAge>1</EVOR_Item_Abd_NoAge>
+							</products>
+							<researchPrerequisite>EVOR_Research_Organs3</researchPrerequisite>
+						</RecipeDef>
 					</value>
 				</li>
 			</operations>

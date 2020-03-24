@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Artifact_Royalty_NornCrown</defName>
+		<label>the Norn Crown</label>
+		<labelNoun>the Norn Crown</labelNoun>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<spawnThingOnRemoved>EVOR_Item_Artifact_Royalty_NornCrown</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.00</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_PsychicHarmonizer">
+				<range>42</range>
+				<thought>EVOR_Thought_Royalty_NornCrown</thought>
+			</li>
+		</comps>
+		<description>Despite the name, the Norn Crown is actually a writing mass of psychicaly tuned flesh. Implanted in the sternum, it allows the user to change the moods of beings around them.</description>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_Artifact_Royalty_NornCrown</ThingDef></descriptionHyperlinks>
+	</HediffDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Artifact_Royalty_ReactiveWorms</defName>
+		<label>reactive shimmerworms</label>
+		<labelNoun>reactive shimmerworms</labelNoun>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<spawnThingOnRemoved>EVOR_Item_Artifact_Royalty_ReactiveWorms</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.00</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_EVOR_ReactOnDamage">
+        		<createHediff>EVOR_Other_PsychicInvisibility</createHediff>
+      		</li>
+		</comps>
+		<description>Once these worms feel pain, they immediately make themselves psychically invisible to anyone around them. By melding their nervous system with the host, the worms now cause the host to be invisible whenever the host feels pain.</description>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_Artifact_Royalty_ReactiveWorms</ThingDef></descriptionHyperlinks>
+	</HediffDef>
+
+</Defs>

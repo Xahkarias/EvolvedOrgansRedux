@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <success>Always</success>
+    <mods>
+        <li>Elite Bionics Framework</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Artifact_Royalty_NornCrown"]</xpath>
+          <value>
+            <comps>
+              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                <linearAdjustment>13</linearAdjustment>
+              </li>
+            </comps>
+			    </value>
+			    <success>Always</success>
+		    </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Artifact_Royalty_ReactiveWorms"]</xpath>
+          <value>
+            <comps>
+              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                <linearAdjustment>13</linearAdjustment>
+              </li>
+            </comps>
+			    </value>
+			    <success>Always</success>
+		    </li>
+        
+      </operations>
+    </match>
+  </Operation>
+</Patch>
