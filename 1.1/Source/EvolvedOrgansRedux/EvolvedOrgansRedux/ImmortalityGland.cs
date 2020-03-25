@@ -43,5 +43,29 @@ namespace EvolvedOrgansRedux
         }
     }
 
-
+    [HarmonyPatch(typeof(Pawn))]
+    [HarmonyPatch("PostApplyDamage")]
+    [HarmonyPatch(new Type[] { typeof(DamageInfo), typeof(float) })]
+    static class ApplyPlagueToAttacker_Patch
+    {
+        
+        [HarmonyPostfix]
+        public static void ApplyPlagueToAttacker_Postfix(DamageInfo dinfo, Pawn __instance)
+        {
+            if (__instance.health.hediffSet.HasHediff(HediffDef.Named("EVOR_Hediff_Artifact_Lesions")))
+            {
+                if (!dinfo.Def.isRanged)
+                {
+                    if (((Pawn)dinfo.Instigator).health.hediffSet.HasHediff(HediffDef.Named("EVOR_Hediff_Damage_PurgleRot")))
+                    {
+                        ((Pawn)dinfo.Instigator).health.hediffSet.GetFirstHediffOfDef(HediffDef.Named("EVOR_Hediff_Damage_PurgleRot")).Severity += (float)0.05;
+                    }
+                    else
+                    {
+                        ((Pawn)dinfo.Instigator).health.AddHediff(HediffDef.Named("EVOR_Hediff_Damage_PurgleRot"));
+                    }
+                }
+            }
+        }
+    }
 }
