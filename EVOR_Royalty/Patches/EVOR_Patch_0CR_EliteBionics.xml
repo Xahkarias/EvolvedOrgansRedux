@@ -9,24 +9,20 @@
       <operations>
 
         <li Class="PatchOperationAdd">
-          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Artifact_Royalty_NornCrown"]</xpath>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Artifact_Royalty_NornCrown"]/comps</xpath>
           <value>
-            <comps>
-              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
-                <linearAdjustment>13</linearAdjustment>
-              </li>
-            </comps>
+            <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+              <linearAdjustment>13</linearAdjustment>
+            </li>
 			    </value>
 			    <success>Always</success>
 		    </li>
         <li Class="PatchOperationAdd">
-          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Artifact_Royalty_ReactiveWorms"]</xpath>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Artifact_Royalty_ReactiveWorms"]/comps</xpath>
           <value>
-            <comps>
-              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
-                <linearAdjustment>13</linearAdjustment>
-              </li>
-            </comps>
+            <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+              <linearAdjustment>13</linearAdjustment>
+            </li>
 			    </value>
 			    <success>Always</success>
 		    </li>
