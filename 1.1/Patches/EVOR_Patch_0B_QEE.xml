@@ -798,6 +798,15 @@
 							</products>
 							<researchPrerequisite>EVOR_Research_Organs3</researchPrerequisite>
 						</RecipeDef>
+
+						<RecipeDef ParentName="EVOR_Grower_Recipe_Small">
+							<defName>EVOR_QEE_Lesions</defName>
+							<label>&lt;color=#00FFF7&gt;plague lesions&lt;/color&gt;</label>
+							<products>
+								<EVOR_Item_Artifact_Lesions>1</EVOR_Item_Artifact_Lesions>
+							</products>
+							<researchPrerequisite>EVOR_Research_Artifact_Lesions</researchPrerequisite>
+						</RecipeDef>
 					</value>
 				</li>
 			</operations>
