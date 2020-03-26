@@ -274,6 +274,32 @@
 			    <success>Always</success>
 		    </li>
 
+
+
+
+        <!--Artifacts-->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[contains(defName, "EVOR_Hediff_Artifacts_Tortoise")]</xpath>
+          <value>
+            <comps>
+              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                <linearAdjustment>13</linearAdjustment>
+              </li>
+            </comps>
+          </value>
+			    <success>Always</success>
+		    </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[contains(defName, "EVOR_Hediff_Artifact_Lesions")]</xpath>
+          <value>
+            <comps>
+              <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                <linearAdjustment>13</linearAdjustment>
+              </li>
+            </comps>
+          </value>
+			    <success>Always</success>
+		    </li>
       </operations>
     </match>
   </Operation>

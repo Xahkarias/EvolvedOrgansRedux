@@ -46,4 +46,49 @@
     <descriptionHyperlinks><ThingDef>EVOR_Item_Artifact_Lesions</ThingDef></descriptionHyperlinks>
   </RecipeDef>
 
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>EVOR_Surgery_Artifact_Tortoise</defName>
+    <label>&lt;color=#00FFF7&gt;implant reinforced tortoise shell&lt;/color&gt;</label>
+    <description>Implant reinforced tortoise shell.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Implanting reinforced tortoise shell.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>13</Medicine>
+    </skillRequirements>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EVOR_Item_Artifact_Tortoise</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>EVOR_Item_Artifact_Tortoise</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Sternum</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EVOR_Hediff_Artifacts_Tortoise</addsHediff>
+    <descriptionHyperlinks><ThingDef>EVOR_Item_Artifact_Tortoise</ThingDef></descriptionHyperlinks>
+  </RecipeDef>
 </Defs>
