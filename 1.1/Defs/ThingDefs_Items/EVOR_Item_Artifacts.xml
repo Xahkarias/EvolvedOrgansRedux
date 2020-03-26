@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Artifact_Lesions</defName>
+    <label>plague lesions</label>
+    <description>These lesions do not close and maintain the appearance of an open wound. Once the host takes damage however, they expel a noxious plague that infects whoever hurt the host in melee.</description>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Artifact_Lesions</RecipeDef></descriptionHyperlinks>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Artifact_Lesions</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>300</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>6</EVOR_Resource_Mechanites>
+    </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Artifact_Tortoise</defName>
+    <label>reinforced tortoise shell</label>
+    <description>These exceptionally durable shells line the torso of the host, providing exceptional protection. However, their weight slows down the host by a decent amount.</description>
+    <descriptionHyperlinks><RecipeDef>EVOR_Surgery_Artifact_Tortoise</RecipeDef></descriptionHyperlinks>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Artifact_Tortoise</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>300</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>6</EVOR_Resource_Mechanites>
+    </costList>
+  </ThingDef>
+</Defs>

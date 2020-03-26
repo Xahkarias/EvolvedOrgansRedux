@@ -35,6 +35,15 @@
 							<researchPrerequisite>EVOR_Research_Artifact_ShimmerWorm</researchPrerequisite>
 						</RecipeDef>
 
+						<RecipeDef ParentName="EVOR_Grower_Recipe_Artifact">
+							<defName>EVOR_QEE_Resonance</defName>
+							<label>&lt;color=#00FFF7&gt;psychic resonance tissue&lt;/color&gt;</label>
+							<products>
+								<EVOR_Item_Skull_Resonance>1</EVOR_Item_Skull_Resonance>
+							</products>
+							<researchPrerequisite>EVOR_Research_Psychic1</researchPrerequisite>
+						</RecipeDef>
+
 					</value>
 				</li>
 			</operations>

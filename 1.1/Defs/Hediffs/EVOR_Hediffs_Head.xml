@@ -20,7 +20,7 @@
 			</li>
 		</stages>
 		<description>By utilizing a material resistant to psychic effects, we can create a Faraday cage around the brain, allowing the host to withstand any psychic assault.</description>
-		<descriptionHyperlinks><ThingDef>EVOR_Item_Brain_Nails</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_Skull_Shielding</ThingDef></descriptionHyperlinks>
 	</HediffDef>
 
 	<HediffDef ParentName="ImplantHediffBase">
@@ -43,7 +43,7 @@
             </li>
 		</stages>
 		<description>By increasing the resilience of the skull, it becomes much more difficult to damage the brain.</description>
-		<descriptionHyperlinks><ThingDef>EVOR_Item_Brain_Nails</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_Skull_Plating</ThingDef></descriptionHyperlinks>
 	</HediffDef>
 
 

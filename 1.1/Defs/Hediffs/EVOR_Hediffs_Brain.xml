@@ -43,7 +43,7 @@
 			</li>
 		</stages>
 		<description>Via a radical cranial redesign, the host can now have multiple thoughts fly though their brain, while focusing on all of them at the same time, increasing their abilities greatly.</description>
-		<descriptionHyperlinks><ThingDef>EVOR_Item_Skull_Shielding</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_Brain_Hyper</ThingDef></descriptionHyperlinks>
 	</HediffDef>
 
 	<HediffDef ParentName="ImplantHediffBase">
@@ -79,7 +79,7 @@
 			</li>
 		</stages>
 		<description>These imperfect organs are made to enhance the latent aggression of a being, turning them into a force of nature on the battlefield. However. their &lt;color=#EB4034&gt;constant desire to shed blood&lt;/color&gt; makes them highly likely to run mad. &lt;color=#EB4034&gt;Use with caution.&lt;/color&gt;</description>
-		<descriptionHyperlinks><ThingDef>EVOR_Item_Skull_Plating</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks><ThingDef>EVOR_Item_Brain_Nails</ThingDef></descriptionHyperlinks>
 	</HediffDef>
 
 </Defs>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Artifact_Lesions</defName>
+		<label>plague lesions</label>
+		<labelNoun>plague lesions</labelNoun>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<spawnThingOnRemoved>EVOR_Item_Artifact_Lesions</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.00</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<makeImmuneTo>
+					<li>EVOR_Hediff_Damage_PurgleRot</li>
+				</makeImmuneTo>
+			</li>
+		</stages>
+		<description>These lesions do not close and maintain the appearance of an open wound. Once the host takes damage however, they expel a noxious plague that infects whoever hurt the host in melee.</description>
+    	<descriptionHyperlinks>
+			<ThingDef>EVOR_Item_Artifact_Lesions</ThingDef>
+			<HediffDef>EVOR_Hediff_Damage_PurgleRot</HediffDef>
+		</descriptionHyperlinks>
+	</HediffDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Artifacts_Tortoise</defName>
+		<label>reinforced tortoise shell</label>
+		<labelNoun>reinforced tortoise shell</labelNoun>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<spawnThingOnRemoved>EVOR_Item_Artifact_Tortoise</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.00</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.2</offset>
+					</li>
+				</capMods>
+				<statFactors>
+					<IncomingDamageFactor>0.80</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		</stages>
+		<description>These exceptionally durable shells line the torso of the host, providing exceptional protection. However, their weight slows down the host by a decent amount.</description>
+    	<descriptionHyperlinks>
+			<ThingDef>EVOR_Item_Artifact_Tortoise</ThingDef>
+		</descriptionHyperlinks>
+	</HediffDef>
+
+
+</Defs>

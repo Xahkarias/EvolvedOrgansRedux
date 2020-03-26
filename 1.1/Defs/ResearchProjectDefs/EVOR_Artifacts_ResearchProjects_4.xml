@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>EVOR_Research_Artifact_Lesions</defName>
+    <tab>EVOR_EvolvedOrgansResearchTab</tab>
+    <label>Weaponized Germ Engineering</label>
+    <description>With more knowledge of how to build pathogens from the ground up, we can weaponize them as a deterrent.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>EVOR_Research_Start3</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>6</researchViewX>
+    <researchViewY>5</researchViewY>
+    <techprintCount>1</techprintCount>
+    <techprintCommonality>1</techprintCommonality>
+    <techprintMarketValue>3000</techprintMarketValue>
+    <heldByFactionCategoryTags>
+		  <li>Outlander</li>
+      <li>Empire</li>
+		</heldByFactionCategoryTags>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>EVOR_Research_Artifact_Tortoise</defName>
+    <tab>EVOR_EvolvedOrgansResearchTab</tab>
+    <label>Engineered Resistant Shell Plating</label>
+    <description>With more knowledge of how to create durable biostructures, we can create a strong plating that is affective against all kinds of damage.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>EVOR_Research_Start3</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>4</researchViewX>
+    <researchViewY>6</researchViewY>
+    <techprintCount>1</techprintCount>
+    <techprintCommonality>1</techprintCommonality>
+    <techprintMarketValue>3000</techprintMarketValue>
+    <heldByFactionCategoryTags>
+		  <li>Outlander</li>
+      <li>Empire</li>
+		</heldByFactionCategoryTags>
+  </ResearchProjectDef>
+
+</Defs>

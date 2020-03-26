@@ -9,7 +9,7 @@
     <baseCost>1000</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
-      <li>EVOR_Research_Organs1</li>
+      <li>EVOR_Research_Start3</li>
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <requiredResearchFacilities>
@@ -34,7 +34,7 @@
     <baseCost>1000</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
-      <li>EVOR_Research_Organs1</li>
+      <li>EVOR_Research_Start3</li>
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <requiredResearchFacilities>
