@@ -5,7 +5,7 @@
 		<defName>EVOR_OrgBase</defName>
 		<techLevel>Spacer</techLevel>
 		<statBases>
-			<MarketValue>2800</MarketValue>
+			<MarketValue>1000</MarketValue>
 			<Mass>0.3</Mass>
 			<WorkToMake>5000</WorkToMake>
 		</statBases>
