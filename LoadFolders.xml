@@ -2,7 +2,7 @@
 <loadFolders>
   <v1.1>
     <li></li>
-    <li>1.1</li>
-    <li IfModActive="Ludeon.Rimworld.Royalty">EVOR_Royalty</li>
+    <li>1.2</li>
+    <li IfModActive="Ludeon.Rimworld.Royalty">1_2_EVOR_Royalty</li>
   </v1.1>
 </loadFolders>
