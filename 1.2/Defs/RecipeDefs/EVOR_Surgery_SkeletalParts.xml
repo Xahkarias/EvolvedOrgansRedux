@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+  <!--Dermal Plating-->
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Skin_Plating</defName>
     <label>&lt;color=#00FFF7&gt;implant multilayered dermal plating&lt;/color&gt;</label>
@@ -46,6 +47,7 @@
     <descriptionHyperlinks><ThingDef>EVOR_Item_Skin_Plating</ThingDef></descriptionHyperlinks>
   </RecipeDef>
 
+  <!--Flame Retardant skin-->
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Skin_Flame</defName>
     <label>&lt;color=#00FFF7&gt;implant flame retardant skin&lt;/color&gt;</label>
@@ -92,6 +94,7 @@
     <descriptionHyperlinks><ThingDef>EVOR_Item_Skin_Flame</ThingDef></descriptionHyperlinks>
   </RecipeDef>
 
+  <!--Variable Insulation-->
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Skin_Insulation</defName>
     <label>&lt;color=#00FFF7&gt;implant variable insulation skin&lt;/color&gt;</label>
@@ -138,6 +141,8 @@
     <descriptionHyperlinks><ThingDef>EVOR_Item_Skin_Insulation</ThingDef></descriptionHyperlinks>
   </RecipeDef>
 
+  <!--RBICAGE STUFF-->
+  <!--Alloy Ribcage-->
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Ribcage</defName>
     <label>&lt;color=#00FFF7&gt;implant calcium-alloy ribcage&lt;/color&gt;</label>

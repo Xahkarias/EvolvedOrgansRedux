@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+  <!--Distenable Jaw-->
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Jaw_Distend</defName>
     <label>&lt;color=#00FFF7&gt;implant distendable jaw&lt;/color&gt;</label>
@@ -46,6 +47,7 @@
     <descriptionHyperlinks><ThingDef>EVOR_Item_Jaw_Distend</ThingDef></descriptionHyperlinks>
   </RecipeDef>
 
+  <!--Venomous fangs-->
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Jaw_Venom</defName>
     <label>&lt;color=#00FFF7&gt;implant venomous fangs&lt;/color&gt;</label>

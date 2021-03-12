@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<!--Skin plating-->
 	<HediffDef ParentName="ImplantHediffBase">
 		<defName>EVOR_Hediff_Skin_Plating</defName>
 		<label>multilayered dermal plating</label>
@@ -27,6 +28,7 @@
 		<descriptionHyperlinks><ThingDef>EVOR_Item_Skin_Plating</ThingDef></descriptionHyperlinks>
 	</HediffDef>
 
+	<!--Flame retardant-->
 	<HediffDef ParentName="ImplantHediffBase">
 		<defName>EVOR_Hediff_Skin_Flame</defName>
 		<label>flame retardant skin</label>
@@ -51,7 +53,8 @@
 		<description>By lining the skin with glands that can quickly release flame retardant slime on the body as well as disspating heat, the user becomes extremely resistant to heat and flame.</description>
 		<descriptionHyperlinks><ThingDef>EVOR_Item_Skin_Flame</ThingDef></descriptionHyperlinks>
 	</HediffDef>
- 
+	
+	<!--Insukation-->
 	<HediffDef ParentName="ImplantHediffBase">
 		<defName>EVOR_Hediff_Skin_Insulation</defName>
 		<label>variable insulation skin</label>
@@ -76,7 +79,8 @@
 		<description>By creating skin with both high-volume sweat glands and hairs that can either retain or release heat, the user becomes comfortable in a massive range of temperatures.</description>
 		<descriptionHyperlinks><ThingDef>EVOR_Item_Skin_Insulation</ThingDef></descriptionHyperlinks>
 	</HediffDef>
-
+	
+	<!--Rib-->
 	<HediffDef ParentName="AddedBodyPartBase">
 		<defName>EVOR_Hediff_Ribcage</defName>
 		<label>calcium-alloy ribcage</label>

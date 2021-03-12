@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+    <!--Wings-->
     <RecipeDef ParentName="SurgeryFlesh">
         <defName>EVOR_Surgery_Back_Wing</defName>
         <label>&lt;color=#00FFF7&gt;implant feathered wings&lt;/color&gt;</label>
@@ -43,9 +44,10 @@
             <li>Back</li>
         </appliedOnFixedBodyParts>
         <addsHediff>EVOR_Hediff_Back_Wing</addsHediff>
-        <descriptionHyperlinks><ThingDef>EVOR_Item_Abd_ThirdLung</ThingDef></descriptionHyperlinks>
+        <descriptionHyperlinks><ThingDef>EVOR_Item_Back_Wing</ThingDef></descriptionHyperlinks>
     </RecipeDef>
 
+    <!--Tentacles-->
     <RecipeDef ParentName="SurgeryFlesh">
         <defName>EVOR_Surgery_Back_Hand</defName>
         <label>&lt;color=#00FFF7&gt;implant tentacle cluster&lt;/color&gt;</label>
@@ -92,6 +94,7 @@
         <descriptionHyperlinks><ThingDef>EVOR_Item_Back_Hand</ThingDef></descriptionHyperlinks>
     </RecipeDef>
 
+    <!--Muscle-->
     <RecipeDef ParentName="SurgeryFlesh">
         <defName>EVOR_Surgery_Back_Muscle</defName>
         <label>&lt;color=#00FFF7&gt;implant musculature braces&lt;/color&gt;</label>

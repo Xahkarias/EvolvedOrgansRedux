@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+  <!--Normal Leg-->
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Leg_Normal</defName>
     <label>&lt;color=#00FFF7&gt;implant reinforced leg&lt;/color&gt;</label>
@@ -46,6 +48,7 @@
     <descriptionHyperlinks><ThingDef>EVOR_Item_Leg_Normal</ThingDef></descriptionHyperlinks>
   </RecipeDef>
 
+  <!--Monkey Hand Leg-->
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Leg_Hand</defName>
     <label>&lt;color=#00FFF7&gt;implant grasping leg&lt;/color&gt;</label>
@@ -92,6 +95,7 @@
     <descriptionHyperlinks><ThingDef>EVOR_Item_Leg_Hand</ThingDef></descriptionHyperlinks>
   </RecipeDef>
 
+  <!--Stabby Leg in my balls-->
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Leg_Blade</defName>
     <label>&lt;color=#00FFF7&gt;implant ossified bone blade leg&lt;/color&gt;</label>
@@ -138,4 +142,5 @@
     <researchPrerequisite>EVOR_Research_Limbs2</researchPrerequisite>
     <descriptionHyperlinks><ThingDef>EVOR_Item_BoneSaber</ThingDef></descriptionHyperlinks>
   </RecipeDef>
+  
 </Defs>

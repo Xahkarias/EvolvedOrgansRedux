@@ -12,6 +12,7 @@
     
   -->
 
+  <!--Third Lung-->
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Abd_ThirdLung</defName>
     <label>&lt;color=#00FFF7&gt;implant extra nano-filter lung&lt;/color&gt;</label>
@@ -58,6 +59,7 @@
     <descriptionHyperlinks><ThingDef>EVOR_Item_Abd_ThirdLung</ThingDef></descriptionHyperlinks>
   </RecipeDef>
 
+  <!--Second Heart-->
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Abd_SecondHeart</defName>
     <label>&lt;color=#00FFF7&gt;implant auxilary heart&lt;/color&gt;</label>
@@ -104,7 +106,7 @@
     <descriptionHyperlinks><ThingDef>EVOR_Item_Abd_SecondHeart</ThingDef></descriptionHyperlinks>
   </RecipeDef>
 
-
+  <!--Combat Serum-->
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Abd_Combat</defName>
     <label>&lt;color=#00FFF7&gt;implant combat serum gland&lt;/color&gt;</label>
@@ -198,10 +200,7 @@
   </RecipeDef>
   -->
 
-
-
-
-  <!--Hormone Surgeries-->
+  <!--Hormone Regulator-->
   <RecipeDef Name="EVOR_Surgery_Abstract_Hormone" Abstract="True" ParentName="SurgeryFlesh">
     <label>&lt;color=#00FFF7&gt;implant hormone regulator&lt;/color&gt;</label>
     <description>Implant a hormone regulator.</description>
@@ -263,11 +262,7 @@
     </appliedOnFixedBodyParts>
   </RecipeDef>
 
-
-
-
-
-  <!--Lymph Surgeries-->
+  <!--Lymph Profilerator-->
   <RecipeDef Name="EVOR_Surgery_Abstract_Lymph" Abstract="True" ParentName="SurgeryFlesh">
     <label>&lt;color=#00FFF7&gt;implant lymphatic proliferator&lt;/color&gt;</label>
     <description>Implant a lymphatic proliferator.</description>
@@ -329,6 +324,7 @@
     </appliedOnFixedBodyParts>
   </RecipeDef>
 
+  <!--Ra Vacuole-->
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Abd_NoAge</defName>
     <label>&lt;color=#00FFF7&gt;implant Ra's vacoule&lt;/color&gt;</label>
@@ -374,4 +370,5 @@
     <addsHediff>EVOR_Hediff_Abd_NoAge</addsHediff>
     <descriptionHyperlinks><ThingDef>EVOR_Item_Abd_NoAge</ThingDef></descriptionHyperlinks>
   </RecipeDef>
+  
 </Defs>

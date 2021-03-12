@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+  <!--Nurgle boi-->
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Artifact_Lesions</defName>
     <label>&lt;color=#00FFF7&gt;implant plague lesions&lt;/color&gt;</label>
@@ -46,6 +48,7 @@
     <descriptionHyperlinks><ThingDef>EVOR_Item_Artifact_Lesions</ThingDef></descriptionHyperlinks>
   </RecipeDef>
 
+  <!--Tortiouse-->
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Artifact_Tortoise</defName>
     <label>&lt;color=#00FFF7&gt;implant reinforced tortoise shell&lt;/color&gt;</label>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  <!--Tail blade-->
   <HediffDef ParentName="AddedBodyPartBase">
     <defName>EVOR_Hediff_Tail_Blade</defName>
     <label>serrated stinger tail</label>
@@ -31,6 +32,7 @@
     <descriptionHyperlinks><ThingDef>EVOR_Item_Tail_Blade</ThingDef></descriptionHyperlinks>
   </HediffDef>
 
+  <!--Tail hand-->
   <HediffDef ParentName="AddedBodyPartBase">
     <defName>EVOR_Hediff_Tail_Hand</defName>
     <label>manipulator tail</label>
@@ -60,7 +62,7 @@
         <capMods>
           <li>
             <capacity>Manipulation</capacity>
-            <offset>0.45</offset>
+            <offset>0.33</offset>
           </li>
         </capMods>
       </li>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+  <!--Skull Shield-->
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Skull_Shielding</defName>
     <label>&lt;color=#00FFF7&gt;implant interference shielding&lt;/color&gt;</label>
@@ -46,6 +47,7 @@
     <descriptionHyperlinks><ThingDef>EVOR_Item_Skull_Shielding</ThingDef></descriptionHyperlinks>
   </RecipeDef>
 
+  <!--Skull plate-->
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Skull_Plating</defName>
     <label>&lt;color=#00FFF7&gt;implant cranial plating&lt;/color&gt;</label>

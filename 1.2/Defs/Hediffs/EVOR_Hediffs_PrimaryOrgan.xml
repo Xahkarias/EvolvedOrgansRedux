@@ -2,7 +2,7 @@
 <Defs>
 
 
-  <!-- Primary Heart -->
+  <!-- Primary Heart-->
   <HediffDef ParentName="AddedBodyPartBase">
     <defName>EVOR_Hediff_Heart</defName>
     <label>triwoven primary heart</label>

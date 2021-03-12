@@ -9,7 +9,7 @@
 		<spawnThingOnRemoved>EVOR_Item_Jaw_Distend</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
-			<partEfficiency>1.8</partEfficiency>
+			<partEfficiency>1.3</partEfficiency>
 			<betterThanNatural>true</betterThanNatural>
 		</addedPartProps>
 		<stages>
@@ -45,7 +45,7 @@
 		<spawnThingOnRemoved>EVOR_Item_Jaw_Venom</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
-			<partEfficiency>1.0</partEfficiency>
+			<partEfficiency>1.2</partEfficiency>
 			<betterThanNatural>true</betterThanNatural>
 		</addedPartProps>
 		<comps>

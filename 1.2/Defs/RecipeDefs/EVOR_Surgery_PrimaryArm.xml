@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
   <!--Normal ARM-->
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Primary_NormalArm</defName>
@@ -94,6 +95,7 @@
     <descriptionHyperlinks><ThingDef>EVOR_Item_BoneSaber</ThingDef></descriptionHyperlinks>
   </RecipeDef>
 
+  <!--Pincer-->
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Primary_HighPincer</defName>
     <label>&lt;color=#00FFF7&gt;implant high pressure pincer&lt;/color&gt;</label>
@@ -140,6 +142,7 @@
     <descriptionHyperlinks><ThingDef>EVOR_Item_HighPincer</ThingDef></descriptionHyperlinks>
   </RecipeDef>
 
+  <!--Mace-->
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Primary_SonicMace</defName>
     <label>&lt;color=#00FFF7&gt;implant sonic impact mace&lt;/color&gt;</label>
@@ -186,6 +189,7 @@
     <descriptionHyperlinks><ThingDef>EVOR_Item_SonicMace</ThingDef></descriptionHyperlinks>
   </RecipeDef>
 
+  <!--Plated-->
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Primary_PlatedLimb</defName>
     <label>&lt;color=#00FFF7&gt;implant tri-plated limb&lt;/color&gt;</label>
@@ -279,6 +283,7 @@
   </RecipeDef>
   -->
   
+  <!--Rending Claw-->
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>EVOR_Surgery_Primary_RendingClaw</defName>
     <label>&lt;color=#00FFF7&gt;implant rending claws&lt;/color&gt;</label>

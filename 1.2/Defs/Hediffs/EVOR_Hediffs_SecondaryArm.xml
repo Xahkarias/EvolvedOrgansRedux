@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<!-- Arm -->
+	<!-- Arm -->
 	<HediffDef ParentName="AddedBodyPartBase">
 		<defName>EVOR_Hediff_Secondary_NormalArm</defName>
 		<label>extradextrous arm</label>
@@ -43,7 +43,8 @@
 		<descriptionHyperlinks><ThingDef>EVOR_Item_NormalArm</ThingDef></descriptionHyperlinks>
 	</HediffDef>
 
-  <HediffDef ParentName="AddedBodyPartBase">
+	<!--saber-->
+  	<HediffDef ParentName="AddedBodyPartBase">
 		<defName>EVOR_Hediff_Secondary_BoneSaber</defName>
 		<label>ossified bone saber</label>
 		<labelNoun>an ossified bone saber</labelNoun>
@@ -88,6 +89,7 @@
 		<descriptionHyperlinks><ThingDef>EVOR_Item_BoneSaber</ThingDef></descriptionHyperlinks>
 	</HediffDef>
 
+	<!--Pincer-->
 	<HediffDef ParentName="AddedBodyPartBase">
 		<defName>EVOR_Hediff_Secondary_HighPincer</defName>
 		<label>high pressure pincer</label>
@@ -123,7 +125,7 @@
 				<capMods>
 					<li>
 						<capacity>Manipulation</capacity>
-						<offset>0.4</offset>
+						<offset>0.3</offset>
 					</li>
 				</capMods>
 			</li>	
@@ -132,6 +134,7 @@
 		<descriptionHyperlinks><ThingDef>EVOR_Item_HighPincer</ThingDef></descriptionHyperlinks>
 	</HediffDef>
 
+	<!--Sonic mace-->
 	<HediffDef ParentName="AddedBodyPartBase">
 		<defName>EVOR_Hediff_Secondary_SonicMace</defName>
 		<label>sonic impact mace</label>
@@ -185,6 +188,7 @@
 		<descriptionHyperlinks><ThingDef>EVOR_Item_SonicMace</ThingDef></descriptionHyperlinks>
 	</HediffDef>
 
+	<!--Shield-->
 	<HediffDef ParentName="AddedBodyPartBase">
 		<defName>EVOR_Hediff_Secondary_PlatedLimb</defName>
 		<label>tri-plated limb</label>
@@ -221,7 +225,7 @@
 				<capMods>
 					<li>
 						<capacity>Manipulation</capacity>
-						<offset>0.3</offset>
+						<offset>0.2</offset>
 					</li>
 				</capMods>
 			</li>	
@@ -275,6 +279,7 @@
 	</HediffDef>
 	-->
 
+	<!--Rending claw-->
 	<HediffDef ParentName="AddedBodyPartBase">
 		<defName>EVOR_Hediff_Secondary_RendingClaw</defName>
 		<label>rending claws</label>
@@ -307,7 +312,7 @@
 				<capMods>
 					<li>
 						<capacity>Manipulation</capacity>
-						<offset>0.8</offset>
+						<offset>0.75</offset>
 					</li>
 				</capMods>
 			</li>	

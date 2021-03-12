@@ -29,7 +29,7 @@
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
-						<offset>0.25</offset>
+						<offset>0.20</offset>
 					</li>
 				</capMods>
 				<restFallFactor>0.80</restFallFactor>

@@ -23,7 +23,7 @@
 		<descriptionHyperlinks><ThingDef>EVOR_Item_Leg_Normal</ThingDef></descriptionHyperlinks>
 	</HediffDef>
 
-  <HediffDef ParentName="AddedBodyPartBase">
+  	<HediffDef ParentName="AddedBodyPartBase">
 		<defName>EVOR_Hediff_Leg_Hand</defName>
 		<label>grasping leg</label>
 		<labelNoun>a grasping leg</labelNoun>

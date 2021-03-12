@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!-- Eyes -->
+	<!--Eyes -->
 	<HediffDef ParentName="AddedBodyPartBase">
 		<defName>EVOR_Hediff_Eye</defName>
 		<label>multispectrum eye</label>
@@ -24,7 +24,7 @@
 		<descriptionHyperlinks><ThingDef>EVOR_Item_Eye</ThingDef></descriptionHyperlinks>
 	</HediffDef>
 
-
+	<!--Normal nose-->
 	<HediffDef ParentName="AddedBodyPartBase">
 		<defName>EVOR_Hediff_Nose</defName>
 		<label>micro-analyzer nose</label>
@@ -48,6 +48,7 @@
 		<descriptionHyperlinks><ThingDef>EVOR_Item_Nose</ThingDef></descriptionHyperlinks>
 	</HediffDef>
 
+	<!--pheromone nose-->
 	<HediffDef ParentName="AddedBodyPartBase">
 		<defName>EVOR_Hediff_Nose_Pheromones</defName>
 		<label>pheromone releaser nose</label>
@@ -71,6 +72,7 @@
 		<descriptionHyperlinks><ThingDef>EVOR_Item_Nose_Pheromones</ThingDef></descriptionHyperlinks>
 	</HediffDef>
 
+	<!--Ear-->
 	<HediffDef ParentName="AddedBodyPartBase">
 		<defName>EVOR_Hediff_Ear</defName>
 		<label>multifrequency ear</label>
@@ -92,7 +94,7 @@
 		<descriptionHyperlinks><ThingDef>EVOR_Item_Ear</ThingDef></descriptionHyperlinks>
 	</HediffDef>
 
-
+	<!--Spine-->
 	<HediffDef ParentName="AddedBodyPartBase">
 		<defName>EVOR_Hediff_Spine</defName>
 		<label>neuro-accelerated spine</label>

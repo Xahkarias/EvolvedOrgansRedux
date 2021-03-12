@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  <!--Hyperthreader-->
   <RecipeDef ParentName="SurgeryInstallImplantBase">
     <defName>EVOR_Surgery_Brain_Hyper</defName>
     <label>&lt;color=#00FFF7&gt;implant neural hyperthreader&lt;/color&gt;</label>
@@ -46,6 +47,7 @@
     <descriptionHyperlinks><ThingDef>EVOR_Item_Brain_Hyper</ThingDef></descriptionHyperlinks>
   </RecipeDef>
 
+  <!--butcher's Nails-->
   <RecipeDef ParentName="SurgeryInstallImplantBase">
     <defName>EVOR_Surgery_Brain_Nails</defName>
     <label>&lt;color=#00FFF7&gt;implant butcher's nails&lt;/color&gt;</label>
