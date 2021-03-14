@@ -3,7 +3,7 @@
 	<Operation Class="PatchOperationFindMod">
 		<success>Always</success>
 		<mods>
-			<li>Prosthetic Combat Framework</li>
+			<li>Vanilla Expanded Framework</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
@@ -12,6 +12,19 @@
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
+
+						<MVCF.ModDef>
+							<defName>EVOR_MVCF</defName>
+							<label>Evolved Organs Redux</label>
+							<description>Adding ranged attacks for hediffs</description>
+							<Features>
+								<RangedAnimals>true</RangedAnimals>
+								<HediffVerbs>true</HediffVerbs>
+								<IntegratedToggle>true</IntegratedToggle>
+							</Features>
+						</MVCF.ModDef>
+
+
 						<!--EVOR_Bullet_Maggot-->
 						<HediffDef ParentName="AddedBodyPartBase">
 							<defName>EVOR_Hediff_Primary_MaggotBolter</defName>
@@ -25,37 +38,39 @@
 								<betterThanNatural>true</betterThanNatural>
 							</addedPartProps>
 							<comps>
-								<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
-									<toggleLabel>Voracious Maggot Bolter</toggleLabel>
-									<toggleDescription>Voracious Maggot Bolter.</toggleDescription>
-									<toggleIconPath>UI/Widgets/Organs/EVOR_Texture_Minigun</toggleIconPath>
-									<toggleIconAngle>-45.0</toggleIconAngle>
+								<li Class="MVCF.Comps.HediffCompProperties_ExtendedVerbGiver">
 									<verbs>
 										<li>
-											<label>voracious maggot bolter</label>
 											<verbClass>Verb_Shoot</verbClass>
+											<label>voracious maggot bolter</label>
+											<hasStandardCommand>true</hasStandardCommand>
+											<defaultProjectile>EVOR_Bullet_Maggot</defaultProjectile>
 											<accuracyTouch>0.33</accuracyTouch>
 											<accuracyShort>0.30</accuracyShort>
 											<accuracyMedium>0.27</accuracyMedium>
 											<accuracyLong>0.24</accuracyLong>
-											<hasStandardCommand>true</hasStandardCommand>
-											<defaultProjectile>EVOR_Bullet_Maggot</defaultProjectile>
 											<warmupTime>2.30</warmupTime>
 											<range>20.0</range>
 											<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
 											<burstShotCount>12</burstShotCount>
 											<soundCast>Pawn_Spelopede_Angry</soundCast>
 											<soundCastTail>GunTail_Medium</soundCastTail>
-											<muzzleFlashScale>6</muzzleFlashScale>
+											<muzzleFlashScale>9</muzzleFlashScale>
+											<commandIcon>UI/Widgets/Organs/EVOR_Texture_Minigun</commandIcon>
 										</li>
-									</verbs>
-									<verbsProperties>
+									</verbs>	
+									<verbProps>
 										<li>
 											<label>voracious maggot bolter</label>
-											<description>Voracious Maggot Bolter</description>
-											<uiIconPath>UI/Icon/EVOR_Texture_RedBullets</uiIconPath>
+											<draw>false</draw>
+											<canBeToggled>false</canBeToggled>
+											<graphic>
+												<texPath>UI/Widgets/Organs/EVOR_Texture_Minigun</texPath>
+												<graphicClass>Graphic_Single</graphicClass>
+											</graphic>
+											<canFireIndependently>true</canFireIndependently>
 										</li>
-									</verbsProperties>
+									</verbProps>
 								</li>
 							</comps>
 							<stages>
@@ -67,14 +82,14 @@
 										</li>
 									</capMods>
 									<statOffsets>
-										<RangedWeapon_Cooldown>0.45</RangedWeapon_Cooldown>
+										<RangedWeapon_Cooldown>0.25</RangedWeapon_Cooldown>
 									</statOffsets>
 								</li>	
 							</stages>
 							<description>By creating a rapidly growing strain of maggots and adapting them to life in our bodies, we can use them as bullet-like ammunition in our bio-weapons.</description>
 							<descriptionHyperlinks><ThingDef>EVOR_Item_MaggotBolter</ThingDef></descriptionHyperlinks>
 						</HediffDef>
-
+			
 						<HediffDef ParentName="AddedBodyPartBase">
 							<defName>EVOR_Hediff_Secondary_MaggotBolter</defName>
 							<label>voracious maggot bolter</label>
@@ -87,37 +102,39 @@
 								<betterThanNatural>true</betterThanNatural>
 							</addedPartProps>
 							<comps>
-								<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
-									<toggleLabel>Voracious Maggot Bolter</toggleLabel>
-									<toggleDescription>Voracious Maggot Bolter.</toggleDescription>
-									<toggleIconPath>UI/Widgets/Organs/EVOR_Texture_Minigun</toggleIconPath>
-									<toggleIconAngle>-45.0</toggleIconAngle>
+								<li Class="MVCF.Comps.HediffCompProperties_ExtendedVerbGiver">
 									<verbs>
 										<li>
-											<label>voracious maggot bolter</label>
 											<verbClass>Verb_Shoot</verbClass>
+											<label>voracious maggot bolter</label>
+											<hasStandardCommand>true</hasStandardCommand>
+											<defaultProjectile>EVOR_Bullet_Maggot</defaultProjectile>
 											<accuracyTouch>0.33</accuracyTouch>
 											<accuracyShort>0.30</accuracyShort>
 											<accuracyMedium>0.27</accuracyMedium>
 											<accuracyLong>0.24</accuracyLong>
-											<hasStandardCommand>true</hasStandardCommand>
-											<defaultProjectile>EVOR_Bullet_Maggot</defaultProjectile>
 											<warmupTime>2.30</warmupTime>
 											<range>20.0</range>
 											<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
 											<burstShotCount>12</burstShotCount>
 											<soundCast>Pawn_Spelopede_Angry</soundCast>
 											<soundCastTail>GunTail_Medium</soundCastTail>
-											<muzzleFlashScale>6</muzzleFlashScale>
+											<muzzleFlashScale>9</muzzleFlashScale>
+											<commandIcon>UI/Widgets/Organs/EVOR_Texture_Minigun</commandIcon>
 										</li>
-									</verbs>
-									<verbsProperties>
+									</verbs>	
+									<verbProps>
 										<li>
 											<label>voracious maggot bolter</label>
-											<description>Voracious Maggot Bolter</description>
-											<uiIconPath>UI/Icon/EVOR_Texture_RedBullets</uiIconPath>
+											<draw>false</draw>
+											<canBeToggled>false</canBeToggled>
+											<graphic>
+												<texPath>UI/Widgets/Organs/EVOR_Texture_Minigun</texPath>
+												<graphicClass>Graphic_Single</graphicClass>
+											</graphic>
+											<canFireIndependently>true</canFireIndependently>
 										</li>
-									</verbsProperties>
+									</verbProps>
 								</li>
 							</comps>
 							<stages>
@@ -129,7 +146,7 @@
 										</li>
 									</capMods>
 									<statOffsets>
-										<RangedWeapon_Cooldown>0.45</RangedWeapon_Cooldown>
+										<RangedWeapon_Cooldown>0.25</RangedWeapon_Cooldown>
 									</statOffsets>
 								</li>	
 							</stages>
@@ -137,6 +154,7 @@
 							<descriptionHyperlinks><ThingDef>EVOR_Item_MaggotBolter</ThingDef></descriptionHyperlinks>
 						</HediffDef>
 
+		
 						<!--Venom crystal-->
 						<HediffDef ParentName="AddedBodyPartBase">
 							<defName>EVOR_Hediff_Primary_VenomCrystal</defName>
@@ -150,35 +168,37 @@
 								<betterThanNatural>true</betterThanNatural>
 							</addedPartProps>
 							<comps>
-								<li Class="OrenoPCF.HediffCompProperties_VerbGiverExtended">
-									<toggleLabel>Venom Crystal Cannon</toggleLabel>
-									<toggleDescription>Venom Crystal Cannon.</toggleDescription>
-									<toggleIconPath>UI/Widgets/Organs/EVOR_Texture_Cannon</toggleIconPath>
-									<toggleIconAngle>-45.0</toggleIconAngle>
+								<li Class="MVCF.Comps.HediffCompProperties_ExtendedVerbGiver">
 									<verbs>
 										<li>
-											<label>venom crystal cannon</label>
 											<verbClass>Verb_Shoot</verbClass>
+											<label>venom crystal cannon</label>
+											<hasStandardCommand>true</hasStandardCommand>
+											<defaultProjectile>EVOR_Bullet_VenomCrystal</defaultProjectile>
 											<accuracyTouch>0.50</accuracyTouch>
 											<accuracyShort>0.70</accuracyShort>
 											<accuracyMedium>0.86</accuracyMedium>
 											<accuracyLong>0.90</accuracyLong>
-											<hasStandardCommand>true</hasStandardCommand>
-											<defaultProjectile>EVOR_Bullet_VenomCrystal</defaultProjectile>
 											<warmupTime>4.00</warmupTime>
 											<range>45.0</range>
 											<soundCast>Pawn_Megascarab_Angry</soundCast>
 											<soundCastTail>GunTail_Medium</soundCastTail>
-											<muzzleFlashScale>6</muzzleFlashScale>
+											<muzzleFlashScale>9</muzzleFlashScale>
+											<commandIcon>UI/Widgets/Organs/EVOR_Texture_Cannon</commandIcon>
 										</li>
-									</verbs>
-									<verbsProperties>
+									</verbs>	
+									<verbProps>
 										<li>
-											<label>venom crystal cannon</label>
-											<description>Venom Crystal Cannon</description>
-											<uiIconPath>Things/Projectile/EVOR_Texture_VenomCrystal</uiIconPath>
-										</li>			
-									</verbsProperties>
+											<label>voracious maggot bolter</label>
+											<draw>false</draw>
+											<canBeToggled>false</canBeToggled>
+											<graphic>
+												<texPath>UI/Widgets/Organs/EVOR_Texture_Cannon</texPath>
+												<graphicClass>Graphic_Single</graphicClass>
+											</graphic>
+											<canFireIndependently>true</canFireIndependently>
+										</li>
+									</verbProps>
 								</li>
 							</comps>
 							<stages>
@@ -190,7 +210,7 @@
 										</li>
 									</capMods>
 									<statOffsets>
-										<RangedWeapon_Cooldown>0.45</RangedWeapon_Cooldown>
+										<RangedWeapon_Cooldown>0.25</RangedWeapon_Cooldown>
 									</statOffsets>
 								</li>	
 							</stages>
@@ -198,6 +218,7 @@
 							<descriptionHyperlinks><ThingDef>EVOR_Item_VenomCrystal</ThingDef></descriptionHyperlinks>
 						</HediffDef>
 
+						<!-- TODO: fix these and the stuff before
 						<HediffDef ParentName="AddedBodyPartBase">
 							<defName>EVOR_Hediff_Secondary_VenomCrystal</defName>
 							<label>venom crystal cannon</label>
@@ -258,7 +279,8 @@
 							<descriptionHyperlinks><ThingDef>EVOR_Item_VenomCrystal</ThingDef></descriptionHyperlinks>
 						</HediffDef>
 
-						<!--CryoSlime-->
+						
+						<!-CryoSlime->
 						<HediffDef ParentName="AddedBodyPartBase">
 							<defName>EVOR_Hediff_Primary_CryoSlime</defName>
 							<label>cryogenic slime cannon</label>
@@ -383,7 +405,7 @@
 							<descriptionHyperlinks><ThingDef>EVOR_Item_CryoSlime</ThingDef></descriptionHyperlinks>
 						</HediffDef>
 
-						<!--ImpulseShock-->
+						<!-ImpulseShock->
 						<HediffDef ParentName="AddedBodyPartBase">
 							<defName>EVOR_Hediff_Primary_ImpulseShock</defName>
 							<label>impulse shock blaster</label>
@@ -504,7 +526,7 @@
 							<descriptionHyperlinks><ThingDef>EVOR_Item_ImpulseShock</ThingDef></descriptionHyperlinks>
 						</HediffDef>
 
-						<!--Spore Cannon-->
+						<!-Spore Cannon->
 						<HediffDef ParentName="AddedBodyPartBase">
 							<defName>EVOR_Hediff_Back_KaboomSpore</defName>
 							<label>volatile spore array</label>
@@ -560,7 +582,8 @@
 							<description>These spores on the host's back can be launched in a certain direction, where they glide to the target and explode.</description>
 							<descriptionHyperlinks><ThingDef>EVOR_Item_KaboomSpore</ThingDef></descriptionHyperlinks>
 						</HediffDef>
-
+						
+						-->
 					</value>
 					<success>Always</success>
 				</li>

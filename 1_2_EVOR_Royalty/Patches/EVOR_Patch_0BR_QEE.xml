@@ -9,9 +9,6 @@
 			<operations>
 
 			
-
-				<!--TODO add all organ to this-->
-				<!--NOTE: ALL PATCHES WHICH ADD STUFF HAVE TO DO THIS WHEN CHECKING FOR QEE-->
 				<!--adding the actual recipes -->
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
