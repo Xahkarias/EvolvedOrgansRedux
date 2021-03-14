@@ -22,18 +22,20 @@
   </modDependenciesByVersion>
 
   <loadAfterByVersion>
-    <v1.1>
-      <li>V1024.EBFramework</li>
+    <v1.2>
+      <li>pyrce.swimming.modkit</li>
       <li>Rah.RBSE</li>
+      <li>Mlie.SupremeMelee</li>
+      <li>Dubwise.DubsBadHygiene</li>
+      
+
+      <li>V1024.EBFramework</li>
       <li>kongmd.qee</li>
       <li>fluffy.thebirdsandthebees</li>
-      <li>ChJees.SupremeMelee</li>
       <li>Dubwise.Rimatomics</li>
-      <li>Dubwise.DubsBadHygiene</li>
-      <li>Jon.Revivals.ProstheticCombatFramework</li>
-      <li>pyrce.swimming.modkit</li>
+      <li>Jon.Revivals.ProstheticCombatFramework</li>    
       <li>vat.epoeforked</li>
-    </v1.1>
+    </v1.2>
   </loadAfterByVersion>        
 
 </ModMetaData>

@@ -3,7 +3,7 @@
 	<Operation Class="PatchOperationFindMod">
 		<success>Always</success>
 		<mods>
-			<li>Supreme Melee</li>
+			<li>SupremeMelee</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
