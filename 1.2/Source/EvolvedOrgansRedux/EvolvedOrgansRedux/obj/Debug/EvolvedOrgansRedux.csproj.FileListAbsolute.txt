@@ -1,6 +1,25 @@
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\EvolvedOrgansRedux\1.1\Assemblies\EvolvedOrgansRedux.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\EvolvedOrgansRedux\1.1\Source\EvolvedOrgansRedux\EvolvedOrgansRedux\obj\Debug\EvolvedOrgansRedux.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\EvolvedOrgansRedux\1.1\Source\EvolvedOrgansRedux\EvolvedOrgansRedux\obj\Debug\EvolvedOrgansRedux.csprojAssemblyReference.cache
-D:\SteamLibrary\steamapps\common\RimWorld\Mods\EvolvedOrgansRedux\1.2\Source\EvolvedOrgansRedux\EvolvedOrgansRedux\obj\Debug\EvolvedOrgansRedux.csprojAssemblyReference.cache
-D:\SteamLibrary\steamapps\common\RimWorld\Mods\EvolvedOrgansRedux\1.2\Assemblies\EvolvedOrgansRedux.dll
-D:\SteamLibrary\steamapps\common\RimWorld\Mods\EvolvedOrgansRedux\1.2\Source\EvolvedOrgansRedux\EvolvedOrgansRedux\obj\Debug\EvolvedOrgansRedux.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\#Test_EvolvedOrgansRedux\1.1\Assemblies\EvolvedOrgansRedux.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\#Test_EvolvedOrgansRedux\1.1\Source\EvolvedOrgansRedux\EvolvedOrgansRedux\obj\Debug\EvolvedOrgansRedux.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\#Test_EvolvedOrgansRedux\1.1\Source\EvolvedOrgansRedux\EvolvedOrgansRedux\obj\Debug\EvolvedOrgansRedux.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\#Test_EvolvedOrgansRedux\1.1\Source\EvolvedOrgansRedux\EvolvedOrgansRedux\obj\Debug\EvolvedOrgansRedux.dll
+C:\Users\Statist\Desktop\EvolvedOrgansRedux\EvolvedOrgansRedux\obj\Debug\EvolvedOrgansRedux.csprojAssemblyReference.cache
+C:\Users\Statist\Desktop\EvolvedOrgansRedux\EvolvedOrgansRedux\obj\Debug\EvolvedOrgansRedux.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\EvolvedOrgansRedux\EvolvedOrgansRedux\obj\Debug\EvolvedOrgansRedux.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\EvolvedOrgansRedux\EvolvedOrgansRedux\obj\Debug\EvolvedOrgansRedux.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Assemblies\EvolvedOrgansRedux.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\EvolvedOrgansRedux\EvolvedOrgansRedux\obj\Debug\EvolvedOrgansRedux.dll
+C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1978492655\1.1\Assemblies\EvolvedOrgansRedux.dll
+C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1978492655\1.1\Source\EvolvedOrgansRedux\EvolvedOrgansRedux\obj\Debug\EvolvedOrgansRedux.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1978492655\1.1\Source\EvolvedOrgansRedux\EvolvedOrgansRedux\obj\Debug\EvolvedOrgansRedux.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1978492655\1.1\Source\EvolvedOrgansRedux\EvolvedOrgansRedux\obj\Debug\EvolvedOrgansRedux.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\EvolvedOrganRedux_Stat_Test\1.1\Source\EvolvedOrgansRedux\EvolvedOrgansRedux\obj\Debug\EvolvedOrgansRedux.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\EvolvedOrganRedux_Stat_Test\1.1\Source\EvolvedOrgansRedux\EvolvedOrgansRedux\obj\Debug\EvolvedOrgansRedux.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\EvolvedOrganRedux_Stat_Test\1.1\Source\EvolvedOrgansRedux\EvolvedOrgansRedux\obj\Debug\EvolvedOrgansRedux.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\EvolvedOrganRedux_Stat_Test\1.1\Assemblies\EvolvedOrgansRedux.dll
+C:\Users\Statist\Documents\GitHub\EvolvedOrgansRedux\1.2\Source\EvolvedOrgansRedux\EvolvedOrgansRedux\obj\Debug\EvolvedOrgansRedux.csprojAssemblyReference.cache
+C:\Users\Statist\Documents\GitHub\EvolvedOrgansRedux\1.2\Source\EvolvedOrgansRedux\EvolvedOrgansRedux\obj\Debug\EvolvedOrgansRedux.csproj.CoreCompileInputs.cache
+C:\Users\Statist\Documents\GitHub\EvolvedOrgansRedux\1.2\Source\EvolvedOrgansRedux\EvolvedOrgansRedux\obj\Debug\EvolvedOrgansRedux.dll
+C:\Users\Statist\Documents\GitHub\EvolvedOrgansRedux\1.2\Assemblies\EvolvedOrgansRedux.dll
